@@ -1,0 +1,110 @@
+==============================================================================
+Llama-3.2-1B — FULL COMPARISON REPORT
+==============================================================================
+
+Pooled from 2 dataset file(s):
+           MuSiQue: 5400 rows
+   MultiFieldQA-en: 5400 rows
+             TOTAL: 10800 rows
+  NOTE: adaptive_ms only present for MuSiQue -- cold/cosine/graph below are pooled across all datasets above, but every 'adaptive' row and 'cos-adp'/'grp-adp' comparison uses only MuSiQue.
+
+K=3
+        cold:  25.361ms (±10.77)  hit_rate=  4.8%  win_rate_vs_cosine=21.2%
+      cosine:  11.819ms (±15.26)  hit_rate= 56.9%  flops_saved=13673378174
+       graph:  17.818ms (±14.64)  hit_rate= 32.3%  win_rate_vs_cosine=26.9%  flops_saved=13987642081
+    adaptive:  16.074ms (±14.72)  hit_rate= 42.7%  win_rate_vs_cosine=30.7%  flops_saved=13542851215  n=600
+    [  semantic] n=346  cos-grp=-16.377***  cos-adp=-11.580*** (adp n=173)  grp-adp=+7.745***
+    [structural] n=280  cos-grp=+4.631***  cos-adp=+8.727*** (adp n=140)  grp-adp=+4.536***
+    [ multi-hop] n=574  cos-grp=-4.928***  cos-adp=-5.730*** (adp n=287)  grp-adp=+0.388ns
+
+K=4
+        cold:  26.122ms (±10.63)  hit_rate=  4.8%  win_rate_vs_cosine=21.3%
+      cosine:  11.229ms (±15.09)  hit_rate= 59.2%  flops_saved=14752005598
+       graph:  16.117ms (±14.94)  hit_rate= 40.0%  win_rate_vs_cosine=25.6%  flops_saved=14890429863
+    adaptive:  13.403ms (±14.87)  hit_rate= 53.2%  win_rate_vs_cosine=32.5%  flops_saved=14607552785  n=600
+    [  semantic] n=346  cos-grp=-14.710***  cos-adp=-10.438*** (adp n=173)  grp-adp=+7.217***
+    [structural] n=280  cos-grp=+5.470***  cos-adp=+11.010*** (adp n=140)  grp-adp=+4.714***
+    [ multi-hop] n=574  cos-grp=-4.021***  cos-adp=-3.513* (adp n=287)  grp-adp=+1.954ns
+
+K=5
+        cold:  26.087ms (±10.68)  hit_rate=  4.8%  win_rate_vs_cosine=21.2%
+      cosine:  10.971ms (±14.69)  hit_rate= 59.8%  flops_saved=14928192689
+       graph:  14.747ms (±15.78)  hit_rate= 46.5%  win_rate_vs_cosine=26.4%  flops_saved=14997483028
+    adaptive:  11.611ms (±15.15)  hit_rate= 60.7%  win_rate_vs_cosine=33.3%  flops_saved=14980079070  n=600
+    [  semantic] n=346  cos-grp=-11.966***  cos-adp=-7.602*** (adp n=173)  grp-adp=+6.598***
+    [structural] n=280  cos-grp=+4.977***  cos-adp=+11.791*** (adp n=140)  grp-adp=+6.427***
+    [ multi-hop] n=574  cos-grp=-3.108***  cos-adp=-2.996ns (adp n=287)  grp-adp=+0.957ns
+
+K=6
+        cold:  25.226ms (±10.12)  hit_rate=  4.8%  win_rate_vs_cosine=20.6%
+      cosine:  10.564ms (±14.60)  hit_rate= 61.0%  flops_saved=14999109523
+       graph:  13.065ms (±15.14)  hit_rate= 51.7%  win_rate_vs_cosine=25.8%  flops_saved=15056783715
+    adaptive:   9.555ms (±14.14)  hit_rate= 67.0%  win_rate_vs_cosine=32.8%  flops_saved=15106477261  n=600
+    [  semantic] n=346  cos-grp=-10.126***  cos-adp=-5.758*** (adp n=173)  grp-adp=+6.015***
+    [structural] n=280  cos-grp=+6.297***  cos-adp=+13.785*** (adp n=140)  grp-adp=+6.165***
+    [ multi-hop] n=574  cos-grp=-2.196**  cos-adp=-1.030ns (adp n=287)  grp-adp=+0.988ns
+
+K=8
+        cold:  25.365ms (±10.37)  hit_rate=  4.8%  win_rate_vs_cosine=18.6%
+      cosine:   9.639ms (±13.76)  hit_rate= 62.9%  flops_saved=15091203987
+       graph:  11.034ms (±15.14)  hit_rate= 60.1%  win_rate_vs_cosine=24.7%  flops_saved=15125205702
+    adaptive:   7.288ms (±12.69)  hit_rate= 73.8%  win_rate_vs_cosine=33.2%  flops_saved=15179760927  n=600
+    [  semantic] n=346  cos-grp=-6.848***  cos-adp=-4.332*** (adp n=173)  grp-adp=+4.135***
+    [structural] n=280  cos-grp=+5.352***  cos-adp=+15.163*** (adp n=140)  grp-adp=+6.773***
+    [ multi-hop] n=574  cos-grp=-1.399ns  cos-adp=+0.616ns (adp n=287)  grp-adp=+1.782ns
+
+K=10
+        cold:  26.193ms (±10.71)  hit_rate=  4.8%  win_rate_vs_cosine=18.2%
+      cosine:   9.478ms (±14.38)  hit_rate= 65.2%  flops_saved=15148402715
+       graph:   8.942ms (±13.85)  hit_rate= 66.6%  win_rate_vs_cosine=24.9%  flops_saved=15179880421
+    adaptive:   6.254ms (±12.42)  hit_rate= 78.3%  win_rate_vs_cosine=31.3%  flops_saved=15181309979  n=600
+    [  semantic] n=346  cos-grp=-4.917***  cos-adp=-3.336*** (adp n=173)  grp-adp=+2.494**
+    [structural] n=280  cos-grp=+7.678***  cos-adp=+14.498*** (adp n=140)  grp-adp=+7.538***
+    [ multi-hop] n=574  cos-grp=+0.338ns  cos-adp=+1.330ns (adp n=287)  grp-adp=+0.674ns
+
+K=12
+        cold:  25.575ms (±10.57)  hit_rate=  4.8%  win_rate_vs_cosine=17.1%
+      cosine:   8.537ms (±13.44)  hit_rate= 67.2%  flops_saved=15151561878
+       graph:   8.428ms (±14.08)  hit_rate= 69.5%  win_rate_vs_cosine=21.8%  flops_saved=15192225437
+    adaptive:   5.343ms (±11.53)  hit_rate= 81.3%  win_rate_vs_cosine=28.7%  flops_saved=15181309979  n=600
+    [  semantic] n=346  cos-grp=-4.342***  cos-adp=-3.355*** (adp n=173)  grp-adp=+2.155**
+    [structural] n=280  cos-grp=+5.478***  cos-adp=+12.792*** (adp n=140)  grp-adp=+5.897***
+    [ multi-hop] n=574  cos-grp=+0.172ns  cos-adp=+2.578ns (adp n=287)  grp-adp=+1.530ns
+
+K=14
+        cold:  25.958ms (±10.97)  hit_rate=  4.8%  win_rate_vs_cosine=16.5%
+      cosine:   8.487ms (±13.65)  hit_rate= 68.1%  flops_saved=15172249955
+       graph:   7.588ms (±12.85)  hit_rate= 71.1%  win_rate_vs_cosine=21.7%  flops_saved=15222504271
+    adaptive:   4.682ms (±10.70)  hit_rate= 83.2%  win_rate_vs_cosine=28.5%  flops_saved=15181309979  n=600
+    [  semantic] n=346  cos-grp=-3.319***  cos-adp=-2.939*** (adp n=173)  grp-adp=+1.396*
+    [structural] n=280  cos-grp=+6.636***  cos-adp=+12.582*** (adp n=140)  grp-adp=+6.070***
+    [ multi-hop] n=574  cos-grp=+0.644ns  cos-adp=+3.389** (adp n=287)  grp-adp=+2.157*
+
+K=16
+        cold:  25.580ms (±10.55)  hit_rate=  4.8%  win_rate_vs_cosine=16.1%
+      cosine:   8.212ms (±13.37)  hit_rate= 68.9%  flops_saved=15249134933
+       graph:   7.452ms (±13.60)  hit_rate= 72.8%  win_rate_vs_cosine=21.4%  flops_saved=15241011091
+    adaptive:   4.285ms (±10.31)  hit_rate= 84.5%  win_rate_vs_cosine=27.3%  flops_saved=15181309979  n=600
+    [  semantic] n=346  cos-grp=-2.946***  cos-adp=-2.843*** (adp n=173)  grp-adp=+0.913ns
+    [structural] n=280  cos-grp=+5.908***  cos-adp=+11.244*** (adp n=140)  grp-adp=+5.320***
+    [ multi-hop] n=574  cos-grp=+0.483ns  cos-adp=+3.910** (adp n=287)  grp-adp=+2.134*
+
+------------------------------------------------------------------------------
+CROSSOVER POINTS (smallest K where the policy significantly beats cosine)
+------------------------------------------------------------------------------
+  graph overall   : K=10  (holds at every larger K: True)
+    graph [  semantic]: K=None  (holds at every larger K: None)
+    graph [structural]: K=3  (holds at every larger K: True)
+    graph [ multi-hop]: K=None  (holds at every larger K: None)
+  adaptive overall: K=6  (holds at every larger K: True)
+    adaptive [  semantic]: K=None  (holds at every larger K: None)
+    adaptive [structural]: K=3  (holds at every larger K: True)
+    adaptive [ multi-hop]: K=14  (holds at every larger K: True)
+
+------------------------------------------------------------------------------
+AREA-UNDER-CURVE RANKING (integrated mean latency across all tested K — lower=better)
+------------------------------------------------------------------------------
+    adaptive: 98.80
+      cosine: 124.45
+       graph: 138.80
+        cold: 334.49
