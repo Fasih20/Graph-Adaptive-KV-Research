@@ -1,0 +1,7 @@
+numpy>=1.26,<3
+requests>=2.31,<3
+datasets>=3,<5
+sentence-transformers>=3,<6
+transformers>=4.45,<6
+torch>=2.2
+pytest>=8,<10

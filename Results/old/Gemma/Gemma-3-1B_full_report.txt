@@ -1,0 +1,97 @@
+==============================================================================
+Gemma-3-1B — FULL COMPARISON REPORT
+==============================================================================
+
+Pooled from 4 dataset file(s):
+          2WikiMQA: 5400 rows
+          HotpotQA: 5400 rows
+   MultiFieldQA-en: 5400 rows
+           MuSiQue: 5400 rows
+             TOTAL: 21600 rows
+
+K=3
+        cold:  58.406ms (±28.65)  hit_rate=  5.1%  win_rate_vs_cosine=23.5%
+      cosine:  27.269ms (±36.02)  hit_rate= 57.2%  flops_saved=53638059131
+       graph:  41.714ms (±37.06)  hit_rate= 34.3%  win_rate_vs_cosine=26.0%  flops_saved=54474350701
+    [  semantic] n=692  cos-grp=-34.514***
+    [structural] n=560  cos-grp=+8.612***
+    [ multi-hop] n=1148  cos-grp=-13.595***
+
+K=4
+        cold:  58.452ms (±27.31)  hit_rate=  5.1%  win_rate_vs_cosine=22.8%
+      cosine:  25.643ms (±35.35)  hit_rate= 60.3%  flops_saved=57498300798
+       graph:  35.805ms (±36.43)  hit_rate= 43.2%  win_rate_vs_cosine=25.5%  flops_saved=58238745750
+    [  semantic] n=692  cos-grp=-28.356***
+    [structural] n=560  cos-grp=+10.886***
+    [ multi-hop] n=1148  cos-grp=-9.462***
+
+K=5
+        cold:  57.968ms (±26.48)  hit_rate=  5.1%  win_rate_vs_cosine=21.5%
+      cosine:  24.593ms (±34.26)  hit_rate= 61.2%  flops_saved=58405655456
+       graph:  31.990ms (±35.95)  hit_rate= 49.6%  win_rate_vs_cosine=24.2%  flops_saved=58855115107
+    [  semantic] n=692  cos-grp=-23.290***
+    [structural] n=560  cos-grp=+10.663***
+    [ multi-hop] n=1148  cos-grp=-6.627***
+
+K=6
+        cold:  52.815ms (±23.15)  hit_rate=  5.1%  win_rate_vs_cosine=21.0%
+      cosine:  21.777ms (±30.84)  hit_rate= 62.4%  flops_saved=58741251550
+       graph:  26.488ms (±32.13)  hit_rate= 54.2%  win_rate_vs_cosine=24.3%  flops_saved=59104856419
+    [  semantic] n=692  cos-grp=-18.982***
+    [structural] n=560  cos-grp=+10.788***
+    [ multi-hop] n=1148  cos-grp=-3.670***
+
+K=8
+        cold:  49.558ms (±21.12)  hit_rate=  5.1%  win_rate_vs_cosine=18.8%
+      cosine:  18.893ms (±27.55)  hit_rate= 64.2%  flops_saved=59140130516
+       graph:  19.311ms (±27.26)  hit_rate= 62.6%  win_rate_vs_cosine=24.0%  flops_saved=59431517990
+    [  semantic] n=692  cos-grp=-9.958***
+    [structural] n=560  cos-grp=+9.861***
+    [ multi-hop] n=1148  cos-grp=+0.319ns
+
+K=10
+        cold:  51.053ms (±22.08)  hit_rate=  5.1%  win_rate_vs_cosine=18.8%
+      cosine:  18.826ms (±28.88)  hit_rate= 66.5%  flops_saved=59331196573
+       graph:  16.960ms (±27.21)  hit_rate= 68.4%  win_rate_vs_cosine=23.9%  flops_saved=59631119892
+    [  semantic] n=692  cos-grp=-7.228***
+    [structural] n=560  cos-grp=+12.423***
+    [ multi-hop] n=1148  cos-grp=+2.198*
+
+K=12
+        cold:  49.134ms (±20.99)  hit_rate=  5.1%  win_rate_vs_cosine=16.3%
+      cosine:  16.510ms (±26.33)  hit_rate= 68.3%  flops_saved=59419614031
+       graph:  15.281ms (±26.09)  hit_rate= 71.5%  win_rate_vs_cosine=21.3%  flops_saved=59691717536
+    [  semantic] n=692  cos-grp=-6.161***
+    [structural] n=560  cos-grp=+10.429***
+    [ multi-hop] n=1148  cos-grp=+1.197ns
+
+K=14
+        cold:  48.162ms (±20.62)  hit_rate=  5.1%  win_rate_vs_cosine=17.7%
+      cosine:  16.205ms (±26.05)  hit_rate= 68.9%  flops_saved=59598510927
+       graph:  13.884ms (±24.78)  hit_rate= 73.0%  win_rate_vs_cosine=22.1%  flops_saved=59807939734
+    [  semantic] n=692  cos-grp=-5.508***
+    [structural] n=560  cos-grp=+11.158***
+    [ multi-hop] n=1148  cos-grp=+2.729***
+
+K=16
+        cold:  52.696ms (±23.58)  hit_rate=  5.1%  win_rate_vs_cosine=15.5%
+      cosine:  17.012ms (±27.91)  hit_rate= 69.3%  flops_saved=59855127402
+       graph:  14.146ms (±26.03)  hit_rate= 74.1%  win_rate_vs_cosine=21.0%  flops_saved=59903722127
+    [  semantic] n=692  cos-grp=-4.571***
+    [structural] n=560  cos-grp=+11.330***
+    [ multi-hop] n=1148  cos-grp=+3.221***
+
+------------------------------------------------------------------------------
+CROSSOVER POINTS (smallest K where the policy significantly beats cosine)
+------------------------------------------------------------------------------
+  graph overall   : K=10  (holds at every larger K: True)
+    graph [  semantic]: K=None  (holds at every larger K: None)
+    graph [structural]: K=3  (holds at every larger K: True)
+    graph [ multi-hop]: K=10  (holds at every larger K: False)
+
+------------------------------------------------------------------------------
+AREA-UNDER-CURVE RANKING (integrated mean latency across all tested K — lower=better)
+------------------------------------------------------------------------------
+      cosine: 254.42
+       graph: 273.40
+        cold: 673.36

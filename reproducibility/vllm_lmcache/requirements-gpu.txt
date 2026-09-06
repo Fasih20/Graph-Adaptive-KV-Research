@@ -1,0 +1,11 @@
+# Validated candidate profile for the August 2026 GraphKV rerun.
+# Do not install torch separately: vLLM/LMCache must resolve an ABI-compatible build.
+vllm==0.27.0
+lmcache==0.5.4
+sentence-transformers>=5.1,<6
+langchain-text-splitters>=0.3,<1
+numpy>=2.2,<3
+scipy>=1.16,<2
+pandas>=2.3,<3
+requests>=2.32,<3
+prometheus-client>=0.22,<1

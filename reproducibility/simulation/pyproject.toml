@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "graphkv-sim-repaired"
+version = "0.2.0"
+description = "Auditable simulator for graph-guided and adaptive KV-cache prefetching"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26,<3",
+  "scipy>=1.11,<2",
+  "pandas>=2.0,<3",
+]
+
+[project.optional-dependencies]
+colab = [
+  "torch>=2.2",
+  "transformers>=4.48",
+  "sentence-transformers>=3.0",
+  "langchain-text-splitters>=0.3",
+  "huggingface-hub>=0.27",
+  "pytest>=8",
+]
+
+[tool.setuptools.packages.find]
+include = ["graphkv_sim*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

@@ -52,3 +52,10 @@ q_idx,question,gold_answers,pool_size,n_cosine_chunks,n_graph_chunks,n_adaptive_
 50,"Who was born first, Juan Rulfo or John le Carré?",Juan Rulfo,208,13,13,13,Juan Rulfo (1917),Juan Rulfo (1917),"Unknown, no birthdate for Juan Rulfo provided.",0.0,0.0,0.0,0.8,0.8,0.4444
 51,What American actress stars in Tainted?,Shari Shattuck,177,13,13,13,Not mentioned.,Not mentioned.,Not mentioned.,0.0,0.0,0.0,0.0,0.0,0.0
 52,What was the Roud Folk Song Index of the nursery rhyme inspiring What Are Little Girls Made Of?,821,123,13,13,13,Not mentioned.,Not provided,Not mentioned.,0.0,0.0,0.0,0.0,0.0,0.0
+53,Why is Bangor Daily News talkin about Sawin Millett?,Commissioner by the Maine Senate,128,13,13,13,Not mentioned.,There is no mention of Sawin Millett.,There is no mention of Sawin Millett.,0.0,0.0,0.0,0.0,0.0,0.0
+54,"What Friday night programming block included what collective series that includes ""Whatever Happened to... Robot Jones?""?",Cartoon Cartoon Fridays,164,13,13,13,The Cartoon Cartoon Show,Friday Nights,Cartoon Cartoon Fridays,0.0,0.0,1.0,0.6667,0.0,1.0
+55,An American who is a German literature translator and did a thesis on an Austrian prodigy born in 1874 taught at which university?,University of Vienna,202,13,13,13,Not mentioned.,Not mentioned.,Not mentioned.,0.0,0.0,0.0,0.0,0.0,0.0
+56,Who is a winner of the 2013 6 Hours of Silverstone a co-commentator for?,BBC Formula One,93,13,13,13,Allan McNish,Allan McNish,Allan McNish,0.0,0.0,0.0,0.0,0.0,0.0
+57,What is the nationality of the author of Fifty Shades Freed?,English,228,13,13,13,British,British,British,0.0,0.0,0.0,0.0,0.0,0.0
+58,What Nobel Laureate teaches at  Chapman University?,Vernon Smith,222,13,13,13,Vernon L. Smith,Vernon L. Smith,Vernon L. Smith,0.0,0.0,0.0,0.8,0.8,0.8
+59,After Russell D. Moore served at the Southern Baptist Theological Seminary he became the President of The Ethics & Religious Liberty Commission (ERLC) in what year?,2013,162,13,13,13,2013,2013,2013,1.0,1.0,1.0,1.0,1.0,1.0

@@ -1,0 +1,12 @@
+{
+  "assembled": "2026-09-06",
+  "simulation_version": "0.2.0",
+  "api_quality_version": "1.1.0",
+  "vllm_lmcache_version": "2.3.2",
+  "notebooks": [
+    "notebooks/01_simulated_cache.ipynb",
+    "notebooks/02_gemini_api_quality.ipynb",
+    "notebooks/03_vllm_lmcache.ipynb"
+  ],
+  "contains_api_keys": false
+}
