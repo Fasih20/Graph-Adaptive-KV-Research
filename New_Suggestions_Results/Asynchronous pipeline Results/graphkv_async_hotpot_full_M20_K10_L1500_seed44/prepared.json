@@ -1,0 +1,15 @@
+{
+  "spec": {
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "dataset": "hotpot",
+    "seed": 44,
+    "events": 600,
+    "train_events": 600,
+    "dev_events": 600,
+    "max_documents": 100,
+    "source": "97836848ab568d9bcb09bdb6085918568e596b8cd8f132f19b7faed38461c79d"
+  },
+  "resolved_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "trace_semantics": "controlled synthetic; not production RAG",
+  "boundary_semantics": "LongBench context record; not constituent article"
+}

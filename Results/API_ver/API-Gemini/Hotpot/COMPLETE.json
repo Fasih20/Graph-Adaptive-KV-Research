@@ -1,0 +1,14 @@
+{
+  "complete": true,
+  "events": 240,
+  "questions": 60,
+  "policies": [
+    "cosine",
+    "graph_fixed",
+    "adaptive_offline_global",
+    "adaptive_online_warm"
+  ],
+  "k_values": [
+    10
+  ]
+}

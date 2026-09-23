@@ -1,0 +1,9 @@
+{
+  "format": "graphkv_completed_arm_checkpoint_v1",
+  "created_utc": "2026-09-19T17:24:13.963266+00:00",
+  "completed_arms": 13,
+  "expected_arms": 30,
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "output_name": "hotpot_llama32_1b_full_confirm",
+  "resume_rule": "Completed arms are reused; an incomplete arm is rerun fresh."
+}

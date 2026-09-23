@@ -1,0 +1,174 @@
+{
+  "offline_weights": {
+    "semantic_alpha": 0.3,
+    "structural_beta": 0.7
+  },
+  "online_eta": 0.2,
+  "fit_label": "HotpotQA supporting-fact recall on disjoint training/dev samples; no API answers used",
+  "weight_grid": [
+    {
+      "alpha": 0.0,
+      "beta": 1.0,
+      "train_mean_support_recall": 0.6715277777777778,
+      "train_target_hit_rate": 0.7
+    },
+    {
+      "alpha": 0.05,
+      "beta": 0.95,
+      "train_mean_support_recall": 0.6743055555555555,
+      "train_target_hit_rate": 0.7083333333333334
+    },
+    {
+      "alpha": 0.1,
+      "beta": 0.9,
+      "train_mean_support_recall": 0.6784722222222221,
+      "train_target_hit_rate": 0.725
+    },
+    {
+      "alpha": 0.15,
+      "beta": 0.85,
+      "train_mean_support_recall": 0.6715277777777777,
+      "train_target_hit_rate": 0.7166666666666667
+    },
+    {
+      "alpha": 0.2,
+      "beta": 0.8,
+      "train_mean_support_recall": 0.6756944444444444,
+      "train_target_hit_rate": 0.725
+    },
+    {
+      "alpha": 0.25,
+      "beta": 0.75,
+      "train_mean_support_recall": 0.68125,
+      "train_target_hit_rate": 0.7166666666666667
+    },
+    {
+      "alpha": 0.3,
+      "beta": 0.7,
+      "train_mean_support_recall": 0.6854166666666667,
+      "train_target_hit_rate": 0.725
+    },
+    {
+      "alpha": 0.35,
+      "beta": 0.65,
+      "train_mean_support_recall": 0.6840277777777779,
+      "train_target_hit_rate": 0.7083333333333334
+    },
+    {
+      "alpha": 0.4,
+      "beta": 0.6,
+      "train_mean_support_recall": 0.6819444444444446,
+      "train_target_hit_rate": 0.7083333333333334
+    },
+    {
+      "alpha": 0.45,
+      "beta": 0.55,
+      "train_mean_support_recall": 0.6819444444444446,
+      "train_target_hit_rate": 0.7083333333333334
+    },
+    {
+      "alpha": 0.5,
+      "beta": 0.5,
+      "train_mean_support_recall": 0.6819444444444446,
+      "train_target_hit_rate": 0.7083333333333334
+    },
+    {
+      "alpha": 0.55,
+      "beta": 0.44999999999999996,
+      "train_mean_support_recall": 0.6777777777777778,
+      "train_target_hit_rate": 0.7
+    },
+    {
+      "alpha": 0.6,
+      "beta": 0.4,
+      "train_mean_support_recall": 0.6708333333333333,
+      "train_target_hit_rate": 0.6916666666666667
+    },
+    {
+      "alpha": 0.65,
+      "beta": 0.35,
+      "train_mean_support_recall": 0.6722222222222223,
+      "train_target_hit_rate": 0.7
+    },
+    {
+      "alpha": 0.7,
+      "beta": 0.30000000000000004,
+      "train_mean_support_recall": 0.66875,
+      "train_target_hit_rate": 0.6916666666666667
+    },
+    {
+      "alpha": 0.75,
+      "beta": 0.25,
+      "train_mean_support_recall": 0.6618055555555556,
+      "train_target_hit_rate": 0.6916666666666667
+    },
+    {
+      "alpha": 0.8,
+      "beta": 0.19999999999999996,
+      "train_mean_support_recall": 0.6631944444444445,
+      "train_target_hit_rate": 0.6833333333333333
+    },
+    {
+      "alpha": 0.85,
+      "beta": 0.15000000000000002,
+      "train_mean_support_recall": 0.6604166666666667,
+      "train_target_hit_rate": 0.6833333333333333
+    },
+    {
+      "alpha": 0.9,
+      "beta": 0.09999999999999998,
+      "train_mean_support_recall": 0.6576388888888888,
+      "train_target_hit_rate": 0.675
+    },
+    {
+      "alpha": 0.95,
+      "beta": 0.050000000000000044,
+      "train_mean_support_recall": 0.65625,
+      "train_target_hit_rate": 0.675
+    },
+    {
+      "alpha": 1.0,
+      "beta": 0.0,
+      "train_mean_support_recall": 0.6604166666666667,
+      "train_target_hit_rate": 0.675
+    }
+  ],
+  "eta_grid": [
+    {
+      "eta": 0.01,
+      "dev_mean_support_recall": 0.6666666666666666,
+      "dev_target_hit_rate": 0.625,
+      "updates": 11
+    },
+    {
+      "eta": 0.05,
+      "dev_mean_support_recall": 0.6583333333333333,
+      "dev_target_hit_rate": 0.625,
+      "updates": 11
+    },
+    {
+      "eta": 0.1,
+      "dev_mean_support_recall": 0.6583333333333333,
+      "dev_target_hit_rate": 0.625,
+      "updates": 11
+    },
+    {
+      "eta": 0.2,
+      "dev_mean_support_recall": 0.6833333333333333,
+      "dev_target_hit_rate": 0.625,
+      "updates": 11
+    },
+    {
+      "eta": 0.5,
+      "dev_mean_support_recall": 0.6666666666666666,
+      "dev_target_hit_rate": 0.6,
+      "updates": 12
+    },
+    {
+      "eta": 1.0,
+      "dev_mean_support_recall": 0.6708333333333333,
+      "dev_target_hit_rate": 0.6,
+      "updates": 12
+    }
+  ]
+}

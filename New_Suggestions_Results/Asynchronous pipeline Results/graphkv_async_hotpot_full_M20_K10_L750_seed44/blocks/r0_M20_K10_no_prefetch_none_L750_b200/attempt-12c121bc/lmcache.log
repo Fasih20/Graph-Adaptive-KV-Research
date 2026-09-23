@@ -1,0 +1,384 @@
+[32;20m[2026-09-20 13:36:16,157] LMCache INFO:[0m torch_dev=<module 'torch.cuda' from '/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py'>, torch_device_type=cuda [3m(_device_detect.py:312:lmcache.v1.platform._device_detect)[0m
+[32;20m[2026-09-20 13:36:16,157] LMCache INFO:[0m Auto-selected backend [cuda] for accelerator 'cuda' from candidate backends [cuda, rocm]. [3m(__init__.py:148:lmcache.v1.platform)[0m
+
+ _     __  __    ____           _          
+| |   |  \/  |  / ___|__ _  ___| |__   ___      LMCache v0.5.4 (g3e11b8ed)
+| |   | |\/| | | |   / _` |/ __| '_ \ / _ \     Website:  https://lmcache.ai/
+| |___| |  | | | |__| (_| | (__| | | |  __/     Recipes:  https://docs.lmcache.ai/recipes
+|_____|_|  |_|  \____\__,_|\___|_| |_|\___|     LinkedIn: https://www.linkedin.com/company/lmcache-lab
+Set LMCACHE_DISABLE_BANNER=1 to hide this banner.
+
+[32;20m[2026-09-20 13:36:17,427] LMCache INFO:[0m multi_layer_block_kv_transfer mode: ptr [3m(base.py:95:lmcache.v1.multiprocess.transfer_context.base)[0m
+[32;20m[2026-09-20 13:36:22,628] LMCache INFO:[0m Discovered API module: cache_api [3m(router_discovery.py:53:lmcache.v1.utils.router_discovery)[0m
+[32;20m[2026-09-20 13:36:22,629] LMCache INFO:[0m Discovered API module: env_api [3m(router_discovery.py:53:lmcache.v1.utils.router_discovery)[0m
+[32;20m[2026-09-20 13:36:22,631] LMCache INFO:[0m Discovered API module: loglevel_api [3m(router_discovery.py:53:lmcache.v1.utils.router_discovery)[0m
+[32;20m[2026-09-20 13:36:22,632] LMCache INFO:[0m Discovered API module: metrics_api [3m(router_discovery.py:53:lmcache.v1.utils.router_discovery)[0m
+[32;20m[2026-09-20 13:36:22,635] LMCache INFO:[0m Discovered API module: periodic_thread_api [3m(router_discovery.py:53:lmcache.v1.utils.router_discovery)[0m
+[32;20m[2026-09-20 13:36:22,636] LMCache INFO:[0m Discovered API module: run_script_api [3m(router_discovery.py:53:lmcache.v1.utils.router_discovery)[0m
+[32;20m[2026-09-20 13:36:22,637] LMCache INFO:[0m Discovered API module: thread_api [3m(router_discovery.py:53:lmcache.v1.utils.router_discovery)[0m
+[32;20m[2026-09-20 13:36:22,641] LMCache INFO:[0m Discovered API module: common_api [3m(router_discovery.py:53:lmcache.v1.utils.router_discovery)[0m
+[32;20m[2026-09-20 13:36:22,642] LMCache INFO:[0m Discovered API module: config_api [3m(router_discovery.py:53:lmcache.v1.utils.router_discovery)[0m
+[32;20m[2026-09-20 13:36:22,647] LMCache INFO:[0m Discovered API module: info_api [3m(router_discovery.py:53:lmcache.v1.utils.router_discovery)[0m
+[32;20m[2026-09-20 13:36:22,651] LMCache INFO:[0m Discovered API module: quota_api [3m(router_discovery.py:53:lmcache.v1.utils.router_discovery)[0m
+[32;20m[2026-09-20 13:36:22,656] LMCache INFO:[0m Discovered API module: reconfigure_api [3m(router_discovery.py:53:lmcache.v1.utils.router_discovery)[0m
+[32;20m[2026-09-20 13:36:22,695] LMCache INFO:[0m CudaPinMemoryBackend: using torch cudart [3m(pin_memory.py:89:lmcache.v1.platform.cuda.pin_memory)[0m
+[32;20m[2026-09-20 13:36:22,697] LMCache INFO:[0m Starting LMCache HTTP server on http://0.0.0.0:18002 [3m(http_server.py:258:lmcache.v1.multiprocess.http_server)[0m
+INFO:     Started server process [3579]
+INFO:     Waiting for application startup.
+[32;20m[2026-09-20 13:36:22,724] LMCache INFO:[0m Starting LMCache HTTP server... (accelerator available: True) [3m(http_server.py:77:lmcache.v1.multiprocess.http_server)[0m
+[32;20m[2026-09-20 13:36:22,751] LMCache INFO:[0m OTel MeterProvider initialised with Prometheus fallback (standalone metrics HTTP server disabled; /metrics must be exposed by the caller), resource={'telemetry.sdk.language': 'python', 'telemetry.sdk.name': 'opentelemetry', 'telemetry.sdk.version': '1.40.0', 'service.instance.id': 'r0_M20_K10_no_prefetch_none_L750_b200', 'service.name': 'unknown_service'} [3m(otel_init.py:114:lmcache.v1.mp_observability.otel_init)[0m
+[32;20m[2026-09-20 13:36:23,174] LMCache INFO:[0m Starting L1EvictionController... [3m(eviction_controller.py:53:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:36:23,175] LMCache INFO:[0m Starting L2EvictionController... [3m(eviction_controller.py:250:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:36:23,175] LMCache INFO:[0m Starting StoreController... [3m(store_controller.py:305:lmcache.v1.distributed.storage_controllers.store_controller)[0m
+[32;20m[2026-09-20 13:36:23,176] LMCache INFO:[0m Starting PrefetchController... [3m(prefetch_controller.py:596:lmcache.v1.distributed.storage_controllers.prefetch_controller)[0m
+[32;20m[2026-09-20 13:36:23,176] LMCache INFO:[0m Using blake3 hash function [3m(token_hasher.py:79:lmcache.v1.multiprocess.token_hasher)[0m
+[32;20m[2026-09-20 13:36:23,177] LMCache INFO:[0m Computed NONE_HASH=b"~>\xff\x9e\xf7a:P4\x0e\xb1&w\xee\x03\xb8:\xc7Y\xfc\xba\x9b\xb3'\x05\xf0rH\xd5mG;" using hash function [3m(token_hasher.py:180:lmcache.v1.multiprocess.token_hasher)[0m
+[32;20m[2026-09-20 13:36:23,178] LMCache INFO:[0m TokenHasher initialized: chunk_size=16, hash_algorithm=blake3 [3m(token_hasher.py:67:lmcache.v1.multiprocess.token_hasher)[0m
+[32;20m[2026-09-20 13:36:23,178] LMCache INFO:[0m PeriodicThread SessionManager-cleanup-thread-7e587e96c9e0 entering main loop (interval=60.0s) [3m(periodic_thread.py:304:lmcache.v1.periodic_thread)[0m
+[32;20m[2026-09-20 13:36:23,178] LMCache INFO:[0m Started PeriodicThread: SessionManager-cleanup-thread-7e587e96c9e0 (level=medium, interval=60.0s, init_wait=0.0s) [3m(periodic_thread.py:248:lmcache.v1.periodic_thread)[0m
+[32;20m[2026-09-20 13:36:23,179] LMCache INFO:[0m PeriodicThread DeviceHostFuncDispatcher entering main loop (interval=0.0s) [3m(periodic_thread.py:304:lmcache.v1.periodic_thread)[0m
+[32;20m[2026-09-20 13:36:23,179] LMCache INFO:[0m Started PeriodicThread: DeviceHostFuncDispatcher (level=high, interval=0.0s, init_wait=0.0s) [3m(periodic_thread.py:248:lmcache.v1.periodic_thread)[0m
+[32;20m[2026-09-20 13:36:23,179] LMCache INFO:[0m Supported transfer mode: auto [3m(server.py:219:lmcache.v1.multiprocess.server)[0m
+[32;20m[2026-09-20 13:36:23,180] LMCache INFO:[0m PeriodicThread lmcache-mp-worker-reaper entering main loop (interval=30.0s) [3m(periodic_thread.py:304:lmcache.v1.periodic_thread)[0m
+[32;20m[2026-09-20 13:36:23,180] LMCache INFO:[0m Started PeriodicThread: lmcache-mp-worker-reaper (level=medium, interval=30.0s, init_wait=0.0s) [3m(periodic_thread.py:248:lmcache.v1.periodic_thread)[0m
+[32;20m[2026-09-20 13:36:23,182] LMCache INFO:[0m Created AffinityThreadPool 'affinity-pool-0' with 1 worker slots: up to 1 distinct affinity keys each bind to their own thread before slots are shared. Compare this against the number of clients expected to connect to confirm routing. [3m(affinity_pool.py:60:lmcache.v1.multiprocess.affinity_pool)[0m
+[32;20m[2026-09-20 13:36:23,182] LMCache INFO:[0m LMCache ZMQ cache server is running on tcp://127.0.0.1:18001 [3m(server.py:452:lmcache.v1.multiprocess.server)[0m
+[32;20m[2026-09-20 13:36:23,183] LMCache INFO:[0m LMCache cache server is running... [3m(server.py:467:lmcache.v1.multiprocess.server)[0m
+[32;20m[2026-09-20 13:36:23,183] LMCache INFO:[0m LMCache HTTP server initialized [3m(http_server.py:163:lmcache.v1.multiprocess.http_server)[0m
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:18002 (Press CTRL+C to quit)
+INFO:     127.0.0.1:57604 - "GET /healthcheck HTTP/1.1" 200 OK
+[32;20m[2026-09-20 13:36:33,177] LMCache INFO:[0m L1 memory usage: 0.00/0.50 GiB (0.0%) [3m(eviction_controller.py:153:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:36:43,179] LMCache INFO:[0m L1 memory usage: 0.00/0.50 GiB (0.0%) [3m(eviction_controller.py:153:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:36:53,182] LMCache INFO:[0m L1 memory usage: 0.00/0.50 GiB (0.0%) [3m(eviction_controller.py:153:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:37:03,185] LMCache INFO:[0m L1 memory usage: 0.00/0.50 GiB (0.0%) [3m(eviction_controller.py:153:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:37:13,187] LMCache INFO:[0m L1 memory usage: 0.00/0.50 GiB (0.0%) [3m(eviction_controller.py:153:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:37:23,190] LMCache INFO:[0m L1 memory usage: 0.00/0.50 GiB (0.0%) [3m(eviction_controller.py:153:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:37:25,756] LMCache INFO:[0m Engine KV Format: EngineKVFormat.NL_X_NB_BS_NH_CS NL x [NB, BS, NH, CS] [3m(detection.py:69:lmcache.v1.gpu_connector.kv_format.detection)[0m
+[32;20m[2026-09-20 13:37:25,756] LMCache INFO:[0m Engine KV Format: EngineKVFormat.NL_X_NB_BS_NH_CS NL x [NB, BS, NH, CS] [3m(detection.py:69:lmcache.v1.gpu_connector.kv_format.detection)[0m
+[32;20m[2026-09-20 13:37:25,757] LMCache INFO:[0m Group 0 first-layer tensor: layer_idx=0 shape=(20117, 16, 2, 256) stride=(8192, 512, 256, 1) is_contiguous=True dtype=torch.float16 device=cuda:0 storage_offset=0 numel=164798464 storage_nbytes=329596928 padding_per_block=0 [3m(utils.py:596:lmcache.v1.gpu_connector.utils)[0m
+[32;20m[2026-09-20 13:37:25,757] LMCache INFO:[0m KV layer groups: ---
+KernelGroupInfo(layers=28, indices=0-27, shape_desc=(kv=1, nl=28, nb=20117, bs=16, nh=2, hs=256, element_size=2, block_stride_elems=0), dtype=torch.float16, tokens_per_block=16, slots_per_block=16, engine_group_idx=0, sw_size_tokens=-1)
+--- [3m(kv_layer_groups.py:437:lmcache.v1.kv_layer_groups)[0m
+/usr/local/lib/python3.12/dist-packages/cupy/_environment.py:677: UserWarning: 
+--------------------------------------------------------------------------------
+
+  CuPy may not function correctly because multiple CuPy packages are installed
+  in your environment:
+
+    cupy-cuda12x, cupy-cuda13x
+
+  Follow these steps to resolve this issue:
+
+    1. For all packages listed above, run the following command to remove all
+       existing CuPy installations:
+
+         $ pip uninstall <package_name>
+
+      If you previously installed CuPy via conda, also run the following:
+
+         $ conda uninstall cupy
+
+    2. Install the appropriate CuPy package.
+       Refer to the Installation Guide for detailed instructions.
+
+         https://docs.cupy.dev/en/stable/install.html
+
+--------------------------------------------------------------------------------
+
+  warnings.warn(f'''
+[32;20m[2026-09-20 13:37:25,859] LMCache INFO:[0m Registered KV cache for GPU ID 2300168020604838498 with 28 layers [3m(lmcache_driven_transfer.py:964:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:25,859] LMCache INFO:[0m Initialized cuda stream on device cuda:0 [3m(cache_context.py:430:lmcache.v1.platform.cuda.cache_context)[0m
+[32;20m[2026-09-20 13:37:32,663] LMCache INFO:[0m AffinityThreadPool: affinity_key=-7489921690173773951 assigned to worker slot 0 of 1 (thread affinity-pool-0-0); 1 distinct key(s) now bound [3m(affinity_pool.py:108:lmcache.v1.multiprocess.affinity_pool)[0m
+[32;20m[2026-09-20 13:37:32,766] LMCache INFO:[0m Stored 384 tokens in 0.103 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:33,192] LMCache INFO:[0m L1 memory usage: 0.01/0.50 GiB (2.1%) [3m(eviction_controller.py:153:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:37:33,193] LMCache INFO:[0m L0<->L1 stats [cuda:0] last 10.0s: store ops=1 tokens=384 size=0.01GB avg_copy=3.47GB/s | retrieve ops=0 tokens=0 size=0.00GB avg_copy=n/a [3m(extra_stats.py:159:lmcache.v1.mp_observability.subscribers.logging.extra_stats)[0m
+[32;20m[2026-09-20 13:37:33,193] LMCache INFO:[0m L0<->L1 stats [cuda:0] cumulative: store ops=1 tokens=384 size=0.01GB avg_copy=3.47GB/s | retrieve ops=0 tokens=0 size=0.00GB avg_copy=n/a [3m(extra_stats.py:168:lmcache.v1.mp_observability.subscribers.logging.extra_stats)[0m
+[32;20m[2026-09-20 13:37:33,570] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:33,672] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:34,520] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:34,613] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:35,451] LMCache INFO:[0m Stored 384 tokens in 0.004 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:35,538] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:36,373] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:36,461] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:37,317] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:37,405] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:38,244] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:38,331] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:39,166] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:39,249] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:40,087] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:40,172] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:41,010] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:41,096] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:41,892] LMCache INFO:[0m Prefetch request completed (L1+L2): 24/24 retained keys (24 L1, 0 L2) in 1.2 ms (external_request_id=cmpl-b617ec7a18d18a09-0-a8ef879e, prefetch_request_id=-1) [3m(storage_manager.py:716:lmcache.v1.distributed.storage_manager)[0m
+[32;20m[2026-09-20 13:37:41,897] LMCache INFO:[0m Retrieved 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:41,997] LMCache INFO:[0m Stored 368 tokens in 0.004 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:42,829] LMCache INFO:[0m Stored 384 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:42,916] LMCache INFO:[0m Stored 368 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:43,194] LMCache INFO:[0m L1 memory usage: 0.22/0.50 GiB (44.9%) [3m(eviction_controller.py:153:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:37:43,195] LMCache INFO:[0m L0<->L1 stats [cuda:0] last 10.0s: store ops=21 tokens=8032 size=0.23GB avg_copy=7.73GB/s | retrieve ops=1 tokens=384 size=0.01GB avg_copy=3.96GB/s [3m(extra_stats.py:159:lmcache.v1.mp_observability.subscribers.logging.extra_stats)[0m
+[32;20m[2026-09-20 13:37:43,195] LMCache INFO:[0m L0<->L1 stats [cuda:0] cumulative: store ops=22 tokens=8416 size=0.24GB avg_copy=7.32GB/s | retrieve ops=1 tokens=384 size=0.01GB avg_copy=3.96GB/s [3m(extra_stats.py:168:lmcache.v1.mp_observability.subscribers.logging.extra_stats)[0m
+[32;20m[2026-09-20 13:37:43,756] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:43,844] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:44,677] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:44,763] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:45,600] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:45,687] LMCache INFO:[0m Stored 368 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:46,523] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:46,610] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:47,446] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:47,534] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:48,372] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:48,456] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:49,298] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:49,385] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:50,222] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:50,307] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:51,144] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:51,233] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:52,071] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:52,158] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:52,196] LMCache INFO:[0m L1 memory usage 0.86 above watermark 0.80; triggering eviction. [3m(eviction_controller.py:179:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:37:52,995] LMCache INFO:[0m Stored 96 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:53,008] LMCache INFO:[0m Prefetch request completed (L1+L2): 24/24 retained keys (24 L1, 0 L2) in 1.4 ms (external_request_id=cmpl-842943747e2dc0c9-0-b006eaa6, prefetch_request_id=-1) [3m(storage_manager.py:716:lmcache.v1.distributed.storage_manager)[0m
+[32;20m[2026-09-20 13:37:53,013] LMCache INFO:[0m Retrieved 384 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:53,202] LMCache INFO:[0m L1 memory usage: 0.35/0.50 GiB (69.2%) [3m(eviction_controller.py:153:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:37:53,203] LMCache INFO:[0m L0<->L1 stats [cuda:0] last 10.0s: store ops=21 tokens=7760 size=0.22GB avg_copy=6.49GB/s | retrieve ops=1 tokens=384 size=0.01GB avg_copy=4.04GB/s [3m(extra_stats.py:159:lmcache.v1.mp_observability.subscribers.logging.extra_stats)[0m
+[32;20m[2026-09-20 13:37:53,203] LMCache INFO:[0m L0<->L1 stats [cuda:0] cumulative: store ops=43 tokens=16176 size=0.46GB avg_copy=6.90GB/s | retrieve ops=2 tokens=768 size=0.02GB avg_copy=4.00GB/s [3m(extra_stats.py:168:lmcache.v1.mp_observability.subscribers.logging.extra_stats)[0m
+[32;20m[2026-09-20 13:37:53,818] LMCache INFO:[0m Prefetch request completed (L1+L2): 24/24 retained keys (24 L1, 0 L2) in 1.3 ms (external_request_id=cmpl-8c5b999f40380a33-0-94180732, prefetch_request_id=-1) [3m(storage_manager.py:716:lmcache.v1.distributed.storage_manager)[0m
+[32;20m[2026-09-20 13:37:53,823] LMCache INFO:[0m Retrieved 384 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:53,927] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:54,809] LMCache INFO:[0m Stored 368 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:54,930] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:55,775] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:55,869] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:56,709] LMCache INFO:[0m Stored 368 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:56,799] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:57,203] LMCache INFO:[0m L1 memory usage 0.83 above watermark 0.80; triggering eviction. [3m(eviction_controller.py:179:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:37:57,635] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:57,728] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:58,564] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:58,655] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:59,491] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:37:59,580] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:00,375] LMCache INFO:[0m Prefetch request completed (L1+L2): 12/24 retained keys (12 L1, 0 L2) in 1.0 ms (external_request_id=cmpl-89024ee5bd1c2b71-0-954d992a, prefetch_request_id=-1) [3m(storage_manager.py:716:lmcache.v1.distributed.storage_manager)[0m
+[32;20m[2026-09-20 13:38:00,380] LMCache INFO:[0m Retrieved 192 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:00,423] LMCache INFO:[0m Stored 192 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:00,494] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:01,209] LMCache INFO:[0m L1 memory usage 0.82 above watermark 0.80; triggering eviction. [3m(eviction_controller.py:179:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:38:01,332] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:01,424] LMCache INFO:[0m Stored 384 tokens in 0.004 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:02,264] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:02,355] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:03,193] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:03,214] LMCache INFO:[0m L1 memory usage: 0.38/0.50 GiB (76.0%) [3m(eviction_controller.py:153:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:38:03,215] LMCache INFO:[0m L0<->L1 stats [cuda:0] last 10.0s: store ops=19 tokens=7072 size=0.20GB avg_copy=7.14GB/s | retrieve ops=2 tokens=576 size=0.02GB avg_copy=3.74GB/s [3m(extra_stats.py:159:lmcache.v1.mp_observability.subscribers.logging.extra_stats)[0m
+[32;20m[2026-09-20 13:38:03,215] LMCache INFO:[0m L0<->L1 stats [cuda:0] cumulative: store ops=62 tokens=23248 size=0.67GB avg_copy=6.97GB/s | retrieve ops=4 tokens=1344 size=0.04GB avg_copy=3.89GB/s [3m(extra_stats.py:168:lmcache.v1.mp_observability.subscribers.logging.extra_stats)[0m
+[32;20m[2026-09-20 13:38:03,242] LMCache INFO:[0m Prefetch request completed (L1+L2): 24/24 retained keys (24 L1, 0 L2) in 1.2 ms (external_request_id=cmpl-a88be552a5bea29b-0-890d5f82, prefetch_request_id=-1) [3m(storage_manager.py:716:lmcache.v1.distributed.storage_manager)[0m
+[32;20m[2026-09-20 13:38:03,247] LMCache INFO:[0m Retrieved 384 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:04,049] LMCache INFO:[0m Prefetch request completed (L1+L2): 24/24 retained keys (24 L1, 0 L2) in 1.1 ms (external_request_id=cmpl-adb941ad7cbe3512-0-953ea059, prefetch_request_id=-1) [3m(storage_manager.py:716:lmcache.v1.distributed.storage_manager)[0m
+[32;20m[2026-09-20 13:38:04,054] LMCache INFO:[0m Retrieved 384 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:04,117] LMCache INFO:[0m Prefetch request completed (L1+L2): 24/24 retained keys (24 L1, 0 L2) in 1.1 ms (external_request_id=cmpl-987e32fe9e57c600-0-9ab5a2e9, prefetch_request_id=-1) [3m(storage_manager.py:716:lmcache.v1.distributed.storage_manager)[0m
+[32;20m[2026-09-20 13:38:04,122] LMCache INFO:[0m Retrieved 384 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:04,926] LMCache INFO:[0m Prefetch request completed (L1+L2): 24/24 retained keys (24 L1, 0 L2) in 1.4 ms (external_request_id=cmpl-a609bddba7a9d48f-0-9eed74f0, prefetch_request_id=-1) [3m(storage_manager.py:716:lmcache.v1.distributed.storage_manager)[0m
+[32;20m[2026-09-20 13:38:04,931] LMCache INFO:[0m Retrieved 384 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:05,038] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:05,831] LMCache INFO:[0m Prefetch request completed (L1+L2): 24/24 retained keys (24 L1, 0 L2) in 1.1 ms (external_request_id=cmpl-a457fb8360c5c927-0-89b7ac49, prefetch_request_id=-1) [3m(storage_manager.py:716:lmcache.v1.distributed.storage_manager)[0m
+[32;20m[2026-09-20 13:38:05,836] LMCache INFO:[0m Retrieved 384 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:05,940] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:06,215] LMCache INFO:[0m L1 memory usage 0.80 above watermark 0.80; triggering eviction. [3m(eviction_controller.py:179:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:38:06,792] LMCache INFO:[0m Stored 112 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:06,852] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:07,701] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:07,799] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:08,638] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:08,736] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:09,573] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:09,621] LMCache INFO:[0m Prefetch request completed (L1+L2): 24/24 retained keys (24 L1, 0 L2) in 1.2 ms (external_request_id=cmpl-97919aba4deae3ae-0-adb13df2, prefetch_request_id=-1) [3m(storage_manager.py:716:lmcache.v1.distributed.storage_manager)[0m
+[32;20m[2026-09-20 13:38:09,626] LMCache INFO:[0m Retrieved 384 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:10,472] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:10,561] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:11,221] LMCache INFO:[0m L1 memory usage 0.81 above watermark 0.80; triggering eviction. [3m(eviction_controller.py:179:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:38:11,401] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:11,494] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:12,331] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:12,419] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:13,226] LMCache INFO:[0m L1 memory usage: 0.37/0.50 GiB (73.1%) [3m(eviction_controller.py:153:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:38:13,227] LMCache INFO:[0m L0<->L1 stats [cuda:0] last 10.0s: store ops=16 tokens=5872 size=0.17GB avg_copy=6.16GB/s | retrieve ops=6 tokens=2304 size=0.07GB avg_copy=4.21GB/s [3m(extra_stats.py:159:lmcache.v1.mp_observability.subscribers.logging.extra_stats)[0m
+[32;20m[2026-09-20 13:38:13,227] LMCache INFO:[0m L0<->L1 stats [cuda:0] cumulative: store ops=78 tokens=29120 size=0.83GB avg_copy=6.79GB/s | retrieve ops=10 tokens=3648 size=0.10GB avg_copy=4.09GB/s [3m(extra_stats.py:168:lmcache.v1.mp_observability.subscribers.logging.extra_stats)[0m
+[32;20m[2026-09-20 13:38:13,258] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:13,349] LMCache INFO:[0m Stored 368 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:14,189] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:14,286] LMCache INFO:[0m Stored 384 tokens in 0.004 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:15,076] LMCache INFO:[0m Prefetch request completed (L1+L2): 23/23 retained keys (23 L1, 0 L2) in 1.0 ms (external_request_id=cmpl-84bdbb686365b46c-0-aa5deba1, prefetch_request_id=-1) [3m(storage_manager.py:716:lmcache.v1.distributed.storage_manager)[0m
+[32;20m[2026-09-20 13:38:15,081] LMCache INFO:[0m Retrieved 368 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:15,183] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:15,227] LMCache INFO:[0m L1 memory usage 0.83 above watermark 0.80; triggering eviction. [3m(eviction_controller.py:179:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:38:15,972] LMCache INFO:[0m Prefetch request completed (L1+L2): 24/24 retained keys (24 L1, 0 L2) in 1.2 ms (external_request_id=cmpl-9bc0e8ecd7a795b4-0-921d8938, prefetch_request_id=-1) [3m(storage_manager.py:716:lmcache.v1.distributed.storage_manager)[0m
+[32;20m[2026-09-20 13:38:15,977] LMCache INFO:[0m Retrieved 384 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:16,079] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:16,911] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:17,002] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:17,842] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:17,935] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:18,771] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:18,860] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:19,233] LMCache INFO:[0m L1 memory usage 0.80 above watermark 0.80; triggering eviction. [3m(eviction_controller.py:179:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:38:19,699] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:19,795] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:20,634] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:20,724] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:21,558] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:21,655] LMCache INFO:[0m Stored 368 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:22,497] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:22,587] LMCache INFO:[0m Stored 384 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:23,239] LMCache INFO:[0m L1 memory usage: 0.40/0.50 GiB (80.7%) [3m(eviction_controller.py:153:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:38:23,239] LMCache INFO:[0m L1 memory usage 0.81 above watermark 0.80; triggering eviction. [3m(eviction_controller.py:179:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:38:23,244] LMCache INFO:[0m L0<->L1 stats [cuda:0] last 10.0s: store ops=20 tokens=7648 size=0.22GB avg_copy=7.59GB/s | retrieve ops=2 tokens=752 size=0.02GB avg_copy=4.53GB/s [3m(extra_stats.py:159:lmcache.v1.mp_observability.subscribers.logging.extra_stats)[0m
+[32;20m[2026-09-20 13:38:23,244] LMCache INFO:[0m L0<->L1 stats [cuda:0] cumulative: store ops=98 tokens=36768 size=1.05GB avg_copy=6.94GB/s | retrieve ops=12 tokens=4400 size=0.13GB avg_copy=4.16GB/s [3m(extra_stats.py:168:lmcache.v1.mp_observability.subscribers.logging.extra_stats)[0m
+[32;20m[2026-09-20 13:38:23,425] LMCache INFO:[0m Stored 320 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:23,470] LMCache INFO:[0m Prefetch request completed (L1+L2): 24/24 retained keys (24 L1, 0 L2) in 1.1 ms (external_request_id=cmpl-861b28ebe607a5ac-0-92730abe, prefetch_request_id=-1) [3m(storage_manager.py:716:lmcache.v1.distributed.storage_manager)[0m
+[32;20m[2026-09-20 13:38:23,475] LMCache INFO:[0m Retrieved 384 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:24,336] LMCache INFO:[0m Stored 384 tokens in 0.005 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:24,426] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:25,263] LMCache INFO:[0m Stored 384 tokens in 0.005 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:25,310] LMCache INFO:[0m Prefetch request completed (L1+L2): 24/24 retained keys (24 L1, 0 L2) in 1.1 ms (external_request_id=cmpl-bd34b45315c29175-0-b420d481, prefetch_request_id=-1) [3m(storage_manager.py:716:lmcache.v1.distributed.storage_manager)[0m
+[32;20m[2026-09-20 13:38:25,315] LMCache INFO:[0m Retrieved 384 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:26,116] LMCache INFO:[0m Prefetch request completed (L1+L2): 23/23 retained keys (23 L1, 0 L2) in 1.1 ms (external_request_id=cmpl-860c9b907e0bf304-0-acfb37e4, prefetch_request_id=-1) [3m(storage_manager.py:716:lmcache.v1.distributed.storage_manager)[0m
+[32;20m[2026-09-20 13:38:26,121] LMCache INFO:[0m Retrieved 368 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:26,222] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:27,055] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:27,144] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:27,981] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:28,077] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:28,245] LMCache INFO:[0m L1 memory usage 0.83 above watermark 0.80; triggering eviction. [3m(eviction_controller.py:179:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:38:28,915] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:29,009] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:29,845] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:29,943] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:30,784] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:30,876] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:31,715] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:31,810] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:32,252] LMCache INFO:[0m L1 memory usage 0.83 above watermark 0.80; triggering eviction. [3m(eviction_controller.py:179:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:38:32,649] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:32,741] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:33,257] LMCache INFO:[0m L1 memory usage: 0.35/0.50 GiB (70.2%) [3m(eviction_controller.py:153:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:38:33,258] LMCache INFO:[0m L0<->L1 stats [cuda:0] last 10.0s: store ops=19 tokens=7232 size=0.21GB avg_copy=7.78GB/s | retrieve ops=3 tokens=1136 size=0.03GB avg_copy=4.28GB/s [3m(extra_stats.py:159:lmcache.v1.mp_observability.subscribers.logging.extra_stats)[0m
+[32;20m[2026-09-20 13:38:33,258] LMCache INFO:[0m L0<->L1 stats [cuda:0] cumulative: store ops=117 tokens=44000 size=1.26GB avg_copy=7.07GB/s | retrieve ops=15 tokens=5536 size=0.16GB avg_copy=4.18GB/s [3m(extra_stats.py:168:lmcache.v1.mp_observability.subscribers.logging.extra_stats)[0m
+[32;20m[2026-09-20 13:38:33,579] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:33,675] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:34,517] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:34,567] LMCache INFO:[0m Prefetch request completed (L1+L2): 24/24 retained keys (24 L1, 0 L2) in 1.0 ms (external_request_id=cmpl-b848ebe1bfb0628d-0-bf5a269e, prefetch_request_id=-1) [3m(storage_manager.py:716:lmcache.v1.distributed.storage_manager)[0m
+[32;20m[2026-09-20 13:38:34,572] LMCache INFO:[0m Retrieved 384 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:35,376] LMCache INFO:[0m Prefetch request completed (L1+L2): 24/24 retained keys (24 L1, 0 L2) in 1.0 ms (external_request_id=cmpl-bd9c725ee4a80d41-0-bc3780db, prefetch_request_id=-1) [3m(storage_manager.py:716:lmcache.v1.distributed.storage_manager)[0m
+[32;20m[2026-09-20 13:38:35,380] LMCache INFO:[0m Retrieved 384 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:35,487] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:36,318] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:36,417] LMCache INFO:[0m Stored 384 tokens in 0.004 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:37,253] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:37,258] LMCache INFO:[0m L1 memory usage 0.85 above watermark 0.80; triggering eviction. [3m(eviction_controller.py:179:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:38:37,351] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:38,190] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:38,286] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:39,125] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:39,221] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:40,017] LMCache INFO:[0m Prefetch request completed (L1+L2): 24/24 retained keys (24 L1, 0 L2) in 1.1 ms (external_request_id=cmpl-af4d4ea66c705c6d-0-a8ee9f44, prefetch_request_id=-1) [3m(storage_manager.py:716:lmcache.v1.distributed.storage_manager)[0m
+[32;20m[2026-09-20 13:38:40,022] LMCache INFO:[0m Retrieved 384 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:40,131] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:40,264] LMCache INFO:[0m L1 memory usage 0.80 above watermark 0.80; triggering eviction. [3m(eviction_controller.py:179:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:38:40,930] LMCache INFO:[0m Prefetch request completed (L1+L2): 24/24 retained keys (24 L1, 0 L2) in 1.0 ms (external_request_id=cmpl-95d6e9f018e9febf-0-800a009c, prefetch_request_id=-1) [3m(storage_manager.py:716:lmcache.v1.distributed.storage_manager)[0m
+[32;20m[2026-09-20 13:38:40,934] LMCache INFO:[0m Retrieved 384 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:40,999] LMCache INFO:[0m Prefetch request completed (L1+L2): 24/24 retained keys (24 L1, 0 L2) in 1.1 ms (external_request_id=cmpl-a43c28f910f0367b-0-8a7068ef, prefetch_request_id=-1) [3m(storage_manager.py:716:lmcache.v1.distributed.storage_manager)[0m
+[32;20m[2026-09-20 13:38:41,004] LMCache INFO:[0m Retrieved 384 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:41,807] LMCache INFO:[0m Prefetch request completed (L1+L2): 24/24 retained keys (24 L1, 0 L2) in 1.0 ms (external_request_id=cmpl-9502c73a49c72be8-0-b1a85a5e, prefetch_request_id=-1) [3m(storage_manager.py:716:lmcache.v1.distributed.storage_manager)[0m
+[32;20m[2026-09-20 13:38:41,812] LMCache INFO:[0m Retrieved 384 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:41,921] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:42,813] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:42,957] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:43,270] LMCache INFO:[0m L1 memory usage: 0.35/0.50 GiB (70.5%) [3m(eviction_controller.py:153:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:38:43,270] LMCache INFO:[0m L0<->L1 stats [cuda:0] last 10.0s: store ops=16 tokens=6144 size=0.18GB avg_copy=7.24GB/s | retrieve ops=6 tokens=2304 size=0.07GB avg_copy=4.35GB/s [3m(extra_stats.py:159:lmcache.v1.mp_observability.subscribers.logging.extra_stats)[0m
+[32;20m[2026-09-20 13:38:43,270] LMCache INFO:[0m L0<->L1 stats [cuda:0] cumulative: store ops=133 tokens=50144 size=1.43GB avg_copy=7.09GB/s | retrieve ops=21 tokens=7840 size=0.22GB avg_copy=4.23GB/s [3m(extra_stats.py:168:lmcache.v1.mp_observability.subscribers.logging.extra_stats)[0m
+[32;20m[2026-09-20 13:38:43,814] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:43,870] LMCache INFO:[0m Prefetch request completed (L1+L2): 24/24 retained keys (24 L1, 0 L2) in 1.3 ms (external_request_id=cmpl-9ed417cf3b21d495-0-b3dc5232, prefetch_request_id=-1) [3m(storage_manager.py:716:lmcache.v1.distributed.storage_manager)[0m
+[32;20m[2026-09-20 13:38:43,875] LMCache INFO:[0m Retrieved 384 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:44,678] LMCache INFO:[0m Prefetch request completed (L1+L2): 24/24 retained keys (24 L1, 0 L2) in 1.1 ms (external_request_id=cmpl-9283a4eb67e151c5-0-89419fe7, prefetch_request_id=-1) [3m(storage_manager.py:716:lmcache.v1.distributed.storage_manager)[0m
+[32;20m[2026-09-20 13:38:44,683] LMCache INFO:[0m Retrieved 384 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:44,793] LMCache INFO:[0m Stored 368 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:45,629] LMCache INFO:[0m Stored 320 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:45,724] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:46,563] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:46,659] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:47,271] LMCache INFO:[0m L1 memory usage 0.82 above watermark 0.80; triggering eviction. [3m(eviction_controller.py:179:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:38:47,498] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:47,595] LMCache INFO:[0m Stored 368 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:48,438] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:48,533] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:49,373] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:49,470] LMCache INFO:[0m Stored 384 tokens in 0.004 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:50,265] LMCache INFO:[0m Prefetch request completed (L1+L2): 24/24 retained keys (24 L1, 0 L2) in 1.4 ms (external_request_id=cmpl-9be5efbbae9f0a49-0-80148792, prefetch_request_id=-1) [3m(storage_manager.py:716:lmcache.v1.distributed.storage_manager)[0m
+[32;20m[2026-09-20 13:38:50,270] LMCache INFO:[0m Retrieved 384 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:50,378] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:51,217] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:51,277] LMCache INFO:[0m L1 memory usage 0.82 above watermark 0.80; triggering eviction. [3m(eviction_controller.py:179:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:38:51,319] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:52,114] LMCache INFO:[0m Prefetch request completed (L1+L2): 24/24 retained keys (24 L1, 0 L2) in 1.2 ms (external_request_id=cmpl-8502f4f77a096576-0-a153e518, prefetch_request_id=-1) [3m(storage_manager.py:716:lmcache.v1.distributed.storage_manager)[0m
+[32;20m[2026-09-20 13:38:52,118] LMCache INFO:[0m Retrieved 384 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:52,223] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:53,015] LMCache INFO:[0m Prefetch request completed (L1+L2): 24/24 retained keys (24 L1, 0 L2) in 1.1 ms (external_request_id=cmpl-9c203686ae44ac93-0-a40bcdeb, prefetch_request_id=-1) [3m(storage_manager.py:716:lmcache.v1.distributed.storage_manager)[0m
+[32;20m[2026-09-20 13:38:53,020] LMCache INFO:[0m Retrieved 384 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:53,124] LMCache INFO:[0m Stored 384 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:53,286] LMCache INFO:[0m L1 memory usage: 0.36/0.50 GiB (72.0%) [3m(eviction_controller.py:153:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:38:53,287] LMCache INFO:[0m L0<->L1 stats [cuda:0] last 10.0s: store ops=17 tokens=6432 size=0.18GB avg_copy=6.62GB/s | retrieve ops=5 tokens=1920 size=0.06GB avg_copy=4.46GB/s [3m(extra_stats.py:159:lmcache.v1.mp_observability.subscribers.logging.extra_stats)[0m
+[32;20m[2026-09-20 13:38:53,287] LMCache INFO:[0m L0<->L1 stats [cuda:0] cumulative: store ops=150 tokens=56576 size=1.62GB avg_copy=7.03GB/s | retrieve ops=26 tokens=9760 size=0.28GB avg_copy=4.27GB/s [3m(extra_stats.py:168:lmcache.v1.mp_observability.subscribers.logging.extra_stats)[0m
+[32;20m[2026-09-20 13:38:53,958] LMCache INFO:[0m Stored 384 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:54,058] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:54,857] LMCache INFO:[0m Prefetch request completed (L1+L2): 24/24 retained keys (24 L1, 0 L2) in 1.1 ms (external_request_id=cmpl-b73de732037c5afb-0-a00a7063, prefetch_request_id=-1) [3m(storage_manager.py:716:lmcache.v1.distributed.storage_manager)[0m
+[32;20m[2026-09-20 13:38:54,861] LMCache INFO:[0m Retrieved 384 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:54,971] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:55,810] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:55,907] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:56,287] LMCache INFO:[0m L1 memory usage 0.82 above watermark 0.80; triggering eviction. [3m(eviction_controller.py:179:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:38:56,750] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:56,848] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:57,687] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:57,789] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:58,630] LMCache INFO:[0m Stored 336 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:58,719] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:59,513] LMCache INFO:[0m Prefetch request completed (L1+L2): 24/24 retained keys (24 L1, 0 L2) in 1.1 ms (external_request_id=cmpl-814495cb3b40805f-0-8a2d2090, prefetch_request_id=-1) [3m(storage_manager.py:716:lmcache.v1.distributed.storage_manager)[0m
+[32;20m[2026-09-20 13:38:59,518] LMCache INFO:[0m Retrieved 384 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:38:59,627] LMCache INFO:[0m Stored 384 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:39:00,469] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:39:00,571] LMCache INFO:[0m Stored 368 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:39:01,294] LMCache INFO:[0m L1 memory usage 0.84 above watermark 0.80; triggering eviction. [3m(eviction_controller.py:179:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:39:01,411] LMCache INFO:[0m Stored 368 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:39:01,468] LMCache INFO:[0m Prefetch request completed (L1+L2): 24/24 retained keys (24 L1, 0 L2) in 1.0 ms (external_request_id=cmpl-ae3e579d52691647-0-8b308f45, prefetch_request_id=-1) [3m(storage_manager.py:716:lmcache.v1.distributed.storage_manager)[0m
+[32;20m[2026-09-20 13:39:01,472] LMCache INFO:[0m Retrieved 384 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:39:02,322] LMCache INFO:[0m Stored 384 tokens in 0.004 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:39:02,418] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:39:03,257] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:39:03,293] LMCache INFO:[0m L0<->L1 stats [cuda:0] last 10.0s: store ops=17 tokens=6448 size=0.18GB avg_copy=7.30GB/s | retrieve ops=3 tokens=1152 size=0.03GB avg_copy=4.39GB/s [3m(extra_stats.py:159:lmcache.v1.mp_observability.subscribers.logging.extra_stats)[0m
+[32;20m[2026-09-20 13:39:03,293] LMCache INFO:[0m L0<->L1 stats [cuda:0] cumulative: store ops=167 tokens=63024 size=1.80GB avg_copy=7.06GB/s | retrieve ops=29 tokens=10912 size=0.31GB avg_copy=4.28GB/s [3m(extra_stats.py:168:lmcache.v1.mp_observability.subscribers.logging.extra_stats)[0m
+[32;20m[2026-09-20 13:39:03,300] LMCache INFO:[0m L1 memory usage: 0.38/0.50 GiB (75.4%) [3m(eviction_controller.py:153:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-20 13:39:03,358] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:39:04,154] LMCache INFO:[0m Prefetch request completed (L1+L2): 24/24 retained keys (24 L1, 0 L2) in 1.2 ms (external_request_id=cmpl-b33f6b49337a5a4a-0-b54e38a2, prefetch_request_id=-1) [3m(storage_manager.py:716:lmcache.v1.distributed.storage_manager)[0m
+[32;20m[2026-09-20 13:39:04,159] LMCache INFO:[0m Retrieved 384 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:39:04,267] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:39:05,102] LMCache INFO:[0m Stored 384 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-20 13:39:05,211] LMCache INFO:[0m Unregistered KV cache for GPU ID 2300168020604838498 [3m(lmcache_driven_transfer.py:991:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+INFO:     Shutting down
+[32;20m[2026-09-20 13:39:05,301] LMCache INFO:[0m L1 memory usage 0.82 above watermark 0.80; triggering eviction. [3m(eviction_controller.py:179:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+INFO:     Waiting for application shutdown.
+[32;20m[2026-09-20 13:39:05,364] LMCache INFO:[0m Shutting down LMCache HTTP server... [3m(http_server.py:168:lmcache.v1.multiprocess.http_server)[0m
+[32;20m[2026-09-20 13:39:06,213] LMCache INFO:[0m Stopping PeriodicThread: lmcache-mp-worker-reaper [3m(periodic_thread.py:267:lmcache.v1.periodic_thread)[0m
+[32;20m[2026-09-20 13:39:06,213] LMCache INFO:[0m PeriodicThread lmcache-mp-worker-reaper loop stopped [3m(periodic_thread.py:371:lmcache.v1.periodic_thread)[0m
+[32;20m[2026-09-20 13:39:06,214] LMCache INFO:[0m Stopping PeriodicThread: DeviceHostFuncDispatcher [3m(periodic_thread.py:267:lmcache.v1.periodic_thread)[0m
+[32;20m[2026-09-20 13:39:06,214] LMCache INFO:[0m PeriodicThread DeviceHostFuncDispatcher loop stopped [3m(periodic_thread.py:371:lmcache.v1.periodic_thread)[0m
+[32;20m[2026-09-20 13:39:06,214] LMCache INFO:[0m Stopping PeriodicThread: SessionManager-cleanup-thread-7e587e96c9e0 [3m(periodic_thread.py:267:lmcache.v1.periodic_thread)[0m
+[32;20m[2026-09-20 13:39:06,214] LMCache INFO:[0m PeriodicThread SessionManager-cleanup-thread-7e587e96c9e0 loop stopped [3m(periodic_thread.py:371:lmcache.v1.periodic_thread)[0m
+[32;20m[2026-09-20 13:39:07,223] LMCache INFO:[0m MPCacheServer closed [3m(server.py:126:lmcache.v1.multiprocess.server)[0m
+[32;20m[2026-09-20 13:39:07,224] LMCache INFO:[0m LMCache HTTP server stopped [3m(http_server.py:186:lmcache.v1.multiprocess.http_server)[0m
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3579]

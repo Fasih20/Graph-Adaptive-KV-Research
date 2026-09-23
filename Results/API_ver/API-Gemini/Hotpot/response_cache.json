@@ -1,0 +1,1818 @@
+{
+  "17fef7875f745aa3abd9f878e38f2e1af5da1e7ee16707798eada087731ef8a5": {
+    "text": "Dante",
+    "input_tokens": 538,
+    "output_tokens": 2,
+    "latency_ms": 706.6070089999812,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "df53867c7f209da43869f7a31cd1b4f57213412f8a5ac540468db7037a341b92": {
+    "text": "Dante",
+    "input_tokens": 538,
+    "output_tokens": 2,
+    "latency_ms": 518.55824400036,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "865300f42ee97553c53bd007f0f07c215ce9bb0d6fd848f821b4e02f397d8e6d": {
+    "text": "Dante",
+    "input_tokens": 537,
+    "output_tokens": 2,
+    "latency_ms": 517.2588410000571,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "06a0ba34632ccee4d595430cd433128e2c99682dfed4c1f580f07d74ae0a214a": {
+    "text": "Nidal Hasan",
+    "input_tokens": 457,
+    "output_tokens": 3,
+    "latency_ms": 431.67424100010976,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "0375078f8c520f095c48e24fdadaaf394568a7ba8550779581aff7d5fa0c0075": {
+    "text": "Nidal Hasan",
+    "input_tokens": 453,
+    "output_tokens": 3,
+    "latency_ms": 548.2825609997235,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "7f6ea9b88139048b787ee9e6c798f340ff40a176b8b36ce82aab4296ef1840e9": {
+    "text": "Nidal Hasan",
+    "input_tokens": 454,
+    "output_tokens": 3,
+    "latency_ms": 958.1377419999626,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "a873f5b3c3bf70415cc718e05ce4d206f2f303e5760144bd164acc96274fecf2": {
+    "text": "Nidal Hasan",
+    "input_tokens": 457,
+    "output_tokens": 3,
+    "latency_ms": 15974.169557000096,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "0735ac5a0d02ae99982825d23e38eb310141fd7e1a55348ab5054904a69d0c36": {
+    "text": "No",
+    "input_tokens": 438,
+    "output_tokens": 1,
+    "latency_ms": 707.5960180000038,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "fe8cc984983cb984c97cd7d72c133151b6584dab790536b04b39a3c325ed78be": {
+    "text": "No",
+    "input_tokens": 439,
+    "output_tokens": 1,
+    "latency_ms": 7084.10960800029,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "d1f90025a3f7a2aca655a0aec89e1d7367b22e95ae6cae39fc70d9ab97c67d1c": {
+    "text": "Based on the provided context, there is no mention of \"The Christian Science Sentinel\".",
+    "input_tokens": 439,
+    "output_tokens": 17,
+    "latency_ms": 593.6919839996335,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "02065e22e0d91bd8a322637f95fc3ee237a0ad800f073c34f3c3781793529135": {
+    "text": "1993 to 2001",
+    "input_tokens": 445,
+    "output_tokens": 10,
+    "latency_ms": 522.9216039997482,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "9b3680771f295bd56e4e21982a2a70a82b0f2666371ec7741f6c7839b2ea865f": {
+    "text": "Based on the provided context, there is no mention of the years Hillary Clinton served as First Lady of the United States.",
+    "input_tokens": 445,
+    "output_tokens": 24,
+    "latency_ms": 557.6203710002119,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "7d657fbecb3d24e2d86224256d7f703ca13185b5d5ba29f616133015b2da6647": {
+    "text": "I am sorry, but the provided reference context does not contain the years during which Hillary Clinton was First Lady of the United States.",
+    "input_tokens": 445,
+    "output_tokens": 26,
+    "latency_ms": 658.1196030001593,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "2553a50d369304ebf0e3304bb964ad75bcacf673cb0b28ade68a6fac11bdb204": {
+    "text": "the buff-tipped skipper",
+    "input_tokens": 337,
+    "output_tokens": 5,
+    "latency_ms": 551.2962780003363,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "15116a27c127f1dcdfc0f8a38969587e5305c9488db08200844a8988d04060ba": {
+    "text": "mountain sandman",
+    "input_tokens": 333,
+    "output_tokens": 3,
+    "latency_ms": 700.7716309999523,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "4dd757d12b33aac5672b59be446cba8a819ded46f69e10dfdd5903209f4f65c0": {
+    "text": "buff-tipped skipper",
+    "input_tokens": 337,
+    "output_tokens": 4,
+    "latency_ms": 593.6124719996769,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "65cd217ad25bf511dcd791f074cb9258d7171b90b96e18ce932cd2b0e6ad473f": {
+    "text": "buff-tipped skipper",
+    "input_tokens": 322,
+    "output_tokens": 4,
+    "latency_ms": 392.7145829998153,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "9ab24ac8e74f5c646cbd66e0f007b892d2afa34d53c9e122ce08234bdf555025": {
+    "text": "None",
+    "input_tokens": 474,
+    "output_tokens": 1,
+    "latency_ms": 10637.797812999906,
+    "attempts": 2,
+    "finish_reason": "STOP"
+  },
+  "464465aacb55e8e97db5e7b9db5868fbf7ac05e504b392cbf9e7ded8fc8533ff": {
+    "text": "Al Horford",
+    "input_tokens": 475,
+    "output_tokens": 3,
+    "latency_ms": 59622.57910599965,
+    "attempts": 2,
+    "finish_reason": "STOP"
+  },
+  "2441fd58bd0e08d41dc8afdc98f9a20f95493cf3305e58ec950db2838ed8f55f": {
+    "text": "Not mentioned in the reference context.",
+    "input_tokens": 474,
+    "output_tokens": 7,
+    "latency_ms": 783.0543539998871,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "c7a7b823cdd6eb70d07de7c9ac22879ed2140e5097862d3a9bfd2aa62e2d8e44": {
+    "text": "None",
+    "input_tokens": 474,
+    "output_tokens": 1,
+    "latency_ms": 16199.607830000332,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "f7079b7c18863e2ebb7853a263d47c26a0904cbfab88509e605ff2344171da35": {
+    "text": "Osaka International Airport",
+    "input_tokens": 460,
+    "output_tokens": 3,
+    "latency_ms": 566.3452680000773,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "d3741977af9f6a82372fb7282b81b31b77aa755543cf36e28ed79eafad440640": {
+    "text": "Tokyo International Airport",
+    "input_tokens": 464,
+    "output_tokens": 3,
+    "latency_ms": 586.913056999947,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "0fffd890d2c2ed311abbcabe700153bb53baaf39adea8f4c2d5a360cf2e18978": {
+    "text": "Osaka International Airport",
+    "input_tokens": 458,
+    "output_tokens": 3,
+    "latency_ms": 541.5865220002161,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "729fc305bdc67668dceea786b18d347bcae5062ce7acbd9d504af7f823d1e578": {
+    "text": "Osaka International Airport",
+    "input_tokens": 454,
+    "output_tokens": 3,
+    "latency_ms": 529.9915780001356,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "4c7822dd792efe0fbe504ce8be4c5ae5dde1dde13bce3767f4483d3b8a9967d3": {
+    "text": "No",
+    "input_tokens": 454,
+    "output_tokens": 1,
+    "latency_ms": 8716.994966999664,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "f8ef641a0265e9a4f00041b28b882ca2265bf04e3a4da34734ce6211ea08db09": {
+    "text": "No",
+    "input_tokens": 453,
+    "output_tokens": 1,
+    "latency_ms": 489.6775689999231,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "05f142ac7b40d36f95579531903eb7afa2c5564d6b4b8c20d21c6815848b3d4e": {
+    "text": "No",
+    "input_tokens": 450,
+    "output_tokens": 1,
+    "latency_ms": 490.7893440004045,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "b24ecd21a2746a23a81abfa930b35e66f592be81dbf22b7146eaa76cb1462384": {
+    "text": "No",
+    "input_tokens": 457,
+    "output_tokens": 1,
+    "latency_ms": 392.78262900006666,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "3ca122ebb01ba8f96f63650680870638c7312c2c22ef7c3dd44fc3091110f696": {
+    "text": "Jefferson Memorial",
+    "input_tokens": 657,
+    "output_tokens": 2,
+    "latency_ms": 479.59678500001246,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "b1c9b99c59f4e6ddc6f46f2c977410330a325505d3157b6817f2fb0854eae828": {
+    "text": "Jefferson Memorial",
+    "input_tokens": 657,
+    "output_tokens": 2,
+    "latency_ms": 10548.773056999835,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "a75b3b20418be7e6999514b5963bfada51a3571d90efa2dda26ea873891c08d5": {
+    "text": "Jefferson Memorial",
+    "input_tokens": 657,
+    "output_tokens": 2,
+    "latency_ms": 384.4297790001292,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "a6a26504351298a30907311bbc967ced347ca35ca9eef2c9875bd67e6a17054d": {
+    "text": "Jefferson Memorial",
+    "input_tokens": 657,
+    "output_tokens": 2,
+    "latency_ms": 545.0206790001175,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "039d76ce7e680ea21c1cbed591abe8cc4f07509069253f9a923154210203ede1": {
+    "text": "Swiss federal popular initiative \"against mass immigration\"",
+    "input_tokens": 644,
+    "output_tokens": 9,
+    "latency_ms": 968.8883310000165,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "d4055596b1ab086100324fb1203dfb30901edf739322e08f47aa5d08694fc3fe": {
+    "text": "Swiss federal popular initiative \"against mass immigration\"",
+    "input_tokens": 637,
+    "output_tokens": 9,
+    "latency_ms": 541.4435490001779,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "5b59fad0db860a6d9d7aad2400c79dcabfd218f67032c6c3f7d960169f85b1f3": {
+    "text": "federal popular initiative",
+    "input_tokens": 644,
+    "output_tokens": 3,
+    "latency_ms": 563.6636109998108,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "1c6e9e33ff55494c8e7c0fab85e87fa602b9970051246232f2986f2655258231": {
+    "text": "Swiss federal popular initiative \"against mass immigration\"",
+    "input_tokens": 644,
+    "output_tokens": 9,
+    "latency_ms": 533.1631849999212,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "df02f76c6a989106daff85c3a673d9abf632ba003d51d2fce301dd034e0d959d": {
+    "text": "Lanthimos",
+    "input_tokens": 491,
+    "output_tokens": 3,
+    "latency_ms": 15761.572669000088,
+    "attempts": 3,
+    "finish_reason": "STOP"
+  },
+  "f9a970b5a89fb45fea6b7518351fc37b63ae2ecd5ef5c7dd2892af0f17d3834f": {
+    "text": "Yorgos Lanthimos",
+    "input_tokens": 492,
+    "output_tokens": 6,
+    "latency_ms": 59650.30067999987,
+    "attempts": 2,
+    "finish_reason": "STOP"
+  },
+  "ad8015e1f55dbfbd1dff544a4eb97ad6d0e34f8430e8d8c3950f97d1d2b6f55f": {
+    "text": "Yorgos Lanthimos",
+    "input_tokens": 492,
+    "output_tokens": 6,
+    "latency_ms": 530.480893999993,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "1d82f0135fce68e10244c159e1e867a812ec0bf36e66498ebfcb71acd9fff6e1": {
+    "text": "Yorgos Lanthimos",
+    "input_tokens": 492,
+    "output_tokens": 6,
+    "latency_ms": 19871.323842000038,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "ad2b4adef090e0976f7087d81974fc3f7c509373d8e0c35eb74e32900f73c2e1": {
+    "text": "1,382",
+    "input_tokens": 567,
+    "output_tokens": 5,
+    "latency_ms": 488.0992960002004,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "514b9bb905ad84196cd7c92b2041e31fedf5ec0d79d8adf34791dbf7a279306a": {
+    "text": "Free from the text.",
+    "input_tokens": 566,
+    "output_tokens": 5,
+    "latency_ms": 546.5788769997744,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "951fccc0d397e0de72d20469005c4a03a78c35452c044fb00637f55f9e0a561d": {
+    "text": "1,382",
+    "input_tokens": 564,
+    "output_tokens": 5,
+    "latency_ms": 571.3749159999679,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "74c1578ce156877571ec2793b335b2d4b0e4bcd153bb0a8ee0343b70fcb87131": {
+    "text": "1,382",
+    "input_tokens": 564,
+    "output_tokens": 5,
+    "latency_ms": 48267.28412000011,
+    "attempts": 2,
+    "finish_reason": "STOP"
+  },
+  "2c8d36cc0796b211e5ed906d6f5c84acd83757ca4438396ca673c0831431b714": {
+    "text": "The Dressmaker",
+    "input_tokens": 496,
+    "output_tokens": 3,
+    "latency_ms": 467.41157600035876,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "72e93d620d8bcda1fa5ca4d62748c7c1c33b915267f88b641cc3dfbb51be55fa": {
+    "text": "The Dressmaker",
+    "input_tokens": 493,
+    "output_tokens": 3,
+    "latency_ms": 470.03354999969815,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "d9496307169c46b486b70796ee570d2cec03e77ab7d303cdfc8d454138c9820e": {
+    "text": "The Dressmaker",
+    "input_tokens": 496,
+    "output_tokens": 3,
+    "latency_ms": 569.822916999783,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "2e45520c35b46a357da696b7c8bdd056cc3f6bf1603b23291832987dac289cbf": {
+    "text": "The Dressmaker",
+    "input_tokens": 495,
+    "output_tokens": 3,
+    "latency_ms": 589.3776769999022,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "b07728f7cee8f4cb331392a97874ad0692ca64dc783fb2e7aafc81eb6a7e0b26": {
+    "text": "Not mentioned",
+    "input_tokens": 557,
+    "output_tokens": 2,
+    "latency_ms": 659.5979030003036,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "6e70f523962a59c7f183c719886350e39d0c36b39df61ca6cf8707632e4cdc4b": {
+    "text": "Not mentioned",
+    "input_tokens": 557,
+    "output_tokens": 2,
+    "latency_ms": 1546.7961090002973,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "d127fea3fa0508a3d7171dadf51ced848cdc9315fcdfbbd87f46c06f55ad365a": {
+    "text": "Based on the provided context, there is no mention of either Jean-Paul Sartre or George Bernard Shaw having influence on \"turn of the century literature\" (the context only states that Shaw's influence extended from the 1880s to his death and beyond). Therefore, the provided context",
+    "input_tokens": 564,
+    "output_tokens": 60,
+    "latency_ms": 4129.458953000267,
+    "attempts": 1,
+    "finish_reason": "MAX_TOKENS"
+  },
+  "f8633bef0026c5caed5448bd5c8faa8e34ca3e513c49bbcc4eac58695863424e": {
+    "text": "Not mentioned",
+    "input_tokens": 556,
+    "output_tokens": 2,
+    "latency_ms": 13003.164572999594,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "6282d95df7f6c5457c8c9075ded8cb9a4b22726a3734bcdfc65f969320caf9c5": {
+    "text": "incumbent",
+    "input_tokens": 438,
+    "output_tokens": 2,
+    "latency_ms": 606.403981999847,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "07ef7a9f2b0eba176e180896f57e0f5707da281d7c3b4463fc7dd08d313e7eaf": {
+    "text": "fourth-ranking",
+    "input_tokens": 436,
+    "output_tokens": 3,
+    "latency_ms": 566.0739029999604,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "977acbc8f10d7602581c8041751dfb6d067f2f65511c3d6e221d7cb2e2637729": {
+    "text": "fourth-ranking",
+    "input_tokens": 436,
+    "output_tokens": 3,
+    "latency_ms": 549.1509720000067,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "71cba52b621ba24c30e996277b64edb3018c1ec46655a205f4a51aed5e6e97b6": {
+    "text": "I am sorry, but the provided reference context does not contain the answer to your question.",
+    "input_tokens": 432,
+    "output_tokens": 18,
+    "latency_ms": 442.06615200027954,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "a76bdf924f0fcdf49a5dbb53ccc6bc51522bde24631a4ec3abee39bfa582b4ac": {
+    "text": "Sergeant Detective Chang",
+    "input_tokens": 428,
+    "output_tokens": 4,
+    "latency_ms": 468.62690699981613,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "c8f729d0f6b703c0e95f161f78217eebb1d11c3544da7d15291083fbb7555621": {
+    "text": "I am sorry, but the provided reference context does not contain the answer to your question.",
+    "input_tokens": 434,
+    "output_tokens": 18,
+    "latency_ms": 516.5237289998004,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "88fcc4569da59ef39333a1550205e11fabd5d2db1728be1c88c20143aecfe40b": {
+    "text": "I am sorry, but the provided reference context does not contain information about \"Moonlight\" or which actor from it appeared on the remake of Hawaii Five-0.",
+    "input_tokens": 433,
+    "output_tokens": 33,
+    "latency_ms": 645.0948639999297,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "1bfcdafe400bcfeeae6e024b374eae3c7a680661dd34f9b85e55a6738b468273": {
+    "text": "Bishop Gorman High School",
+    "input_tokens": 397,
+    "output_tokens": 4,
+    "latency_ms": 814.32579300008,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "233248898a8ae89292244bbfffc3000de27429fe21f1595e99c0f397b562bfba": {
+    "text": "Bishop Gorman High School",
+    "input_tokens": 397,
+    "output_tokens": 4,
+    "latency_ms": 6733.584766000149,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "9745fd3d8dd96bb464fd2456a37ad170c72de96bc5357e3ad72aade65e8f41a0": {
+    "text": "Bishop Gorman",
+    "input_tokens": 397,
+    "output_tokens": 2,
+    "latency_ms": 517.0982159997948,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "1f609a6611585c066bbc6cf97bb2e4704828db3a5638ee3dd2d524e57386eed8": {
+    "text": "My Favorite Martian",
+    "input_tokens": 481,
+    "output_tokens": 3,
+    "latency_ms": 793.4699389998059,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "2847209a24f16e0a79c87d8c6296b549873d335dbb6830edfd187395df6d6363": {
+    "text": "My Favorite Martian",
+    "input_tokens": 482,
+    "output_tokens": 3,
+    "latency_ms": 539.7497259996271,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "a1043df8a1b6ad9fd7ccabc373dbddd2d50794c024e4e490a5d668f4cf1928ad": {
+    "text": "My Favorite Martian",
+    "input_tokens": 483,
+    "output_tokens": 3,
+    "latency_ms": 21384.292476000155,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "e14dd8234e021ffeb420fb2a26fbd8a1570a4cb587f4c1cc562a1f79ab258958": {
+    "text": "My Favorite Martian",
+    "input_tokens": 490,
+    "output_tokens": 3,
+    "latency_ms": 19993.119021999973,
+    "attempts": 2,
+    "finish_reason": "STOP"
+  },
+  "47199f1b7518ddf800e1a9870a2724da32b41601eda26c430fcf6884d603d781": {
+    "text": "Porsche, Ford and BMW",
+    "input_tokens": 415,
+    "output_tokens": 5,
+    "latency_ms": 573.660636999648,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "0ec506b57b0da1463a5164da249d3a7770d62bae136bc9d4188fdea4a90aed43": {
+    "text": "Lancia Rally 037",
+    "input_tokens": 410,
+    "output_tokens": 7,
+    "latency_ms": 1544.9028200000612,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "acc6893cce505cab1aa1f42400f9f0373e12ada82905a8f0fe7aa3968c3ce241": {
+    "text": "Walter Röhrl",
+    "input_tokens": 417,
+    "output_tokens": 4,
+    "latency_ms": 580.3478029997677,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "34c4da2de82c17c5d8fbe4511922317ddb10276050a2d0dc398540f166002f26": {
+    "text": "I am sorry, but the provided reference context does not contain information about a girl group that any host of the Nickelodeon Australian Kids' Choice Awards 2006 was a member of.",
+    "input_tokens": 495,
+    "output_tokens": 38,
+    "latency_ms": 14941.497373999937,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "aded3bea4921292d3cb943c924598784339a0e37ac812de3a731ed5e15778d8c": {
+    "text": "I am sorry, but the provided reference context does not contain information about the girl group that the host of the 2006 awards was a member of.",
+    "input_tokens": 495,
+    "output_tokens": 33,
+    "latency_ms": 792.8699389999565,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "5a1d6491034aaa8f7393133a6f4fac16fa713157738c67314610dd4f57438b18": {
+    "text": "Sophie Monk",
+    "input_tokens": 499,
+    "output_tokens": 2,
+    "latency_ms": 517.9262530000415,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "4bbdb6846681754ac863dbf446cff1ab5d836abfb9c46dfb5852b9dad9334fa1": {
+    "text": "I am sorry, but the provided reference context does not contain information about a girl group that the host of the Nickelodeon Australian Kids' Choice Awards 2006 was a member of.",
+    "input_tokens": 497,
+    "output_tokens": 38,
+    "latency_ms": 687.3517099998026,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "e4f47b2b47de6a8e9fc9407c0e7a2f3bb0128c73e898f9c75be936987faa2286": {
+    "text": "West Point Foundry",
+    "input_tokens": 405,
+    "output_tokens": 3,
+    "latency_ms": 450.4358859999229,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "f32c8c90b3b0287975e52c8ab883d3431549d1958edd8881a55ff8a3a617e5d6": {
+    "text": "West Point Foundry",
+    "input_tokens": 405,
+    "output_tokens": 3,
+    "latency_ms": 516.8980379999084,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "ee612b150c169f756279fe3967bcfd569b97f55570142f5cf278b15c0d9832a2": {
+    "text": "West Point Foundry",
+    "input_tokens": 405,
+    "output_tokens": 3,
+    "latency_ms": 336.2132939996627,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "eb30a2c837235bd57a2639eee3cd1d3c0b2063244028cdbfe8442d83f83b824f": {
+    "text": "West Point Foundry",
+    "input_tokens": 406,
+    "output_tokens": 3,
+    "latency_ms": 584.6651490001022,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "38984923ed70cf30a05a8fbc5dd303b129c40c13c7b9a1bb905e6129e3510d8f": {
+    "text": "2006",
+    "input_tokens": 449,
+    "output_tokens": 4,
+    "latency_ms": 344.98987200004194,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "f8bf2742d20f8388d232cf382bb41de3d98b3e7c3dd86a7ffdcdf8a8556e3ebc": {
+    "text": "May 15, 2009",
+    "input_tokens": 450,
+    "output_tokens": 10,
+    "latency_ms": 516.6459100000793,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "947323265a55cadae8c1f965ec8f98468bb677d8fd300555ec8e10e25abf8b25": {
+    "text": "2006",
+    "input_tokens": 450,
+    "output_tokens": 4,
+    "latency_ms": 454.7044900000401,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "c356e392a780a8f5c3c273664c03c3679b8cc6e232da281e9f79c67c32ab25c4": {
+    "text": "May 15, 2009",
+    "input_tokens": 449,
+    "output_tokens": 10,
+    "latency_ms": 10636.70791200002,
+    "attempts": 2,
+    "finish_reason": "STOP"
+  },
+  "ca189fb4ed1669eca62eeeceae48df815efcedb56151372a03ca7f6e528b6462": {
+    "text": "Mary Astor",
+    "input_tokens": 509,
+    "output_tokens": 2,
+    "latency_ms": 59763.537542999984,
+    "attempts": 2,
+    "finish_reason": "STOP"
+  },
+  "7a7ecaceba7dd65072e76c9daaf787d00369df8fff0311af4847879b0c63163c": {
+    "text": "I am sorry, but the provided reference context does not contain the answer to your question.",
+    "input_tokens": 516,
+    "output_tokens": 18,
+    "latency_ms": 6286.634492999838,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "98d47ff2bd9d0db24141d1061c954a67c10fce64874cc8865916497ec9cbbc17": {
+    "text": "I am sorry, but the provided reference context does not contain the answer to this question.",
+    "input_tokens": 515,
+    "output_tokens": 18,
+    "latency_ms": 1714.6517799997127,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "5b4b1ad82106220dbb5991926107e7181b38004ce080fc1b3a7a8097f3a2ec03": {
+    "text": "I am sorry, but the provided reference context does not contain the answer to your question.",
+    "input_tokens": 516,
+    "output_tokens": 18,
+    "latency_ms": 16926.435418999972,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "dc17e52619b782bc00267387494567f5352b6a6ca6a3dc1ba713344b89fc0a09": {
+    "text": "Based on the provided context, there is no mention of \"Childe Byron\" or how Ada Lovelace was related to Lord Byron.",
+    "input_tokens": 498,
+    "output_tokens": 27,
+    "latency_ms": 559.1807540004083,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "a632675d55a1af54c79b6799e25f9ea70ea887db8a0477f64bfff958066d613f": {
+    "text": "I am sorry, but the provided reference context does not contain information about \"Childe Byron\" or how Ada Lovelace was related to Lord Byron within that context.",
+    "input_tokens": 498,
+    "output_tokens": 33,
+    "latency_ms": 546.8033390002347,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "470b62f36720f86b1e3204032fb71745f02d288d73173c2f82a96fc7ecc96995": {
+    "text": "I am sorry, but the provided reference context does not contain information about \"Childe Byron\" or how Ada Lovelace was related to Lord Byron in it.",
+    "input_tokens": 498,
+    "output_tokens": 32,
+    "latency_ms": 456.2362110000322,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "4f6276760b1dd5eba0107266cd2fd42ceb2d9857f84ddfdf62194b218f24e120": {
+    "text": "I am sorry, but the provided reference context does not contain information to answer this question.",
+    "input_tokens": 496,
+    "output_tokens": 18,
+    "latency_ms": 11014.488139999685,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "59e90fdf56ef2ba916923d0ac8447dcadfd355e588f90424957d7e51c5d41eba": {
+    "text": "Emilia Fox",
+    "input_tokens": 387,
+    "output_tokens": 3,
+    "latency_ms": 607.8871970003092,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "43e8f6517b2f00e052a6c4371cb361f18607b3ba853845ce572008918cd1c27d": {
+    "text": "I am sorry, but the provided reference context does not contain the answer to the question.",
+    "input_tokens": 386,
+    "output_tokens": 18,
+    "latency_ms": 516.4408340001501,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "3c9cb914de26c6132e895aa3d8d14f2d9e6dc156bab5edf8c3bd71f66b651fd6": {
+    "text": "I am sorry, but the provided reference context does not contain the answer to the question.",
+    "input_tokens": 389,
+    "output_tokens": 18,
+    "latency_ms": 496.77001899999595,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "c3396c564fb356135c22a12a0a4e12d92f984e57bd2b98658df2296d5c6c054b": {
+    "text": "I am sorry, but the provided reference context does not contain information about \"Flashbacks of a Fool\" or which cast member of that work was educated at Bryanston School.",
+    "input_tokens": 388,
+    "output_tokens": 35,
+    "latency_ms": 590.4037010000138,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "7714e184fc198c9eaab1edd02dc5f09ae75c7dddd1ddb8c969486c293d7cffa9": {
+    "text": "Miles Fitzalan-Howard, 17th Duke of Norfolk",
+    "input_tokens": 539,
+    "output_tokens": 13,
+    "latency_ms": 531.5720009998586,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "81fce550156fb3f151af3710e182c726d267863b8bb1d08d9de40eba07684dbd": {
+    "text": "Miles Fitzalan-Howard, 17th Duke of Norfolk",
+    "input_tokens": 539,
+    "output_tokens": 13,
+    "latency_ms": 554.41651000001,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "35ff629e2fa901d3c72b808a9ae68c0813605d24a31bb511939ba24f3ba98831": {
+    "text": "Miles Fitzalan-Howard, 17th Duke of Norfolk",
+    "input_tokens": 544,
+    "output_tokens": 13,
+    "latency_ms": 615.1318070001253,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "e72b192032f9214bc8522afa40deba7552f9285fb264de6ad5a9adad32f91815": {
+    "text": "Miles Fitzalan-Howard, 17th Duke of Norfolk",
+    "input_tokens": 541,
+    "output_tokens": 13,
+    "latency_ms": 525.3766669998186,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "2ae0b0441dd11a679ce13190cf6b5b03b1037a66aff2f708742e1eb10ec6fd6b": {
+    "text": "Port Moresby, Papua New Guinea",
+    "input_tokens": 460,
+    "output_tokens": 8,
+    "latency_ms": 734.5091120000689,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "410131758bf77dfe82535052a1260c9017d7f79071520071e52adf505b4773a6": {
+    "text": "Port Moresby, Papua New Guinea",
+    "input_tokens": 461,
+    "output_tokens": 8,
+    "latency_ms": 1448.8159980001,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "fee066e4e1a7d897df0927d4ee8bcfb228773762982b8282953b19d4973658c6": {
+    "text": "Port Moresby, Papua New Guinea",
+    "input_tokens": 465,
+    "output_tokens": 8,
+    "latency_ms": 818.4861220001949,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "0b37a2d6ff56875e26cad764d1f35a44f2ba13ad3ab85408a1e430173116abcb": {
+    "text": "Ngadi Chuli",
+    "input_tokens": 376,
+    "output_tokens": 4,
+    "latency_ms": 31446.976382999765,
+    "attempts": 2,
+    "finish_reason": "STOP"
+  },
+  "7d67711def5448427c822ed86a03eb67c4eb8c71e07fb6bbcc1c33d3aacc6e9f": {
+    "text": "Ngadi Chuli",
+    "input_tokens": 377,
+    "output_tokens": 4,
+    "latency_ms": 6644.9537160001455,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "096d010574eaa9c6ee3a40e7f8936eb33d4ac0e083ef3fe10cc69fd0f22e1d0f": {
+    "text": "Ngadi Chuli",
+    "input_tokens": 372,
+    "output_tokens": 4,
+    "latency_ms": 7507.043500999771,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "fdb8b8a1d08277f8872def0f1313e34beb394711253ab4c0a4a6a94f4a95b05c": {
+    "text": "Ngadi Chuli",
+    "input_tokens": 378,
+    "output_tokens": 4,
+    "latency_ms": 553.1144639999184,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "d613ecef2781fdcc3221b6a0524f2a3c27381493bed60e9891df9a671802f393": {
+    "text": "I am sorry, but the provided reference context does not contain information about the divisions that make up the company of the wealthiest person in Georgia.",
+    "input_tokens": 559,
+    "output_tokens": 28,
+    "latency_ms": 14564.483146999919,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "8e06fd6f0d6da25d03078f628e91dc9a3bbc896d2e363c147f83efffd3a9c753": {
+    "text": "I am sorry, but the provided reference context does not contain information about the divisions that make up the company of the wealthiest person in Georgia.",
+    "input_tokens": 562,
+    "output_tokens": 28,
+    "latency_ms": 577.0338769998489,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "cfe6bc87161956162d39ae1c600dd2297a56ea32851c43a7be5d2378298a6093": {
+    "text": "newspapers, television, radio, cable television",
+    "input_tokens": 561,
+    "output_tokens": 9,
+    "latency_ms": 31565.86964799999,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "a743e719ceffe4c83ca74c5bc9cdd91aa216abfd8e00cf4a16dbc2e67a8643d0": {
+    "text": "newspapers, television, radio, cable television",
+    "input_tokens": 563,
+    "output_tokens": 9,
+    "latency_ms": 477.50092899968877,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "b932e1b164dcb0c318633b49a63357eeffa797345011b6fed131bc2f5f244065": {
+    "text": "Based on the provided context, there is no mention of an Irish county.",
+    "input_tokens": 404,
+    "output_tokens": 15,
+    "latency_ms": 623.1755789999625,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "c0f9b8d8eb61f99ac65bf04a34c164e4a67a910142919655a0120e19ef1d1611": {
+    "text": "To answer the question based *only* on the provided reference context, no information is given about the Irish county of the band (The Corrs).",
+    "input_tokens": 404,
+    "output_tokens": 30,
+    "latency_ms": 19230.738454999937,
+    "attempts": 3,
+    "finish_reason": "STOP"
+  },
+  "c4599d2faf5d8d2e7f10014b01c5f62269ca3805d2bae8d2f74bc7fe90251f43": {
+    "text": "To answer the question based *only* on the provided reference context: the context states that The Corrs are an \"Irish band,\" but it **does not** mention what Irish *county* they are from. Therefore, the information is not present in the text.",
+    "input_tokens": 404,
+    "output_tokens": 54,
+    "latency_ms": 631.8389879997994,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "755296bbc21a722698ed017d87c599b768b721c55f62296d72982b3011a52a11": {
+    "text": "Based on the provided context, there is no mention of the Irish county for the band that had the In Blue Tour.",
+    "input_tokens": 407,
+    "output_tokens": 24,
+    "latency_ms": 532.464212999912,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "838b3d5c6a1e34888dfb613a342a57a5192c7bf141b5211c574d831ff1f39e8f": {
+    "text": "Westfield Old Orchard",
+    "input_tokens": 341,
+    "output_tokens": 4,
+    "latency_ms": 521.9942570001876,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "ced9cb0c0845d76a203acaf5a14412ceee4c7e81f53c2b60d730ba5cb0ac849f": {
+    "text": "Westfield Old Orchard",
+    "input_tokens": 341,
+    "output_tokens": 4,
+    "latency_ms": 342.30099599972164,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "ef67206b7b46035306aebb566c17f9391644778bf66715a6e6ddc3f63b84e210": {
+    "text": "Westfield Old Orchard",
+    "input_tokens": 342,
+    "output_tokens": 4,
+    "latency_ms": 487.06713999990825,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "c147a51755c297ce29da040d827c08225a917e8022529806e35b46bb167f2ad0": {
+    "text": "Westfield Old Orchard",
+    "input_tokens": 343,
+    "output_tokens": 4,
+    "latency_ms": 630.3448609996849,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "b378fc710c0d3a93be94b7568d44fe00988fbf0e2f096e8a4f5928f52aba4334": {
+    "text": "To answer the question based only on the provided context, the year the essay was first published is not mentioned.",
+    "input_tokens": 369,
+    "output_tokens": 22,
+    "latency_ms": 537.763009000173,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "62c2373dc84ea8489b2b161fea053f3407129e6b643cbfdd7fde6ba0cdaa802e": {
+    "text": "1903",
+    "input_tokens": 364,
+    "output_tokens": 4,
+    "latency_ms": 359.3338809996567,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "06dc9e35e5311694bbc240ed9fc85f3e3c614d89cbbff78fec46279239e4c190": {
+    "text": "1903",
+    "input_tokens": 362,
+    "output_tokens": 4,
+    "latency_ms": 34781.79206799996,
+    "attempts": 2,
+    "finish_reason": "STOP"
+  },
+  "a279477e6aa63bb24acae8643cebaf8ad164993d052611c12e53932bd04ba233": {
+    "text": "1903",
+    "input_tokens": 364,
+    "output_tokens": 4,
+    "latency_ms": 700.5798019999929,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "7834e34b552c41aeba6a282e2351eaff057ae00b1daa4d561ae4c9e8dd8a61c8": {
+    "text": "I am sorry, but the provided reference context does not contain information to answer whether Ohio State University or California State University, Dominguez Hills is further west.",
+    "input_tokens": 353,
+    "output_tokens": 30,
+    "latency_ms": 81229.80931400025,
+    "attempts": 2,
+    "finish_reason": "STOP"
+  },
+  "570acc580a5440befea1078a07faaafdd9f9c409e2feb90d31fb23044070193f": {
+    "text": "I cannot answer this question because the reference context does not contain information about California State University, Dominguez Hills.",
+    "input_tokens": 350,
+    "output_tokens": 21,
+    "latency_ms": 666.0495789997185,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "6a70b17d1016c660b60310e3ef1ca1666d455e4a6112ac00b252e63fb94eca12": {
+    "text": "I am sorry, but the provided reference context does not contain information about California State University, Dominguez Hills.",
+    "input_tokens": 352,
+    "output_tokens": 21,
+    "latency_ms": 482.26392300011867,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "e0dd958a81a4ab8a78b150a7b19359389a921fa240b84aeec1399d2ec3307aac": {
+    "text": "I cannot answer this question based on the provided reference context.",
+    "input_tokens": 351,
+    "output_tokens": 12,
+    "latency_ms": 578.6805200000344,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "e596f07b344e00ec4f4ec3d9e3041067698dde10246cb6e7819beed6184b19c4": {
+    "text": "EBay",
+    "input_tokens": 419,
+    "output_tokens": 2,
+    "latency_ms": 691.4774459996806,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "0b22aba5dd366e6cb9195e7eb92541bf81605dab3a0b84d231f4e5d88388ffd7": {
+    "text": "EBay",
+    "input_tokens": 418,
+    "output_tokens": 2,
+    "latency_ms": 5821.644230999937,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "ebfce947b7b9517214d5adf7f757027f1e34e0f30d4eebf8135c9a690f98c6f6": {
+    "text": "EBay",
+    "input_tokens": 416,
+    "output_tokens": 2,
+    "latency_ms": 661.752162999619,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "20946d332ebdf47ac5fb63ca917040c8ebea40c3d790601d4c7a61726ba05864": {
+    "text": "EBay",
+    "input_tokens": 419,
+    "output_tokens": 2,
+    "latency_ms": 12839.808823000112,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "216a70549a0626244df90738d07243accf5691b7500dcd73db21a9ab0c94ede6": {
+    "text": "hound",
+    "input_tokens": 444,
+    "output_tokens": 1,
+    "latency_ms": 496.8572130001121,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "1b4baf98cb74308df01a5711520e77a410d6f06b704383682bd8081cf3a0163f": {
+    "text": "Basset Bleu de Gascogne",
+    "input_tokens": 448,
+    "output_tokens": 7,
+    "latency_ms": 59913.014989999734,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "bfe6f853200e67b5775bb1d899edb3060fb722cfec80603e25822c9c16b85f07": {
+    "text": "hound type",
+    "input_tokens": 442,
+    "output_tokens": 2,
+    "latency_ms": 2223.9265749999504,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "6db88cfc4ce55d9597dac55b47b7bb6dd7f0858b38524e5f9935d4d7667f307d": {
+    "text": "hound type",
+    "input_tokens": 444,
+    "output_tokens": 2,
+    "latency_ms": 549.0914090000842,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "28b72d5fdb73b93c4415ccfec1811e2a6ce0bbd0d9c1f81cf582356614d9806d": {
+    "text": "Charles Lutwidge Dodgson",
+    "input_tokens": 573,
+    "output_tokens": 6,
+    "latency_ms": 2004.8730260000411,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "857fc2b56d75e1086dc9ca8ced857525c6c2f4f3f975aecc616b54d4dec09436": {
+    "text": "Charles Lutwidge Dodgson",
+    "input_tokens": 561,
+    "output_tokens": 6,
+    "latency_ms": 615.1868080000895,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "ea591f377eb97d0838dae0b358989d8b790884ae2e9cd29d235ea6454b019e94": {
+    "text": "Charles Lutwidge Dodgson",
+    "input_tokens": 573,
+    "output_tokens": 6,
+    "latency_ms": 491.9725150002705,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "a366455a0425e1c207b45c2e049bc0c0e8c6f6e5842e008b7c4512bc2072f28f": {
+    "text": "I am sorry, but the provided reference context does not contain information to determine which town is larger.",
+    "input_tokens": 382,
+    "output_tokens": 20,
+    "latency_ms": 9324.129268999968,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "93545690cb3bee94c07fcb5a333f0644be86115e310f50f24d0d2c1fac4e1ea2": {
+    "text": "Port Macquarie",
+    "input_tokens": 380,
+    "output_tokens": 2,
+    "latency_ms": 4407.377460999669,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "0f67a5d6e7938ed1cba56d64499ff10d82d4c0e578b0b9e39537c746c7fcc147": {
+    "text": "Port Macquarie",
+    "input_tokens": 388,
+    "output_tokens": 2,
+    "latency_ms": 440.11881899996297,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "eabc1e5d8049eeed55024f261378a90c98f85f113e68e54fd54dca1b493c5457": {
+    "text": "Based on the provided reference context, there is no mention of any league whose start date was pushed back.",
+    "input_tokens": 625,
+    "output_tokens": 21,
+    "latency_ms": 621.2930229999074,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "59bd01f3d5d67d02752b9fd5e80eb498c6d587cd85c09ae833df15ab245e5fb8": {
+    "text": "Not mentioned in the reference context.",
+    "input_tokens": 622,
+    "output_tokens": 7,
+    "latency_ms": 1366.8082399999548,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "405031452e3d3dbbb972ce1a27450283eac10cca71781bede691f77727b6a39c": {
+    "text": "Not mentioned",
+    "input_tokens": 628,
+    "output_tokens": 2,
+    "latency_ms": 18641.567550999753,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "e67ab7e30dd792560db9b371390ad730edbceaffb28af1469765eab48347464c": {
+    "text": "I am sorry, but the provided reference context does not contain the answer to the question.",
+    "input_tokens": 628,
+    "output_tokens": 18,
+    "latency_ms": 621.1285340000359,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "fafd6bd1bb5f2ec9894ed93f3a831a3c09bf522d5309ee88dfe7b0c4a30e49c1": {
+    "text": "I am sorry, but the provided reference context does not contain the answer to your question.",
+    "input_tokens": 667,
+    "output_tokens": 18,
+    "latency_ms": 2147.5890780002374,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "eadab0cbf3510654872dbe09b070ada72fefda5bf99b5b410952f91a5feb899d": {
+    "text": "I am sorry, but the provided reference context does not contain information to answer this question.",
+    "input_tokens": 658,
+    "output_tokens": 18,
+    "latency_ms": 542.7365450000252,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "d977aa08846923238c771eec5212a348bb75df1578b1ebe67adde93854b7b0ca": {
+    "text": "I am sorry, but the provided reference context does not contain the answer to your question.",
+    "input_tokens": 667,
+    "output_tokens": 18,
+    "latency_ms": 438.0173869999453,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "f74e32b99402dd0f1cef6d791b07fc58fe05977bf27f21b9183d12d1162c24e6": {
+    "text": "Ryerson University",
+    "input_tokens": 334,
+    "output_tokens": 3,
+    "latency_ms": 14877.69282599993,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "869b30bbe8da80a074a738fe5267588fae715542edc0347bb1bb79e9afc27610": {
+    "text": "Ryerson",
+    "input_tokens": 334,
+    "output_tokens": 2,
+    "latency_ms": 445.16349600007743,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "762a1a38b85cbd9e4df166e49c425aaa6c9cb7cb52e05eb56d63d10ea7ecca23": {
+    "text": "Ryerson University",
+    "input_tokens": 342,
+    "output_tokens": 3,
+    "latency_ms": 429.47650599990084,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "cec68edf5110aace23ff13008a5f3dbb84d28692d90e39f3a8dd0ee7a413731c": {
+    "text": "Ryerson University",
+    "input_tokens": 334,
+    "output_tokens": 3,
+    "latency_ms": 11309.382751999692,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "9190efb9aef3522cf6ae18972a4c2e9182948946f2823fc952378b05aee3c2fd": {
+    "text": "Billy Vaughn",
+    "input_tokens": 422,
+    "output_tokens": 2,
+    "latency_ms": 627.4824710003486,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "d9ed52e759b47d6dc0e8627168effb82fa1adf941928f57eeee02826ef7110cf": {
+    "text": "Billy Vaughn",
+    "input_tokens": 408,
+    "output_tokens": 2,
+    "latency_ms": 1826.014707000013,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "42d69ebedb67be53641cb651e54c0936479e9fc3ca138f7de57787879fd09807": {
+    "text": "Billy Vaughn",
+    "input_tokens": 416,
+    "output_tokens": 2,
+    "latency_ms": 8022.091860000273,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "acd2e77bc30e8be9eb6b8a550233e2c9a375bb34ba7f9e82b94ee7685b2dada4": {
+    "text": "Billy Vaughn",
+    "input_tokens": 416,
+    "output_tokens": 2,
+    "latency_ms": 374.8522209998555,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "d50ffb450c2ca8d9bd838efd9c5b2b6395dc15065cb9203ad48aa709ab498442": {
+    "text": "I am sorry, but the provided reference context does not contain information about Monique Wittig.",
+    "input_tokens": 449,
+    "output_tokens": 18,
+    "latency_ms": 501.6944449998846,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "b3d309e3a3bf75ab683cc7ed8c6aa51e8ad211f9e3c9273aac9c14f2bebfc577": {
+    "text": "I am sorry, but the provided reference context does not contain information about Monique Wittig, so I cannot answer this question using only the reference context.",
+    "input_tokens": 449,
+    "output_tokens": 30,
+    "latency_ms": 450.3677279999465,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "020d04f5c250cbc93224483b290d4a1103ef37d63f1cb9625aa0df569eb63dbd": {
+    "text": "Lincoln Steffens",
+    "input_tokens": 449,
+    "output_tokens": 3,
+    "latency_ms": 6864.941058000113,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "316d852963bdac9d934f6e7632820e7dc621832a7485691c891aee4c3864eeb8": {
+    "text": "I am sorry, but the provided reference context does not contain information about Monique Wittig to answer this question.",
+    "input_tokens": 449,
+    "output_tokens": 22,
+    "latency_ms": 7000.29890299993,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "98bb217c96a86c667455914f72b5a5f4594014be4019c8d25ac7a75cc67e06eb": {
+    "text": "Dutch",
+    "input_tokens": 481,
+    "output_tokens": 1,
+    "latency_ms": 399.9498670000321,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "eb28cecf861bbaa12509a7f2485cc18e8e48156ef119a7a2fc9a7e85b0cdfa35": {
+    "text": "Netherlands",
+    "input_tokens": 484,
+    "output_tokens": 1,
+    "latency_ms": 538.7525609999102,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "89f994985386555fe7d0fbc5aaf1263a4c88b33ea81137e7a08688a315b77c3d": {
+    "text": "Netherlands",
+    "input_tokens": 479,
+    "output_tokens": 1,
+    "latency_ms": 479.6818989998428,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "8680e1aa2e7827fffec27a8978369082348bb2b59ee2da7e55e36e06dda1afca": {
+    "text": "Dražen Petrović",
+    "input_tokens": 451,
+    "output_tokens": 5,
+    "latency_ms": 367.6852879998478,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "0383ada4a5cbc1212c895d564de957c41a5b01c4136d91178abec0b0e9d073da": {
+    "text": "Dražen Petrović",
+    "input_tokens": 449,
+    "output_tokens": 5,
+    "latency_ms": 7955.188336999981,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "8752a8d577f1c99bdede5ea18fd8e65db5630f3fb0072e75e12f18b01bcbb7cd": {
+    "text": "Dražen Petrović",
+    "input_tokens": 454,
+    "output_tokens": 5,
+    "latency_ms": 410.56903499975306,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "db575deccc1671724d7d41574981e73ac1979a51788bde1e4b090c8708d1d188": {
+    "text": "Dražen Petrović",
+    "input_tokens": 452,
+    "output_tokens": 5,
+    "latency_ms": 8171.69841499981,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "c5e531d4f37b79e23d53996546973330fb26de5293464cccff2cf385402906a9": {
+    "text": "September 30, 2009",
+    "input_tokens": 467,
+    "output_tokens": 10,
+    "latency_ms": 8769.619920999958,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "04195aeb9e1b342a56a0b61456bc9bc29295caf69b225e311d206745cc20291f": {
+    "text": "September 30, 2009",
+    "input_tokens": 467,
+    "output_tokens": 10,
+    "latency_ms": 9404.574307000075,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "69640fab3da3a619c6fc54334e8ee01b27c871214b455807ec609973681f50be": {
+    "text": "September 30, 2009",
+    "input_tokens": 467,
+    "output_tokens": 10,
+    "latency_ms": 531.244044000232,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "1b9510660681a02b4f184226eebce4a1cf4effea5afbb4771c9110868e3a3a12": {
+    "text": "I am sorry, but the provided reference context does not contain the answer to your question.",
+    "input_tokens": 512,
+    "output_tokens": 18,
+    "latency_ms": 1024.3741709996357,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "7db0545671afa1d7ef83c5ea73cfa368501e1bc1e1878d54b6ab0d5ed9e545b5": {
+    "text": "I am sorry, but the provided text does not contain the answer to your question.",
+    "input_tokens": 521,
+    "output_tokens": 17,
+    "latency_ms": 479.8973990000377,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "9714ec43736e1ebb858fa4073a24c39449f23a2e400a45b39d60f7e76f0d3b2b": {
+    "text": "Not mentioned in the reference context.",
+    "input_tokens": 518,
+    "output_tokens": 7,
+    "latency_ms": 8798.942756000088,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "1c6c4fffd185c82c57edf12308def744ba9bd131386a8d265c7f1732b0c36952": {
+    "text": "I am sorry, but the provided reference context does not contain the answer to your question.",
+    "input_tokens": 521,
+    "output_tokens": 18,
+    "latency_ms": 6801.2420730001395,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "730297a846121c99dcd38859a775c559888c26466d0213581af910493ef4d043": {
+    "text": "Krusty",
+    "input_tokens": 438,
+    "output_tokens": 2,
+    "latency_ms": 420.3504819997761,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "cc71e03f8c0d212e095f895180f88f0830e6debc47c13ed078bff810c40dcba0": {
+    "text": "Krusty the Clown",
+    "input_tokens": 438,
+    "output_tokens": 4,
+    "latency_ms": 508.6704449995523,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "1bca1b00db14449c080e27db53c11de14d24d90997ccc065e649f3f59b968af5": {
+    "text": "Krusty the Clown",
+    "input_tokens": 439,
+    "output_tokens": 4,
+    "latency_ms": 478.35878500018225,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "c319f34342ce765e5d4c039bf34c293dda540120e1ce5c3958a4dad3e9b125cd": {
+    "text": "Krusty the Clown",
+    "input_tokens": 438,
+    "output_tokens": 4,
+    "latency_ms": 437.23018699984095,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "539b4267aef76d05b429ab639f803cd63b0af0b8898ee7f6bc722bb6f812a784": {
+    "text": "Spider-Man",
+    "input_tokens": 523,
+    "output_tokens": 3,
+    "latency_ms": 7832.163584000227,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "366a9a6134282894866b2f69dac5de49af90aa38e1ffce939106b1f9f634100b": {
+    "text": "Spider-Man",
+    "input_tokens": 534,
+    "output_tokens": 3,
+    "latency_ms": 338.9350400002513,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "c6a1091b812cc632d45aad333b4270d649451ea72f219a40726281220fbaa1a7": {
+    "text": "Spider-Man",
+    "input_tokens": 523,
+    "output_tokens": 3,
+    "latency_ms": 531.852718999744,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "160dd451e925dd0e891c2a403fcc0abb360a1761acfff1e41e5b800f0992a8d0": {
+    "text": "Spider-Man",
+    "input_tokens": 532,
+    "output_tokens": 3,
+    "latency_ms": 407.71755700006906,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "206927cdd315bacd366aa35d0dba8997e7618bb0c1c0484c8648a6e6cb488b9e": {
+    "text": "Based on the provided reference context, there is no mention of the year Ezzo's brother-in-law died.",
+    "input_tokens": 533,
+    "output_tokens": 25,
+    "latency_ms": 562.4733079998805,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "f1950384b43f9ab571c61d130903bd03d95abe0a6d4e044e0d011fdb369135f8": {
+    "text": "I am sorry, but the provided reference context does not contain the year Emperor Otto III died.",
+    "input_tokens": 532,
+    "output_tokens": 19,
+    "latency_ms": 7625.744717000089,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "12c9061bb7553e8055da7ccd68abae2a8254ffadbd67b4b163e9a25a3cbf5108": {
+    "text": "I am sorry, but the provided reference context does not contain the death year of Ezzo's brother-in-law (Emperor Otto III).",
+    "input_tokens": 532,
+    "output_tokens": 31,
+    "latency_ms": 12412.060556000142,
+    "attempts": 2,
+    "finish_reason": "STOP"
+  },
+  "6c4bc24e9e7d52d0adac3ea4b88ff991ef59e97a3c4c0a522c5d5e765d29946c": {
+    "text": "Based on the provided context, there is no mention of the death year of Ezzo's brother-in-law (Emperor Otto III).",
+    "input_tokens": 532,
+    "output_tokens": 30,
+    "latency_ms": 80504.74570000006,
+    "attempts": 2,
+    "finish_reason": "STOP"
+  },
+  "a014cc4bf5f30a59ccf1d10cdb130bc688ee220166721854fbb18fc66fd0692e": {
+    "text": "Hookend Recording Studios",
+    "input_tokens": 423,
+    "output_tokens": 4,
+    "latency_ms": 598.9314620001096,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "09e1235f3aa6c52bf01663177192a260bd4d7ab473f8f0a73bccf4d3e393b806": {
+    "text": "Hookend Recording Studios",
+    "input_tokens": 422,
+    "output_tokens": 4,
+    "latency_ms": 6347.206175999872,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "30cec0ed4fccaae68edc96b7b48f9020bfbf7bc0c982ce6a96666cd9d8b0e9a4": {
+    "text": "UK",
+    "input_tokens": 418,
+    "output_tokens": 1,
+    "latency_ms": 432.90322000029846,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "640523150fc35f8cf9e3ac9f938e2a77ef3d575083c0a41a1cab3ddd3eb7342b": {
+    "text": "Eddie \"The Eagle\" Edwards",
+    "input_tokens": 529,
+    "output_tokens": 6,
+    "latency_ms": 64444.38301699984,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "9b73cd79a754d8760e89cef09f5088184a853efb8940ccfa3eae81cba314b573": {
+    "text": "Eddie \"The Eagle\" Edwards",
+    "input_tokens": 535,
+    "output_tokens": 6,
+    "latency_ms": 640.3735559997585,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "42deec9504d0fa5087ba5ec850b6a0341bf5c52e7c76f409e7980ff545c4a841": {
+    "text": "Eddie \"The Eagle\" Edwards",
+    "input_tokens": 528,
+    "output_tokens": 6,
+    "latency_ms": 3986.477210999965,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "57d85eadfbd4999e263095efce7e2f5c9ffb17cf8f8341eb4b035b01de45fc8d": {
+    "text": "Eddie \"The Eagle\" Edwards",
+    "input_tokens": 534,
+    "output_tokens": 6,
+    "latency_ms": 560.0705920001019,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "a1aa3726a1f989e324fdf6c2270496327cad98123325da958a843708f8944df1": {
+    "text": "Queens, New York",
+    "input_tokens": 546,
+    "output_tokens": 4,
+    "latency_ms": 436.446831000012,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "4f336c1ef1188f6f153777d5998fbd321d978371d6afe256e6838e8dba7a31aa": {
+    "text": "Queens, New York",
+    "input_tokens": 539,
+    "output_tokens": 4,
+    "latency_ms": 467.5881249995655,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "b407c4afd19235e722798b25f3045178e727587d1b51548dc8c469ca21fb550d": {
+    "text": "Queens, New York",
+    "input_tokens": 546,
+    "output_tokens": 4,
+    "latency_ms": 478.4206969998195,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "ac6ce4413c3ceafc04c37e878eab82da040ad76fe600ac1982335a2f7647cfb8": {
+    "text": "Queens, New York",
+    "input_tokens": 542,
+    "output_tokens": 4,
+    "latency_ms": 12577.112216999922,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "614d1f3662892f51aba5d2c2de2aee9abd54b61da54e91a08ee707452b823784": {
+    "text": "John Morgan",
+    "input_tokens": 384,
+    "output_tokens": 2,
+    "latency_ms": 811.253700999714,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "4bb6a70584715a79f6f746a78847dea3197f3158042da30e03795b0a085330a2": {
+    "text": "John Morgan",
+    "input_tokens": 385,
+    "output_tokens": 2,
+    "latency_ms": 629.7872199997983,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "e3d46ab71472a8dd5b1c734e1b14d7fd0ebafd6dc5e63c9733d40dc434b3bc07": {
+    "text": "John Morgan",
+    "input_tokens": 383,
+    "output_tokens": 2,
+    "latency_ms": 426.5119790002245,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "5dfc20ea1d4b86d7861c131b02cf927973f29a28d2ee7736c4bb23a5313d9418": {
+    "text": "John Morgan",
+    "input_tokens": 385,
+    "output_tokens": 2,
+    "latency_ms": 468.9551080000456,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "2b51f9f318a3350c8243de7b016a49615a458e2ab1879003ece823055d04864b": {
+    "text": "Hershey",
+    "input_tokens": 391,
+    "output_tokens": 2,
+    "latency_ms": 370.9004020001885,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "e9db76e6e3172e17b70135b1ddba3840918fdefff75232aa16877ffcd08a331b": {
+    "text": "I am sorry, but the provided reference context does not contain information about the city where the winning team of the 1997 Calder Cup playoffs is based.",
+    "input_tokens": 401,
+    "output_tokens": 33,
+    "latency_ms": 426.57910700017965,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "29bd070fc05ff9afd8add9bbcb64ca3835d30148498a2e1bebdb2f9b9e0c94cf": {
+    "text": "Hershey",
+    "input_tokens": 398,
+    "output_tokens": 2,
+    "latency_ms": 422.38154899996516,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "f95e365e8203c5ce642e7b13b075e3f5c366fb0850d6249bebd64399bf074a6d": {
+    "text": "I am sorry, but the provided reference context does not contain information about the city where the winning team of the 1997 Calder Cup playoffs is based.",
+    "input_tokens": 401,
+    "output_tokens": 33,
+    "latency_ms": 498.505570999896,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "a3d478b820012e4ed926f281df56304f4a86fbe241dac1001ce65c68907d9b9a": {
+    "text": "Daniel Inouye",
+    "input_tokens": 611,
+    "output_tokens": 4,
+    "latency_ms": 502.2878069999024,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "d41fc52df04395cbc4845adde18d35f401c767e439b0b3cfba1a870854aa8af0": {
+    "text": "Daniel Inouye",
+    "input_tokens": 613,
+    "output_tokens": 4,
+    "latency_ms": 387.8063479996854,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "e4e70998c2c216189f274e6e84a89f9e6b0cd8566964ec5210a659e95d210f7d": {
+    "text": "Daniel Inouye",
+    "input_tokens": 613,
+    "output_tokens": 4,
+    "latency_ms": 84792.13177500015,
+    "attempts": 2,
+    "finish_reason": "STOP"
+  },
+  "727b3e007d16f77f78f72fe295092fa69076a5c7d8d1b55e720ea51e09d2294d": {
+    "text": "Daniel Inouye",
+    "input_tokens": 612,
+    "output_tokens": 4,
+    "latency_ms": 21143.639427999915,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "eed4ceeb5d9f455009584029dfffa6fb4226bc10e0ca4613f653f4b9f0038583": {
+    "text": "Yes",
+    "input_tokens": 500,
+    "output_tokens": 1,
+    "latency_ms": 2750.986245000149,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "8c3c40c708a2a599f0ea631342f4cb00070b9275d9e10491961f51d8dc7d34d7": {
+    "text": "Not mentioned in context",
+    "input_tokens": 502,
+    "output_tokens": 4,
+    "latency_ms": 719.7059469999658,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "11e32fa8ccfc0a1e53b50ef1ee54361b11bb8abdb07f12bf80f93498a8eb4b2e": {
+    "text": "Not provided",
+    "input_tokens": 500,
+    "output_tokens": 2,
+    "latency_ms": 787.4772299996948,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "426d32248de8e0f174eb472a86104db6e97bf3bbeb5e55de22da6b2b6a6eae75": {
+    "text": "Yes",
+    "input_tokens": 496,
+    "output_tokens": 1,
+    "latency_ms": 2920.5579800000123,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "7a86b98aa57e3a31b4179a1e0ba56c3c4ef8fc60ce33ac5acac59799d0dc6ae8": {
+    "text": "Kurt Russell",
+    "input_tokens": 413,
+    "output_tokens": 2,
+    "latency_ms": 22569.50232700001,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "ab53deab79e12c7dd61b2fe3dab0604178ffc5319a31d94fe915d7c2055c8b5a": {
+    "text": "Kurt Russell",
+    "input_tokens": 413,
+    "output_tokens": 2,
+    "latency_ms": 460.56019099978585,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "ac10f4591c0ef1df558febc4576b9895d4c7d72db9747b33c122c4d401bc38a5": {
+    "text": "Kurt Russell",
+    "input_tokens": 405,
+    "output_tokens": 2,
+    "latency_ms": 488.7286339999264,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "e9d74ec45a5e49aeb7e1d75f1a7ac4ddabfba5b17d28c8a89a13a52317869fa3": {
+    "text": "Kurt Russell",
+    "input_tokens": 412,
+    "output_tokens": 2,
+    "latency_ms": 483.7224060001972,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "6769c381db1f1cbc5279423d4fedd6aa2cefb4e4467aeaafb911e08279ca606f": {
+    "text": "Charles Hastings Judd",
+    "input_tokens": 525,
+    "output_tokens": 3,
+    "latency_ms": 545.4456760003268,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "d31055fd1d998dc5452757fea2339d82b51d85cc855842fd7f03a7d9e694ba97": {
+    "text": "Charles Hastings Judd",
+    "input_tokens": 520,
+    "output_tokens": 3,
+    "latency_ms": 591.7123019999053,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "4d007015c7fec2a575a8b2f1f414f4c77524be3636aada7242ed55f124723b32": {
+    "text": "Charles Hastings Judd",
+    "input_tokens": 514,
+    "output_tokens": 3,
+    "latency_ms": 559.5189219998247,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "e3d46729c61d9f449f32afc3ead36cf0e8f4a8f4171461df6b720099f4964652": {
+    "text": "Charles Hastings Judd",
+    "input_tokens": 525,
+    "output_tokens": 3,
+    "latency_ms": 470.1351609996891,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "9831be34ec1cb0be1896534361dd97a41e7d5b1b6311593998cdde0f00d3e0d7": {
+    "text": "Not mentioned",
+    "input_tokens": 377,
+    "output_tokens": 2,
+    "latency_ms": 594.967204999648,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "6f655423e5c662a02bfa37e4cbe724bb060062830328628159127d1b1c818d13": {
+    "text": "Based on the provided context, the text does not contain information about St Paul's Cathedral.",
+    "input_tokens": 374,
+    "output_tokens": 19,
+    "latency_ms": 618.1766690001496,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "cb9661cd2c8fd573d539b42f65b0ca18ecbe46ea0e0e3206c37d83f615b2d0c4": {
+    "text": "Based on the provided context, there is no mention of St Paul's Cathedral.",
+    "input_tokens": 375,
+    "output_tokens": 17,
+    "latency_ms": 596.8177129998367,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "13ea783200a49b5b7cacabc97110c676243eb1d9b2c14ac4f109528eae8d00ef": {
+    "text": "Based on the provided context, the text does not contain any information about St Paul's Cathedral. Therefore, the question cannot be answered using only the reference context.",
+    "input_tokens": 374,
+    "output_tokens": 33,
+    "latency_ms": 415.30741199994736,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "1edc5b77a8344925ca1b767cd3d500f98677083623f23932090573aec042c4e8": {
+    "text": "rock band",
+    "input_tokens": 566,
+    "output_tokens": 2,
+    "latency_ms": 506.1257409997779,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "6de7e8106f1fc0a5bf63f8c7a852a7c22b5bf22dca14e95960b2c7acf72ea723": {
+    "text": "band",
+    "input_tokens": 577,
+    "output_tokens": 1,
+    "latency_ms": 612.7920460003224,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "93bc6a49b4b6c7832b732373e74e4ae9dc5352eb799c0522c251692dd4dcf212": {
+    "text": "band",
+    "input_tokens": 577,
+    "output_tokens": 1,
+    "latency_ms": 373.38424400013537,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  },
+  "571f1532999d3d10888152269287f3bfab9358e9d7900223a3aeeb82eb885d7f": {
+    "text": "rock band",
+    "input_tokens": 574,
+    "output_tokens": 2,
+    "latency_ms": 585.9860300001856,
+    "attempts": 1,
+    "finish_reason": "STOP"
+  }
+}

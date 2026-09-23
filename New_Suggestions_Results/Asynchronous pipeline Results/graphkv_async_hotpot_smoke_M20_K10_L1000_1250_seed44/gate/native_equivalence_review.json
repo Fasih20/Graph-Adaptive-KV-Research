@@ -1,0 +1,11 @@
+{
+  "validated": true,
+  "criterion": "exact native-cache equivalence of returned token log-probabilities",
+  "cases": 3,
+  "native_repeats_per_case": 3,
+  "scope": "tested exact-prefix requests/model/runtime only; not full-distribution or concatenated-RAG proof",
+  "original_gate_passed": false,
+  "gate_hash": "4f21b4a0817184a09fce00d3ce4d8fb173c68832510d0d889872714692f0a31e",
+  "control_hash": "dc89b3fc08c3c156da2ebc9cb93f98083d636dbf6be153a119143e2b1e818131",
+  "validator_sha256": "9a47ee3567ff9be0fe8b4b980e64907047c5fc7f0abfbb62dbd54056ca760315"
+}

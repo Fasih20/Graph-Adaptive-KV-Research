@@ -1,0 +1,4 @@
+run,semantic,structural,eta
+Llama–Hotpot,0.45,0.55,0.01
+Qwen–2Wiki,0.2,0.8,0.01
+Llama–2Wiki,0.25,0.75,0.01

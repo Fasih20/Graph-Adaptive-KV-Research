@@ -1,0 +1,13 @@
+{
+  "events": 18000,
+  "paired_event_groups": 1200,
+  "groups_with_prompt_mismatch": 0,
+  "groups_with_output_mismatch": 0,
+  "requests_with_retrieval_evidence": 13155,
+  "cache_semantics": [
+    "stock_lmcache_exact_prefix_per_chunk_not_cacheblend"
+  ],
+  "mismatches": [],
+  "verdict_scope": "Saved one-token output hashes and prompt parity only; not new numerical GPU gate; not full RAG validation",
+  "recall_note": "Prediction recall is computed from predicted IDs and targets, independent of cache numerical correctness."
+}

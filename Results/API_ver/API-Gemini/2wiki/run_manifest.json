@@ -1,0 +1,24 @@
+{
+  "scientific_config_hash": "67a8d9e27101a61dbb2ccdd70f20081c651bc484906f71acf0d3926aff035e56",
+  "scientific_config": {
+    "version": "1.1.0",
+    "dataset": "2wiki",
+    "dataset_source": "framolfese/2WikiMultihopQA",
+    "model": "gemini-3.5-flash-lite",
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "budget_tokenizer": "Qwen/Qwen2.5-1.5B-Instruct",
+    "n_train": 120,
+    "n_dev": 40,
+    "n_test": 60,
+    "k_values": [
+      10
+    ],
+    "top_m": 5,
+    "max_degree": 100,
+    "context_token_budget": 768,
+    "max_output_tokens": 64,
+    "seed": 42
+  },
+  "api_key_saved": false,
+  "note": "RPM/retry/timeouts are operational and may change safely when resuming."
+}

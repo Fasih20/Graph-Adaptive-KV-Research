@@ -1,0 +1,6 @@
+{
+  "completed_at": 1789925238.563989,
+  "events": 600,
+  "events_path": "arms/policy=no_prefetch/k=10/rep=0/attempt_001/events.jsonl",
+  "run_id": "no_prefetch-k10-r0-607fadec"
+}

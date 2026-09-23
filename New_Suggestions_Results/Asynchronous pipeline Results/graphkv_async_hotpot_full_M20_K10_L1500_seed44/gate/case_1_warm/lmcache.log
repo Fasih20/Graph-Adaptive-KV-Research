@@ -1,0 +1,157 @@
+[32;20m[2026-09-22 08:56:43,483] LMCache INFO:[0m torch_dev=<module 'torch.cuda' from '/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py'>, torch_device_type=cuda [3m(_device_detect.py:312:lmcache.v1.platform._device_detect)[0m
+[32;20m[2026-09-22 08:56:43,483] LMCache INFO:[0m Auto-selected backend [cuda] for accelerator 'cuda' from candidate backends [cuda, rocm]. [3m(__init__.py:148:lmcache.v1.platform)[0m
+
+ _     __  __    ____           _          
+| |   |  \/  |  / ___|__ _  ___| |__   ___      LMCache v0.5.4 (g3e11b8ed)
+| |   | |\/| | | |   / _` |/ __| '_ \ / _ \     Website:  https://lmcache.ai/
+| |___| |  | | | |__| (_| | (__| | | |  __/     Recipes:  https://docs.lmcache.ai/recipes
+|_____|_|  |_|  \____\__,_|\___|_| |_|\___|     LinkedIn: https://www.linkedin.com/company/lmcache-lab
+Set LMCACHE_DISABLE_BANNER=1 to hide this banner.
+
+[32;20m[2026-09-22 08:56:44,603] LMCache INFO:[0m multi_layer_block_kv_transfer mode: ptr [3m(base.py:95:lmcache.v1.multiprocess.transfer_context.base)[0m
+[32;20m[2026-09-22 08:56:49,198] LMCache INFO:[0m Discovered API module: cache_api [3m(router_discovery.py:53:lmcache.v1.utils.router_discovery)[0m
+[32;20m[2026-09-22 08:56:49,199] LMCache INFO:[0m Discovered API module: env_api [3m(router_discovery.py:53:lmcache.v1.utils.router_discovery)[0m
+[32;20m[2026-09-22 08:56:49,201] LMCache INFO:[0m Discovered API module: loglevel_api [3m(router_discovery.py:53:lmcache.v1.utils.router_discovery)[0m
+[32;20m[2026-09-22 08:56:49,201] LMCache INFO:[0m Discovered API module: metrics_api [3m(router_discovery.py:53:lmcache.v1.utils.router_discovery)[0m
+[32;20m[2026-09-22 08:56:49,204] LMCache INFO:[0m Discovered API module: periodic_thread_api [3m(router_discovery.py:53:lmcache.v1.utils.router_discovery)[0m
+[32;20m[2026-09-22 08:56:49,205] LMCache INFO:[0m Discovered API module: run_script_api [3m(router_discovery.py:53:lmcache.v1.utils.router_discovery)[0m
+[32;20m[2026-09-22 08:56:49,206] LMCache INFO:[0m Discovered API module: thread_api [3m(router_discovery.py:53:lmcache.v1.utils.router_discovery)[0m
+[32;20m[2026-09-22 08:56:49,210] LMCache INFO:[0m Discovered API module: common_api [3m(router_discovery.py:53:lmcache.v1.utils.router_discovery)[0m
+[32;20m[2026-09-22 08:56:49,211] LMCache INFO:[0m Discovered API module: config_api [3m(router_discovery.py:53:lmcache.v1.utils.router_discovery)[0m
+[32;20m[2026-09-22 08:56:49,215] LMCache INFO:[0m Discovered API module: info_api [3m(router_discovery.py:53:lmcache.v1.utils.router_discovery)[0m
+[32;20m[2026-09-22 08:56:49,218] LMCache INFO:[0m Discovered API module: quota_api [3m(router_discovery.py:53:lmcache.v1.utils.router_discovery)[0m
+[32;20m[2026-09-22 08:56:49,222] LMCache INFO:[0m Discovered API module: reconfigure_api [3m(router_discovery.py:53:lmcache.v1.utils.router_discovery)[0m
+[32;20m[2026-09-22 08:56:49,256] LMCache INFO:[0m CudaPinMemoryBackend: using torch cudart [3m(pin_memory.py:89:lmcache.v1.platform.cuda.pin_memory)[0m
+[32;20m[2026-09-22 08:56:49,258] LMCache INFO:[0m Starting LMCache HTTP server on http://0.0.0.0:18002 [3m(http_server.py:258:lmcache.v1.multiprocess.http_server)[0m
+INFO:     Started server process [1118]
+INFO:     Waiting for application startup.
+[32;20m[2026-09-22 08:56:49,281] LMCache INFO:[0m Starting LMCache HTTP server... (accelerator available: True) [3m(http_server.py:77:lmcache.v1.multiprocess.http_server)[0m
+[32;20m[2026-09-22 08:56:49,304] LMCache INFO:[0m OTel MeterProvider initialised with Prometheus fallback (standalone metrics HTTP server disabled; /metrics must be exposed by the caller), resource={'telemetry.sdk.language': 'python', 'telemetry.sdk.name': 'opentelemetry', 'telemetry.sdk.version': '1.40.0', 'service.instance.id': 'gate-warm-113609ff', 'service.name': 'unknown_service'} [3m(otel_init.py:114:lmcache.v1.mp_observability.otel_init)[0m
+[32;20m[2026-09-22 08:56:49,692] LMCache INFO:[0m Starting L1EvictionController... [3m(eviction_controller.py:53:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-22 08:56:49,693] LMCache INFO:[0m Starting L2EvictionController... [3m(eviction_controller.py:250:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-22 08:56:49,693] LMCache INFO:[0m Starting StoreController... [3m(store_controller.py:305:lmcache.v1.distributed.storage_controllers.store_controller)[0m
+[32;20m[2026-09-22 08:56:49,693] LMCache INFO:[0m Starting PrefetchController... [3m(prefetch_controller.py:596:lmcache.v1.distributed.storage_controllers.prefetch_controller)[0m
+[32;20m[2026-09-22 08:56:49,694] LMCache INFO:[0m Using blake3 hash function [3m(token_hasher.py:79:lmcache.v1.multiprocess.token_hasher)[0m
+[32;20m[2026-09-22 08:56:49,695] LMCache INFO:[0m Computed NONE_HASH=b"~>\xff\x9e\xf7a:P4\x0e\xb1&w\xee\x03\xb8:\xc7Y\xfc\xba\x9b\xb3'\x05\xf0rH\xd5mG;" using hash function [3m(token_hasher.py:180:lmcache.v1.multiprocess.token_hasher)[0m
+[32;20m[2026-09-22 08:56:49,695] LMCache INFO:[0m TokenHasher initialized: chunk_size=16, hash_algorithm=blake3 [3m(token_hasher.py:67:lmcache.v1.multiprocess.token_hasher)[0m
+[32;20m[2026-09-22 08:56:49,695] LMCache INFO:[0m PeriodicThread SessionManager-cleanup-thread-7cb6bf7a9820 entering main loop (interval=60.0s) [3m(periodic_thread.py:304:lmcache.v1.periodic_thread)[0m
+[32;20m[2026-09-22 08:56:49,696] LMCache INFO:[0m Started PeriodicThread: SessionManager-cleanup-thread-7cb6bf7a9820 (level=medium, interval=60.0s, init_wait=0.0s) [3m(periodic_thread.py:248:lmcache.v1.periodic_thread)[0m
+[32;20m[2026-09-22 08:56:49,696] LMCache INFO:[0m PeriodicThread DeviceHostFuncDispatcher entering main loop (interval=0.0s) [3m(periodic_thread.py:304:lmcache.v1.periodic_thread)[0m
+[32;20m[2026-09-22 08:56:49,696] LMCache INFO:[0m Started PeriodicThread: DeviceHostFuncDispatcher (level=high, interval=0.0s, init_wait=0.0s) [3m(periodic_thread.py:248:lmcache.v1.periodic_thread)[0m
+[32;20m[2026-09-22 08:56:49,696] LMCache INFO:[0m Supported transfer mode: auto [3m(server.py:219:lmcache.v1.multiprocess.server)[0m
+[32;20m[2026-09-22 08:56:49,697] LMCache INFO:[0m PeriodicThread lmcache-mp-worker-reaper entering main loop (interval=30.0s) [3m(periodic_thread.py:304:lmcache.v1.periodic_thread)[0m
+[32;20m[2026-09-22 08:56:49,697] LMCache INFO:[0m Started PeriodicThread: lmcache-mp-worker-reaper (level=medium, interval=30.0s, init_wait=0.0s) [3m(periodic_thread.py:248:lmcache.v1.periodic_thread)[0m
+[32;20m[2026-09-22 08:56:49,699] LMCache INFO:[0m Created AffinityThreadPool 'affinity-pool-0' with 1 worker slots: up to 1 distinct affinity keys each bind to their own thread before slots are shared. Compare this against the number of clients expected to connect to confirm routing. [3m(affinity_pool.py:60:lmcache.v1.multiprocess.affinity_pool)[0m
+[32;20m[2026-09-22 08:56:49,699] LMCache INFO:[0m LMCache ZMQ cache server is running on tcp://127.0.0.1:18001 [3m(server.py:452:lmcache.v1.multiprocess.server)[0m
+[32;20m[2026-09-22 08:56:49,700] LMCache INFO:[0m LMCache cache server is running... [3m(server.py:467:lmcache.v1.multiprocess.server)[0m
+[32;20m[2026-09-22 08:56:49,700] LMCache INFO:[0m LMCache HTTP server initialized [3m(http_server.py:163:lmcache.v1.multiprocess.http_server)[0m
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:18002 (Press CTRL+C to quit)
+INFO:     127.0.0.1:33016 - "GET /healthcheck HTTP/1.1" 200 OK
+[32;20m[2026-09-22 08:56:59,695] LMCache INFO:[0m L1 memory usage: 0.00/0.50 GiB (0.0%) [3m(eviction_controller.py:153:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-22 08:57:09,696] LMCache INFO:[0m L1 memory usage: 0.00/0.50 GiB (0.0%) [3m(eviction_controller.py:153:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-22 08:57:19,698] LMCache INFO:[0m L1 memory usage: 0.00/0.50 GiB (0.0%) [3m(eviction_controller.py:153:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-22 08:57:29,700] LMCache INFO:[0m L1 memory usage: 0.00/0.50 GiB (0.0%) [3m(eviction_controller.py:153:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-22 08:57:39,702] LMCache INFO:[0m L1 memory usage: 0.00/0.50 GiB (0.0%) [3m(eviction_controller.py:153:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-22 08:57:45,476] LMCache INFO:[0m Engine KV Format: EngineKVFormat.NL_X_NB_BS_NH_CS NL x [NB, BS, NH, CS] [3m(detection.py:69:lmcache.v1.gpu_connector.kv_format.detection)[0m
+[32;20m[2026-09-22 08:57:45,477] LMCache INFO:[0m Engine KV Format: EngineKVFormat.NL_X_NB_BS_NH_CS NL x [NB, BS, NH, CS] [3m(detection.py:69:lmcache.v1.gpu_connector.kv_format.detection)[0m
+[32;20m[2026-09-22 08:57:45,477] LMCache INFO:[0m Group 0 first-layer tensor: layer_idx=0 shape=(20117, 16, 2, 256) stride=(8192, 512, 256, 1) is_contiguous=True dtype=torch.float16 device=cuda:0 storage_offset=0 numel=164798464 storage_nbytes=329596928 padding_per_block=0 [3m(utils.py:596:lmcache.v1.gpu_connector.utils)[0m
+[32;20m[2026-09-22 08:57:45,478] LMCache INFO:[0m KV layer groups: ---
+KernelGroupInfo(layers=28, indices=0-27, shape_desc=(kv=1, nl=28, nb=20117, bs=16, nh=2, hs=256, element_size=2, block_stride_elems=0), dtype=torch.float16, tokens_per_block=16, slots_per_block=16, engine_group_idx=0, sw_size_tokens=-1)
+--- [3m(kv_layer_groups.py:437:lmcache.v1.kv_layer_groups)[0m
+/usr/local/lib/python3.12/dist-packages/cupy/_environment.py:677: UserWarning: 
+--------------------------------------------------------------------------------
+
+  CuPy may not function correctly because multiple CuPy packages are installed
+  in your environment:
+
+    cupy-cuda12x, cupy-cuda13x
+
+  Follow these steps to resolve this issue:
+
+    1. For all packages listed above, run the following command to remove all
+       existing CuPy installations:
+
+         $ pip uninstall <package_name>
+
+      If you previously installed CuPy via conda, also run the following:
+
+         $ conda uninstall cupy
+
+    2. Install the appropriate CuPy package.
+       Refer to the Installation Guide for detailed instructions.
+
+         https://docs.cupy.dev/en/stable/install.html
+
+--------------------------------------------------------------------------------
+
+  warnings.warn(f'''
+[32;20m[2026-09-22 08:57:45,570] LMCache INFO:[0m Registered KV cache for GPU ID 1910936494383524556 with 28 layers [3m(lmcache_driven_transfer.py:964:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-22 08:57:45,570] LMCache INFO:[0m Initialized cuda stream on device cuda:0 [3m(cache_context.py:430:lmcache.v1.platform.cuda.cache_context)[0m
+[32;20m[2026-09-22 08:57:49,704] LMCache INFO:[0m L1 memory usage: 0.00/0.50 GiB (0.0%) [3m(eviction_controller.py:153:lmcache.v1.distributed.storage_controllers.eviction_controller)[0m
+[32;20m[2026-09-22 08:57:52,226] LMCache INFO:[0m AffinityThreadPool: affinity_key=-7489921690173773951 assigned to worker slot 0 of 1 (thread affinity-pool-0-0); 1 distinct key(s) now bound [3m(affinity_pool.py:108:lmcache.v1.multiprocess.affinity_pool)[0m
+[32;20m[2026-09-22 08:57:52,368] LMCache INFO:[0m Stored 448 tokens in 0.142 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-22 08:57:52,373] LMCache INFO:[0m Checking memory allocator consistency [3m(tensor_memory_allocator.py:298:lmcache.v1.memory_management)[0m
+[32;20m[2026-09-22 08:57:52,374] LMCache INFO:[0m  - Total active allocations: 28 [3m(tensor_memory_allocator.py:299:lmcache.v1.memory_management)[0m
+[32;20m[2026-09-22 08:57:52,374] LMCache INFO:[0m  - Total allocated size: 12.250000 MB [3m(tensor_memory_allocator.py:300:lmcache.v1.memory_management)[0m
+[32;20m[2026-09-22 08:57:52,374] LMCache INFO:[0m  - Total free size: 499.750000 MB [3m(tensor_memory_allocator.py:307:lmcache.v1.memory_management)[0m
+INFO:     127.0.0.1:35060 - "GET /status HTTP/1.1" 200 OK
+[32;20m[2026-09-22 08:57:52,577] LMCache INFO:[0m Checking memory allocator consistency [3m(tensor_memory_allocator.py:298:lmcache.v1.memory_management)[0m
+[32;20m[2026-09-22 08:57:52,577] LMCache INFO:[0m  - Total active allocations: 28 [3m(tensor_memory_allocator.py:299:lmcache.v1.memory_management)[0m
+[32;20m[2026-09-22 08:57:52,577] LMCache INFO:[0m  - Total allocated size: 12.250000 MB [3m(tensor_memory_allocator.py:300:lmcache.v1.memory_management)[0m
+[32;20m[2026-09-22 08:57:52,577] LMCache INFO:[0m  - Total free size: 499.750000 MB [3m(tensor_memory_allocator.py:307:lmcache.v1.memory_management)[0m
+INFO:     127.0.0.1:35060 - "GET /status HTTP/1.1" 200 OK
+[32;20m[2026-09-22 08:57:52,780] LMCache INFO:[0m Checking memory allocator consistency [3m(tensor_memory_allocator.py:298:lmcache.v1.memory_management)[0m
+[32;20m[2026-09-22 08:57:52,780] LMCache INFO:[0m  - Total active allocations: 28 [3m(tensor_memory_allocator.py:299:lmcache.v1.memory_management)[0m
+[32;20m[2026-09-22 08:57:52,780] LMCache INFO:[0m  - Total allocated size: 12.250000 MB [3m(tensor_memory_allocator.py:300:lmcache.v1.memory_management)[0m
+[32;20m[2026-09-22 08:57:52,780] LMCache INFO:[0m  - Total free size: 499.750000 MB [3m(tensor_memory_allocator.py:307:lmcache.v1.memory_management)[0m
+INFO:     127.0.0.1:35060 - "GET /status HTTP/1.1" 200 OK
+[32;20m[2026-09-22 08:57:52,787] LMCache INFO:[0m Prefetch request completed (L1+L2): 28/28 retained keys (28 L1, 0 L2) in 1.1 ms (external_request_id=cmpl-aa7ee364586b9edd-0-af9298e3, prefetch_request_id=-1) [3m(storage_manager.py:716:lmcache.v1.distributed.storage_manager)[0m
+[32;20m[2026-09-22 08:57:52,792] LMCache INFO:[0m Retrieved 448 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-22 08:57:52,949] LMCache INFO:[0m Stored 16 tokens in 0.002 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-22 08:57:53,160] LMCache INFO:[0m Checking memory allocator consistency [3m(tensor_memory_allocator.py:298:lmcache.v1.memory_management)[0m
+[32;20m[2026-09-22 08:57:53,160] LMCache INFO:[0m  - Total active allocations: 29 [3m(tensor_memory_allocator.py:299:lmcache.v1.memory_management)[0m
+[32;20m[2026-09-22 08:57:53,160] LMCache INFO:[0m  - Total allocated size: 12.687500 MB [3m(tensor_memory_allocator.py:300:lmcache.v1.memory_management)[0m
+[32;20m[2026-09-22 08:57:53,160] LMCache INFO:[0m  - Total free size: 499.312500 MB [3m(tensor_memory_allocator.py:307:lmcache.v1.memory_management)[0m
+INFO:     127.0.0.1:35060 - "GET /status HTTP/1.1" 200 OK
+[32;20m[2026-09-22 08:57:53,363] LMCache INFO:[0m Checking memory allocator consistency [3m(tensor_memory_allocator.py:298:lmcache.v1.memory_management)[0m
+[32;20m[2026-09-22 08:57:53,363] LMCache INFO:[0m  - Total active allocations: 29 [3m(tensor_memory_allocator.py:299:lmcache.v1.memory_management)[0m
+[32;20m[2026-09-22 08:57:53,363] LMCache INFO:[0m  - Total allocated size: 12.687500 MB [3m(tensor_memory_allocator.py:300:lmcache.v1.memory_management)[0m
+[32;20m[2026-09-22 08:57:53,363] LMCache INFO:[0m  - Total free size: 499.312500 MB [3m(tensor_memory_allocator.py:307:lmcache.v1.memory_management)[0m
+INFO:     127.0.0.1:35060 - "GET /status HTTP/1.1" 200 OK
+[32;20m[2026-09-22 08:57:53,566] LMCache INFO:[0m Checking memory allocator consistency [3m(tensor_memory_allocator.py:298:lmcache.v1.memory_management)[0m
+[32;20m[2026-09-22 08:57:53,566] LMCache INFO:[0m  - Total active allocations: 29 [3m(tensor_memory_allocator.py:299:lmcache.v1.memory_management)[0m
+[32;20m[2026-09-22 08:57:53,566] LMCache INFO:[0m  - Total allocated size: 12.687500 MB [3m(tensor_memory_allocator.py:300:lmcache.v1.memory_management)[0m
+[32;20m[2026-09-22 08:57:53,566] LMCache INFO:[0m  - Total free size: 499.312500 MB [3m(tensor_memory_allocator.py:307:lmcache.v1.memory_management)[0m
+INFO:     127.0.0.1:35060 - "GET /status HTTP/1.1" 200 OK
+[32;20m[2026-09-22 08:57:53,609] LMCache INFO:[0m Stored 480 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-22 08:57:53,747] LMCache INFO:[0m Stored 16 tokens in 0.003 seconds [3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+[32;20m[2026-09-22 08:57:53,951] LMCache INFO:[0m Checking memory allocator consistency [3m(tensor_memory_allocator.py:298:lmcache.v1.memory_management)[0m
+[32;20m[2026-09-22 08:57:53,951] LMCache INFO:[0m  - Total active allocations: 60 [3m(tensor_memory_allocator.py:299:lmcache.v1.memory_management)[0m
+[32;20m[2026-09-22 08:57:53,951] LMCache INFO:[0m  - Total allocated size: 26.250000 MB [3m(tensor_memory_allocator.py:300:lmcache.v1.memory_management)[0m
+[32;20m[2026-09-22 08:57:53,951] LMCache INFO:[0m  - Total free size: 485.750000 MB [3m(tensor_memory_allocator.py:307:lmcache.v1.memory_management)[0m
+INFO:     127.0.0.1:35060 - "GET /status HTTP/1.1" 200 OK
+[32;20m[2026-09-22 08:57:54,153] LMCache INFO:[0m Checking memory allocator consistency [3m(tensor_memory_allocator.py:298:lmcache.v1.memory_management)[0m
+[32;20m[2026-09-22 08:57:54,153] LMCache INFO:[0m  - Total active allocations: 60 [3m(tensor_memory_allocator.py:299:lmcache.v1.memory_management)[0m
+[32;20m[2026-09-22 08:57:54,153] LMCache INFO:[0m  - Total allocated size: 26.250000 MB [3m(tensor_memory_allocator.py:300:lmcache.v1.memory_management)[0m
+[32;20m[2026-09-22 08:57:54,153] LMCache INFO:[0m  - Total free size: 485.750000 MB [3m(tensor_memory_allocator.py:307:lmcache.v1.memory_management)[0m
+INFO:     127.0.0.1:35060 - "GET /status HTTP/1.1" 200 OK
+[32;20m[2026-09-22 08:57:54,356] LMCache INFO:[0m Checking memory allocator consistency [3m(tensor_memory_allocator.py:298:lmcache.v1.memory_management)[0m
+[32;20m[2026-09-22 08:57:54,356] LMCache INFO:[0m  - Total active allocations: 60 [3m(tensor_memory_allocator.py:299:lmcache.v1.memory_management)[0m
+[32;20m[2026-09-22 08:57:54,356] LMCache INFO:[0m  - Total allocated size: 26.250000 MB [3m(tensor_memory_allocator.py:300:lmcache.v1.memory_management)[0m
+[32;20m[2026-09-22 08:57:54,356] LMCache INFO:[0m  - Total free size: 485.750000 MB [3m(tensor_memory_allocator.py:307:lmcache.v1.memory_management)[0m
+INFO:     127.0.0.1:35060 - "GET /status HTTP/1.1" 200 OK
+INFO:     Shutting down
+[32;20m[2026-09-22 08:57:54,391] LMCache INFO:[0m Unregistered KV cache for GPU ID 1910936494383524556 [3m(lmcache_driven_transfer.py:991:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)[0m
+INFO:     Waiting for application shutdown.
+[32;20m[2026-09-22 08:57:54,491] LMCache INFO:[0m Shutting down LMCache HTTP server... [3m(http_server.py:168:lmcache.v1.multiprocess.http_server)[0m
+[32;20m[2026-09-22 08:57:55,393] LMCache INFO:[0m Stopping PeriodicThread: lmcache-mp-worker-reaper [3m(periodic_thread.py:267:lmcache.v1.periodic_thread)[0m
+[32;20m[2026-09-22 08:57:55,394] LMCache INFO:[0m PeriodicThread lmcache-mp-worker-reaper loop stopped [3m(periodic_thread.py:371:lmcache.v1.periodic_thread)[0m
+[32;20m[2026-09-22 08:57:55,394] LMCache INFO:[0m Stopping PeriodicThread: DeviceHostFuncDispatcher [3m(periodic_thread.py:267:lmcache.v1.periodic_thread)[0m
+[32;20m[2026-09-22 08:57:55,394] LMCache INFO:[0m PeriodicThread DeviceHostFuncDispatcher loop stopped [3m(periodic_thread.py:371:lmcache.v1.periodic_thread)[0m
+[32;20m[2026-09-22 08:57:55,394] LMCache INFO:[0m Stopping PeriodicThread: SessionManager-cleanup-thread-7cb6bf7a9820 [3m(periodic_thread.py:267:lmcache.v1.periodic_thread)[0m
+[32;20m[2026-09-22 08:57:55,394] LMCache INFO:[0m PeriodicThread SessionManager-cleanup-thread-7cb6bf7a9820 loop stopped [3m(periodic_thread.py:371:lmcache.v1.periodic_thread)[0m
+[32;20m[2026-09-22 08:57:56,714] LMCache INFO:[0m MPCacheServer closed [3m(server.py:126:lmcache.v1.multiprocess.server)[0m
+[32;20m[2026-09-22 08:57:56,714] LMCache INFO:[0m LMCache HTTP server stopped [3m(http_server.py:186:lmcache.v1.multiprocess.http_server)[0m
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1118]

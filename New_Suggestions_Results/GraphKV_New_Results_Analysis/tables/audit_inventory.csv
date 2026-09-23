@@ -1,0 +1,5 @@
+run,dataset,model,k_values,top_m,unique_events,repetitions,complete_arms,expected_arms,events_per_complete_arm_min,sanity_critical_passed,publication_controls_passed,order_independence_status,status
+Llama–Hotpot synchronous,hotpot,meta-llama/Llama-3.2-1B-Instruct,6;10;16,20,600,2,30,30,600,True,True,pass,authoritative
+Llama–2Wiki synchronous,2wiki,meta-llama/Llama-3.2-1B-Instruct,10,20,600,2,10,10,600,True,True,pass,authoritative
+Qwen–2Wiki synchronous,2wiki,Qwen/Qwen2.5-1.5B-Instruct,10,20,600,2,10,10,600,True,True,pass,authoritative
+Qwen–Hotpot asynchronous,hotpot,Qwen/Qwen2.5-1.5B-Instruct,10,20,600,1,42,42,100,True,True,randomized blocks,authoritative

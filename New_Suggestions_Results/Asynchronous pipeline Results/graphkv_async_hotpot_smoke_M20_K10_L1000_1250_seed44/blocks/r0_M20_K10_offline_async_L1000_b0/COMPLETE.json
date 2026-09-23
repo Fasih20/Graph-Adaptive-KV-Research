@@ -1,0 +1,6 @@
+{
+  "events_hash": "ff4586289ed596d56da0da7479f6ad3a68a2f81486c58b04c06e502657af38fa",
+  "events": 30,
+  "config": "641087d6f72fbecb458a17b773669644ee9c5eae4ae210a3b0be087c61c6a20d",
+  "resume_semantics": "complete independent block; incomplete block reruns from cold"
+}

@@ -1,0 +1,41 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "dataset": "hotpot",
+  "prepared_spec": {
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "dataset": "hotpot",
+    "seed": 43,
+    "events": 600,
+    "train_events": 600,
+    "dev_events": 600,
+    "max_documents": 100,
+    "source": "30f6e18d954e8a812d853f96bf717dc60ff0d9d59ef596fb0064f5cf6de76d96"
+  },
+  "top_m": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+  ],
+  "k": [
+    6,
+    10,
+    16
+  ],
+  "policies": [
+    "cosine",
+    "semantic_only",
+    "structure",
+    "two_hop",
+    "offline",
+    "online"
+  ],
+  "selection_policy": "offline",
+  "selected_m_from_development_only": 30,
+  "bootstrap_draws": 5000,
+  "test_documents_used_for_tuning": false,
+  "online_feedback": "oracle target revealed only after each prediction",
+  "scope": "CPU prediction-policy sensitivity; no latency, vLLM, LMCache, answer F1, or measured FLOPs"
+}

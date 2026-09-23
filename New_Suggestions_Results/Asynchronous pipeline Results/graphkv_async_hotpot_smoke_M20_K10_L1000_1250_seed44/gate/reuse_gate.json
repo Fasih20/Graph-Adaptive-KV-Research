@@ -1,0 +1,458 @@
+{
+  "passed": false,
+  "status": "failed_or_inconclusive",
+  "environment": {
+    "runtime": {
+      "model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+      "gpu_id": "0",
+      "vllm_host": "127.0.0.1",
+      "vllm_port": 18000,
+      "lmcache_host": "127.0.0.1",
+      "lmcache_port": 18001,
+      "lmcache_http_port": 18002,
+      "lmcache_prometheus_port": 18003,
+      "max_model_len": 4096,
+      "block_size": 16,
+      "chunk_size": 16,
+      "gpu_memory_utilization": 0.82,
+      "l1_size_gb": 0.5,
+      "startup_timeout_s": 900,
+      "seed": 44,
+      "blend_separator": " # # ",
+      "trust_remote_code": false,
+      "max_num_seqs": 2
+    },
+    "versions": {
+      "vllm": "0.27.0",
+      "lmcache": "0.5.4",
+      "torch": "2.13.0",
+      "transformers": "5.17.0"
+    },
+    "gate_protocol": 2,
+    "code": {
+      "revision_gate.py": "7abab6f710a5beff55132d4cba186411c575688ee02a039d75923f5c278122cf",
+      "real_cache_client.py": "7444cb1b8c3085e946956f821d16d8bb536a1887ebc72c7f20a58dc6a8aedc4a",
+      "isolated_runtime.py": "6b9a2e5a74f7671d6c0d542da012c927c2af490b064b7cbdf18605819c432cab"
+    }
+  },
+  "scope": "exact-prefix only; shifted chunks must miss; no CacheBlend",
+  "logprob_tolerance": 0.001,
+  "conditions": [
+    {
+      "case": 0,
+      "cold": {
+        "text": ": **cobalt**. \n\nThis",
+        "tokens": [
+          ":",
+          " **",
+          "cob",
+          "alt",
+          "**",
+          ".",
+          " \n\n",
+          "This"
+        ],
+        "logprobs": [
+          -2.838996410369873,
+          -1.1064611673355103,
+          -0.06382473558187485,
+          -8.77341881277971e-05,
+          -0.05930127948522568,
+          -0.2496994435787201,
+          -2.2933459281921387,
+          -1.916078805923462
+        ],
+        "usage": {
+          "prompt_tokens": 293,
+          "total_tokens": 301,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null
+        },
+        "prompt_hash": "ed07eeb6650837c4599ed8cd31f5cb22f5f9d34c47224d600901d722782abb86",
+        "prompt_tokens": 293
+      },
+      "warm": {
+        "text": ": **cobalt**. \n\nThis",
+        "tokens": [
+          ":",
+          " **",
+          "cob",
+          "alt",
+          "**",
+          ".",
+          " \n\n",
+          "This"
+        ],
+        "logprobs": [
+          -2.8375279903411865,
+          -1.099621295928955,
+          -0.06285765022039413,
+          -8.749579137656838e-05,
+          -0.059273529797792435,
+          -0.24774199724197388,
+          -2.2907164096832275,
+          -1.9145703315734863
+        ],
+        "usage": {
+          "prompt_tokens": 293,
+          "total_tokens": 301,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null
+        },
+        "prompt_hash": "ed07eeb6650837c4599ed8cd31f5cb22f5f9d34c47224d600901d722782abb86",
+        "prompt_tokens": 293
+      },
+      "shifted_cold": {
+        "text": " not a random sequence of letters, but",
+        "tokens": [
+          " not",
+          " a",
+          " random",
+          " sequence",
+          " of",
+          " letters",
+          ",",
+          " but"
+        ],
+        "logprobs": [
+          -3.0748767852783203,
+          -2.543086051940918,
+          -2.2979958057403564,
+          -2.002753973007202,
+          -0.7878854274749756,
+          -0.5461158156394958,
+          -1.4185248613357544,
+          -0.630757212638855
+        ],
+        "usage": {
+          "prompt_tokens": 328,
+          "total_tokens": 336,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null
+        },
+        "prompt_hash": "b7265e50244eeb2e30601e4e9331b80c8cebcbb53ce468e952b3a9284b2c3546",
+        "prompt_tokens": 328
+      },
+      "shifted_after_population": {
+        "text": " not a random sequence of letters, but",
+        "tokens": [
+          " not",
+          " a",
+          " random",
+          " sequence",
+          " of",
+          " letters",
+          ",",
+          " but"
+        ],
+        "logprobs": [
+          -3.0748767852783203,
+          -2.543086051940918,
+          -2.2979958057403564,
+          -2.002753973007202,
+          -0.7878854274749756,
+          -0.5461158156394958,
+          -1.4185248613357544,
+          -0.630757212638855
+        ],
+        "usage": {
+          "prompt_tokens": 328,
+          "total_tokens": 336,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null
+        },
+        "prompt_hash": "b7265e50244eeb2e30601e4e9331b80c8cebcbb53ce468e952b3a9284b2c3546",
+        "prompt_tokens": 328
+      },
+      "retrieved_tokens": 288,
+      "shifted_retrieved_tokens": 0,
+      "shared_prefix_tokens": 0,
+      "retrieval_evidence": [
+        "\u001b[32;20m[2026-09-21 13:48:33,135] LMCache INFO:\u001b[0m Retrieved 288 tokens in 0.002 seconds \u001b[3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)\u001b[0m"
+      ],
+      "shifted_evidence": [
+        "\u001b[32;20m[2026-09-21 13:48:33,894] LMCache INFO:\u001b[0m Stored 320 tokens in 0.002 seconds \u001b[3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)\u001b[0m"
+      ],
+      "passed": false
+    },
+    {
+      "case": 1,
+      "cold": {
+        "text": " Mira Chen, who filed a patent",
+        "tokens": [
+          " M",
+          "ira",
+          " Chen",
+          ",",
+          " who",
+          " filed",
+          " a",
+          " patent"
+        ],
+        "logprobs": [
+          -0.7544505596160889,
+          -0.02288106083869934,
+          -0.010665085166692734,
+          -2.027139186859131,
+          -2.3665411472320557,
+          -1.8000457286834717,
+          -0.7491137981414795,
+          -0.2361266314983368
+        ],
+        "usage": {
+          "prompt_tokens": 461,
+          "total_tokens": 469,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null
+        },
+        "prompt_hash": "97d60cf5f7e5b30e0313a1b49f6fbe3673fa3b9c68480e19493d4c8765dbaa95",
+        "prompt_tokens": 461
+      },
+      "warm": {
+        "text": " Mira Chen, who filed a patent",
+        "tokens": [
+          " M",
+          "ira",
+          " Chen",
+          ",",
+          " who",
+          " filed",
+          " a",
+          " patent"
+        ],
+        "logprobs": [
+          -0.7555739879608154,
+          -0.022565146908164024,
+          -0.010687730275094509,
+          -2.0271811485290527,
+          -2.366098403930664,
+          -1.8052620887756348,
+          -0.7490337491035461,
+          -0.2335248738527298
+        ],
+        "usage": {
+          "prompt_tokens": 461,
+          "total_tokens": 469,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null
+        },
+        "prompt_hash": "97d60cf5f7e5b30e0313a1b49f6fbe3673fa3b9c68480e19493d4c8765dbaa95",
+        "prompt_tokens": 461
+      },
+      "shifted_cold": {
+        "text": " Mira Chen, who filed a patent",
+        "tokens": [
+          " M",
+          "ira",
+          " Chen",
+          ",",
+          " who",
+          " filed",
+          " a",
+          " patent"
+        ],
+        "logprobs": [
+          -0.7496302127838135,
+          -0.02120443806052208,
+          -0.01337637472897768,
+          -1.761699914932251,
+          -2.482663631439209,
+          -1.684962272644043,
+          -0.9436153173446655,
+          -0.2600339949131012
+        ],
+        "usage": {
+          "prompt_tokens": 495,
+          "total_tokens": 503,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null
+        },
+        "prompt_hash": "2024f3c482be60fa8bd553a5b08a318cabe7087fa9864cb6ee8e53e5694a2f7c",
+        "prompt_tokens": 495
+      },
+      "shifted_after_population": {
+        "text": " Mira Chen, who filed a patent",
+        "tokens": [
+          " M",
+          "ira",
+          " Chen",
+          ",",
+          " who",
+          " filed",
+          " a",
+          " patent"
+        ],
+        "logprobs": [
+          -0.7496302127838135,
+          -0.02120443806052208,
+          -0.01337637472897768,
+          -1.761699914932251,
+          -2.482663631439209,
+          -1.684962272644043,
+          -0.9436153173446655,
+          -0.2600339949131012
+        ],
+        "usage": {
+          "prompt_tokens": 495,
+          "total_tokens": 503,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null
+        },
+        "prompt_hash": "2024f3c482be60fa8bd553a5b08a318cabe7087fa9864cb6ee8e53e5694a2f7c",
+        "prompt_tokens": 495
+      },
+      "retrieved_tokens": 448,
+      "shifted_retrieved_tokens": 0,
+      "shared_prefix_tokens": 0,
+      "retrieval_evidence": [
+        "\u001b[32;20m[2026-09-21 13:53:05,458] LMCache INFO:\u001b[0m Retrieved 448 tokens in 0.002 seconds \u001b[3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)\u001b[0m",
+        "\u001b[32;20m[2026-09-21 13:53:05,600] LMCache INFO:\u001b[0m Stored 16 tokens in 0.002 seconds \u001b[3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)\u001b[0m"
+      ],
+      "shifted_evidence": [
+        "\u001b[32;20m[2026-09-21 13:53:06,215] LMCache INFO:\u001b[0m Stored 480 tokens in 0.003 seconds \u001b[3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)\u001b[0m",
+        "\u001b[32;20m[2026-09-21 13:53:06,320] LMCache INFO:\u001b[0m Stored 16 tokens in 0.001 seconds \u001b[3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)\u001b[0m"
+      ],
+      "passed": false
+    },
+    {
+      "case": 2,
+      "cold": {
+        "text": " meters, and the number of measurements taken",
+        "tokens": [
+          " meters",
+          ",",
+          " and",
+          " the",
+          " number",
+          " of",
+          " measurements",
+          " taken"
+        ],
+        "logprobs": [
+          -0.951699435710907,
+          -1.799490213394165,
+          -1.4072190523147583,
+          -0.435054749250412,
+          -2.6850645542144775,
+          -0.6023578643798828,
+          -0.9335477948188782,
+          -1.9074852466583252
+        ],
+        "usage": {
+          "prompt_tokens": 316,
+          "total_tokens": 324,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null
+        },
+        "prompt_hash": "ec221d8d95209ef933195e388fac68ef3055d63f8a513cc5216dfd733f120928",
+        "prompt_tokens": 316
+      },
+      "warm": {
+        "text": " meters, and the number of measurements taken",
+        "tokens": [
+          " meters",
+          ",",
+          " and",
+          " the",
+          " number",
+          " of",
+          " measurements",
+          " taken"
+        ],
+        "logprobs": [
+          -0.9540690183639526,
+          -1.799760103225708,
+          -1.4110409021377563,
+          -0.43397435545921326,
+          -2.694136381149292,
+          -0.6027703285217285,
+          -0.9334105849266052,
+          -1.9174673557281494
+        ],
+        "usage": {
+          "prompt_tokens": 316,
+          "total_tokens": 324,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null
+        },
+        "prompt_hash": "ec221d8d95209ef933195e388fac68ef3055d63f8a513cc5216dfd733f120928",
+        "prompt_tokens": 316
+      },
+      "shifted_cold": {
+        "text": " called \"meters\" and it's",
+        "tokens": [
+          " called",
+          " \"",
+          "m",
+          "eters",
+          "\"",
+          " and",
+          " it",
+          "'s"
+        ],
+        "logprobs": [
+          -3.4657561779022217,
+          -2.090526819229126,
+          -0.9524314403533936,
+          -0.07392292469739914,
+          -0.8449844717979431,
+          -1.026768684387207,
+          -1.795035719871521,
+          -2.5421414375305176
+        ],
+        "usage": {
+          "prompt_tokens": 351,
+          "total_tokens": 359,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null
+        },
+        "prompt_hash": "24bc060e5dd7a9dca8e74c1eb813f4f40dcab7a678a80fa96929b1bf7d7c8052",
+        "prompt_tokens": 351
+      },
+      "shifted_after_population": {
+        "text": " called \"meters\" and it's",
+        "tokens": [
+          " called",
+          " \"",
+          "m",
+          "eters",
+          "\"",
+          " and",
+          " it",
+          "'s"
+        ],
+        "logprobs": [
+          -3.4657561779022217,
+          -2.090526819229126,
+          -0.9524314403533936,
+          -0.07392292469739914,
+          -0.8449844717979431,
+          -1.026768684387207,
+          -1.795035719871521,
+          -2.5421414375305176
+        ],
+        "usage": {
+          "prompt_tokens": 351,
+          "total_tokens": 359,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null
+        },
+        "prompt_hash": "24bc060e5dd7a9dca8e74c1eb813f4f40dcab7a678a80fa96929b1bf7d7c8052",
+        "prompt_tokens": 351
+      },
+      "retrieved_tokens": 304,
+      "shifted_retrieved_tokens": 0,
+      "shared_prefix_tokens": 0,
+      "retrieval_evidence": [
+        "\u001b[32;20m[2026-09-21 13:57:37,002] LMCache INFO:\u001b[0m Retrieved 304 tokens in 0.002 seconds \u001b[3m(lmcache_driven_transfer.py:1427:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)\u001b[0m",
+        "\u001b[32;20m[2026-09-21 13:57:37,182] LMCache INFO:\u001b[0m Stored 16 tokens in 0.002 seconds \u001b[3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)\u001b[0m"
+      ],
+      "shifted_evidence": [
+        "\u001b[32;20m[2026-09-21 13:57:37,759] LMCache INFO:\u001b[0m Stored 336 tokens in 0.002 seconds \u001b[3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)\u001b[0m",
+        "\u001b[32;20m[2026-09-21 13:57:37,837] LMCache INFO:\u001b[0m Stored 16 tokens in 0.001 seconds \u001b[3m(lmcache_driven_transfer.py:1218:lmcache.v1.multiprocess.modules.lmcache_driven_transfer)\u001b[0m"
+      ],
+      "passed": false
+    }
+  ]
+}

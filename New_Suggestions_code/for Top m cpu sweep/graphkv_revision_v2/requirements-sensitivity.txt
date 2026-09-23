@@ -1,0 +1,8 @@
+# CPU-only M/K sensitivity study.  No vLLM or LMCache installation is needed.
+numpy>=2.2,<3
+scipy>=1.16,<2
+pandas>=2.3,<3
+requests>=2.32,<3
+transformers>=4.57,<6
+sentence-transformers>=5.1,<6
+huggingface-hub>=0.34,<2

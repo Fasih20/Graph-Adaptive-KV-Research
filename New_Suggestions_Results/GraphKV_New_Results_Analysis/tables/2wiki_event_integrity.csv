@@ -1,0 +1,3 @@
+model,records,unique_events,repetitions,request_failures,retries,prompt_parity_failures,target_parity_failures,output_hash_disagreement_groups,paired_groups
+Qwen-2.5-1.5B,6000,600,2,0,0,0,0,0,1200
+Llama-3.2-1B,6000,600,2,0,0,0,0,5,1200

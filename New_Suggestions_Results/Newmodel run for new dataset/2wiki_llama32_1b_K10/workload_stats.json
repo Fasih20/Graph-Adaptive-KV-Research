@@ -1,0 +1,16 @@
+{
+  "chunks": 918,
+  "documents": 100,
+  "mean_chunk_kv_bytes": 12074972.305010892,
+  "median_chunk_kv_bytes": 12582912,
+  "min_chunk_tokens": 72,
+  "mean_chunk_tokens": 368.49891067538124,
+  "median_chunk_tokens": 384,
+  "max_chunk_tokens": 384,
+  "document_chunk_tokens_configured": 384,
+  "document_chunk_overlap_tokens_configured": 64,
+  "l1_capacity_bytes": 536870912,
+  "corpus_kv_bytes": 11084824576,
+  "corpus_to_l1_ratio": 20.6470947265625,
+  "approximate_mean_chunk_capacity": 44.46146114779977
+}

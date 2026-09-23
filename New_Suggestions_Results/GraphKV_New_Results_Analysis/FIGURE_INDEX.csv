@@ -1,0 +1,12 @@
+figure,description,formats
+fig01_llama_hotpot_k_sweep,Llama Hotpot prediction recall and ready-cache TTFT across K.,png;pdf;svg
+fig02_llama_hotpot_latency_boundary,Ready-cache versus synchronous E2E latency boundary.,png;pdf;svg
+fig03_llama_hotpot_paired_recall,Document-clustered paired recall gains over cosine.,png;pdf;svg
+fig04_2wiki_cross_model,Qwen/Llama 2Wiki headline comparison.,png;pdf;svg
+fig05_2wiki_paired_deltas,Document-clustered 2Wiki paired deltas versus cosine.,png;pdf;svg
+fig06_2wiki_query_type_recall,2Wiki recall by controlled query type.,png;pdf;svg
+fig07_learned_offline_weights,Leakage-safe learned semantic/structural weights.,png;pdf;svg
+fig08_async_hotpot_ablation,Full asynchronous component ablation.,png;pdf;svg
+fig09_async_paired_latency_vs_cosine,Asynchronous paired latency changes versus cosine.,png;pdf;svg
+fig10_mk_sensitivity,Development M selection and held-out offline recall heatmap.,png;pdf;svg
+fig11_selected_m_policy_recall,Held-out policy curves at development-selected M=30.,png;pdf;svg

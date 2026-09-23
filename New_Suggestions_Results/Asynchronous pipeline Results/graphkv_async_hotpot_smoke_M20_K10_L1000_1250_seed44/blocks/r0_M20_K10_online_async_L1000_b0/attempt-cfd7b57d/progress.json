@@ -1,0 +1,5285 @@
+{
+  "events": [
+    {
+      "event_id": 0,
+      "session_id": "test:hotpot:15",
+      "step_id": 0,
+      "document_id": "hotpot:15",
+      "current_chunk_id": 11,
+      "target_chunk_id": 12,
+      "query_type": "structural",
+      "current_request_ms": 230.77447,
+      "target_service_ttft_ms": 57.524141,
+      "arrival_to_first_token_ms": 57.633725,
+      "arrival_to_complete_ms": 57.880924,
+      "application_to_first_token_ms": 1289.0675840000001,
+      "application_request_ms": 1289.314783,
+      "cycle_including_drain_ms": 1289.488879,
+      "post_target_drain_ms": 0.174096,
+      "current_start_ns": 7062848638432,
+      "target_arrival_ns": 7064080072291,
+      "target_submit_ns": 7064080181875,
+      "target_end_ns": 7064137953215,
+      "completed_before_arrival": [
+        13,
+        12,
+        15,
+        14,
+        20,
+        21,
+        129,
+        131,
+        19,
+        18
+      ],
+      "completed_before_submit": [
+        13,
+        12,
+        15,
+        14,
+        20,
+        21,
+        129,
+        131,
+        19,
+        18
+      ],
+      "population": [
+        {
+          "chunk_id": 13,
+          "start_ns": 7062848919507,
+          "end_ns": 7063178841698,
+          "request_ms": 329.72287,
+          "prompt_tokens": 384,
+          "prompt_hash": "a61215c8d8a5833b3e4056c60eb7c424c8204851aad7dadec9b473a14a62278f"
+        },
+        {
+          "chunk_id": 12,
+          "start_ns": 7063178846969,
+          "end_ns": 7063273669909,
+          "request_ms": 94.630085,
+          "prompt_tokens": 384,
+          "prompt_hash": "3b0c2ab93e21e05c0908409054af6aef9b0625f575ff7aa02616db0e9e9f5183"
+        },
+        {
+          "chunk_id": 15,
+          "start_ns": 7063273675567,
+          "end_ns": 7063361248147,
+          "request_ms": 87.314512,
+          "prompt_tokens": 384,
+          "prompt_hash": "382b73b2a90fc144fe5e04da50c201f9b491e35499ff35e887f94d192334df7e"
+        },
+        {
+          "chunk_id": 14,
+          "start_ns": 7063361253787,
+          "end_ns": 7063450310553,
+          "request_ms": 88.904248,
+          "prompt_tokens": 384,
+          "prompt_hash": "b507d2b78f3f5d2eefc9e8aa61487a073680de3ecc0a4e5b5a7e08b90f6bf8ae"
+        },
+        {
+          "chunk_id": 20,
+          "start_ns": 7063450315413,
+          "end_ns": 7063539318953,
+          "request_ms": 88.867786,
+          "prompt_tokens": 384,
+          "prompt_hash": "a9afe3e7bf3fb2e9c86d18b60f74db7b479ae084db2f1b6ec78bb877ec8f122b"
+        },
+        {
+          "chunk_id": 21,
+          "start_ns": 7063539323813,
+          "end_ns": 7063628099680,
+          "request_ms": 88.557897,
+          "prompt_tokens": 384,
+          "prompt_hash": "3e0f12b7220bc1c2b5dbe37a60f1c8755389fe0755a5906e19240351510f4b1a"
+        },
+        {
+          "chunk_id": 129,
+          "start_ns": 7063628104053,
+          "end_ns": 7063715557294,
+          "request_ms": 87.314081,
+          "prompt_tokens": 384,
+          "prompt_hash": "7a145c8784416973965095d6be6553909f9a178b77a64595c6a6c4687b607823"
+        },
+        {
+          "chunk_id": 131,
+          "start_ns": 7063715561711,
+          "end_ns": 7063806942562,
+          "request_ms": 91.242774,
+          "prompt_tokens": 384,
+          "prompt_hash": "18d0a5351db1668b4044d6e3fc422cd528c90ecc6033d567b830442eadc3dea1"
+        },
+        {
+          "chunk_id": 19,
+          "start_ns": 7063806946941,
+          "end_ns": 7063899903201,
+          "request_ms": 92.819653,
+          "prompt_tokens": 384,
+          "prompt_hash": "d0d1b564ec2270134d586be5c8707cbd16182a49434c934318ee2f187d115320"
+        },
+        {
+          "chunk_id": 18,
+          "start_ns": 7063899908041,
+          "end_ns": 7063987427334,
+          "request_ms": 87.380345,
+          "prompt_tokens": 384,
+          "prompt_hash": "6dd6a15cfdda1ed1d7bb41d111abf25c4f4ef34d55d37a456afd7e7a42c5db09"
+        }
+      ],
+      "target_prompt_hash": "3b0c2ab93e21e05c0908409054af6aef9b0625f575ff7aa02616db0e9e9f5183",
+      "target_output_hash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "rep": 0,
+      "m": 20,
+      "k": 10,
+      "policy": "online",
+      "mode": "async",
+      "lead_ms": 1000.0,
+      "block_start": 0,
+      "predicted_ids": [
+        13,
+        12,
+        15,
+        14,
+        20,
+        21,
+        129,
+        131,
+        19,
+        18
+      ],
+      "prediction_hit": 1,
+      "policy_ms": 4.385606,
+      "application_with_policy_ms": 1293.700389,
+      "update": {
+        "updated": false,
+        "update_reason": "prediction_hit",
+        "weights_before": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "weights_after": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "update_l2": 0.0
+      },
+      "state_after": {
+        "weights": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "eta": 0.1,
+        "updates": 0
+      },
+      "target_prepared_before_arrival": true,
+      "prefetch_kv_bytes_estimate": 110100480,
+      "backend_cache_hit": null,
+      "metric_note": "cache attribution unavailable under concurrency; byte estimate is not measured transfer"
+    },
+    {
+      "event_id": 1,
+      "session_id": "test:hotpot:116",
+      "step_id": 0,
+      "document_id": "hotpot:116",
+      "current_chunk_id": 201,
+      "target_chunk_id": 203,
+      "query_type": "multi-hop",
+      "current_request_ms": 82.194841,
+      "target_service_ttft_ms": 58.683766,
+      "arrival_to_first_token_ms": 58.828375,
+      "arrival_to_complete_ms": 59.105974,
+      "application_to_first_token_ms": 1141.5469320000002,
+      "application_request_ms": 1141.824531,
+      "cycle_including_drain_ms": 1142.002151,
+      "post_target_drain_ms": 0.17762,
+      "current_start_ns": 7064145636401,
+      "target_arrival_ns": 7065228354958,
+      "target_submit_ns": 7065228499567,
+      "target_end_ns": 7065287460932,
+      "completed_before_arrival": [
+        199,
+        200,
+        195,
+        194,
+        204,
+        198,
+        206,
+        207,
+        203,
+        208
+      ],
+      "completed_before_submit": [
+        199,
+        200,
+        195,
+        194,
+        204,
+        198,
+        206,
+        207,
+        203,
+        208
+      ],
+      "population": [
+        {
+          "chunk_id": 199,
+          "start_ns": 7064145897272,
+          "end_ns": 7064315843110,
+          "request_ms": 169.818008,
+          "prompt_tokens": 384,
+          "prompt_hash": "8a737281aca0158862cd659dfc4040bf352e758dc1f0dbdbe39a8cf9c01a010c"
+        },
+        {
+          "chunk_id": 200,
+          "start_ns": 7064315847133,
+          "end_ns": 7064406426397,
+          "request_ms": 90.396322,
+          "prompt_tokens": 384,
+          "prompt_hash": "c0a4946adbbb47bbd30e006a5cbec4940ca5b546a4d15563ad507261f7fd1416"
+        },
+        {
+          "chunk_id": 195,
+          "start_ns": 7064406430939,
+          "end_ns": 7064494331479,
+          "request_ms": 87.684202,
+          "prompt_tokens": 384,
+          "prompt_hash": "36c6e3e9670d6aa2fad0cdabd03fd3fb470ea312e5e86b796cd5886859550f9e"
+        },
+        {
+          "chunk_id": 194,
+          "start_ns": 7064494336074,
+          "end_ns": 7064582122329,
+          "request_ms": 87.50113,
+          "prompt_tokens": 384,
+          "prompt_hash": "a0f2cdb18da94fcb11a8feec461d7c2a3b9f85a5169c1e4402c8edf3bd579579"
+        },
+        {
+          "chunk_id": 204,
+          "start_ns": 7064582126259,
+          "end_ns": 7064668508955,
+          "request_ms": 86.190362,
+          "prompt_tokens": 384,
+          "prompt_hash": "f0366198298d9a732d55b41b215f2a5193b60a80cc41c004618b17bb426ed08b"
+        },
+        {
+          "chunk_id": 198,
+          "start_ns": 7064668514103,
+          "end_ns": 7064756309874,
+          "request_ms": 87.616562,
+          "prompt_tokens": 384,
+          "prompt_hash": "d13f2046b88129302a4ea770e93a098f5074035cd3e7f3e1d7dfcf10a8462cf1"
+        },
+        {
+          "chunk_id": 206,
+          "start_ns": 7064756314067,
+          "end_ns": 7064846642061,
+          "request_ms": 90.137012,
+          "prompt_tokens": 384,
+          "prompt_hash": "8699334e73fc0546dd80b108bbee96a2686ff12a6dfcd13ca5588e5b2cd4e638"
+        },
+        {
+          "chunk_id": 207,
+          "start_ns": 7064846646242,
+          "end_ns": 7064933662139,
+          "request_ms": 86.815157,
+          "prompt_tokens": 384,
+          "prompt_hash": "e5fba0e633a48841068d513419d55c3c71550aec65b49d5137dafafe55cad527"
+        },
+        {
+          "chunk_id": 203,
+          "start_ns": 7064933665481,
+          "end_ns": 7065020220078,
+          "request_ms": 86.425348,
+          "prompt_tokens": 384,
+          "prompt_hash": "7d02b963a7d995711fdca52e431871137ddbe7eb950a6c58e553609873a6811a"
+        },
+        {
+          "chunk_id": 208,
+          "start_ns": 7065020225558,
+          "end_ns": 7065074751859,
+          "request_ms": 54.413944,
+          "prompt_tokens": 200,
+          "prompt_hash": "8154f720e2e64b4cca43290b22e465948dcd6ef3b7861db81fe6d5dfa25c0595"
+        }
+      ],
+      "target_prompt_hash": "7d02b963a7d995711fdca52e431871137ddbe7eb950a6c58e553609873a6811a",
+      "target_output_hash": "a8bdfde11f2443a17f53ad0c9eb033c86a916c4575fe9cbce4c6a0d5af432aed",
+      "rep": 0,
+      "m": 20,
+      "k": 10,
+      "policy": "online",
+      "mode": "async",
+      "lead_ms": 1000.0,
+      "block_start": 0,
+      "predicted_ids": [
+        199,
+        200,
+        195,
+        194,
+        204,
+        198,
+        206,
+        207,
+        203,
+        208
+      ],
+      "prediction_hit": 1,
+      "policy_ms": 2.37984,
+      "application_with_policy_ms": 1144.204371,
+      "update": {
+        "updated": false,
+        "update_reason": "prediction_hit",
+        "weights_before": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "weights_after": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "update_l2": 0.0
+      },
+      "state_after": {
+        "weights": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "eta": 0.1,
+        "updates": 0
+      },
+      "target_prepared_before_arrival": true,
+      "prefetch_kv_bytes_estimate": 104824832,
+      "backend_cache_hit": null,
+      "metric_note": "cache attribution unavailable under concurrency; byte estimate is not measured transfer"
+    },
+    {
+      "event_id": 2,
+      "session_id": "test:hotpot:116",
+      "step_id": 1,
+      "document_id": "hotpot:116",
+      "current_chunk_id": 198,
+      "target_chunk_id": 195,
+      "query_type": "semantic",
+      "current_request_ms": 131.368519,
+      "target_service_ttft_ms": 58.497498,
+      "arrival_to_first_token_ms": 58.649159,
+      "arrival_to_complete_ms": 59.037881,
+      "application_to_first_token_ms": 1190.679755,
+      "application_request_ms": 1191.068477,
+      "cycle_including_drain_ms": 1191.278893,
+      "post_target_drain_ms": 0.210416,
+      "current_start_ns": 7065295187706,
+      "target_arrival_ns": 7066427218302,
+      "target_submit_ns": 7066427369963,
+      "target_end_ns": 7066486256183,
+      "completed_before_arrival": [
+        196,
+        200,
+        197,
+        199,
+        194,
+        195,
+        201,
+        205,
+        202,
+        207
+      ],
+      "completed_before_submit": [
+        196,
+        200,
+        197,
+        199,
+        194,
+        195,
+        201,
+        205,
+        202,
+        207
+      ],
+      "population": [
+        {
+          "chunk_id": 196,
+          "start_ns": 7065295463790,
+          "end_ns": 7065383371164,
+          "request_ms": 87.675138,
+          "prompt_tokens": 384,
+          "prompt_hash": "cdfa6cd942667323de9887b34b886df034666b6196ecd92f1d0908569e9d9d91"
+        },
+        {
+          "chunk_id": 200,
+          "start_ns": 7065383374899,
+          "end_ns": 7065476830411,
+          "request_ms": 93.32821,
+          "prompt_tokens": 384,
+          "prompt_hash": "c0a4946adbbb47bbd30e006a5cbec4940ca5b546a4d15563ad507261f7fd1416"
+        },
+        {
+          "chunk_id": 197,
+          "start_ns": 7065476834368,
+          "end_ns": 7065559335222,
+          "request_ms": 82.352221,
+          "prompt_tokens": 384,
+          "prompt_hash": "7d662fffa1e41e0bd5b824973e0fda57628df64969693546d79372673f037708"
+        },
+        {
+          "chunk_id": 199,
+          "start_ns": 7065559339998,
+          "end_ns": 7065617222612,
+          "request_ms": 57.639773,
+          "prompt_tokens": 384,
+          "prompt_hash": "8a737281aca0158862cd659dfc4040bf352e758dc1f0dbdbe39a8cf9c01a010c"
+        },
+        {
+          "chunk_id": 194,
+          "start_ns": 7065617227488,
+          "end_ns": 7065677746267,
+          "request_ms": 60.380133,
+          "prompt_tokens": 384,
+          "prompt_hash": "a0f2cdb18da94fcb11a8feec461d7c2a3b9f85a5169c1e4402c8edf3bd579579"
+        },
+        {
+          "chunk_id": 195,
+          "start_ns": 7065677750064,
+          "end_ns": 7065734789305,
+          "request_ms": 56.863163,
+          "prompt_tokens": 384,
+          "prompt_hash": "36c6e3e9670d6aa2fad0cdabd03fd3fb470ea312e5e86b796cd5886859550f9e"
+        },
+        {
+          "chunk_id": 201,
+          "start_ns": 7065734793782,
+          "end_ns": 7065793071698,
+          "request_ms": 58.091461,
+          "prompt_tokens": 384,
+          "prompt_hash": "82b3789afd16547b56ad4e857f99b2e7f1e69c9afe7b2e67f5ba54c18ea33e21"
+        },
+        {
+          "chunk_id": 205,
+          "start_ns": 7065793077060,
+          "end_ns": 7065873593311,
+          "request_ms": 80.376943,
+          "prompt_tokens": 384,
+          "prompt_hash": "e80909292db9646bc66aaebe2ebbc1a54156b1dffd65ea9572ca336df1261bd9"
+        },
+        {
+          "chunk_id": 202,
+          "start_ns": 7065873597155,
+          "end_ns": 7065966152246,
+          "request_ms": 92.354175,
+          "prompt_tokens": 384,
+          "prompt_hash": "6ca5896ed3444352781862a7a968df6f50f40eef8f3858b551553fd06b9b639e"
+        },
+        {
+          "chunk_id": 207,
+          "start_ns": 7065966157159,
+          "end_ns": 7066025099163,
+          "request_ms": 58.709517,
+          "prompt_tokens": 384,
+          "prompt_hash": "e5fba0e633a48841068d513419d55c3c71550aec65b49d5137dafafe55cad527"
+        }
+      ],
+      "target_prompt_hash": "36c6e3e9670d6aa2fad0cdabd03fd3fb470ea312e5e86b796cd5886859550f9e",
+      "target_output_hash": "19581e27de7ced00ff1ce50b2047e7a567c76b1cbaebabe5ef03f7c3017bb5b7",
+      "rep": 0,
+      "m": 20,
+      "k": 10,
+      "policy": "online",
+      "mode": "async",
+      "lead_ms": 1000.0,
+      "block_start": 0,
+      "predicted_ids": [
+        196,
+        200,
+        197,
+        199,
+        194,
+        195,
+        201,
+        205,
+        202,
+        207
+      ],
+      "prediction_hit": 1,
+      "policy_ms": 1.816163,
+      "application_with_policy_ms": 1192.88464,
+      "update": {
+        "updated": false,
+        "update_reason": "prediction_hit",
+        "weights_before": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "weights_after": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "update_l2": 0.0
+      },
+      "state_after": {
+        "weights": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "eta": 0.1,
+        "updates": 0
+      },
+      "target_prepared_before_arrival": true,
+      "prefetch_kv_bytes_estimate": 110100480,
+      "backend_cache_hit": null,
+      "metric_note": "cache attribution unavailable under concurrency; byte estimate is not measured transfer"
+    },
+    {
+      "event_id": 3,
+      "session_id": "test:hotpot:71",
+      "step_id": 0,
+      "document_id": "hotpot:71",
+      "current_chunk_id": 106,
+      "target_chunk_id": 108,
+      "query_type": "multi-hop",
+      "current_request_ms": 170.81729,
+      "target_service_ttft_ms": 57.404042,
+      "arrival_to_first_token_ms": 57.540008,
+      "arrival_to_complete_ms": 57.863197,
+      "application_to_first_token_ms": 1229.7633589999998,
+      "application_request_ms": 1230.086548,
+      "cycle_including_drain_ms": 1230.257777,
+      "post_target_drain_ms": 0.171229,
+      "current_start_ns": 7066495785592,
+      "target_arrival_ns": 7067668008943,
+      "target_submit_ns": 7067668144909,
+      "target_end_ns": 7067725872140,
+      "completed_before_arrival": [
+        107,
+        104,
+        105,
+        103,
+        99,
+        102,
+        100,
+        101,
+        109,
+        108
+      ],
+      "completed_before_submit": [
+        107,
+        104,
+        105,
+        103,
+        99,
+        102,
+        100,
+        101,
+        109,
+        108
+      ],
+      "population": [
+        {
+          "chunk_id": 107,
+          "start_ns": 7066496075193,
+          "end_ns": 7066578845508,
+          "request_ms": 82.611334,
+          "prompt_tokens": 384,
+          "prompt_hash": "ff9cf6557ca253c66e630ebce3f2e8b96b026b30f33c31a251d58ccdec11f0fe"
+        },
+        {
+          "chunk_id": 104,
+          "start_ns": 7066578849309,
+          "end_ns": 7066753999249,
+          "request_ms": 174.975975,
+          "prompt_tokens": 384,
+          "prompt_hash": "f7fd8cba18363f3ac3e520823b105656db2ab997b0e0940f88285dc856299778"
+        },
+        {
+          "chunk_id": 105,
+          "start_ns": 7066754029238,
+          "end_ns": 7066845519963,
+          "request_ms": 91.358799,
+          "prompt_tokens": 384,
+          "prompt_hash": "16f48cfbfdf93f4b5146bc0c31dfbd7c68130e9ca1a69e443add28317b7b455a"
+        },
+        {
+          "chunk_id": 103,
+          "start_ns": 7066845524514,
+          "end_ns": 7066935144595,
+          "request_ms": 89.411344,
+          "prompt_tokens": 383,
+          "prompt_hash": "79d914384343815477a0e8817c6a4830fcb3133969b9faaa72b37a9b8c4ce4be"
+        },
+        {
+          "chunk_id": 99,
+          "start_ns": 7066935149118,
+          "end_ns": 7067023285777,
+          "request_ms": 88.004451,
+          "prompt_tokens": 383,
+          "prompt_hash": "b79bf1a3d39026559ffbf99f7747d492c2094cfc257fb48d6d2d4c3d48e8598d"
+        },
+        {
+          "chunk_id": 102,
+          "start_ns": 7067023290055,
+          "end_ns": 7067112431170,
+          "request_ms": 89.015338,
+          "prompt_tokens": 384,
+          "prompt_hash": "eec1d8a45bd16dcef3a4132944e667095bddaa09314169496ec7ca489671f2ea"
+        },
+        {
+          "chunk_id": 100,
+          "start_ns": 7067112434938,
+          "end_ns": 7067200945959,
+          "request_ms": 88.31694,
+          "prompt_tokens": 384,
+          "prompt_hash": "55bfeb82f7526bccc66b7202ddd1b60ae245f4937ad851d992baf62003957a19"
+        },
+        {
+          "chunk_id": 101,
+          "start_ns": 7067200950600,
+          "end_ns": 7067293109183,
+          "request_ms": 91.947472,
+          "prompt_tokens": 384,
+          "prompt_hash": "95110f5ca7a190080eed1971ba652d479bc73ef661a92429da8e7ae22c1beb47"
+        },
+        {
+          "chunk_id": 109,
+          "start_ns": 7067293114360,
+          "end_ns": 7067373908544,
+          "request_ms": 80.677995,
+          "prompt_tokens": 338,
+          "prompt_hash": "afa7dab102b919ce2a390f7b42aea73fd1bf0795e89553ee8a1e5c5a67db419f"
+        },
+        {
+          "chunk_id": 108,
+          "start_ns": 7067373912336,
+          "end_ns": 7067461334574,
+          "request_ms": 87.266269,
+          "prompt_tokens": 384,
+          "prompt_hash": "90e13e7322c3273a3ac3ee2cfda1894354f155921b193280cbedee46ccdc844e"
+        }
+      ],
+      "target_prompt_hash": "90e13e7322c3273a3ac3ee2cfda1894354f155921b193280cbedee46ccdc844e",
+      "target_output_hash": "22d0bea35bd937eb66bd8d3ce6272c8a4e686a8ffdb304c3f5bad6b356217e9d",
+      "rep": 0,
+      "m": 20,
+      "k": 10,
+      "policy": "online",
+      "mode": "async",
+      "lead_ms": 1000.0,
+      "block_start": 0,
+      "predicted_ids": [
+        107,
+        104,
+        105,
+        103,
+        99,
+        102,
+        100,
+        101,
+        109,
+        108
+      ],
+      "prediction_hit": 1,
+      "policy_ms": 2.948496,
+      "application_with_policy_ms": 1233.035044,
+      "update": {
+        "updated": false,
+        "update_reason": "prediction_hit",
+        "weights_before": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "weights_after": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "update_l2": 0.0
+      },
+      "state_after": {
+        "weights": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "eta": 0.1,
+        "updates": 0
+      },
+      "target_prepared_before_arrival": true,
+      "prefetch_kv_bytes_estimate": 108724224,
+      "backend_cache_hit": null,
+      "metric_note": "cache attribution unavailable under concurrency; byte estimate is not measured transfer"
+    },
+    {
+      "event_id": 4,
+      "session_id": "test:hotpot:194",
+      "step_id": 0,
+      "document_id": "hotpot:194",
+      "current_chunk_id": 334,
+      "target_chunk_id": 337,
+      "query_type": "multi-hop",
+      "current_request_ms": 168.512359,
+      "target_service_ttft_ms": 56.576688,
+      "arrival_to_first_token_ms": 56.741794999999996,
+      "arrival_to_complete_ms": 57.094513,
+      "application_to_first_token_ms": 1225.835925,
+      "application_request_ms": 1226.188643,
+      "cycle_including_drain_ms": 1226.460735,
+      "post_target_drain_ms": 0.272092,
+      "current_start_ns": 7067735731616,
+      "target_arrival_ns": 7068904825746,
+      "target_submit_ns": 7068904990853,
+      "target_end_ns": 7068961920259,
+      "completed_before_arrival": [
+        332,
+        333,
+        336,
+        335,
+        331,
+        330,
+        337,
+        338,
+        25,
+        35
+      ],
+      "completed_before_submit": [
+        332,
+        333,
+        336,
+        335,
+        331,
+        330,
+        337,
+        338,
+        25,
+        35
+      ],
+      "population": [
+        {
+          "chunk_id": 332,
+          "start_ns": 7067735979993,
+          "end_ns": 7067821096087,
+          "request_ms": 84.899247,
+          "prompt_tokens": 384,
+          "prompt_hash": "01d73991e71b91b23e96ece577bc1be43d61821816d8ef3d86a176818ab643f0"
+        },
+        {
+          "chunk_id": 333,
+          "start_ns": 7067821101109,
+          "end_ns": 7067988409513,
+          "request_ms": 167.118602,
+          "prompt_tokens": 384,
+          "prompt_hash": "4a0fbdc6bca674f07f237fc4462bcc4745c2bc0db40f05ec75d63b5d9b797b54"
+        },
+        {
+          "chunk_id": 336,
+          "start_ns": 7067988414210,
+          "end_ns": 7068079908846,
+          "request_ms": 91.370964,
+          "prompt_tokens": 384,
+          "prompt_hash": "db1972710b2ce397d6ff960164faf82c1904cf09ea59f41965963f5665741b56"
+        },
+        {
+          "chunk_id": 335,
+          "start_ns": 7068079913323,
+          "end_ns": 7068168101731,
+          "request_ms": 87.980474,
+          "prompt_tokens": 384,
+          "prompt_hash": "5556bf2e101826de0372a6c83100281db686f00ea91982a62e068a7c2157de29"
+        },
+        {
+          "chunk_id": 331,
+          "start_ns": 7068168106166,
+          "end_ns": 7068255656860,
+          "request_ms": 87.359402,
+          "prompt_tokens": 384,
+          "prompt_hash": "52ab7b04d2fe633b2c2cc906fc3c4342657c3d8bf95ebc589b0586dd88960598"
+        },
+        {
+          "chunk_id": 330,
+          "start_ns": 7068255661628,
+          "end_ns": 7068346598167,
+          "request_ms": 90.792486,
+          "prompt_tokens": 384,
+          "prompt_hash": "18330e2eafc1ae2ec9b48bdbb0af112e877008296eee8397f538affa60ce54ab"
+        },
+        {
+          "chunk_id": 337,
+          "start_ns": 7068346602084,
+          "end_ns": 7068436355286,
+          "request_ms": 89.616033,
+          "prompt_tokens": 384,
+          "prompt_hash": "01afda1f0bd5c6c8831233f6a340448ca5c6cf977797fb44e6b379165018abcc"
+        },
+        {
+          "chunk_id": 338,
+          "start_ns": 7068436358977,
+          "end_ns": 7068526477083,
+          "request_ms": 89.931941,
+          "prompt_tokens": 384,
+          "prompt_hash": "0cdccb65a2694bb64c2c2c4742d51833ae3a6bdb3c48b45f467e46fe0acaeba0"
+        },
+        {
+          "chunk_id": 25,
+          "start_ns": 7068526482026,
+          "end_ns": 7068615141181,
+          "request_ms": 88.411445,
+          "prompt_tokens": 384,
+          "prompt_hash": "329da77e16952e375aafdc008bb5187a6e1f33bc20fd1a90187911e75e3ef576"
+        },
+        {
+          "chunk_id": 35,
+          "start_ns": 7068615146503,
+          "end_ns": 7068703234083,
+          "request_ms": 87.893574,
+          "prompt_tokens": 384,
+          "prompt_hash": "fd6d3aee3d6514082ed95ecabe523ed424daf9e267c5ef18883f1aa823b591c8"
+        }
+      ],
+      "target_prompt_hash": "01afda1f0bd5c6c8831233f6a340448ca5c6cf977797fb44e6b379165018abcc",
+      "target_output_hash": "ffbfabc54ca8a26ef654e1dfecce9802d96326869199f4b1dbac0adb1fe7de06",
+      "rep": 0,
+      "m": 20,
+      "k": 10,
+      "policy": "online",
+      "mode": "async",
+      "lead_ms": 1000.0,
+      "block_start": 0,
+      "predicted_ids": [
+        332,
+        333,
+        336,
+        335,
+        331,
+        330,
+        337,
+        338,
+        25,
+        35
+      ],
+      "prediction_hit": 1,
+      "policy_ms": 2.448286,
+      "application_with_policy_ms": 1228.636929,
+      "update": {
+        "updated": false,
+        "update_reason": "prediction_hit",
+        "weights_before": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "weights_after": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "update_l2": 0.0
+      },
+      "state_after": {
+        "weights": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "eta": 0.1,
+        "updates": 0
+      },
+      "target_prepared_before_arrival": true,
+      "prefetch_kv_bytes_estimate": 110100480,
+      "backend_cache_hit": null,
+      "metric_note": "cache attribution unavailable under concurrency; byte estimate is not measured transfer"
+    },
+    {
+      "event_id": 5,
+      "session_id": "test:hotpot:15",
+      "step_id": 1,
+      "document_id": "hotpot:15",
+      "current_chunk_id": 16,
+      "target_chunk_id": 19,
+      "query_type": "multi-hop",
+      "current_request_ms": 83.302872,
+      "target_service_ttft_ms": 56.601145,
+      "arrival_to_first_token_ms": 56.723171,
+      "arrival_to_complete_ms": 56.971053,
+      "application_to_first_token_ms": 1140.624827,
+      "application_request_ms": 1140.872709,
+      "cycle_including_drain_ms": 1140.982872,
+      "post_target_drain_ms": 0.110163,
+      "current_start_ns": 7068971832533,
+      "target_arrival_ns": 7070055734189,
+      "target_submit_ns": 7070055856215,
+      "target_end_ns": 7070112705242,
+      "completed_before_arrival": [
+        17,
+        18,
+        19,
+        20,
+        22,
+        14,
+        15,
+        23,
+        24,
+        21
+      ],
+      "completed_before_submit": [
+        17,
+        18,
+        19,
+        20,
+        22,
+        14,
+        15,
+        23,
+        24,
+        21
+      ],
+      "population": [
+        {
+          "chunk_id": 17,
+          "start_ns": 7068972131768,
+          "end_ns": 7069141765888,
+          "request_ms": 169.442895,
+          "prompt_tokens": 383,
+          "prompt_hash": "f16f62baf3253f2040ced9777469c86857656b25855e0dceb735733fa9bd8ff5"
+        },
+        {
+          "chunk_id": 18,
+          "start_ns": 7069141770888,
+          "end_ns": 7069199148443,
+          "request_ms": 57.174037,
+          "prompt_tokens": 384,
+          "prompt_hash": "6dd6a15cfdda1ed1d7bb41d111abf25c4f4ef34d55d37a456afd7e7a42c5db09"
+        },
+        {
+          "chunk_id": 19,
+          "start_ns": 7069199153189,
+          "end_ns": 7069269716484,
+          "request_ms": 70.438422,
+          "prompt_tokens": 384,
+          "prompt_hash": "d0d1b564ec2270134d586be5c8707cbd16182a49434c934318ee2f187d115320"
+        },
+        {
+          "chunk_id": 20,
+          "start_ns": 7069269720012,
+          "end_ns": 7069361527253,
+          "request_ms": 91.672252,
+          "prompt_tokens": 384,
+          "prompt_hash": "a9afe3e7bf3fb2e9c86d18b60f74db7b479ae084db2f1b6ec78bb877ec8f122b"
+        },
+        {
+          "chunk_id": 22,
+          "start_ns": 7069361531270,
+          "end_ns": 7069452117692,
+          "request_ms": 90.380356,
+          "prompt_tokens": 384,
+          "prompt_hash": "5c21884696067c4efb59fa6ec6965bba0ee268798afc50e675c0bdcc5603a5ca"
+        },
+        {
+          "chunk_id": 14,
+          "start_ns": 7069452123010,
+          "end_ns": 7069542203542,
+          "request_ms": 89.949932,
+          "prompt_tokens": 384,
+          "prompt_hash": "b507d2b78f3f5d2eefc9e8aa61487a073680de3ecc0a4e5b5a7e08b90f6bf8ae"
+        },
+        {
+          "chunk_id": 15,
+          "start_ns": 7069542207707,
+          "end_ns": 7069633569932,
+          "request_ms": 91.2233,
+          "prompt_tokens": 384,
+          "prompt_hash": "382b73b2a90fc144fe5e04da50c201f9b491e35499ff35e887f94d192334df7e"
+        },
+        {
+          "chunk_id": 23,
+          "start_ns": 7069633574059,
+          "end_ns": 7069723683727,
+          "request_ms": 89.886888,
+          "prompt_tokens": 384,
+          "prompt_hash": "98cc1a6be6fc33f1c3d6fb8f77f1437046494d22803aba1eb646e186cdc96ef4"
+        },
+        {
+          "chunk_id": 24,
+          "start_ns": 7069723687663,
+          "end_ns": 7069769718714,
+          "request_ms": 45.901007,
+          "prompt_tokens": 125,
+          "prompt_hash": "3fc68fd4cbb596864486686eccb94c45f2de0441cc11bd3fb93a39d989f2d10e"
+        },
+        {
+          "chunk_id": 21,
+          "start_ns": 7069769723874,
+          "end_ns": 7069856460667,
+          "request_ms": 86.593837,
+          "prompt_tokens": 384,
+          "prompt_hash": "3e0f12b7220bc1c2b5dbe37a60f1c8755389fe0755a5906e19240351510f4b1a"
+        }
+      ],
+      "target_prompt_hash": "d0d1b564ec2270134d586be5c8707cbd16182a49434c934318ee2f187d115320",
+      "target_output_hash": "d03502c43d74a30b936740a9517dc4ea2b2ad7168caa0a774cefe793ce0b33e7",
+      "rep": 0,
+      "m": 20,
+      "k": 10,
+      "policy": "online",
+      "mode": "async",
+      "lead_ms": 1000.0,
+      "block_start": 0,
+      "predicted_ids": [
+        17,
+        18,
+        19,
+        20,
+        22,
+        14,
+        15,
+        23,
+        24,
+        21
+      ],
+      "prediction_hit": 1,
+      "policy_ms": 2.714941,
+      "application_with_policy_ms": 1143.58765,
+      "update": {
+        "updated": false,
+        "update_reason": "prediction_hit",
+        "weights_before": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "weights_after": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "update_l2": 0.0
+      },
+      "state_after": {
+        "weights": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "eta": 0.1,
+        "updates": 0
+      },
+      "target_prepared_before_arrival": true,
+      "prefetch_kv_bytes_estimate": 102645760,
+      "backend_cache_hit": null,
+      "metric_note": "cache attribution unavailable under concurrency; byte estimate is not measured transfer"
+    },
+    {
+      "event_id": 6,
+      "session_id": "test:hotpot:116",
+      "step_id": 2,
+      "document_id": "hotpot:116",
+      "current_chunk_id": 202,
+      "target_chunk_id": 205,
+      "query_type": "multi-hop",
+      "current_request_ms": 100.288144,
+      "target_service_ttft_ms": 76.772321,
+      "arrival_to_first_token_ms": 76.877004,
+      "arrival_to_complete_ms": 77.187634,
+      "application_to_first_token_ms": 1177.7353349999998,
+      "application_request_ms": 1178.045965,
+      "cycle_including_drain_ms": 1178.232753,
+      "post_target_drain_ms": 0.186788,
+      "current_start_ns": 7070121804316,
+      "target_arrival_ns": 7071222662647,
+      "target_submit_ns": 7071222767330,
+      "target_end_ns": 7071299850281,
+      "completed_before_arrival": [
+        205,
+        197,
+        196,
+        47,
+        49,
+        46,
+        203,
+        48,
+        204,
+        50
+      ],
+      "completed_before_submit": [
+        205,
+        197,
+        196,
+        47,
+        49,
+        46,
+        203,
+        48,
+        204,
+        50
+      ],
+      "population": [
+        {
+          "chunk_id": 205,
+          "start_ns": 7070122080319,
+          "end_ns": 7070183520550,
+          "request_ms": 61.207242,
+          "prompt_tokens": 384,
+          "prompt_hash": "e80909292db9646bc66aaebe2ebbc1a54156b1dffd65ea9572ca336df1261bd9"
+        },
+        {
+          "chunk_id": 197,
+          "start_ns": 7070183525309,
+          "end_ns": 7070303689929,
+          "request_ms": 120.002053,
+          "prompt_tokens": 384,
+          "prompt_hash": "7d662fffa1e41e0bd5b824973e0fda57628df64969693546d79372673f037708"
+        },
+        {
+          "chunk_id": 196,
+          "start_ns": 7070303694021,
+          "end_ns": 7070395067985,
+          "request_ms": 91.14938,
+          "prompt_tokens": 384,
+          "prompt_hash": "cdfa6cd942667323de9887b34b886df034666b6196ecd92f1d0908569e9d9d91"
+        },
+        {
+          "chunk_id": 47,
+          "start_ns": 7070395072718,
+          "end_ns": 7070484052830,
+          "request_ms": 88.736309,
+          "prompt_tokens": 384,
+          "prompt_hash": "a71eea871b991714247070a3f72db335a14f2a250da70f363d835dd8371f8fab"
+        },
+        {
+          "chunk_id": 49,
+          "start_ns": 7070484057424,
+          "end_ns": 7070573194029,
+          "request_ms": 88.926093,
+          "prompt_tokens": 384,
+          "prompt_hash": "4339c6eaafe01052a436c494721aff39f62936c58ec85a6c5565eff4103a4fde"
+        },
+        {
+          "chunk_id": 46,
+          "start_ns": 7070573197455,
+          "end_ns": 7070669605901,
+          "request_ms": 96.249973,
+          "prompt_tokens": 384,
+          "prompt_hash": "d760b7de269fa11122063ae4a0c1b15a0e7ea7fa558862140c908d87cbc68525"
+        },
+        {
+          "chunk_id": 203,
+          "start_ns": 7070669609164,
+          "end_ns": 7070758263927,
+          "request_ms": 88.523953,
+          "prompt_tokens": 384,
+          "prompt_hash": "7d02b963a7d995711fdca52e431871137ddbe7eb950a6c58e553609873a6811a"
+        },
+        {
+          "chunk_id": 48,
+          "start_ns": 7070758267292,
+          "end_ns": 7070847916611,
+          "request_ms": 89.519363,
+          "prompt_tokens": 383,
+          "prompt_hash": "14be3e91aaa52b42a6ec92b97937552c4d0f31142cbc007faa7795c32ce9c1e4"
+        },
+        {
+          "chunk_id": 204,
+          "start_ns": 7070847919953,
+          "end_ns": 7070940827511,
+          "request_ms": 92.732595,
+          "prompt_tokens": 384,
+          "prompt_hash": "f0366198298d9a732d55b41b215f2a5193b60a80cc41c004618b17bb426ed08b"
+        },
+        {
+          "chunk_id": 50,
+          "start_ns": 7070940831953,
+          "end_ns": 7071021300957,
+          "request_ms": 80.284082,
+          "prompt_tokens": 298,
+          "prompt_hash": "24127462ddebfe14b3ce4494f0eaf8dd6378067aeec41d657467abfcd1ce14bc"
+        }
+      ],
+      "target_prompt_hash": "e80909292db9646bc66aaebe2ebbc1a54156b1dffd65ea9572ca336df1261bd9",
+      "target_output_hash": "2c16f3cac1d4fb2e478b7c16193cf258ace331e8290ff58596a503540bad790e",
+      "rep": 0,
+      "m": 20,
+      "k": 10,
+      "policy": "online",
+      "mode": "async",
+      "lead_ms": 1000.0,
+      "block_start": 0,
+      "predicted_ids": [
+        205,
+        197,
+        196,
+        47,
+        49,
+        46,
+        203,
+        48,
+        204,
+        50
+      ],
+      "prediction_hit": 1,
+      "policy_ms": 2.202566,
+      "application_with_policy_ms": 1180.248531,
+      "update": {
+        "updated": false,
+        "update_reason": "prediction_hit",
+        "weights_before": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "weights_after": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "update_l2": 0.0
+      },
+      "state_after": {
+        "weights": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "eta": 0.1,
+        "updates": 0
+      },
+      "target_prepared_before_arrival": true,
+      "prefetch_kv_bytes_estimate": 107606016,
+      "backend_cache_hit": null,
+      "metric_note": "cache attribution unavailable under concurrency; byte estimate is not measured transfer"
+    },
+    {
+      "event_id": 7,
+      "session_id": "test:hotpot:194",
+      "step_id": 1,
+      "document_id": "hotpot:194",
+      "current_chunk_id": 333,
+      "target_chunk_id": 330,
+      "query_type": "semantic",
+      "current_request_ms": 104.998751,
+      "target_service_ttft_ms": 55.670544,
+      "arrival_to_first_token_ms": 55.790896,
+      "arrival_to_complete_ms": 56.134114,
+      "application_to_first_token_ms": 1161.432323,
+      "application_request_ms": 1161.775541,
+      "cycle_including_drain_ms": 1161.946801,
+      "post_target_drain_ms": 0.17126,
+      "current_start_ns": 7071309464271,
+      "target_arrival_ns": 7072415105698,
+      "target_submit_ns": 7072415226050,
+      "target_end_ns": 7072471239812,
+      "completed_before_arrival": [
+        331,
+        332,
+        330,
+        334,
+        335,
+        336,
+        337,
+        338,
+        33,
+        31
+      ],
+      "completed_before_submit": [
+        331,
+        332,
+        330,
+        334,
+        335,
+        336,
+        337,
+        338,
+        33,
+        31
+      ],
+      "population": [
+        {
+          "chunk_id": 331,
+          "start_ns": 7071309725514,
+          "end_ns": 7071373671381,
+          "request_ms": 63.773309,
+          "prompt_tokens": 384,
+          "prompt_hash": "52ab7b04d2fe633b2c2cc906fc3c4342657c3d8bf95ebc589b0586dd88960598"
+        },
+        {
+          "chunk_id": 332,
+          "start_ns": 7071373676312,
+          "end_ns": 7071468349713,
+          "request_ms": 94.525072,
+          "prompt_tokens": 384,
+          "prompt_hash": "01d73991e71b91b23e96ece577bc1be43d61821816d8ef3d86a176818ab643f0"
+        },
+        {
+          "chunk_id": 330,
+          "start_ns": 7071468353559,
+          "end_ns": 7071526653294,
+          "request_ms": 58.103689,
+          "prompt_tokens": 384,
+          "prompt_hash": "18330e2eafc1ae2ec9b48bdbb0af112e877008296eee8397f538affa60ce54ab"
+        },
+        {
+          "chunk_id": 334,
+          "start_ns": 7071526658379,
+          "end_ns": 7071582539582,
+          "request_ms": 55.742487,
+          "prompt_tokens": 384,
+          "prompt_hash": "ecbb3d5c8a2c9a203e9fdeab754913d568ac2e8666e8b4af59be47488c4c9886"
+        },
+        {
+          "chunk_id": 335,
+          "start_ns": 7071582543100,
+          "end_ns": 7071637565292,
+          "request_ms": 54.856747,
+          "prompt_tokens": 384,
+          "prompt_hash": "5556bf2e101826de0372a6c83100281db686f00ea91982a62e068a7c2157de29"
+        },
+        {
+          "chunk_id": 336,
+          "start_ns": 7071637569442,
+          "end_ns": 7071694810393,
+          "request_ms": 57.05534,
+          "prompt_tokens": 384,
+          "prompt_hash": "db1972710b2ce397d6ff960164faf82c1904cf09ea59f41965963f5665741b56"
+        },
+        {
+          "chunk_id": 337,
+          "start_ns": 7071694815427,
+          "end_ns": 7071751110805,
+          "request_ms": 56.104336,
+          "prompt_tokens": 384,
+          "prompt_hash": "01afda1f0bd5c6c8831233f6a340448ca5c6cf977797fb44e6b379165018abcc"
+        },
+        {
+          "chunk_id": 338,
+          "start_ns": 7071751115055,
+          "end_ns": 7071806427077,
+          "request_ms": 55.16433,
+          "prompt_tokens": 384,
+          "prompt_hash": "0cdccb65a2694bb64c2c2c4742d51833ae3a6bdb3c48b45f467e46fe0acaeba0"
+        },
+        {
+          "chunk_id": 33,
+          "start_ns": 7071806431030,
+          "end_ns": 7071889422100,
+          "request_ms": 82.862623,
+          "prompt_tokens": 384,
+          "prompt_hash": "c1bc660ab5731efb68f87e53941ab06a18a5f3cd19708599ea77636b55738c41"
+        },
+        {
+          "chunk_id": 31,
+          "start_ns": 7071889426492,
+          "end_ns": 7071979953261,
+          "request_ms": 90.393293,
+          "prompt_tokens": 384,
+          "prompt_hash": "4660d663fc02dbfdafafb37554ae3793c32e50af29c70deb9ad643736b52bea4"
+        }
+      ],
+      "target_prompt_hash": "18330e2eafc1ae2ec9b48bdbb0af112e877008296eee8397f538affa60ce54ab",
+      "target_output_hash": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+      "rep": 0,
+      "m": 20,
+      "k": 10,
+      "policy": "online",
+      "mode": "async",
+      "lead_ms": 1000.0,
+      "block_start": 0,
+      "predicted_ids": [
+        331,
+        332,
+        330,
+        334,
+        335,
+        336,
+        337,
+        338,
+        33,
+        31
+      ],
+      "prediction_hit": 1,
+      "policy_ms": 2.175536,
+      "application_with_policy_ms": 1163.951077,
+      "update": {
+        "updated": false,
+        "update_reason": "prediction_hit",
+        "weights_before": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "weights_after": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "update_l2": 0.0
+      },
+      "state_after": {
+        "weights": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "eta": 0.1,
+        "updates": 0
+      },
+      "target_prepared_before_arrival": true,
+      "prefetch_kv_bytes_estimate": 110100480,
+      "backend_cache_hit": null,
+      "metric_note": "cache attribution unavailable under concurrency; byte estimate is not measured transfer"
+    },
+    {
+      "event_id": 8,
+      "session_id": "test:hotpot:143",
+      "step_id": 0,
+      "document_id": "hotpot:143",
+      "current_chunk_id": 263,
+      "target_chunk_id": 260,
+      "query_type": "semantic",
+      "current_request_ms": 171.40975,
+      "target_service_ttft_ms": 52.763023,
+      "arrival_to_first_token_ms": 52.880334,
+      "arrival_to_complete_ms": 53.146877,
+      "application_to_first_token_ms": 1224.963131,
+      "application_request_ms": 1225.229674,
+      "cycle_including_drain_ms": 1225.422596,
+      "post_target_drain_ms": 0.192922,
+      "current_start_ns": 7072480662093,
+      "target_arrival_ns": 7073652744890,
+      "target_submit_ns": 7073652862201,
+      "target_end_ns": 7073705891767,
+      "completed_before_arrival": [
+        264,
+        262,
+        261,
+        265,
+        260,
+        266,
+        267,
+        259,
+        268,
+        258
+      ],
+      "completed_before_submit": [
+        264,
+        262,
+        261,
+        265,
+        260,
+        266,
+        267,
+        259,
+        268,
+        258
+      ],
+      "population": [
+        {
+          "chunk_id": 264,
+          "start_ns": 7072480932663,
+          "end_ns": 7072566110420,
+          "request_ms": 84.943392,
+          "prompt_tokens": 384,
+          "prompt_hash": "aef771235e1155f3adfc8f4ee1bcc33f03cf3ae0ad79c972b0cf046dda99ade6"
+        },
+        {
+          "chunk_id": 262,
+          "start_ns": 7072566115562,
+          "end_ns": 7072739741872,
+          "request_ms": 173.489556,
+          "prompt_tokens": 384,
+          "prompt_hash": "764045acfdbbb0cfba8c971f8805c0a7a70b9a3495ab8d12320b8ea92f4cd14f"
+        },
+        {
+          "chunk_id": 261,
+          "start_ns": 7072739746158,
+          "end_ns": 7072832200629,
+          "request_ms": 92.249239,
+          "prompt_tokens": 384,
+          "prompt_hash": "d4da652427619fc91bdccfc75c336c34aa8251f4c07b788c4f07ad7dba8d2a96"
+        },
+        {
+          "chunk_id": 265,
+          "start_ns": 7072832205328,
+          "end_ns": 7072920914783,
+          "request_ms": 88.564719,
+          "prompt_tokens": 384,
+          "prompt_hash": "ef6d291497bc21e10e241df4e55c9c8c8dd09205177470ea8862e23e3397aff4"
+        },
+        {
+          "chunk_id": 260,
+          "start_ns": 7072920918957,
+          "end_ns": 7073012226567,
+          "request_ms": 91.130788,
+          "prompt_tokens": 383,
+          "prompt_hash": "13a8c58dc795d3c5973e901c30175d2e7f13964c39f6f2b77b8af096a7e41407"
+        },
+        {
+          "chunk_id": 266,
+          "start_ns": 7073012231942,
+          "end_ns": 7073100476793,
+          "request_ms": 88.044029,
+          "prompt_tokens": 382,
+          "prompt_hash": "67f40309fafd00e86b95a42701008f241e054b4f1d2d48556cad983827d02b7d"
+        },
+        {
+          "chunk_id": 267,
+          "start_ns": 7073100482004,
+          "end_ns": 7073191975848,
+          "request_ms": 91.337305,
+          "prompt_tokens": 384,
+          "prompt_hash": "0d764b8489e118d2b63388a7d0a59b9591840b8f4b22131713e836c9d772c63f"
+        },
+        {
+          "chunk_id": 259,
+          "start_ns": 7073191984188,
+          "end_ns": 7073279831493,
+          "request_ms": 87.731505,
+          "prompt_tokens": 384,
+          "prompt_hash": "4d65ed27b7dda9d84ccd0457587febd3f2907b156fae640f6bae82c6cc12cbbe"
+        },
+        {
+          "chunk_id": 268,
+          "start_ns": 7073279835476,
+          "end_ns": 7073326315156,
+          "request_ms": 46.340715,
+          "prompt_tokens": 85,
+          "prompt_hash": "f84aee294343b725d74a63d824467a77bdc93a4ca5cd9870d7c7342d24b791cc"
+        },
+        {
+          "chunk_id": 258,
+          "start_ns": 7073326320828,
+          "end_ns": 7073411863591,
+          "request_ms": 85.420597,
+          "prompt_tokens": 384,
+          "prompt_hash": "39b386f63315b80f557467c80ec6db8930ec28178377e650786ed051655ddff0"
+        }
+      ],
+      "target_prompt_hash": "13a8c58dc795d3c5973e901c30175d2e7f13964c39f6f2b77b8af096a7e41407",
+      "target_output_hash": "d03502c43d74a30b936740a9517dc4ea2b2ad7168caa0a774cefe793ce0b33e7",
+      "rep": 0,
+      "m": 20,
+      "k": 10,
+      "policy": "online",
+      "mode": "async",
+      "lead_ms": 1000.0,
+      "block_start": 0,
+      "predicted_ids": [
+        264,
+        262,
+        261,
+        265,
+        260,
+        266,
+        267,
+        259,
+        268,
+        258
+      ],
+      "prediction_hit": 1,
+      "policy_ms": 2.353792,
+      "application_with_policy_ms": 1227.583466,
+      "update": {
+        "updated": false,
+        "update_reason": "prediction_hit",
+        "weights_before": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "weights_after": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "update_l2": 0.0
+      },
+      "state_after": {
+        "weights": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "eta": 0.1,
+        "updates": 0
+      },
+      "target_prepared_before_arrival": true,
+      "prefetch_kv_bytes_estimate": 101441536,
+      "backend_cache_hit": null,
+      "metric_note": "cache attribution unavailable under concurrency; byte estimate is not measured transfer"
+    },
+    {
+      "event_id": 9,
+      "session_id": "test:hotpot:15",
+      "step_id": 2,
+      "document_id": "hotpot:15",
+      "current_chunk_id": 14,
+      "target_chunk_id": 16,
+      "query_type": "multi-hop",
+      "current_request_ms": 170.818649,
+      "target_service_ttft_ms": 57.874999,
+      "arrival_to_first_token_ms": 58.012608,
+      "arrival_to_complete_ms": 58.240539,
+      "application_to_first_token_ms": 1230.264431,
+      "application_request_ms": 1230.492362,
+      "cycle_including_drain_ms": 1230.714774,
+      "post_target_drain_ms": 0.222412,
+      "current_start_ns": 7073717379218,
+      "target_arrival_ns": 7074889631041,
+      "target_submit_ns": 7074889768650,
+      "target_end_ns": 7074947871580,
+      "completed_before_arrival": [
+        12,
+        13,
+        15,
+        11,
+        16,
+        20,
+        21,
+        17,
+        130,
+        19
+      ],
+      "completed_before_submit": [
+        12,
+        13,
+        15,
+        11,
+        16,
+        20,
+        21,
+        17,
+        130,
+        19
+      ],
+      "population": [
+        {
+          "chunk_id": 12,
+          "start_ns": 7073717635977,
+          "end_ns": 7073801263684,
+          "request_ms": 83.407809,
+          "prompt_tokens": 384,
+          "prompt_hash": "3b0c2ab93e21e05c0908409054af6aef9b0625f575ff7aa02616db0e9e9f5183"
+        },
+        {
+          "chunk_id": 13,
+          "start_ns": 7073801269566,
+          "end_ns": 7073976607686,
+          "request_ms": 175.201428,
+          "prompt_tokens": 384,
+          "prompt_hash": "a61215c8d8a5833b3e4056c60eb7c424c8204851aad7dadec9b473a14a62278f"
+        },
+        {
+          "chunk_id": 15,
+          "start_ns": 7073976611626,
+          "end_ns": 7074076103982,
+          "request_ms": 99.30965,
+          "prompt_tokens": 384,
+          "prompt_hash": "382b73b2a90fc144fe5e04da50c201f9b491e35499ff35e887f94d192334df7e"
+        },
+        {
+          "chunk_id": 11,
+          "start_ns": 7074076108635,
+          "end_ns": 7074165615548,
+          "request_ms": 89.369574,
+          "prompt_tokens": 384,
+          "prompt_hash": "74ff2683a3e111b2b8d1c3b2e10c9f51421738d16acaba6bf53c6d01af520764"
+        },
+        {
+          "chunk_id": 16,
+          "start_ns": 7074165620203,
+          "end_ns": 7074254107966,
+          "request_ms": 88.262899,
+          "prompt_tokens": 384,
+          "prompt_hash": "00df2fe3d41d7dfc28e92010c89fcf651cad003f8499e268e4550094338303c3"
+        },
+        {
+          "chunk_id": 20,
+          "start_ns": 7074254112699,
+          "end_ns": 7074343913973,
+          "request_ms": 89.614547,
+          "prompt_tokens": 384,
+          "prompt_hash": "a9afe3e7bf3fb2e9c86d18b60f74db7b479ae084db2f1b6ec78bb877ec8f122b"
+        },
+        {
+          "chunk_id": 21,
+          "start_ns": 7074343918927,
+          "end_ns": 7074398847319,
+          "request_ms": 54.803106,
+          "prompt_tokens": 384,
+          "prompt_hash": "3e0f12b7220bc1c2b5dbe37a60f1c8755389fe0755a5906e19240351510f4b1a"
+        },
+        {
+          "chunk_id": 17,
+          "start_ns": 7074398851664,
+          "end_ns": 7074479923356,
+          "request_ms": 80.903122,
+          "prompt_tokens": 383,
+          "prompt_hash": "f16f62baf3253f2040ced9777469c86857656b25855e0dceb735733fa9bd8ff5"
+        },
+        {
+          "chunk_id": 130,
+          "start_ns": 7074479928306,
+          "end_ns": 7074572098079,
+          "request_ms": 91.939426,
+          "prompt_tokens": 384,
+          "prompt_hash": "81aa9a98792555486a17fd318196a1ffbaf897f9be4a38c34d79504c871acbfb"
+        },
+        {
+          "chunk_id": 19,
+          "start_ns": 7074572103487,
+          "end_ns": 7074661077126,
+          "request_ms": 88.721044,
+          "prompt_tokens": 384,
+          "prompt_hash": "d0d1b564ec2270134d586be5c8707cbd16182a49434c934318ee2f187d115320"
+        }
+      ],
+      "target_prompt_hash": "00df2fe3d41d7dfc28e92010c89fcf651cad003f8499e268e4550094338303c3",
+      "target_output_hash": "614e2b966ce43db4f4e9c7a8aef14ee73456bfed17c109c03d7782b0940478be",
+      "rep": 0,
+      "m": 20,
+      "k": 10,
+      "policy": "online",
+      "mode": "async",
+      "lead_ms": 1000.0,
+      "block_start": 0,
+      "predicted_ids": [
+        12,
+        13,
+        15,
+        11,
+        16,
+        20,
+        21,
+        17,
+        130,
+        19
+      ],
+      "prediction_hit": 1,
+      "policy_ms": 3.100452,
+      "application_with_policy_ms": 1233.5928139999999,
+      "update": {
+        "updated": false,
+        "update_reason": "prediction_hit",
+        "weights_before": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "weights_after": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "update_l2": 0.0
+      },
+      "state_after": {
+        "weights": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "eta": 0.1,
+        "updates": 0
+      },
+      "target_prepared_before_arrival": true,
+      "prefetch_kv_bytes_estimate": 110071808,
+      "backend_cache_hit": null,
+      "metric_note": "cache attribution unavailable under concurrency; byte estimate is not measured transfer"
+    },
+    {
+      "event_id": 10,
+      "session_id": "test:hotpot:116",
+      "step_id": 3,
+      "document_id": "hotpot:116",
+      "current_chunk_id": 205,
+      "target_chunk_id": 202,
+      "query_type": "multi-hop",
+      "current_request_ms": 129.461823,
+      "target_service_ttft_ms": 56.296224,
+      "arrival_to_first_token_ms": 56.470741000000004,
+      "arrival_to_complete_ms": 56.73114,
+      "application_to_first_token_ms": 1186.459905,
+      "application_request_ms": 1186.720304,
+      "cycle_including_drain_ms": 1186.93974,
+      "post_target_drain_ms": 0.219436,
+      "current_start_ns": 7074957818799,
+      "target_arrival_ns": 7076087807963,
+      "target_submit_ns": 7076087982480,
+      "target_end_ns": 7076144539103,
+      "completed_before_arrival": [
+        202,
+        197,
+        196,
+        49,
+        46,
+        47,
+        207,
+        206,
+        48,
+        198
+      ],
+      "completed_before_submit": [
+        202,
+        197,
+        196,
+        49,
+        46,
+        47,
+        207,
+        206,
+        48,
+        198
+      ],
+      "population": [
+        {
+          "chunk_id": 202,
+          "start_ns": 7074958082394,
+          "end_ns": 7075046583962,
+          "request_ms": 88.374442,
+          "prompt_tokens": 384,
+          "prompt_hash": "6ca5896ed3444352781862a7a968df6f50f40eef8f3858b551553fd06b9b639e"
+        },
+        {
+          "chunk_id": 197,
+          "start_ns": 7075046587728,
+          "end_ns": 7075169312906,
+          "request_ms": 122.561861,
+          "prompt_tokens": 384,
+          "prompt_hash": "7d662fffa1e41e0bd5b824973e0fda57628df64969693546d79372673f037708"
+        },
+        {
+          "chunk_id": 196,
+          "start_ns": 7075169318125,
+          "end_ns": 7075261168084,
+          "request_ms": 91.648371,
+          "prompt_tokens": 384,
+          "prompt_hash": "cdfa6cd942667323de9887b34b886df034666b6196ecd92f1d0908569e9d9d91"
+        },
+        {
+          "chunk_id": 49,
+          "start_ns": 7075261172810,
+          "end_ns": 7075351287072,
+          "request_ms": 89.921912,
+          "prompt_tokens": 384,
+          "prompt_hash": "4339c6eaafe01052a436c494721aff39f62936c58ec85a6c5565eff4103a4fde"
+        },
+        {
+          "chunk_id": 46,
+          "start_ns": 7075351291657,
+          "end_ns": 7075444786068,
+          "request_ms": 93.366458,
+          "prompt_tokens": 384,
+          "prompt_hash": "d760b7de269fa11122063ae4a0c1b15a0e7ea7fa558862140c908d87cbc68525"
+        },
+        {
+          "chunk_id": 47,
+          "start_ns": 7075444790218,
+          "end_ns": 7075536872516,
+          "request_ms": 91.912692,
+          "prompt_tokens": 384,
+          "prompt_hash": "a71eea871b991714247070a3f72db335a14f2a250da70f363d835dd8371f8fab"
+        },
+        {
+          "chunk_id": 207,
+          "start_ns": 7075536877362,
+          "end_ns": 7075626894172,
+          "request_ms": 89.840361,
+          "prompt_tokens": 384,
+          "prompt_hash": "e5fba0e633a48841068d513419d55c3c71550aec65b49d5137dafafe55cad527"
+        },
+        {
+          "chunk_id": 206,
+          "start_ns": 7075626899609,
+          "end_ns": 7075718339728,
+          "request_ms": 91.316743,
+          "prompt_tokens": 384,
+          "prompt_hash": "8699334e73fc0546dd80b108bbee96a2686ff12a6dfcd13ca5588e5b2cd4e638"
+        },
+        {
+          "chunk_id": 48,
+          "start_ns": 7075718344006,
+          "end_ns": 7075811454622,
+          "request_ms": 92.944417,
+          "prompt_tokens": 383,
+          "prompt_hash": "14be3e91aaa52b42a6ec92b97937552c4d0f31142cbc007faa7795c32ce9c1e4"
+        },
+        {
+          "chunk_id": 198,
+          "start_ns": 7075811459442,
+          "end_ns": 7075902839805,
+          "request_ms": 91.192977,
+          "prompt_tokens": 384,
+          "prompt_hash": "d13f2046b88129302a4ea770e93a098f5074035cd3e7f3e1d7dfcf10a8462cf1"
+        }
+      ],
+      "target_prompt_hash": "6ca5896ed3444352781862a7a968df6f50f40eef8f3858b551553fd06b9b639e",
+      "target_output_hash": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+      "rep": 0,
+      "m": 20,
+      "k": 10,
+      "policy": "online",
+      "mode": "async",
+      "lead_ms": 1000.0,
+      "block_start": 0,
+      "predicted_ids": [
+        202,
+        197,
+        196,
+        49,
+        46,
+        47,
+        207,
+        206,
+        48,
+        198
+      ],
+      "prediction_hit": 1,
+      "policy_ms": 2.127383,
+      "application_with_policy_ms": 1188.847687,
+      "update": {
+        "updated": false,
+        "update_reason": "prediction_hit",
+        "weights_before": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "weights_after": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "update_l2": 0.0
+      },
+      "state_after": {
+        "weights": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "eta": 0.1,
+        "updates": 0
+      },
+      "target_prepared_before_arrival": true,
+      "prefetch_kv_bytes_estimate": 110071808,
+      "backend_cache_hit": null,
+      "metric_note": "cache attribution unavailable under concurrency; byte estimate is not measured transfer"
+    },
+    {
+      "event_id": 11,
+      "session_id": "test:hotpot:143",
+      "step_id": 1,
+      "document_id": "hotpot:143",
+      "current_chunk_id": 265,
+      "target_chunk_id": 267,
+      "query_type": "multi-hop",
+      "current_request_ms": 101.325226,
+      "target_service_ttft_ms": 57.210083,
+      "arrival_to_first_token_ms": 57.323831999999996,
+      "arrival_to_complete_ms": 57.612795,
+      "application_to_first_token_ms": 1159.190008,
+      "application_request_ms": 1159.478971,
+      "cycle_including_drain_ms": 1159.644134,
+      "post_target_drain_ms": 0.165163,
+      "current_start_ns": 7076155070457,
+      "target_arrival_ns": 7077256936633,
+      "target_submit_ns": 7077257050382,
+      "target_end_ns": 7077314549428,
+      "completed_before_arrival": [
+        264,
+        263,
+        266,
+        262,
+        261,
+        267,
+        260,
+        268,
+        259,
+        258
+      ],
+      "completed_before_submit": [
+        264,
+        263,
+        266,
+        262,
+        261,
+        267,
+        260,
+        268,
+        259,
+        258
+      ],
+      "population": [
+        {
+          "chunk_id": 264,
+          "start_ns": 7076155319699,
+          "end_ns": 7076215325928,
+          "request_ms": 59.81242,
+          "prompt_tokens": 384,
+          "prompt_hash": "aef771235e1155f3adfc8f4ee1bcc33f03cf3ae0ad79c972b0cf046dda99ade6"
+        },
+        {
+          "chunk_id": 263,
+          "start_ns": 7076215331574,
+          "end_ns": 7076307847521,
+          "request_ms": 92.374565,
+          "prompt_tokens": 384,
+          "prompt_hash": "7ce9a4d4cb0275da805adc9a11cf9fa0bd43fe1ce8a03c626ee082cf55bea8fa"
+        },
+        {
+          "chunk_id": 266,
+          "start_ns": 7076307851267,
+          "end_ns": 7076361069974,
+          "request_ms": 53.024619,
+          "prompt_tokens": 382,
+          "prompt_hash": "67f40309fafd00e86b95a42701008f241e054b4f1d2d48556cad983827d02b7d"
+        },
+        {
+          "chunk_id": 262,
+          "start_ns": 7076361074196,
+          "end_ns": 7076415728627,
+          "request_ms": 54.46786,
+          "prompt_tokens": 384,
+          "prompt_hash": "764045acfdbbb0cfba8c971f8805c0a7a70b9a3495ab8d12320b8ea92f4cd14f"
+        },
+        {
+          "chunk_id": 261,
+          "start_ns": 7076415733517,
+          "end_ns": 7076471405245,
+          "request_ms": 55.54817,
+          "prompt_tokens": 384,
+          "prompt_hash": "d4da652427619fc91bdccfc75c336c34aa8251f4c07b788c4f07ad7dba8d2a96"
+        },
+        {
+          "chunk_id": 267,
+          "start_ns": 7076471408805,
+          "end_ns": 7076526145875,
+          "request_ms": 54.536424,
+          "prompt_tokens": 384,
+          "prompt_hash": "0d764b8489e118d2b63388a7d0a59b9591840b8f4b22131713e836c9d772c63f"
+        },
+        {
+          "chunk_id": 260,
+          "start_ns": 7076526150280,
+          "end_ns": 7076578544290,
+          "request_ms": 52.274212,
+          "prompt_tokens": 383,
+          "prompt_hash": "13a8c58dc795d3c5973e901c30175d2e7f13964c39f6f2b77b8af096a7e41407"
+        },
+        {
+          "chunk_id": 268,
+          "start_ns": 7076578547766,
+          "end_ns": 7076630480233,
+          "request_ms": 51.847724,
+          "prompt_tokens": 85,
+          "prompt_hash": "f84aee294343b725d74a63d824467a77bdc93a4ca5cd9870d7c7342d24b791cc"
+        },
+        {
+          "chunk_id": 259,
+          "start_ns": 7076630483410,
+          "end_ns": 7076686971988,
+          "request_ms": 56.354611,
+          "prompt_tokens": 384,
+          "prompt_hash": "4d65ed27b7dda9d84ccd0457587febd3f2907b156fae640f6bae82c6cc12cbbe"
+        },
+        {
+          "chunk_id": 258,
+          "start_ns": 7076686975242,
+          "end_ns": 7076741347828,
+          "request_ms": 54.217069,
+          "prompt_tokens": 384,
+          "prompt_hash": "39b386f63315b80f557467c80ec6db8930ec28178377e650786ed051655ddff0"
+        }
+      ],
+      "target_prompt_hash": "0d764b8489e118d2b63388a7d0a59b9591840b8f4b22131713e836c9d772c63f",
+      "target_output_hash": "71b4f0b2f5ac4861cbd8f4afbc2ff1c6d454407e74988551908181661e0525ec",
+      "rep": 0,
+      "m": 20,
+      "k": 10,
+      "policy": "online",
+      "mode": "async",
+      "lead_ms": 1000.0,
+      "block_start": 0,
+      "predicted_ids": [
+        264,
+        263,
+        266,
+        262,
+        261,
+        267,
+        260,
+        268,
+        259,
+        258
+      ],
+      "prediction_hit": 1,
+      "policy_ms": 2.32398,
+      "application_with_policy_ms": 1161.802951,
+      "update": {
+        "updated": false,
+        "update_reason": "prediction_hit",
+        "weights_before": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "weights_after": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "update_l2": 0.0
+      },
+      "state_after": {
+        "weights": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "eta": 0.1,
+        "updates": 0
+      },
+      "target_prepared_before_arrival": true,
+      "prefetch_kv_bytes_estimate": 101441536,
+      "backend_cache_hit": null,
+      "metric_note": "cache attribution unavailable under concurrency; byte estimate is not measured transfer"
+    },
+    {
+      "event_id": 12,
+      "session_id": "test:hotpot:141",
+      "step_id": 0,
+      "document_id": "hotpot:141",
+      "current_chunk_id": 246,
+      "target_chunk_id": 249,
+      "query_type": "semantic",
+      "current_request_ms": 173.513265,
+      "target_service_ttft_ms": 57.258201,
+      "arrival_to_first_token_ms": 57.374591,
+      "arrival_to_complete_ms": 57.674384,
+      "application_to_first_token_ms": 1231.427958,
+      "application_request_ms": 1231.727751,
+      "cycle_including_drain_ms": 1231.883406,
+      "post_target_drain_ms": 0.155655,
+      "current_start_ns": 7077325418559,
+      "target_arrival_ns": 7078499471926,
+      "target_submit_ns": 7078499588316,
+      "target_end_ns": 7078557146310,
+      "completed_before_arrival": [
+        247,
+        249,
+        245,
+        248,
+        250,
+        252,
+        256,
+        251,
+        253,
+        255
+      ],
+      "completed_before_submit": [
+        247,
+        249,
+        245,
+        248,
+        250,
+        252,
+        256,
+        251,
+        253,
+        255
+      ],
+      "population": [
+        {
+          "chunk_id": 247,
+          "start_ns": 7077325664355,
+          "end_ns": 7077408417316,
+          "request_ms": 82.575464,
+          "prompt_tokens": 384,
+          "prompt_hash": "128948666334e642a4c6df588dc0c4509eb1cd991bc123ffa3ec7ff6a4110577"
+        },
+        {
+          "chunk_id": 249,
+          "start_ns": 7077408421939,
+          "end_ns": 7077582898559,
+          "request_ms": 174.263722,
+          "prompt_tokens": 384,
+          "prompt_hash": "546e6ba030c4b8c9184a8244bccdb8e9f7a9ec7de4703ed8360082e2b9b4b129"
+        },
+        {
+          "chunk_id": 245,
+          "start_ns": 7077582902463,
+          "end_ns": 7077671976132,
+          "request_ms": 88.935905,
+          "prompt_tokens": 384,
+          "prompt_hash": "e8d01fdcbda448bf0d75e48f95ff34237a3c37eb817c526f9215f35920e8c15c"
+        },
+        {
+          "chunk_id": 248,
+          "start_ns": 7077671979104,
+          "end_ns": 7077762467514,
+          "request_ms": 90.315709,
+          "prompt_tokens": 384,
+          "prompt_hash": "c10fcdc6a816aa26065372e1f3a8153978a2a0796f22b29705665f28b3fa7909"
+        },
+        {
+          "chunk_id": 250,
+          "start_ns": 7077762471574,
+          "end_ns": 7077854116946,
+          "request_ms": 91.430062,
+          "prompt_tokens": 384,
+          "prompt_hash": "6edaaa35bb2ca725f8b5df4b142f7866288106fd214933f3904378044761bc82"
+        },
+        {
+          "chunk_id": 252,
+          "start_ns": 7077854121366,
+          "end_ns": 7077947181666,
+          "request_ms": 92.850864,
+          "prompt_tokens": 384,
+          "prompt_hash": "1c59c502bddb26595b361596d36e9b3684115b1d3957de797a5ac91c5cc06506"
+        },
+        {
+          "chunk_id": 256,
+          "start_ns": 7077947185644,
+          "end_ns": 7078004143165,
+          "request_ms": 56.784433,
+          "prompt_tokens": 214,
+          "prompt_hash": "3cbcb83b1c53747b8483d62f794dcbf5f25a8ad28b2ab0a1cb146d4df3d9139f"
+        },
+        {
+          "chunk_id": 251,
+          "start_ns": 7078004146805,
+          "end_ns": 7078094408928,
+          "request_ms": 90.13778,
+          "prompt_tokens": 384,
+          "prompt_hash": "64e0eea140db3274020f5d72c25583fb7419d9a43e79d9524136deadfd5318d9"
+        },
+        {
+          "chunk_id": 253,
+          "start_ns": 7078094411770,
+          "end_ns": 7078187211315,
+          "request_ms": 92.500561,
+          "prompt_tokens": 384,
+          "prompt_hash": "bc15f212ad74a529d1daf580a41d72d73f0af18658f3de6893539a25e35cf993"
+        },
+        {
+          "chunk_id": 255,
+          "start_ns": 7078187215411,
+          "end_ns": 7078275234429,
+          "request_ms": 87.882404,
+          "prompt_tokens": 384,
+          "prompt_hash": "708bb1b318647d52975b7e65800c09c141dd7b6483d422961dbb8b4e21120bff"
+        }
+      ],
+      "target_prompt_hash": "546e6ba030c4b8c9184a8244bccdb8e9f7a9ec7de4703ed8360082e2b9b4b129",
+      "target_output_hash": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+      "rep": 0,
+      "m": 20,
+      "k": 10,
+      "policy": "online",
+      "mode": "async",
+      "lead_ms": 1000.0,
+      "block_start": 0,
+      "predicted_ids": [
+        247,
+        249,
+        245,
+        248,
+        250,
+        252,
+        256,
+        251,
+        253,
+        255
+      ],
+      "prediction_hit": 1,
+      "policy_ms": 3.022318,
+      "application_with_policy_ms": 1234.750069,
+      "update": {
+        "updated": false,
+        "update_reason": "prediction_hit",
+        "weights_before": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "weights_after": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "update_l2": 0.0
+      },
+      "state_after": {
+        "weights": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "eta": 0.1,
+        "updates": 0
+      },
+      "target_prepared_before_arrival": true,
+      "prefetch_kv_bytes_estimate": 105226240,
+      "backend_cache_hit": null,
+      "metric_note": "cache attribution unavailable under concurrency; byte estimate is not measured transfer"
+    },
+    {
+      "event_id": 13,
+      "session_id": "test:hotpot:15",
+      "step_id": 3,
+      "document_id": "hotpot:15",
+      "current_chunk_id": 11,
+      "target_chunk_id": 15,
+      "query_type": "multi-hop",
+      "current_request_ms": 172.678674,
+      "target_service_ttft_ms": 56.364347,
+      "arrival_to_first_token_ms": 56.470746000000005,
+      "arrival_to_complete_ms": 56.738309,
+      "application_to_first_token_ms": 1230.519046,
+      "application_request_ms": 1230.786609,
+      "cycle_including_drain_ms": 1230.949188,
+      "post_target_drain_ms": 0.162579,
+      "current_start_ns": 7078568688280,
+      "target_arrival_ns": 7079742736580,
+      "target_submit_ns": 7079742842979,
+      "target_end_ns": 7079799474889,
+      "completed_before_arrival": [
+        13,
+        12,
+        15,
+        14,
+        20,
+        21,
+        129,
+        131,
+        19,
+        18
+      ],
+      "completed_before_submit": [
+        13,
+        12,
+        15,
+        14,
+        20,
+        21,
+        129,
+        131,
+        19,
+        18
+      ],
+      "population": [
+        {
+          "chunk_id": 13,
+          "start_ns": 7078568938905,
+          "end_ns": 7078652834388,
+          "request_ms": 83.707182,
+          "prompt_tokens": 384,
+          "prompt_hash": "a61215c8d8a5833b3e4056c60eb7c424c8204851aad7dadec9b473a14a62278f"
+        },
+        {
+          "chunk_id": 12,
+          "start_ns": 7078652838236,
+          "end_ns": 7078834170664,
+          "request_ms": 181.118164,
+          "prompt_tokens": 384,
+          "prompt_hash": "3b0c2ab93e21e05c0908409054af6aef9b0625f575ff7aa02616db0e9e9f5183"
+        },
+        {
+          "chunk_id": 15,
+          "start_ns": 7078834174639,
+          "end_ns": 7078924843403,
+          "request_ms": 90.531675,
+          "prompt_tokens": 384,
+          "prompt_hash": "382b73b2a90fc144fe5e04da50c201f9b491e35499ff35e887f94d192334df7e"
+        },
+        {
+          "chunk_id": 14,
+          "start_ns": 7078924846924,
+          "end_ns": 7079018450458,
+          "request_ms": 93.4333,
+          "prompt_tokens": 384,
+          "prompt_hash": "b507d2b78f3f5d2eefc9e8aa61487a073680de3ecc0a4e5b5a7e08b90f6bf8ae"
+        },
+        {
+          "chunk_id": 20,
+          "start_ns": 7079018455149,
+          "end_ns": 7079110802684,
+          "request_ms": 92.220132,
+          "prompt_tokens": 384,
+          "prompt_hash": "a9afe3e7bf3fb2e9c86d18b60f74db7b479ae084db2f1b6ec78bb877ec8f122b"
+        },
+        {
+          "chunk_id": 21,
+          "start_ns": 7079110805983,
+          "end_ns": 7079201675507,
+          "request_ms": 90.682593,
+          "prompt_tokens": 384,
+          "prompt_hash": "3e0f12b7220bc1c2b5dbe37a60f1c8755389fe0755a5906e19240351510f4b1a"
+        },
+        {
+          "chunk_id": 129,
+          "start_ns": 7079201679909,
+          "end_ns": 7079293878601,
+          "request_ms": 92.068048,
+          "prompt_tokens": 384,
+          "prompt_hash": "7a145c8784416973965095d6be6553909f9a178b77a64595c6a6c4687b607823"
+        },
+        {
+          "chunk_id": 131,
+          "start_ns": 7079293881812,
+          "end_ns": 7079384320623,
+          "request_ms": 90.255042,
+          "prompt_tokens": 384,
+          "prompt_hash": "18d0a5351db1668b4044d6e3fc422cd528c90ecc6033d567b830442eadc3dea1"
+        },
+        {
+          "chunk_id": 19,
+          "start_ns": 7079384324801,
+          "end_ns": 7079478155759,
+          "request_ms": 93.619452,
+          "prompt_tokens": 384,
+          "prompt_hash": "d0d1b564ec2270134d586be5c8707cbd16182a49434c934318ee2f187d115320"
+        },
+        {
+          "chunk_id": 18,
+          "start_ns": 7079478160006,
+          "end_ns": 7079569353496,
+          "request_ms": 90.992096,
+          "prompt_tokens": 384,
+          "prompt_hash": "6dd6a15cfdda1ed1d7bb41d111abf25c4f4ef34d55d37a456afd7e7a42c5db09"
+        }
+      ],
+      "target_prompt_hash": "382b73b2a90fc144fe5e04da50c201f9b491e35499ff35e887f94d192334df7e",
+      "target_output_hash": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3",
+      "rep": 0,
+      "m": 20,
+      "k": 10,
+      "policy": "online",
+      "mode": "async",
+      "lead_ms": 1000.0,
+      "block_start": 0,
+      "predicted_ids": [
+        13,
+        12,
+        15,
+        14,
+        20,
+        21,
+        129,
+        131,
+        19,
+        18
+      ],
+      "prediction_hit": 1,
+      "policy_ms": 3.495867,
+      "application_with_policy_ms": 1234.282476,
+      "update": {
+        "updated": false,
+        "update_reason": "prediction_hit",
+        "weights_before": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "weights_after": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "update_l2": 0.0
+      },
+      "state_after": {
+        "weights": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "eta": 0.1,
+        "updates": 0
+      },
+      "target_prepared_before_arrival": true,
+      "prefetch_kv_bytes_estimate": 110100480,
+      "backend_cache_hit": null,
+      "metric_note": "cache attribution unavailable under concurrency; byte estimate is not measured transfer"
+    },
+    {
+      "event_id": 14,
+      "session_id": "test:hotpot:15",
+      "step_id": 4,
+      "document_id": "hotpot:15",
+      "current_chunk_id": 18,
+      "target_chunk_id": 22,
+      "query_type": "multi-hop",
+      "current_request_ms": 220.018888,
+      "target_service_ttft_ms": 57.727751,
+      "arrival_to_first_token_ms": 57.847324,
+      "arrival_to_complete_ms": 58.197132,
+      "application_to_first_token_ms": 1279.277827,
+      "application_request_ms": 1279.627635,
+      "cycle_including_drain_ms": 1279.850897,
+      "post_target_drain_ms": 0.223262,
+      "current_start_ns": 7079810890047,
+      "target_arrival_ns": 7081032320550,
+      "target_submit_ns": 7081032440123,
+      "target_end_ns": 7081090517682,
+      "completed_before_arrival": [
+        19,
+        16,
+        17,
+        20,
+        21,
+        23,
+        24,
+        22,
+        15,
+        11
+      ],
+      "completed_before_submit": [
+        19,
+        16,
+        17,
+        20,
+        21,
+        23,
+        24,
+        22,
+        15,
+        11
+      ],
+      "population": [
+        {
+          "chunk_id": 19,
+          "start_ns": 7079811155614,
+          "end_ns": 7079899105418,
+          "request_ms": 87.7489,
+          "prompt_tokens": 384,
+          "prompt_hash": "d0d1b564ec2270134d586be5c8707cbd16182a49434c934318ee2f187d115320"
+        },
+        {
+          "chunk_id": 16,
+          "start_ns": 7079899109506,
+          "end_ns": 7079993556666,
+          "request_ms": 94.268712,
+          "prompt_tokens": 384,
+          "prompt_hash": "00df2fe3d41d7dfc28e92010c89fcf651cad003f8499e268e4550094338303c3"
+        },
+        {
+          "chunk_id": 17,
+          "start_ns": 7079993560634,
+          "end_ns": 7080114236172,
+          "request_ms": 120.476873,
+          "prompt_tokens": 383,
+          "prompt_hash": "f16f62baf3253f2040ced9777469c86857656b25855e0dceb735733fa9bd8ff5"
+        },
+        {
+          "chunk_id": 20,
+          "start_ns": 7080114240476,
+          "end_ns": 7080173245147,
+          "request_ms": 58.807681,
+          "prompt_tokens": 384,
+          "prompt_hash": "a9afe3e7bf3fb2e9c86d18b60f74db7b479ae084db2f1b6ec78bb877ec8f122b"
+        },
+        {
+          "chunk_id": 21,
+          "start_ns": 7080173249350,
+          "end_ns": 7080228752984,
+          "request_ms": 55.380707,
+          "prompt_tokens": 384,
+          "prompt_hash": "3e0f12b7220bc1c2b5dbe37a60f1c8755389fe0755a5906e19240351510f4b1a"
+        },
+        {
+          "chunk_id": 23,
+          "start_ns": 7080228756705,
+          "end_ns": 7080311358842,
+          "request_ms": 82.370973,
+          "prompt_tokens": 384,
+          "prompt_hash": "98cc1a6be6fc33f1c3d6fb8f77f1437046494d22803aba1eb646e186cdc96ef4"
+        },
+        {
+          "chunk_id": 24,
+          "start_ns": 7080311363012,
+          "end_ns": 7080359880387,
+          "request_ms": 48.378674,
+          "prompt_tokens": 125,
+          "prompt_hash": "3fc68fd4cbb596864486686eccb94c45f2de0441cc11bd3fb93a39d989f2d10e"
+        },
+        {
+          "chunk_id": 22,
+          "start_ns": 7080359884294,
+          "end_ns": 7080449200274,
+          "request_ms": 89.081869,
+          "prompt_tokens": 384,
+          "prompt_hash": "5c21884696067c4efb59fa6ec6965bba0ee268798afc50e675c0bdcc5603a5ca"
+        },
+        {
+          "chunk_id": 15,
+          "start_ns": 7080449204945,
+          "end_ns": 7080503340198,
+          "request_ms": 53.988823,
+          "prompt_tokens": 384,
+          "prompt_hash": "382b73b2a90fc144fe5e04da50c201f9b491e35499ff35e887f94d192334df7e"
+        },
+        {
+          "chunk_id": 11,
+          "start_ns": 7080503344238,
+          "end_ns": 7080559362713,
+          "request_ms": 55.834496,
+          "prompt_tokens": 384,
+          "prompt_hash": "74ff2683a3e111b2b8d1c3b2e10c9f51421738d16acaba6bf53c6d01af520764"
+        }
+      ],
+      "target_prompt_hash": "5c21884696067c4efb59fa6ec6965bba0ee268798afc50e675c0bdcc5603a5ca",
+      "target_output_hash": "98aa6675482552881925fe70d82559692d811b3bcd33f53b9a702c24d5322696",
+      "rep": 0,
+      "m": 20,
+      "k": 10,
+      "policy": "online",
+      "mode": "async",
+      "lead_ms": 1000.0,
+      "block_start": 0,
+      "predicted_ids": [
+        19,
+        16,
+        17,
+        20,
+        21,
+        23,
+        24,
+        22,
+        15,
+        11
+      ],
+      "prediction_hit": 1,
+      "policy_ms": 2.542193,
+      "application_with_policy_ms": 1282.169828,
+      "update": {
+        "updated": false,
+        "update_reason": "prediction_hit",
+        "weights_before": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "weights_after": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "update_l2": 0.0
+      },
+      "state_after": {
+        "weights": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "eta": 0.1,
+        "updates": 0
+      },
+      "target_prepared_before_arrival": true,
+      "prefetch_kv_bytes_estimate": 102645760,
+      "backend_cache_hit": null,
+      "metric_note": "cache attribution unavailable under concurrency; byte estimate is not measured transfer"
+    },
+    {
+      "event_id": 15,
+      "session_id": "test:hotpot:194",
+      "step_id": 2,
+      "document_id": "hotpot:194",
+      "current_chunk_id": 334,
+      "target_chunk_id": 336,
+      "query_type": "multi-hop",
+      "current_request_ms": 83.090511,
+      "target_service_ttft_ms": 56.071914,
+      "arrival_to_first_token_ms": 56.333246,
+      "arrival_to_complete_ms": 56.664408,
+      "application_to_first_token_ms": 1139.935686,
+      "application_request_ms": 1140.266848,
+      "cycle_including_drain_ms": 1140.409607,
+      "post_target_drain_ms": 0.142759,
+      "current_start_ns": 7081102308241,
+      "target_arrival_ns": 7082185910681,
+      "target_submit_ns": 7082186172013,
+      "target_end_ns": 7082242575089,
+      "completed_before_arrival": [
+        332,
+        333,
+        336,
+        335,
+        331,
+        330,
+        337,
+        338,
+        25,
+        35
+      ],
+      "completed_before_submit": [
+        332,
+        333,
+        336,
+        335,
+        331,
+        330,
+        337,
+        338,
+        25,
+        35
+      ],
+      "population": [
+        {
+          "chunk_id": 332,
+          "start_ns": 7081102553850,
+          "end_ns": 7081277904014,
+          "request_ms": 175.195923,
+          "prompt_tokens": 384,
+          "prompt_hash": "01d73991e71b91b23e96ece577bc1be43d61821816d8ef3d86a176818ab643f0"
+        },
+        {
+          "chunk_id": 333,
+          "start_ns": 7081277908567,
+          "end_ns": 7081368621492,
+          "request_ms": 90.525026,
+          "prompt_tokens": 384,
+          "prompt_hash": "4a0fbdc6bca674f07f237fc4462bcc4745c2bc0db40f05ec75d63b5d9b797b54"
+        },
+        {
+          "chunk_id": 336,
+          "start_ns": 7081368625452,
+          "end_ns": 7081461366114,
+          "request_ms": 92.561201,
+          "prompt_tokens": 384,
+          "prompt_hash": "db1972710b2ce397d6ff960164faf82c1904cf09ea59f41965963f5665741b56"
+        },
+        {
+          "chunk_id": 335,
+          "start_ns": 7081461371008,
+          "end_ns": 7081552140012,
+          "request_ms": 90.496782,
+          "prompt_tokens": 384,
+          "prompt_hash": "5556bf2e101826de0372a6c83100281db686f00ea91982a62e068a7c2157de29"
+        },
+        {
+          "chunk_id": 331,
+          "start_ns": 7081552145274,
+          "end_ns": 7081644486740,
+          "request_ms": 92.211778,
+          "prompt_tokens": 384,
+          "prompt_hash": "52ab7b04d2fe633b2c2cc906fc3c4342657c3d8bf95ebc589b0586dd88960598"
+        },
+        {
+          "chunk_id": 330,
+          "start_ns": 7081644489664,
+          "end_ns": 7081733798796,
+          "request_ms": 89.12766,
+          "prompt_tokens": 384,
+          "prompt_hash": "18330e2eafc1ae2ec9b48bdbb0af112e877008296eee8397f538affa60ce54ab"
+        },
+        {
+          "chunk_id": 337,
+          "start_ns": 7081733802792,
+          "end_ns": 7081827181191,
+          "request_ms": 93.167515,
+          "prompt_tokens": 384,
+          "prompt_hash": "01afda1f0bd5c6c8831233f6a340448ca5c6cf977797fb44e6b379165018abcc"
+        },
+        {
+          "chunk_id": 338,
+          "start_ns": 7081827184950,
+          "end_ns": 7081916442326,
+          "request_ms": 89.118673,
+          "prompt_tokens": 384,
+          "prompt_hash": "0cdccb65a2694bb64c2c2c4742d51833ae3a6bdb3c48b45f467e46fe0acaeba0"
+        },
+        {
+          "chunk_id": 25,
+          "start_ns": 7081916445894,
+          "end_ns": 7082008410746,
+          "request_ms": 91.832836,
+          "prompt_tokens": 384,
+          "prompt_hash": "329da77e16952e375aafdc008bb5187a6e1f33bc20fd1a90187911e75e3ef576"
+        },
+        {
+          "chunk_id": 35,
+          "start_ns": 7082008414539,
+          "end_ns": 7082098779366,
+          "request_ms": 90.230297,
+          "prompt_tokens": 384,
+          "prompt_hash": "fd6d3aee3d6514082ed95ecabe523ed424daf9e267c5ef18883f1aa823b591c8"
+        }
+      ],
+      "target_prompt_hash": "db1972710b2ce397d6ff960164faf82c1904cf09ea59f41965963f5665741b56",
+      "target_output_hash": "64ffce325d1c7264cc381a1749c8281ced0f032a7f9900d0dfc48e9a33eef4b7",
+      "rep": 0,
+      "m": 20,
+      "k": 10,
+      "policy": "online",
+      "mode": "async",
+      "lead_ms": 1000.0,
+      "block_start": 0,
+      "predicted_ids": [
+        332,
+        333,
+        336,
+        335,
+        331,
+        330,
+        337,
+        338,
+        25,
+        35
+      ],
+      "prediction_hit": 1,
+      "policy_ms": 2.627079,
+      "application_with_policy_ms": 1142.893927,
+      "update": {
+        "updated": false,
+        "update_reason": "prediction_hit",
+        "weights_before": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "weights_after": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "update_l2": 0.0
+      },
+      "state_after": {
+        "weights": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "eta": 0.1,
+        "updates": 0
+      },
+      "target_prepared_before_arrival": true,
+      "prefetch_kv_bytes_estimate": 110100480,
+      "backend_cache_hit": null,
+      "metric_note": "cache attribution unavailable under concurrency; byte estimate is not measured transfer"
+    },
+    {
+      "event_id": 16,
+      "session_id": "test:hotpot:143",
+      "step_id": 2,
+      "document_id": "hotpot:143",
+      "current_chunk_id": 261,
+      "target_chunk_id": 265,
+      "query_type": "semantic",
+      "current_request_ms": 132.355239,
+      "target_service_ttft_ms": 58.793678,
+      "arrival_to_first_token_ms": 58.912196,
+      "arrival_to_complete_ms": 59.176706,
+      "application_to_first_token_ms": 1191.912067,
+      "application_request_ms": 1192.176577,
+      "cycle_including_drain_ms": 1192.404569,
+      "post_target_drain_ms": 0.227992,
+      "current_start_ns": 7082254380017,
+      "target_arrival_ns": 7083387379888,
+      "target_submit_ns": 7083387498406,
+      "target_end_ns": 7083446556594,
+      "completed_before_arrival": [
+        263,
+        262,
+        264,
+        260,
+        265,
+        266,
+        259,
+        267,
+        258,
+        268
+      ],
+      "completed_before_submit": [
+        263,
+        262,
+        264,
+        260,
+        265,
+        266,
+        259,
+        267,
+        258,
+        268
+      ],
+      "population": [
+        {
+          "chunk_id": 263,
+          "start_ns": 7082254663995,
+          "end_ns": 7082345726307,
+          "request_ms": 90.856897,
+          "prompt_tokens": 384,
+          "prompt_hash": "7ce9a4d4cb0275da805adc9a11cf9fa0bd43fe1ce8a03c626ee082cf55bea8fa"
+        },
+        {
+          "chunk_id": 262,
+          "start_ns": 7082345730867,
+          "end_ns": 7082438661113,
+          "request_ms": 92.749508,
+          "prompt_tokens": 384,
+          "prompt_hash": "764045acfdbbb0cfba8c971f8805c0a7a70b9a3495ab8d12320b8ea92f4cd14f"
+        },
+        {
+          "chunk_id": 264,
+          "start_ns": 7082438666426,
+          "end_ns": 7082526236843,
+          "request_ms": 87.432589,
+          "prompt_tokens": 384,
+          "prompt_hash": "aef771235e1155f3adfc8f4ee1bcc33f03cf3ae0ad79c972b0cf046dda99ade6"
+        },
+        {
+          "chunk_id": 260,
+          "start_ns": 7082526240501,
+          "end_ns": 7082618255123,
+          "request_ms": 91.887001,
+          "prompt_tokens": 383,
+          "prompt_hash": "13a8c58dc795d3c5973e901c30175d2e7f13964c39f6f2b77b8af096a7e41407"
+        },
+        {
+          "chunk_id": 265,
+          "start_ns": 7082618259010,
+          "end_ns": 7082711443820,
+          "request_ms": 92.977213,
+          "prompt_tokens": 384,
+          "prompt_hash": "ef6d291497bc21e10e241df4e55c9c8c8dd09205177470ea8862e23e3397aff4"
+        },
+        {
+          "chunk_id": 266,
+          "start_ns": 7082711448781,
+          "end_ns": 7082804390758,
+          "request_ms": 92.816443,
+          "prompt_tokens": 382,
+          "prompt_hash": "67f40309fafd00e86b95a42701008f241e054b4f1d2d48556cad983827d02b7d"
+        },
+        {
+          "chunk_id": 259,
+          "start_ns": 7082804394275,
+          "end_ns": 7082897309103,
+          "request_ms": 92.751445,
+          "prompt_tokens": 384,
+          "prompt_hash": "4d65ed27b7dda9d84ccd0457587febd3f2907b156fae640f6bae82c6cc12cbbe"
+        },
+        {
+          "chunk_id": 267,
+          "start_ns": 7082897312355,
+          "end_ns": 7082990106997,
+          "request_ms": 92.559429,
+          "prompt_tokens": 384,
+          "prompt_hash": "0d764b8489e118d2b63388a7d0a59b9591840b8f4b22131713e836c9d772c63f"
+        },
+        {
+          "chunk_id": 258,
+          "start_ns": 7082990110608,
+          "end_ns": 7083082053731,
+          "request_ms": 91.710613,
+          "prompt_tokens": 384,
+          "prompt_hash": "39b386f63315b80f557467c80ec6db8930ec28178377e650786ed051655ddff0"
+        },
+        {
+          "chunk_id": 268,
+          "start_ns": 7083082061066,
+          "end_ns": 7083126584297,
+          "request_ms": 44.406486,
+          "prompt_tokens": 85,
+          "prompt_hash": "f84aee294343b725d74a63d824467a77bdc93a4ca5cd9870d7c7342d24b791cc"
+        }
+      ],
+      "target_prompt_hash": "ef6d291497bc21e10e241df4e55c9c8c8dd09205177470ea8862e23e3397aff4",
+      "target_output_hash": "d03502c43d74a30b936740a9517dc4ea2b2ad7168caa0a774cefe793ce0b33e7",
+      "rep": 0,
+      "m": 20,
+      "k": 10,
+      "policy": "online",
+      "mode": "async",
+      "lead_ms": 1000.0,
+      "block_start": 0,
+      "predicted_ids": [
+        263,
+        262,
+        264,
+        260,
+        265,
+        266,
+        259,
+        267,
+        258,
+        268
+      ],
+      "prediction_hit": 1,
+      "policy_ms": 2.420453,
+      "application_with_policy_ms": 1194.59703,
+      "update": {
+        "updated": false,
+        "update_reason": "prediction_hit",
+        "weights_before": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "weights_after": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "update_l2": 0.0
+      },
+      "state_after": {
+        "weights": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "eta": 0.1,
+        "updates": 0
+      },
+      "target_prepared_before_arrival": true,
+      "prefetch_kv_bytes_estimate": 101441536,
+      "backend_cache_hit": null,
+      "metric_note": "cache attribution unavailable under concurrency; byte estimate is not measured transfer"
+    },
+    {
+      "event_id": 17,
+      "session_id": "test:hotpot:15",
+      "step_id": 5,
+      "document_id": "hotpot:15",
+      "current_chunk_id": 19,
+      "target_chunk_id": 20,
+      "query_type": "structural",
+      "current_request_ms": 106.184764,
+      "target_service_ttft_ms": 55.958248,
+      "arrival_to_first_token_ms": 56.096461,
+      "arrival_to_complete_ms": 56.350525,
+      "application_to_first_token_ms": 1162.8483939999999,
+      "application_request_ms": 1163.102458,
+      "cycle_including_drain_ms": 1163.292269,
+      "post_target_drain_ms": 0.189811,
+      "current_start_ns": 7083458686282,
+      "target_arrival_ns": 7084565438215,
+      "target_submit_ns": 7084565576428,
+      "target_end_ns": 7084621788740,
+      "completed_before_arrival": [
+        18,
+        17,
+        16,
+        21,
+        20,
+        22,
+        23,
+        24,
+        15,
+        11
+      ],
+      "completed_before_submit": [
+        18,
+        17,
+        16,
+        21,
+        20,
+        22,
+        23,
+        24,
+        15,
+        11
+      ],
+      "population": [
+        {
+          "chunk_id": 18,
+          "start_ns": 7083458941726,
+          "end_ns": 7083523192455,
+          "request_ms": 64.020124,
+          "prompt_tokens": 384,
+          "prompt_hash": "6dd6a15cfdda1ed1d7bb41d111abf25c4f4ef34d55d37a456afd7e7a42c5db09"
+        },
+        {
+          "chunk_id": 17,
+          "start_ns": 7083523197907,
+          "end_ns": 7083614122983,
+          "request_ms": 90.731119,
+          "prompt_tokens": 383,
+          "prompt_hash": "f16f62baf3253f2040ced9777469c86857656b25855e0dceb735733fa9bd8ff5"
+        },
+        {
+          "chunk_id": 16,
+          "start_ns": 7083614127603,
+          "end_ns": 7083671195103,
+          "request_ms": 56.945113,
+          "prompt_tokens": 384,
+          "prompt_hash": "00df2fe3d41d7dfc28e92010c89fcf651cad003f8499e268e4550094338303c3"
+        },
+        {
+          "chunk_id": 21,
+          "start_ns": 7083671198989,
+          "end_ns": 7083726972243,
+          "request_ms": 55.626075,
+          "prompt_tokens": 384,
+          "prompt_hash": "3e0f12b7220bc1c2b5dbe37a60f1c8755389fe0755a5906e19240351510f4b1a"
+        },
+        {
+          "chunk_id": 20,
+          "start_ns": 7083726975769,
+          "end_ns": 7083782145786,
+          "request_ms": 54.952529,
+          "prompt_tokens": 384,
+          "prompt_hash": "a9afe3e7bf3fb2e9c86d18b60f74db7b479ae084db2f1b6ec78bb877ec8f122b"
+        },
+        {
+          "chunk_id": 22,
+          "start_ns": 7083782150332,
+          "end_ns": 7083838915683,
+          "request_ms": 56.578357,
+          "prompt_tokens": 384,
+          "prompt_hash": "5c21884696067c4efb59fa6ec6965bba0ee268798afc50e675c0bdcc5603a5ca"
+        },
+        {
+          "chunk_id": 23,
+          "start_ns": 7083838920129,
+          "end_ns": 7083894398095,
+          "request_ms": 55.278634,
+          "prompt_tokens": 384,
+          "prompt_hash": "98cc1a6be6fc33f1c3d6fb8f77f1437046494d22803aba1eb646e186cdc96ef4"
+        },
+        {
+          "chunk_id": 24,
+          "start_ns": 7083894403213,
+          "end_ns": 7083943312622,
+          "request_ms": 48.80866,
+          "prompt_tokens": 125,
+          "prompt_hash": "3fc68fd4cbb596864486686eccb94c45f2de0441cc11bd3fb93a39d989f2d10e"
+        },
+        {
+          "chunk_id": 15,
+          "start_ns": 7083943316179,
+          "end_ns": 7083995455930,
+          "request_ms": 51.954076,
+          "prompt_tokens": 384,
+          "prompt_hash": "382b73b2a90fc144fe5e04da50c201f9b491e35499ff35e887f94d192334df7e"
+        },
+        {
+          "chunk_id": 11,
+          "start_ns": 7083995461473,
+          "end_ns": 7084048565321,
+          "request_ms": 52.98108,
+          "prompt_tokens": 384,
+          "prompt_hash": "74ff2683a3e111b2b8d1c3b2e10c9f51421738d16acaba6bf53c6d01af520764"
+        }
+      ],
+      "target_prompt_hash": "a9afe3e7bf3fb2e9c86d18b60f74db7b479ae084db2f1b6ec78bb877ec8f122b",
+      "target_output_hash": "f987f4d61921c4c0784f6ab86976f0862eeab3a7681a1409308ecb9bc8cf0865",
+      "rep": 0,
+      "m": 20,
+      "k": 10,
+      "policy": "online",
+      "mode": "async",
+      "lead_ms": 1000.0,
+      "block_start": 0,
+      "predicted_ids": [
+        18,
+        17,
+        16,
+        21,
+        20,
+        22,
+        23,
+        24,
+        15,
+        11
+      ],
+      "prediction_hit": 1,
+      "policy_ms": 2.35518,
+      "application_with_policy_ms": 1165.457638,
+      "update": {
+        "updated": false,
+        "update_reason": "prediction_hit",
+        "weights_before": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "weights_after": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "update_l2": 0.0
+      },
+      "state_after": {
+        "weights": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "eta": 0.1,
+        "updates": 0
+      },
+      "target_prepared_before_arrival": true,
+      "prefetch_kv_bytes_estimate": 102645760,
+      "backend_cache_hit": null,
+      "metric_note": "cache attribution unavailable under concurrency; byte estimate is not measured transfer"
+    },
+    {
+      "event_id": 18,
+      "session_id": "test:hotpot:71",
+      "step_id": 1,
+      "document_id": "hotpot:71",
+      "current_chunk_id": 104,
+      "target_chunk_id": 106,
+      "query_type": "structural",
+      "current_request_ms": 85.667224,
+      "target_service_ttft_ms": 55.406786,
+      "arrival_to_first_token_ms": 55.522661,
+      "arrival_to_complete_ms": 55.815864,
+      "application_to_first_token_ms": 1141.77961,
+      "application_request_ms": 1142.072813,
+      "cycle_including_drain_ms": 1142.236703,
+      "post_target_drain_ms": 0.16389,
+      "current_start_ns": 7084635035584,
+      "target_arrival_ns": 7085721292533,
+      "target_submit_ns": 7085721408408,
+      "target_end_ns": 7085777108397,
+      "completed_before_arrival": [
+        105,
+        106,
+        102,
+        107,
+        103,
+        101,
+        99,
+        100,
+        109,
+        108
+      ],
+      "completed_before_submit": [
+        105,
+        106,
+        102,
+        107,
+        103,
+        101,
+        99,
+        100,
+        109,
+        108
+      ],
+      "population": [
+        {
+          "chunk_id": 105,
+          "start_ns": 7084635319250,
+          "end_ns": 7084812412407,
+          "request_ms": 176.916939,
+          "prompt_tokens": 384,
+          "prompt_hash": "16f48cfbfdf93f4b5146bc0c31dfbd7c68130e9ca1a69e443add28317b7b455a"
+        },
+        {
+          "chunk_id": 106,
+          "start_ns": 7084812417127,
+          "end_ns": 7084901139060,
+          "request_ms": 88.505488,
+          "prompt_tokens": 384,
+          "prompt_hash": "e2396907a1392e3e246ab928341045797ed26125ea2b5593400339fcbc8595c7"
+        },
+        {
+          "chunk_id": 102,
+          "start_ns": 7084901144140,
+          "end_ns": 7084993121041,
+          "request_ms": 91.765012,
+          "prompt_tokens": 384,
+          "prompt_hash": "eec1d8a45bd16dcef3a4132944e667095bddaa09314169496ec7ca489671f2ea"
+        },
+        {
+          "chunk_id": 107,
+          "start_ns": 7084993125360,
+          "end_ns": 7085085831509,
+          "request_ms": 92.571626,
+          "prompt_tokens": 384,
+          "prompt_hash": "ff9cf6557ca253c66e630ebce3f2e8b96b026b30f33c31a251d58ccdec11f0fe"
+        },
+        {
+          "chunk_id": 103,
+          "start_ns": 7085085835086,
+          "end_ns": 7085178768540,
+          "request_ms": 92.817834,
+          "prompt_tokens": 383,
+          "prompt_hash": "79d914384343815477a0e8817c6a4830fcb3133969b9faaa72b37a9b8c4ce4be"
+        },
+        {
+          "chunk_id": 101,
+          "start_ns": 7085178772458,
+          "end_ns": 7085265980315,
+          "request_ms": 87.086013,
+          "prompt_tokens": 384,
+          "prompt_hash": "95110f5ca7a190080eed1971ba652d479bc73ef661a92429da8e7ae22c1beb47"
+        },
+        {
+          "chunk_id": 99,
+          "start_ns": 7085265984252,
+          "end_ns": 7085358739185,
+          "request_ms": 92.601468,
+          "prompt_tokens": 383,
+          "prompt_hash": "b79bf1a3d39026559ffbf99f7747d492c2094cfc257fb48d6d2d4c3d48e8598d"
+        },
+        {
+          "chunk_id": 100,
+          "start_ns": 7085358743873,
+          "end_ns": 7085451120693,
+          "request_ms": 92.193548,
+          "prompt_tokens": 384,
+          "prompt_hash": "55bfeb82f7526bccc66b7202ddd1b60ae245f4937ad851d992baf62003957a19"
+        },
+        {
+          "chunk_id": 109,
+          "start_ns": 7085451124430,
+          "end_ns": 7085536915820,
+          "request_ms": 85.60446,
+          "prompt_tokens": 338,
+          "prompt_hash": "afa7dab102b919ce2a390f7b42aea73fd1bf0795e89553ee8a1e5c5a67db419f"
+        },
+        {
+          "chunk_id": 108,
+          "start_ns": 7085536920342,
+          "end_ns": 7085630194840,
+          "request_ms": 93.131488,
+          "prompt_tokens": 384,
+          "prompt_hash": "90e13e7322c3273a3ac3ee2cfda1894354f155921b193280cbedee46ccdc844e"
+        }
+      ],
+      "target_prompt_hash": "e2396907a1392e3e246ab928341045797ed26125ea2b5593400339fcbc8595c7",
+      "target_output_hash": "e2d936f924ce40038ba82f6b65a2b8fadbc259065d2741829f513adc17836053",
+      "rep": 0,
+      "m": 20,
+      "k": 10,
+      "policy": "online",
+      "mode": "async",
+      "lead_ms": 1000.0,
+      "block_start": 0,
+      "predicted_ids": [
+        105,
+        106,
+        102,
+        107,
+        103,
+        101,
+        99,
+        100,
+        109,
+        108
+      ],
+      "prediction_hit": 1,
+      "policy_ms": 3.599361,
+      "application_with_policy_ms": 1145.672174,
+      "update": {
+        "updated": false,
+        "update_reason": "prediction_hit",
+        "weights_before": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "weights_after": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "update_l2": 0.0
+      },
+      "state_after": {
+        "weights": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "eta": 0.1,
+        "updates": 0
+      },
+      "target_prepared_before_arrival": true,
+      "prefetch_kv_bytes_estimate": 108724224,
+      "backend_cache_hit": null,
+      "metric_note": "cache attribution unavailable under concurrency; byte estimate is not measured transfer"
+    },
+    {
+      "event_id": 19,
+      "session_id": "test:hotpot:143",
+      "step_id": 3,
+      "document_id": "hotpot:143",
+      "current_chunk_id": 261,
+      "target_chunk_id": 263,
+      "query_type": "multi-hop",
+      "current_request_ms": 59.399494,
+      "target_service_ttft_ms": 56.711576,
+      "arrival_to_first_token_ms": 56.843213,
+      "arrival_to_complete_ms": 57.080022,
+      "application_to_first_token_ms": 1116.7579059999998,
+      "application_request_ms": 1116.994715,
+      "cycle_including_drain_ms": 1117.213881,
+      "post_target_drain_ms": 0.219166,
+      "current_start_ns": 7085789859942,
+      "target_arrival_ns": 7086849774635,
+      "target_submit_ns": 7086849906272,
+      "target_end_ns": 7086906854657,
+      "completed_before_arrival": [
+        263,
+        262,
+        264,
+        260,
+        265,
+        266,
+        259,
+        267,
+        258,
+        268
+      ],
+      "completed_before_submit": [
+        263,
+        262,
+        264,
+        260,
+        265,
+        266,
+        259,
+        267,
+        258,
+        268
+      ],
+      "population": [
+        {
+          "chunk_id": 263,
+          "start_ns": 7085790096108,
+          "end_ns": 7085891308715,
+          "request_ms": 101.03403,
+          "prompt_tokens": 384,
+          "prompt_hash": "7ce9a4d4cb0275da805adc9a11cf9fa0bd43fe1ce8a03c626ee082cf55bea8fa"
+        },
+        {
+          "chunk_id": 262,
+          "start_ns": 7085891313323,
+          "end_ns": 7085945750774,
+          "request_ms": 54.307652,
+          "prompt_tokens": 384,
+          "prompt_hash": "764045acfdbbb0cfba8c971f8805c0a7a70b9a3495ab8d12320b8ea92f4cd14f"
+        },
+        {
+          "chunk_id": 264,
+          "start_ns": 7085945754847,
+          "end_ns": 7085999768424,
+          "request_ms": 53.889486,
+          "prompt_tokens": 384,
+          "prompt_hash": "aef771235e1155f3adfc8f4ee1bcc33f03cf3ae0ad79c972b0cf046dda99ade6"
+        },
+        {
+          "chunk_id": 260,
+          "start_ns": 7085999771617,
+          "end_ns": 7086052557047,
+          "request_ms": 52.603215,
+          "prompt_tokens": 383,
+          "prompt_hash": "13a8c58dc795d3c5973e901c30175d2e7f13964c39f6f2b77b8af096a7e41407"
+        },
+        {
+          "chunk_id": 265,
+          "start_ns": 7086052561151,
+          "end_ns": 7086107377650,
+          "request_ms": 54.679735,
+          "prompt_tokens": 384,
+          "prompt_hash": "ef6d291497bc21e10e241df4e55c9c8c8dd09205177470ea8862e23e3397aff4"
+        },
+        {
+          "chunk_id": 266,
+          "start_ns": 7086107381099,
+          "end_ns": 7086161603571,
+          "request_ms": 54.033678,
+          "prompt_tokens": 382,
+          "prompt_hash": "67f40309fafd00e86b95a42701008f241e054b4f1d2d48556cad983827d02b7d"
+        },
+        {
+          "chunk_id": 259,
+          "start_ns": 7086161608633,
+          "end_ns": 7086215397024,
+          "request_ms": 53.658613,
+          "prompt_tokens": 384,
+          "prompt_hash": "4d65ed27b7dda9d84ccd0457587febd3f2907b156fae640f6bae82c6cc12cbbe"
+        },
+        {
+          "chunk_id": 267,
+          "start_ns": 7086215400639,
+          "end_ns": 7086271831903,
+          "request_ms": 56.244705,
+          "prompt_tokens": 384,
+          "prompt_hash": "0d764b8489e118d2b63388a7d0a59b9591840b8f4b22131713e836c9d772c63f"
+        },
+        {
+          "chunk_id": 258,
+          "start_ns": 7086271836690,
+          "end_ns": 7086325887785,
+          "request_ms": 53.879365,
+          "prompt_tokens": 384,
+          "prompt_hash": "39b386f63315b80f557467c80ec6db8930ec28178377e650786ed051655ddff0"
+        },
+        {
+          "chunk_id": 268,
+          "start_ns": 7086325892901,
+          "end_ns": 7086378865716,
+          "request_ms": 52.889083,
+          "prompt_tokens": 85,
+          "prompt_hash": "f84aee294343b725d74a63d824467a77bdc93a4ca5cd9870d7c7342d24b791cc"
+        }
+      ],
+      "target_prompt_hash": "7ce9a4d4cb0275da805adc9a11cf9fa0bd43fe1ce8a03c626ee082cf55bea8fa",
+      "target_output_hash": "defab4613451527afa4d8cd4fe7f334dce776bd025dc34d103a066b591384b23",
+      "rep": 0,
+      "m": 20,
+      "k": 10,
+      "policy": "online",
+      "mode": "async",
+      "lead_ms": 1000.0,
+      "block_start": 0,
+      "predicted_ids": [
+        263,
+        262,
+        264,
+        260,
+        265,
+        266,
+        259,
+        267,
+        258,
+        268
+      ],
+      "prediction_hit": 1,
+      "policy_ms": 2.455267,
+      "application_with_policy_ms": 1119.449982,
+      "update": {
+        "updated": false,
+        "update_reason": "prediction_hit",
+        "weights_before": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "weights_after": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "update_l2": 0.0
+      },
+      "state_after": {
+        "weights": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "eta": 0.1,
+        "updates": 0
+      },
+      "target_prepared_before_arrival": true,
+      "prefetch_kv_bytes_estimate": 101441536,
+      "backend_cache_hit": null,
+      "metric_note": "cache attribution unavailable under concurrency; byte estimate is not measured transfer"
+    },
+    {
+      "event_id": 20,
+      "session_id": "test:hotpot:116",
+      "step_id": 4,
+      "document_id": "hotpot:116",
+      "current_chunk_id": 199,
+      "target_chunk_id": 201,
+      "query_type": "multi-hop",
+      "current_request_ms": 177.010546,
+      "target_service_ttft_ms": 57.081367,
+      "arrival_to_first_token_ms": 57.281052,
+      "arrival_to_complete_ms": 57.611823,
+      "application_to_first_token_ms": 1234.910302,
+      "application_request_ms": 1235.241073,
+      "cycle_including_drain_ms": 1235.395157,
+      "post_target_drain_ms": 0.154084,
+      "current_start_ns": 7086919749046,
+      "target_arrival_ns": 7088097378296,
+      "target_submit_ns": 7088097577981,
+      "target_end_ns": 7088154990119,
+      "completed_before_arrival": [
+        200,
+        201,
+        194,
+        195,
+        206,
+        197,
+        198,
+        204,
+        207,
+        196
+      ],
+      "completed_before_submit": [
+        200,
+        201,
+        194,
+        195,
+        206,
+        197,
+        198,
+        204,
+        207,
+        196
+      ],
+      "population": [
+        {
+          "chunk_id": 200,
+          "start_ns": 7086920057061,
+          "end_ns": 7087007616891,
+          "request_ms": 87.439886,
+          "prompt_tokens": 384,
+          "prompt_hash": "c0a4946adbbb47bbd30e006a5cbec4940ca5b546a4d15563ad507261f7fd1416"
+        },
+        {
+          "chunk_id": 201,
+          "start_ns": 7087007619710,
+          "end_ns": 7087184657681,
+          "request_ms": 176.842864,
+          "prompt_tokens": 384,
+          "prompt_hash": "82b3789afd16547b56ad4e857f99b2e7f1e69c9afe7b2e67f5ba54c18ea33e21"
+        },
+        {
+          "chunk_id": 194,
+          "start_ns": 7087184662013,
+          "end_ns": 7087277917549,
+          "request_ms": 93.070927,
+          "prompt_tokens": 384,
+          "prompt_hash": "a0f2cdb18da94fcb11a8feec461d7c2a3b9f85a5169c1e4402c8edf3bd579579"
+        },
+        {
+          "chunk_id": 195,
+          "start_ns": 7087277922445,
+          "end_ns": 7087367261893,
+          "request_ms": 89.153935,
+          "prompt_tokens": 384,
+          "prompt_hash": "36c6e3e9670d6aa2fad0cdabd03fd3fb470ea312e5e86b796cd5886859550f9e"
+        },
+        {
+          "chunk_id": 206,
+          "start_ns": 7087367266406,
+          "end_ns": 7087460700503,
+          "request_ms": 93.257839,
+          "prompt_tokens": 384,
+          "prompt_hash": "8699334e73fc0546dd80b108bbee96a2686ff12a6dfcd13ca5588e5b2cd4e638"
+        },
+        {
+          "chunk_id": 197,
+          "start_ns": 7087460705178,
+          "end_ns": 7087549396261,
+          "request_ms": 88.557206,
+          "prompt_tokens": 384,
+          "prompt_hash": "7d662fffa1e41e0bd5b824973e0fda57628df64969693546d79372673f037708"
+        },
+        {
+          "chunk_id": 198,
+          "start_ns": 7087549399312,
+          "end_ns": 7087642613322,
+          "request_ms": 92.997995,
+          "prompt_tokens": 384,
+          "prompt_hash": "d13f2046b88129302a4ea770e93a098f5074035cd3e7f3e1d7dfcf10a8462cf1"
+        },
+        {
+          "chunk_id": 204,
+          "start_ns": 7087642618069,
+          "end_ns": 7087732079812,
+          "request_ms": 89.261185,
+          "prompt_tokens": 384,
+          "prompt_hash": "f0366198298d9a732d55b41b215f2a5193b60a80cc41c004618b17bb426ed08b"
+        },
+        {
+          "chunk_id": 207,
+          "start_ns": 7087732083966,
+          "end_ns": 7087825540159,
+          "request_ms": 93.332816,
+          "prompt_tokens": 384,
+          "prompt_hash": "e5fba0e633a48841068d513419d55c3c71550aec65b49d5137dafafe55cad527"
+        },
+        {
+          "chunk_id": 196,
+          "start_ns": 7087825543663,
+          "end_ns": 7087915830543,
+          "request_ms": 90.11757,
+          "prompt_tokens": 384,
+          "prompt_hash": "cdfa6cd942667323de9887b34b886df034666b6196ecd92f1d0908569e9d9d91"
+        }
+      ],
+      "target_prompt_hash": "82b3789afd16547b56ad4e857f99b2e7f1e69c9afe7b2e67f5ba54c18ea33e21",
+      "target_output_hash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "rep": 0,
+      "m": 20,
+      "k": 10,
+      "policy": "online",
+      "mode": "async",
+      "lead_ms": 1000.0,
+      "block_start": 0,
+      "predicted_ids": [
+        200,
+        201,
+        194,
+        195,
+        206,
+        197,
+        198,
+        204,
+        207,
+        196
+      ],
+      "prediction_hit": 1,
+      "policy_ms": 2.478761,
+      "application_with_policy_ms": 1237.719834,
+      "update": {
+        "updated": false,
+        "update_reason": "prediction_hit",
+        "weights_before": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "weights_after": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "update_l2": 0.0
+      },
+      "state_after": {
+        "weights": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "eta": 0.1,
+        "updates": 0
+      },
+      "target_prepared_before_arrival": true,
+      "prefetch_kv_bytes_estimate": 110100480,
+      "backend_cache_hit": null,
+      "metric_note": "cache attribution unavailable under concurrency; byte estimate is not measured transfer"
+    },
+    {
+      "event_id": 21,
+      "session_id": "test:hotpot:143",
+      "step_id": 4,
+      "document_id": "hotpot:143",
+      "current_chunk_id": 257,
+      "target_chunk_id": 262,
+      "query_type": "multi-hop",
+      "current_request_ms": 82.543383,
+      "target_service_ttft_ms": 56.793678,
+      "arrival_to_first_token_ms": 56.905843,
+      "arrival_to_complete_ms": 57.241947,
+      "application_to_first_token_ms": 1140.928718,
+      "application_request_ms": 1141.264822,
+      "cycle_including_drain_ms": 1141.409874,
+      "post_target_drain_ms": 0.145052,
+      "current_start_ns": 7088168769248,
+      "target_arrival_ns": 7089252792123,
+      "target_submit_ns": 7089252904288,
+      "target_end_ns": 7089310034070,
+      "completed_before_arrival": [
+        258,
+        259,
+        260,
+        261,
+        262,
+        294,
+        263,
+        293,
+        264,
+        297
+      ],
+      "completed_before_submit": [
+        258,
+        259,
+        260,
+        261,
+        262,
+        294,
+        263,
+        293,
+        264,
+        297
+      ],
+      "population": [
+        {
+          "chunk_id": 258,
+          "start_ns": 7088169059903,
+          "end_ns": 7088303885926,
+          "request_ms": 134.684814,
+          "prompt_tokens": 384,
+          "prompt_hash": "39b386f63315b80f557467c80ec6db8930ec28178377e650786ed051655ddff0"
+        },
+        {
+          "chunk_id": 259,
+          "start_ns": 7088303890068,
+          "end_ns": 7088358116832,
+          "request_ms": 54.023886,
+          "prompt_tokens": 384,
+          "prompt_hash": "4d65ed27b7dda9d84ccd0457587febd3f2907b156fae640f6bae82c6cc12cbbe"
+        },
+        {
+          "chunk_id": 260,
+          "start_ns": 7088358122354,
+          "end_ns": 7088411716003,
+          "request_ms": 53.415904,
+          "prompt_tokens": 383,
+          "prompt_hash": "13a8c58dc795d3c5973e901c30175d2e7f13964c39f6f2b77b8af096a7e41407"
+        },
+        {
+          "chunk_id": 261,
+          "start_ns": 7088411721296,
+          "end_ns": 7088467430414,
+          "request_ms": 55.536037,
+          "prompt_tokens": 384,
+          "prompt_hash": "d4da652427619fc91bdccfc75c336c34aa8251f4c07b788c4f07ad7dba8d2a96"
+        },
+        {
+          "chunk_id": 262,
+          "start_ns": 7088467435160,
+          "end_ns": 7088525388036,
+          "request_ms": 57.824392,
+          "prompt_tokens": 384,
+          "prompt_hash": "764045acfdbbb0cfba8c971f8805c0a7a70b9a3495ab8d12320b8ea92f4cd14f"
+        },
+        {
+          "chunk_id": 294,
+          "start_ns": 7088525392270,
+          "end_ns": 7088607404490,
+          "request_ms": 81.880034,
+          "prompt_tokens": 384,
+          "prompt_hash": "b50163692376d24c2af94c7a5a30564756c3fb586c2e4794b0f14a86b752a7c6"
+        },
+        {
+          "chunk_id": 263,
+          "start_ns": 7088607408597,
+          "end_ns": 7088662524586,
+          "request_ms": 54.94005,
+          "prompt_tokens": 384,
+          "prompt_hash": "7ce9a4d4cb0275da805adc9a11cf9fa0bd43fe1ce8a03c626ee082cf55bea8fa"
+        },
+        {
+          "chunk_id": 293,
+          "start_ns": 7088662528819,
+          "end_ns": 7088746801688,
+          "request_ms": 84.097217,
+          "prompt_tokens": 384,
+          "prompt_hash": "24840b15084650e570b1b9042a27b5083a14ab08dd488a0da39d7dc38ce912ea"
+        },
+        {
+          "chunk_id": 264,
+          "start_ns": 7088746806470,
+          "end_ns": 7088801186866,
+          "request_ms": 54.195815,
+          "prompt_tokens": 384,
+          "prompt_hash": "aef771235e1155f3adfc8f4ee1bcc33f03cf3ae0ad79c972b0cf046dda99ade6"
+        },
+        {
+          "chunk_id": 297,
+          "start_ns": 7088801190981,
+          "end_ns": 7088884544958,
+          "request_ms": 83.238822,
+          "prompt_tokens": 384,
+          "prompt_hash": "1de2824cfeae905f060bf13bcd9c6b8832ec32446e43c35db5b4df7507677194"
+        }
+      ],
+      "target_prompt_hash": "764045acfdbbb0cfba8c971f8805c0a7a70b9a3495ab8d12320b8ea92f4cd14f",
+      "target_output_hash": "2e5f769687c7731726bb738d6137d86e89691a3a164a80588c046c79ce99d749",
+      "rep": 0,
+      "m": 20,
+      "k": 10,
+      "policy": "online",
+      "mode": "async",
+      "lead_ms": 1000.0,
+      "block_start": 0,
+      "predicted_ids": [
+        258,
+        259,
+        260,
+        261,
+        262,
+        294,
+        263,
+        293,
+        264,
+        297
+      ],
+      "prediction_hit": 1,
+      "policy_ms": 2.81003,
+      "application_with_policy_ms": 1144.0748520000002,
+      "update": {
+        "updated": false,
+        "update_reason": "prediction_hit",
+        "weights_before": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "weights_after": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "update_l2": 0.0
+      },
+      "state_after": {
+        "weights": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "eta": 0.1,
+        "updates": 0
+      },
+      "target_prepared_before_arrival": true,
+      "prefetch_kv_bytes_estimate": 110071808,
+      "backend_cache_hit": null,
+      "metric_note": "cache attribution unavailable under concurrency; byte estimate is not measured transfer"
+    },
+    {
+      "event_id": 22,
+      "session_id": "test:hotpot:194",
+      "step_id": 3,
+      "document_id": "hotpot:194",
+      "current_chunk_id": 336,
+      "target_chunk_id": 338,
+      "query_type": "structural",
+      "current_request_ms": 88.489658,
+      "target_service_ttft_ms": 56.560742,
+      "arrival_to_first_token_ms": 56.812611999999994,
+      "arrival_to_complete_ms": 57.165407,
+      "application_to_first_token_ms": 1145.87662,
+      "application_request_ms": 1146.229415,
+      "cycle_including_drain_ms": 1146.406709,
+      "post_target_drain_ms": 0.177294,
+      "current_start_ns": 7089323852956,
+      "target_arrival_ns": 7090412916964,
+      "target_submit_ns": 7090413168834,
+      "target_end_ns": 7090470082371,
+      "completed_before_arrival": [
+        335,
+        334,
+        337,
+        338,
+        333,
+        332,
+        331,
+        330,
+        323,
+        321
+      ],
+      "completed_before_submit": [
+        335,
+        334,
+        337,
+        338,
+        333,
+        332,
+        331,
+        330,
+        323,
+        321
+      ],
+      "population": [
+        {
+          "chunk_id": 335,
+          "start_ns": 7089324111186,
+          "end_ns": 7089505958812,
+          "request_ms": 181.71518,
+          "prompt_tokens": 384,
+          "prompt_hash": "5556bf2e101826de0372a6c83100281db686f00ea91982a62e068a7c2157de29"
+        },
+        {
+          "chunk_id": 334,
+          "start_ns": 7089505962544,
+          "end_ns": 7089597132111,
+          "request_ms": 90.96404,
+          "prompt_tokens": 384,
+          "prompt_hash": "ecbb3d5c8a2c9a203e9fdeab754913d568ac2e8666e8b4af59be47488c4c9886"
+        },
+        {
+          "chunk_id": 337,
+          "start_ns": 7089597136921,
+          "end_ns": 7089688905681,
+          "request_ms": 91.623027,
+          "prompt_tokens": 384,
+          "prompt_hash": "01afda1f0bd5c6c8831233f6a340448ca5c6cf977797fb44e6b379165018abcc"
+        },
+        {
+          "chunk_id": 338,
+          "start_ns": 7089688909293,
+          "end_ns": 7089777730958,
+          "request_ms": 88.703921,
+          "prompt_tokens": 384,
+          "prompt_hash": "0cdccb65a2694bb64c2c2c4742d51833ae3a6bdb3c48b45f467e46fe0acaeba0"
+        },
+        {
+          "chunk_id": 333,
+          "start_ns": 7089777734937,
+          "end_ns": 7089872676684,
+          "request_ms": 94.66109,
+          "prompt_tokens": 384,
+          "prompt_hash": "4a0fbdc6bca674f07f237fc4462bcc4745c2bc0db40f05ec75d63b5d9b797b54"
+        },
+        {
+          "chunk_id": 332,
+          "start_ns": 7089872681562,
+          "end_ns": 7089963442477,
+          "request_ms": 90.569742,
+          "prompt_tokens": 384,
+          "prompt_hash": "01d73991e71b91b23e96ece577bc1be43d61821816d8ef3d86a176818ab643f0"
+        },
+        {
+          "chunk_id": 331,
+          "start_ns": 7089963447452,
+          "end_ns": 7090056835612,
+          "request_ms": 93.203985,
+          "prompt_tokens": 384,
+          "prompt_hash": "52ab7b04d2fe633b2c2cc906fc3c4342657c3d8bf95ebc589b0586dd88960598"
+        },
+        {
+          "chunk_id": 330,
+          "start_ns": 7090056840842,
+          "end_ns": 7090147581413,
+          "request_ms": 90.61245,
+          "prompt_tokens": 384,
+          "prompt_hash": "18330e2eafc1ae2ec9b48bdbb0af112e877008296eee8397f538affa60ce54ab"
+        },
+        {
+          "chunk_id": 323,
+          "start_ns": 7090147585699,
+          "end_ns": 7090242250975,
+          "request_ms": 94.536278,
+          "prompt_tokens": 384,
+          "prompt_hash": "ee23761fc426c21e2e17473e6ae59c1c0f7932d32aee0b52af25d6607cf60c46"
+        },
+        {
+          "chunk_id": 321,
+          "start_ns": 7090242255011,
+          "end_ns": 7090334977038,
+          "request_ms": 92.573449,
+          "prompt_tokens": 383,
+          "prompt_hash": "b0c375bbcc71b6ee88729f68acbeb3f9e77654d7275f617578b1027035089aac"
+        }
+      ],
+      "target_prompt_hash": "0cdccb65a2694bb64c2c2c4742d51833ae3a6bdb3c48b45f467e46fe0acaeba0",
+      "target_output_hash": "abc4073dcf48d5c737a5ad53cdd689af337e56679b360823478af97fb92e9d58",
+      "rep": 0,
+      "m": 20,
+      "k": 10,
+      "policy": "online",
+      "mode": "async",
+      "lead_ms": 1000.0,
+      "block_start": 0,
+      "predicted_ids": [
+        335,
+        334,
+        337,
+        338,
+        333,
+        332,
+        331,
+        330,
+        323,
+        321
+      ],
+      "prediction_hit": 1,
+      "policy_ms": 2.673188,
+      "application_with_policy_ms": 1148.902603,
+      "update": {
+        "updated": false,
+        "update_reason": "prediction_hit",
+        "weights_before": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "weights_after": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "update_l2": 0.0
+      },
+      "state_after": {
+        "weights": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "eta": 0.1,
+        "updates": 0
+      },
+      "target_prepared_before_arrival": true,
+      "prefetch_kv_bytes_estimate": 110071808,
+      "backend_cache_hit": null,
+      "metric_note": "cache attribution unavailable under concurrency; byte estimate is not measured transfer"
+    },
+    {
+      "event_id": 23,
+      "session_id": "test:hotpot:71",
+      "step_id": 2,
+      "document_id": "hotpot:71",
+      "current_chunk_id": 100,
+      "target_chunk_id": 102,
+      "query_type": "multi-hop",
+      "current_request_ms": 102.670813,
+      "target_service_ttft_ms": 57.353737,
+      "arrival_to_first_token_ms": 57.505096,
+      "arrival_to_complete_ms": 57.834726,
+      "application_to_first_token_ms": 1160.720871,
+      "application_request_ms": 1161.050501,
+      "cycle_including_drain_ms": 1161.168002,
+      "post_target_drain_ms": 0.117501,
+      "current_start_ns": 7090484044869,
+      "target_arrival_ns": 7091587260644,
+      "target_submit_ns": 7091587412003,
+      "target_end_ns": 7091645095370,
+      "completed_before_arrival": [
+        101,
+        102,
+        103,
+        99,
+        104,
+        105,
+        107,
+        106,
+        180,
+        240
+      ],
+      "completed_before_submit": [
+        101,
+        102,
+        103,
+        99,
+        104,
+        105,
+        107,
+        106,
+        180,
+        240
+      ],
+      "population": [
+        {
+          "chunk_id": 101,
+          "start_ns": 7090484276681,
+          "end_ns": 7090547442293,
+          "request_ms": 62.957256,
+          "prompt_tokens": 384,
+          "prompt_hash": "95110f5ca7a190080eed1971ba652d479bc73ef661a92429da8e7ae22c1beb47"
+        },
+        {
+          "chunk_id": 102,
+          "start_ns": 7090547447533,
+          "end_ns": 7090668488954,
+          "request_ms": 120.845161,
+          "prompt_tokens": 384,
+          "prompt_hash": "eec1d8a45bd16dcef3a4132944e667095bddaa09314169496ec7ca489671f2ea"
+        },
+        {
+          "chunk_id": 103,
+          "start_ns": 7090668502471,
+          "end_ns": 7090762881104,
+          "request_ms": 94.260969,
+          "prompt_tokens": 383,
+          "prompt_hash": "79d914384343815477a0e8817c6a4830fcb3133969b9faaa72b37a9b8c4ce4be"
+        },
+        {
+          "chunk_id": 99,
+          "start_ns": 7090762884928,
+          "end_ns": 7090854635089,
+          "request_ms": 91.628892,
+          "prompt_tokens": 383,
+          "prompt_hash": "b79bf1a3d39026559ffbf99f7747d492c2094cfc257fb48d6d2d4c3d48e8598d"
+        },
+        {
+          "chunk_id": 104,
+          "start_ns": 7090854638379,
+          "end_ns": 7090948366035,
+          "request_ms": 93.596772,
+          "prompt_tokens": 384,
+          "prompt_hash": "f7fd8cba18363f3ac3e520823b105656db2ab997b0e0940f88285dc856299778"
+        },
+        {
+          "chunk_id": 105,
+          "start_ns": 7090948370513,
+          "end_ns": 7091042640475,
+          "request_ms": 94.138421,
+          "prompt_tokens": 384,
+          "prompt_hash": "16f48cfbfdf93f4b5146bc0c31dfbd7c68130e9ca1a69e443add28317b7b455a"
+        },
+        {
+          "chunk_id": 107,
+          "start_ns": 7091042644753,
+          "end_ns": 7091134461290,
+          "request_ms": 91.686007,
+          "prompt_tokens": 384,
+          "prompt_hash": "ff9cf6557ca253c66e630ebce3f2e8b96b026b30f33c31a251d58ccdec11f0fe"
+        },
+        {
+          "chunk_id": 106,
+          "start_ns": 7091134465786,
+          "end_ns": 7091208779825,
+          "request_ms": 74.181399,
+          "prompt_tokens": 384,
+          "prompt_hash": "e2396907a1392e3e246ab928341045797ed26125ea2b5593400339fcbc8595c7"
+        },
+        {
+          "chunk_id": 180,
+          "start_ns": 7091208784196,
+          "end_ns": 7091302115394,
+          "request_ms": 93.119126,
+          "prompt_tokens": 384,
+          "prompt_hash": "f3e722cb85d0e304001972b56a75b9fd7af91d8fddb3a9e439f14381623ea5e0"
+        },
+        {
+          "chunk_id": 240,
+          "start_ns": 7091302119778,
+          "end_ns": 7091393592336,
+          "request_ms": 91.334658,
+          "prompt_tokens": 384,
+          "prompt_hash": "5050252f62527b25acb93dd9cc9420c04a75494aa037c0ab56e04e5acdd13cd0"
+        }
+      ],
+      "target_prompt_hash": "eec1d8a45bd16dcef3a4132944e667095bddaa09314169496ec7ca489671f2ea",
+      "target_output_hash": "e824709541c1b084a93b2d1bc3362dc3815056344caf8c05f45dbae7d127ccd1",
+      "rep": 0,
+      "m": 20,
+      "k": 10,
+      "policy": "online",
+      "mode": "async",
+      "lead_ms": 1000.0,
+      "block_start": 0,
+      "predicted_ids": [
+        101,
+        102,
+        103,
+        99,
+        104,
+        105,
+        107,
+        106,
+        180,
+        240
+      ],
+      "prediction_hit": 1,
+      "policy_ms": 2.735059,
+      "application_with_policy_ms": 1163.78556,
+      "update": {
+        "updated": false,
+        "update_reason": "prediction_hit",
+        "weights_before": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "weights_after": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "update_l2": 0.0
+      },
+      "state_after": {
+        "weights": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "eta": 0.1,
+        "updates": 0
+      },
+      "target_prepared_before_arrival": true,
+      "prefetch_kv_bytes_estimate": 110043136,
+      "backend_cache_hit": null,
+      "metric_note": "cache attribution unavailable under concurrency; byte estimate is not measured transfer"
+    },
+    {
+      "event_id": 24,
+      "session_id": "test:hotpot:141",
+      "step_id": 1,
+      "document_id": "hotpot:141",
+      "current_chunk_id": 247,
+      "target_chunk_id": 256,
+      "query_type": "multi-hop",
+      "current_request_ms": 85.078607,
+      "target_service_ttft_ms": 49.248021,
+      "arrival_to_first_token_ms": 49.367239,
+      "arrival_to_complete_ms": 49.572533,
+      "application_to_first_token_ms": 1135.0074820000002,
+      "application_request_ms": 1135.212776,
+      "cycle_including_drain_ms": 1135.39719,
+      "post_target_drain_ms": 0.184414,
+      "current_start_ns": 7091659138131,
+      "target_arrival_ns": 7092744778374,
+      "target_submit_ns": 7092744897592,
+      "target_end_ns": 7092794350907,
+      "completed_before_arrival": [
+        246,
+        249,
+        245,
+        248,
+        250,
+        251,
+        252,
+        256,
+        253,
+        255
+      ],
+      "completed_before_submit": [
+        246,
+        249,
+        245,
+        248,
+        250,
+        251,
+        252,
+        256,
+        253,
+        255
+      ],
+      "population": [
+        {
+          "chunk_id": 246,
+          "start_ns": 7091659378105,
+          "end_ns": 7091836071477,
+          "request_ms": 176.502781,
+          "prompt_tokens": 384,
+          "prompt_hash": "a86c07ef3906851e840237e36878513cd41748d4e3a640a59386ccfe872f4061"
+        },
+        {
+          "chunk_id": 249,
+          "start_ns": 7091836075517,
+          "end_ns": 7091928170512,
+          "request_ms": 91.90073,
+          "prompt_tokens": 384,
+          "prompt_hash": "546e6ba030c4b8c9184a8244bccdb8e9f7a9ec7de4703ed8360082e2b9b4b129"
+        },
+        {
+          "chunk_id": 245,
+          "start_ns": 7091928174162,
+          "end_ns": 7092022580607,
+          "request_ms": 94.220833,
+          "prompt_tokens": 384,
+          "prompt_hash": "e8d01fdcbda448bf0d75e48f95ff34237a3c37eb817c526f9215f35920e8c15c"
+        },
+        {
+          "chunk_id": 248,
+          "start_ns": 7092022584412,
+          "end_ns": 7092115811458,
+          "request_ms": 93.05763,
+          "prompt_tokens": 384,
+          "prompt_hash": "c10fcdc6a816aa26065372e1f3a8153978a2a0796f22b29705665f28b3fa7909"
+        },
+        {
+          "chunk_id": 250,
+          "start_ns": 7092115816104,
+          "end_ns": 7092206474091,
+          "request_ms": 90.465229,
+          "prompt_tokens": 384,
+          "prompt_hash": "6edaaa35bb2ca725f8b5df4b142f7866288106fd214933f3904378044761bc82"
+        },
+        {
+          "chunk_id": 251,
+          "start_ns": 7092206478441,
+          "end_ns": 7092298646845,
+          "request_ms": 92.034392,
+          "prompt_tokens": 384,
+          "prompt_hash": "64e0eea140db3274020f5d72c25583fb7419d9a43e79d9524136deadfd5318d9"
+        },
+        {
+          "chunk_id": 252,
+          "start_ns": 7092298650422,
+          "end_ns": 7092391333926,
+          "request_ms": 92.55314,
+          "prompt_tokens": 384,
+          "prompt_hash": "1c59c502bddb26595b361596d36e9b3684115b1d3957de797a5ac91c5cc06506"
+        },
+        {
+          "chunk_id": 256,
+          "start_ns": 7092391337448,
+          "end_ns": 7092448149450,
+          "request_ms": 56.638443,
+          "prompt_tokens": 214,
+          "prompt_hash": "3cbcb83b1c53747b8483d62f794dcbf5f25a8ad28b2ab0a1cb146d4df3d9139f"
+        },
+        {
+          "chunk_id": 253,
+          "start_ns": 7092448153113,
+          "end_ns": 7092540973439,
+          "request_ms": 92.651228,
+          "prompt_tokens": 384,
+          "prompt_hash": "bc15f212ad74a529d1daf580a41d72d73f0af18658f3de6893539a25e35cf993"
+        },
+        {
+          "chunk_id": 255,
+          "start_ns": 7092540978271,
+          "end_ns": 7092631152157,
+          "request_ms": 89.972069,
+          "prompt_tokens": 384,
+          "prompt_hash": "708bb1b318647d52975b7e65800c09c141dd7b6483d422961dbb8b4e21120bff"
+        }
+      ],
+      "target_prompt_hash": "3cbcb83b1c53747b8483d62f794dcbf5f25a8ad28b2ab0a1cb146d4df3d9139f",
+      "target_output_hash": "44bd7ae60f478fae1061e11a7739f4b94d1daf917982d33b6fc8a01a63f89c21",
+      "rep": 0,
+      "m": 20,
+      "k": 10,
+      "policy": "online",
+      "mode": "async",
+      "lead_ms": 1000.0,
+      "block_start": 0,
+      "predicted_ids": [
+        246,
+        249,
+        245,
+        248,
+        250,
+        251,
+        252,
+        256,
+        253,
+        255
+      ],
+      "prediction_hit": 1,
+      "policy_ms": 2.938834,
+      "application_with_policy_ms": 1138.1516100000001,
+      "update": {
+        "updated": false,
+        "update_reason": "prediction_hit",
+        "weights_before": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "weights_after": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "update_l2": 0.0
+      },
+      "state_after": {
+        "weights": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "eta": 0.1,
+        "updates": 0
+      },
+      "target_prepared_before_arrival": true,
+      "prefetch_kv_bytes_estimate": 105226240,
+      "backend_cache_hit": null,
+      "metric_note": "cache attribution unavailable under concurrency; byte estimate is not measured transfer"
+    },
+    {
+      "event_id": 25,
+      "session_id": "test:hotpot:143",
+      "step_id": 5,
+      "document_id": "hotpot:143",
+      "current_chunk_id": 265,
+      "target_chunk_id": 261,
+      "query_type": "multi-hop",
+      "current_request_ms": 88.192244,
+      "target_service_ttft_ms": 54.838401,
+      "arrival_to_first_token_ms": 54.952487999999995,
+      "arrival_to_complete_ms": 55.270257,
+      "application_to_first_token_ms": 1144.756369,
+      "application_request_ms": 1145.074138,
+      "cycle_including_drain_ms": 1145.230021,
+      "post_target_drain_ms": 0.155883,
+      "current_start_ns": 7092808119674,
+      "target_arrival_ns": 7093897923555,
+      "target_submit_ns": 7093898037642,
+      "target_end_ns": 7093953193812,
+      "completed_before_arrival": [
+        264,
+        263,
+        266,
+        262,
+        261,
+        267,
+        260,
+        268,
+        259,
+        258
+      ],
+      "completed_before_submit": [
+        264,
+        263,
+        266,
+        262,
+        261,
+        267,
+        260,
+        268,
+        259,
+        258
+      ],
+      "population": [
+        {
+          "chunk_id": 264,
+          "start_ns": 7092808376340,
+          "end_ns": 7092936942777,
+          "request_ms": 128.384019,
+          "prompt_tokens": 384,
+          "prompt_hash": "aef771235e1155f3adfc8f4ee1bcc33f03cf3ae0ad79c972b0cf046dda99ade6"
+        },
+        {
+          "chunk_id": 263,
+          "start_ns": 7092936947332,
+          "end_ns": 7092992162188,
+          "request_ms": 55.015973,
+          "prompt_tokens": 384,
+          "prompt_hash": "7ce9a4d4cb0275da805adc9a11cf9fa0bd43fe1ce8a03c626ee082cf55bea8fa"
+        },
+        {
+          "chunk_id": 266,
+          "start_ns": 7092992166858,
+          "end_ns": 7093076744611,
+          "request_ms": 84.409145,
+          "prompt_tokens": 382,
+          "prompt_hash": "67f40309fafd00e86b95a42701008f241e054b4f1d2d48556cad983827d02b7d"
+        },
+        {
+          "chunk_id": 262,
+          "start_ns": 7093076748727,
+          "end_ns": 7093132823413,
+          "request_ms": 55.937285,
+          "prompt_tokens": 384,
+          "prompt_hash": "764045acfdbbb0cfba8c971f8805c0a7a70b9a3495ab8d12320b8ea92f4cd14f"
+        },
+        {
+          "chunk_id": 261,
+          "start_ns": 7093132827493,
+          "end_ns": 7093187938242,
+          "request_ms": 54.935177,
+          "prompt_tokens": 384,
+          "prompt_hash": "d4da652427619fc91bdccfc75c336c34aa8251f4c07b788c4f07ad7dba8d2a96"
+        },
+        {
+          "chunk_id": 267,
+          "start_ns": 7093187943412,
+          "end_ns": 7093269132764,
+          "request_ms": 80.978119,
+          "prompt_tokens": 384,
+          "prompt_hash": "0d764b8489e118d2b63388a7d0a59b9591840b8f4b22131713e836c9d772c63f"
+        },
+        {
+          "chunk_id": 260,
+          "start_ns": 7093269137296,
+          "end_ns": 7093365943212,
+          "request_ms": 96.687889,
+          "prompt_tokens": 383,
+          "prompt_hash": "13a8c58dc795d3c5973e901c30175d2e7f13964c39f6f2b77b8af096a7e41407"
+        },
+        {
+          "chunk_id": 268,
+          "start_ns": 7093365946576,
+          "end_ns": 7093413605063,
+          "request_ms": 47.549349,
+          "prompt_tokens": 85,
+          "prompt_hash": "f84aee294343b725d74a63d824467a77bdc93a4ca5cd9870d7c7342d24b791cc"
+        },
+        {
+          "chunk_id": 259,
+          "start_ns": 7093413610386,
+          "end_ns": 7093500820926,
+          "request_ms": 87.003092,
+          "prompt_tokens": 384,
+          "prompt_hash": "4d65ed27b7dda9d84ccd0457587febd3f2907b156fae640f6bae82c6cc12cbbe"
+        },
+        {
+          "chunk_id": 258,
+          "start_ns": 7093500826640,
+          "end_ns": 7093594041207,
+          "request_ms": 93.066586,
+          "prompt_tokens": 384,
+          "prompt_hash": "39b386f63315b80f557467c80ec6db8930ec28178377e650786ed051655ddff0"
+        }
+      ],
+      "target_prompt_hash": "d4da652427619fc91bdccfc75c336c34aa8251f4c07b788c4f07ad7dba8d2a96",
+      "target_output_hash": "492f7d739b37894f78ee98c775f2784107b3f93ff4819f8d5af5a2ad92678d2d",
+      "rep": 0,
+      "m": 20,
+      "k": 10,
+      "policy": "online",
+      "mode": "async",
+      "lead_ms": 1000.0,
+      "block_start": 0,
+      "predicted_ids": [
+        264,
+        263,
+        266,
+        262,
+        261,
+        267,
+        260,
+        268,
+        259,
+        258
+      ],
+      "prediction_hit": 1,
+      "policy_ms": 2.522027,
+      "application_with_policy_ms": 1147.596165,
+      "update": {
+        "updated": false,
+        "update_reason": "prediction_hit",
+        "weights_before": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "weights_after": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "update_l2": 0.0
+      },
+      "state_after": {
+        "weights": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "eta": 0.1,
+        "updates": 0
+      },
+      "target_prepared_before_arrival": true,
+      "prefetch_kv_bytes_estimate": 101441536,
+      "backend_cache_hit": null,
+      "metric_note": "cache attribution unavailable under concurrency; byte estimate is not measured transfer"
+    },
+    {
+      "event_id": 26,
+      "session_id": "test:hotpot:71",
+      "step_id": 3,
+      "document_id": "hotpot:71",
+      "current_chunk_id": 100,
+      "target_chunk_id": 103,
+      "query_type": "semantic",
+      "current_request_ms": 177.23951,
+      "target_service_ttft_ms": 52.366654,
+      "arrival_to_first_token_ms": 52.497628,
+      "arrival_to_complete_ms": 52.875195,
+      "application_to_first_token_ms": 1231.1803479999999,
+      "application_request_ms": 1231.557915,
+      "cycle_including_drain_ms": 1231.716727,
+      "post_target_drain_ms": 0.158812,
+      "current_start_ns": 7093967543550,
+      "target_arrival_ns": 7095146226270,
+      "target_submit_ns": 7095146357244,
+      "target_end_ns": 7095199101465,
+      "completed_before_arrival": [
+        101,
+        102,
+        103,
+        99,
+        104,
+        105,
+        107,
+        106,
+        180,
+        240
+      ],
+      "completed_before_submit": [
+        101,
+        102,
+        103,
+        99,
+        104,
+        105,
+        107,
+        106,
+        180,
+        240
+      ],
+      "population": [
+        {
+          "chunk_id": 101,
+          "start_ns": 7093967911444,
+          "end_ns": 7094052711784,
+          "request_ms": 84.590489,
+          "prompt_tokens": 384,
+          "prompt_hash": "95110f5ca7a190080eed1971ba652d479bc73ef661a92429da8e7ae22c1beb47"
+        },
+        {
+          "chunk_id": 102,
+          "start_ns": 7094052715130,
+          "end_ns": 7094198867942,
+          "request_ms": 146.032297,
+          "prompt_tokens": 384,
+          "prompt_hash": "eec1d8a45bd16dcef3a4132944e667095bddaa09314169496ec7ca489671f2ea"
+        },
+        {
+          "chunk_id": 103,
+          "start_ns": 7094198871976,
+          "end_ns": 7094251133486,
+          "request_ms": 52.077727,
+          "prompt_tokens": 383,
+          "prompt_hash": "79d914384343815477a0e8817c6a4830fcb3133969b9faaa72b37a9b8c4ce4be"
+        },
+        {
+          "chunk_id": 99,
+          "start_ns": 7094251137512,
+          "end_ns": 7094303046072,
+          "request_ms": 51.704331,
+          "prompt_tokens": 383,
+          "prompt_hash": "b79bf1a3d39026559ffbf99f7747d492c2094cfc257fb48d6d2d4c3d48e8598d"
+        },
+        {
+          "chunk_id": 104,
+          "start_ns": 7094303051323,
+          "end_ns": 7094358822989,
+          "request_ms": 55.5857,
+          "prompt_tokens": 384,
+          "prompt_hash": "f7fd8cba18363f3ac3e520823b105656db2ab997b0e0940f88285dc856299778"
+        },
+        {
+          "chunk_id": 105,
+          "start_ns": 7094358828377,
+          "end_ns": 7094413545981,
+          "request_ms": 54.582137,
+          "prompt_tokens": 384,
+          "prompt_hash": "16f48cfbfdf93f4b5146bc0c31dfbd7c68130e9ca1a69e443add28317b7b455a"
+        },
+        {
+          "chunk_id": 107,
+          "start_ns": 7094413549806,
+          "end_ns": 7094467286557,
+          "request_ms": 53.610461,
+          "prompt_tokens": 384,
+          "prompt_hash": "ff9cf6557ca253c66e630ebce3f2e8b96b026b30f33c31a251d58ccdec11f0fe"
+        },
+        {
+          "chunk_id": 106,
+          "start_ns": 7094467290954,
+          "end_ns": 7094520837623,
+          "request_ms": 53.384828,
+          "prompt_tokens": 384,
+          "prompt_hash": "e2396907a1392e3e246ab928341045797ed26125ea2b5593400339fcbc8595c7"
+        },
+        {
+          "chunk_id": 180,
+          "start_ns": 7094520842160,
+          "end_ns": 7094576058469,
+          "request_ms": 55.035713,
+          "prompt_tokens": 384,
+          "prompt_hash": "f3e722cb85d0e304001972b56a75b9fd7af91d8fddb3a9e439f14381623ea5e0"
+        },
+        {
+          "chunk_id": 240,
+          "start_ns": 7094576063766,
+          "end_ns": 7094629993013,
+          "request_ms": 53.755525,
+          "prompt_tokens": 384,
+          "prompt_hash": "5050252f62527b25acb93dd9cc9420c04a75494aa037c0ab56e04e5acdd13cd0"
+        }
+      ],
+      "target_prompt_hash": "79d914384343815477a0e8817c6a4830fcb3133969b9faaa72b37a9b8c4ce4be",
+      "target_output_hash": "d03502c43d74a30b936740a9517dc4ea2b2ad7168caa0a774cefe793ce0b33e7",
+      "rep": 0,
+      "m": 20,
+      "k": 10,
+      "policy": "online",
+      "mode": "async",
+      "lead_ms": 1000.0,
+      "block_start": 0,
+      "predicted_ids": [
+        101,
+        102,
+        103,
+        99,
+        104,
+        105,
+        107,
+        106,
+        180,
+        240
+      ],
+      "prediction_hit": 1,
+      "policy_ms": 2.952088,
+      "application_with_policy_ms": 1234.510003,
+      "update": {
+        "updated": false,
+        "update_reason": "prediction_hit",
+        "weights_before": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "weights_after": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "update_l2": 0.0
+      },
+      "state_after": {
+        "weights": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "eta": 0.1,
+        "updates": 0
+      },
+      "target_prepared_before_arrival": true,
+      "prefetch_kv_bytes_estimate": 110043136,
+      "backend_cache_hit": null,
+      "metric_note": "cache attribution unavailable under concurrency; byte estimate is not measured transfer"
+    },
+    {
+      "event_id": 27,
+      "session_id": "test:hotpot:71",
+      "step_id": 4,
+      "document_id": "hotpot:71",
+      "current_chunk_id": 102,
+      "target_chunk_id": 99,
+      "query_type": "multi-hop",
+      "current_request_ms": 98.104987,
+      "target_service_ttft_ms": 55.411023,
+      "arrival_to_first_token_ms": 55.518286,
+      "arrival_to_complete_ms": 55.772236,
+      "application_to_first_token_ms": 1155.024614,
+      "application_request_ms": 1155.278564,
+      "cycle_including_drain_ms": 1155.423467,
+      "post_target_drain_ms": 0.144903,
+      "current_start_ns": 7095214361257,
+      "target_arrival_ns": 7096313867585,
+      "target_submit_ns": 7096313974848,
+      "target_end_ns": 7096369639821,
+      "completed_before_arrival": [
+        100,
+        101,
+        103,
+        104,
+        99,
+        105,
+        106,
+        107,
+        109,
+        181
+      ],
+      "completed_before_submit": [
+        100,
+        101,
+        103,
+        104,
+        99,
+        105,
+        106,
+        107,
+        109,
+        181
+      ],
+      "population": [
+        {
+          "chunk_id": 100,
+          "start_ns": 7095214611695,
+          "end_ns": 7095273816704,
+          "request_ms": 59.093572,
+          "prompt_tokens": 384,
+          "prompt_hash": "55bfeb82f7526bccc66b7202ddd1b60ae245f4937ad851d992baf62003957a19"
+        },
+        {
+          "chunk_id": 101,
+          "start_ns": 7095273820481,
+          "end_ns": 7095363990194,
+          "request_ms": 90.047524,
+          "prompt_tokens": 384,
+          "prompt_hash": "95110f5ca7a190080eed1971ba652d479bc73ef661a92429da8e7ae22c1beb47"
+        },
+        {
+          "chunk_id": 103,
+          "start_ns": 7095363994176,
+          "end_ns": 7095417962060,
+          "request_ms": 53.783977,
+          "prompt_tokens": 383,
+          "prompt_hash": "79d914384343815477a0e8817c6a4830fcb3133969b9faaa72b37a9b8c4ce4be"
+        },
+        {
+          "chunk_id": 104,
+          "start_ns": 7095417965797,
+          "end_ns": 7095476877140,
+          "request_ms": 58.779417,
+          "prompt_tokens": 384,
+          "prompt_hash": "f7fd8cba18363f3ac3e520823b105656db2ab997b0e0940f88285dc856299778"
+        },
+        {
+          "chunk_id": 99,
+          "start_ns": 7095476880716,
+          "end_ns": 7095531111670,
+          "request_ms": 54.038419,
+          "prompt_tokens": 383,
+          "prompt_hash": "b79bf1a3d39026559ffbf99f7747d492c2094cfc257fb48d6d2d4c3d48e8598d"
+        },
+        {
+          "chunk_id": 105,
+          "start_ns": 7095531115485,
+          "end_ns": 7095588380948,
+          "request_ms": 57.098127,
+          "prompt_tokens": 384,
+          "prompt_hash": "16f48cfbfdf93f4b5146bc0c31dfbd7c68130e9ca1a69e443add28317b7b455a"
+        },
+        {
+          "chunk_id": 106,
+          "start_ns": 7095588385839,
+          "end_ns": 7095642634468,
+          "request_ms": 54.06777,
+          "prompt_tokens": 384,
+          "prompt_hash": "e2396907a1392e3e246ab928341045797ed26125ea2b5593400339fcbc8595c7"
+        },
+        {
+          "chunk_id": 107,
+          "start_ns": 7095642638504,
+          "end_ns": 7095697708763,
+          "request_ms": 54.892704,
+          "prompt_tokens": 384,
+          "prompt_hash": "ff9cf6557ca253c66e630ebce3f2e8b96b026b30f33c31a251d58ccdec11f0fe"
+        },
+        {
+          "chunk_id": 109,
+          "start_ns": 7095697713322,
+          "end_ns": 7095773325042,
+          "request_ms": 75.440332,
+          "prompt_tokens": 338,
+          "prompt_hash": "afa7dab102b919ce2a390f7b42aea73fd1bf0795e89553ee8a1e5c5a67db419f"
+        },
+        {
+          "chunk_id": 181,
+          "start_ns": 7095773329321,
+          "end_ns": 7095866545146,
+          "request_ms": 93.074497,
+          "prompt_tokens": 368,
+          "prompt_hash": "e0d82ff08a86e353da2e74118601a8c149f9fa3194f7a9c4e080512a3aa149f6"
+        }
+      ],
+      "target_prompt_hash": "b79bf1a3d39026559ffbf99f7747d492c2094cfc257fb48d6d2d4c3d48e8598d",
+      "target_output_hash": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068",
+      "rep": 0,
+      "m": 20,
+      "k": 10,
+      "policy": "online",
+      "mode": "async",
+      "lead_ms": 1000.0,
+      "block_start": 0,
+      "predicted_ids": [
+        100,
+        101,
+        103,
+        104,
+        99,
+        105,
+        106,
+        107,
+        109,
+        181
+      ],
+      "prediction_hit": 1,
+      "policy_ms": 3.26622,
+      "application_with_policy_ms": 1158.544784,
+      "update": {
+        "updated": false,
+        "update_reason": "prediction_hit",
+        "weights_before": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "weights_after": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "update_l2": 0.0
+      },
+      "state_after": {
+        "weights": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "eta": 0.1,
+        "updates": 0
+      },
+      "target_prepared_before_arrival": true,
+      "prefetch_kv_bytes_estimate": 108265472,
+      "backend_cache_hit": null,
+      "metric_note": "cache attribution unavailable under concurrency; byte estimate is not measured transfer"
+    },
+    {
+      "event_id": 28,
+      "session_id": "test:hotpot:15",
+      "step_id": 6,
+      "document_id": "hotpot:15",
+      "current_chunk_id": 11,
+      "target_chunk_id": 13,
+      "query_type": "multi-hop",
+      "current_request_ms": 176.492413,
+      "target_service_ttft_ms": 53.71868,
+      "arrival_to_first_token_ms": 53.829322,
+      "arrival_to_complete_ms": 54.05924,
+      "application_to_first_token_ms": 1231.90976,
+      "application_request_ms": 1232.139678,
+      "cycle_including_drain_ms": 1232.326042,
+      "post_target_drain_ms": 0.186364,
+      "current_start_ns": 7096384729771,
+      "target_arrival_ns": 7097562810209,
+      "target_submit_ns": 7097562920851,
+      "target_end_ns": 7097616869449,
+      "completed_before_arrival": [
+        13,
+        12,
+        15,
+        14,
+        20,
+        21,
+        129,
+        131,
+        19,
+        18
+      ],
+      "completed_before_submit": [
+        13,
+        12,
+        15,
+        14,
+        20,
+        21,
+        129,
+        131,
+        19,
+        18
+      ],
+      "population": [
+        {
+          "chunk_id": 13,
+          "start_ns": 7096385050147,
+          "end_ns": 7096469857024,
+          "request_ms": 84.602159,
+          "prompt_tokens": 384,
+          "prompt_hash": "a61215c8d8a5833b3e4056c60eb7c424c8204851aad7dadec9b473a14a62278f"
+        },
+        {
+          "chunk_id": 12,
+          "start_ns": 7096469863022,
+          "end_ns": 7096653209417,
+          "request_ms": 183.216696,
+          "prompt_tokens": 384,
+          "prompt_hash": "3b0c2ab93e21e05c0908409054af6aef9b0625f575ff7aa02616db0e9e9f5183"
+        },
+        {
+          "chunk_id": 15,
+          "start_ns": 7096653213386,
+          "end_ns": 7096747073630,
+          "request_ms": 93.645431,
+          "prompt_tokens": 384,
+          "prompt_hash": "382b73b2a90fc144fe5e04da50c201f9b491e35499ff35e887f94d192334df7e"
+        },
+        {
+          "chunk_id": 14,
+          "start_ns": 7096747078285,
+          "end_ns": 7096839983930,
+          "request_ms": 92.733975,
+          "prompt_tokens": 384,
+          "prompt_hash": "b507d2b78f3f5d2eefc9e8aa61487a073680de3ecc0a4e5b5a7e08b90f6bf8ae"
+        },
+        {
+          "chunk_id": 20,
+          "start_ns": 7096840023955,
+          "end_ns": 7096933335970,
+          "request_ms": 93.137035,
+          "prompt_tokens": 384,
+          "prompt_hash": "a9afe3e7bf3fb2e9c86d18b60f74db7b479ae084db2f1b6ec78bb877ec8f122b"
+        },
+        {
+          "chunk_id": 21,
+          "start_ns": 7096933340362,
+          "end_ns": 7097026658079,
+          "request_ms": 93.145658,
+          "prompt_tokens": 384,
+          "prompt_hash": "3e0f12b7220bc1c2b5dbe37a60f1c8755389fe0755a5906e19240351510f4b1a"
+        },
+        {
+          "chunk_id": 129,
+          "start_ns": 7097026661627,
+          "end_ns": 7097120383936,
+          "request_ms": 93.537448,
+          "prompt_tokens": 384,
+          "prompt_hash": "7a145c8784416973965095d6be6553909f9a178b77a64595c6a6c4687b607823"
+        },
+        {
+          "chunk_id": 131,
+          "start_ns": 7097120387871,
+          "end_ns": 7097212769787,
+          "request_ms": 92.251691,
+          "prompt_tokens": 384,
+          "prompt_hash": "18d0a5351db1668b4044d6e3fc422cd528c90ecc6033d567b830442eadc3dea1"
+        },
+        {
+          "chunk_id": 19,
+          "start_ns": 7097212773442,
+          "end_ns": 7097304982187,
+          "request_ms": 92.012275,
+          "prompt_tokens": 384,
+          "prompt_hash": "d0d1b564ec2270134d586be5c8707cbd16182a49434c934318ee2f187d115320"
+        },
+        {
+          "chunk_id": 18,
+          "start_ns": 7097304986429,
+          "end_ns": 7097400587938,
+          "request_ms": 95.424624,
+          "prompt_tokens": 384,
+          "prompt_hash": "6dd6a15cfdda1ed1d7bb41d111abf25c4f4ef34d55d37a456afd7e7a42c5db09"
+        }
+      ],
+      "target_prompt_hash": "a61215c8d8a5833b3e4056c60eb7c424c8204851aad7dadec9b473a14a62278f",
+      "target_output_hash": "cc82604211b7f7b38cc514cf0213855c5e120d66ab4af2be74b205c5693826ec",
+      "rep": 0,
+      "m": 20,
+      "k": 10,
+      "policy": "online",
+      "mode": "async",
+      "lead_ms": 1000.0,
+      "block_start": 0,
+      "predicted_ids": [
+        13,
+        12,
+        15,
+        14,
+        20,
+        21,
+        129,
+        131,
+        19,
+        18
+      ],
+      "prediction_hit": 1,
+      "policy_ms": 3.437336,
+      "application_with_policy_ms": 1235.577014,
+      "update": {
+        "updated": false,
+        "update_reason": "prediction_hit",
+        "weights_before": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "weights_after": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "update_l2": 0.0
+      },
+      "state_after": {
+        "weights": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "eta": 0.1,
+        "updates": 0
+      },
+      "target_prepared_before_arrival": true,
+      "prefetch_kv_bytes_estimate": 110100480,
+      "backend_cache_hit": null,
+      "metric_note": "cache attribution unavailable under concurrency; byte estimate is not measured transfer"
+    },
+    {
+      "event_id": 29,
+      "session_id": "test:hotpot:116",
+      "step_id": 5,
+      "document_id": "hotpot:116",
+      "current_chunk_id": 195,
+      "target_chunk_id": 196,
+      "query_type": "structural",
+      "current_request_ms": 84.348676,
+      "target_service_ttft_ms": 57.640026,
+      "arrival_to_first_token_ms": 57.75099,
+      "arrival_to_complete_ms": 58.085264,
+      "application_to_first_token_ms": 1142.683467,
+      "application_request_ms": 1143.017741,
+      "cycle_including_drain_ms": 1143.152172,
+      "post_target_drain_ms": 0.134431,
+      "current_start_ns": 7097631803427,
+      "target_arrival_ns": 7098716735904,
+      "target_submit_ns": 7098716846868,
+      "target_end_ns": 7098774821168,
+      "completed_before_arrival": [
+        194,
+        200,
+        201,
+        199,
+        207,
+        206,
+        204,
+        198,
+        208,
+        196
+      ],
+      "completed_before_submit": [
+        194,
+        200,
+        201,
+        199,
+        207,
+        206,
+        204,
+        198,
+        208,
+        196
+      ],
+      "population": [
+        {
+          "chunk_id": 194,
+          "start_ns": 7097632088107,
+          "end_ns": 7097809391527,
+          "request_ms": 177.181952,
+          "prompt_tokens": 384,
+          "prompt_hash": "a0f2cdb18da94fcb11a8feec461d7c2a3b9f85a5169c1e4402c8edf3bd579579"
+        },
+        {
+          "chunk_id": 200,
+          "start_ns": 7097809395036,
+          "end_ns": 7097903383348,
+          "request_ms": 93.80187,
+          "prompt_tokens": 384,
+          "prompt_hash": "c0a4946adbbb47bbd30e006a5cbec4940ca5b546a4d15563ad507261f7fd1416"
+        },
+        {
+          "chunk_id": 201,
+          "start_ns": 7097903387819,
+          "end_ns": 7097995804457,
+          "request_ms": 92.242353,
+          "prompt_tokens": 384,
+          "prompt_hash": "82b3789afd16547b56ad4e857f99b2e7f1e69c9afe7b2e67f5ba54c18ea33e21"
+        },
+        {
+          "chunk_id": 199,
+          "start_ns": 7097995808276,
+          "end_ns": 7098088412983,
+          "request_ms": 92.389507,
+          "prompt_tokens": 384,
+          "prompt_hash": "8a737281aca0158862cd659dfc4040bf352e758dc1f0dbdbe39a8cf9c01a010c"
+        },
+        {
+          "chunk_id": 207,
+          "start_ns": 7098088416855,
+          "end_ns": 7098180426259,
+          "request_ms": 91.813488,
+          "prompt_tokens": 384,
+          "prompt_hash": "e5fba0e633a48841068d513419d55c3c71550aec65b49d5137dafafe55cad527"
+        },
+        {
+          "chunk_id": 206,
+          "start_ns": 7098180430839,
+          "end_ns": 7098275080891,
+          "request_ms": 94.434431,
+          "prompt_tokens": 384,
+          "prompt_hash": "8699334e73fc0546dd80b108bbee96a2686ff12a6dfcd13ca5588e5b2cd4e638"
+        },
+        {
+          "chunk_id": 204,
+          "start_ns": 7098275084914,
+          "end_ns": 7098370251424,
+          "request_ms": 94.954566,
+          "prompt_tokens": 384,
+          "prompt_hash": "f0366198298d9a732d55b41b215f2a5193b60a80cc41c004618b17bb426ed08b"
+        },
+        {
+          "chunk_id": 198,
+          "start_ns": 7098370255426,
+          "end_ns": 7098463948513,
+          "request_ms": 93.520028,
+          "prompt_tokens": 384,
+          "prompt_hash": "d13f2046b88129302a4ea770e93a098f5074035cd3e7f3e1d7dfcf10a8462cf1"
+        },
+        {
+          "chunk_id": 208,
+          "start_ns": 7098463952370,
+          "end_ns": 7098517738038,
+          "request_ms": 53.644868,
+          "prompt_tokens": 200,
+          "prompt_hash": "8154f720e2e64b4cca43290b22e465948dcd6ef3b7861db81fe6d5dfa25c0595"
+        },
+        {
+          "chunk_id": 196,
+          "start_ns": 7098517742229,
+          "end_ns": 7098614810404,
+          "request_ms": 96.897534,
+          "prompt_tokens": 384,
+          "prompt_hash": "cdfa6cd942667323de9887b34b886df034666b6196ecd92f1d0908569e9d9d91"
+        }
+      ],
+      "target_prompt_hash": "cdfa6cd942667323de9887b34b886df034666b6196ecd92f1d0908569e9d9d91",
+      "target_output_hash": "d03502c43d74a30b936740a9517dc4ea2b2ad7168caa0a774cefe793ce0b33e7",
+      "rep": 0,
+      "m": 20,
+      "k": 10,
+      "policy": "online",
+      "mode": "async",
+      "lead_ms": 1000.0,
+      "block_start": 0,
+      "predicted_ids": [
+        194,
+        200,
+        201,
+        199,
+        207,
+        206,
+        204,
+        198,
+        208,
+        196
+      ],
+      "prediction_hit": 1,
+      "policy_ms": 1.693066,
+      "application_with_policy_ms": 1144.710807,
+      "update": {
+        "updated": false,
+        "update_reason": "prediction_hit",
+        "weights_before": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "weights_after": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "update_l2": 0.0
+      },
+      "state_after": {
+        "weights": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "eta": 0.1,
+        "updates": 0
+      },
+      "target_prepared_before_arrival": true,
+      "prefetch_kv_bytes_estimate": 104824832,
+      "backend_cache_hit": null,
+      "metric_note": "cache attribution unavailable under concurrency; byte estimate is not measured transfer"
+    }
+  ],
+  "next_index": 30
+}

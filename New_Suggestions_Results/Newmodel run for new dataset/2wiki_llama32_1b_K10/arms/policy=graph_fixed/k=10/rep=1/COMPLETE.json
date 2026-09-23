@@ -1,0 +1,6 @@
+{
+  "completed_at": 1789927101.017099,
+  "events": 600,
+  "events_path": "arms/policy=graph_fixed/k=10/rep=1/attempt_001/events.jsonl",
+  "run_id": "graph_fixed-k10-r1-8d517dd5"
+}

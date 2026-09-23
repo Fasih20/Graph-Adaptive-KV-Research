@@ -1,0 +1,6 @@
+{
+  "completed_at": 1789925847.973552,
+  "events": 600,
+  "events_path": "arms/policy=adaptive_online_warm/k=10/rep=1/attempt_001/events.jsonl",
+  "run_id": "adaptive_online_warm-k10-r1-ef441d6d"
+}

@@ -1,0 +1,6 @@
+{
+  "completed_at": 1789927926.177306,
+  "events": 600,
+  "events_path": "arms/policy=adaptive_offline_global/k=10/rep=1/attempt_001/events.jsonl",
+  "run_id": "adaptive_offline_global-k10-r1-563a5be6"
+}

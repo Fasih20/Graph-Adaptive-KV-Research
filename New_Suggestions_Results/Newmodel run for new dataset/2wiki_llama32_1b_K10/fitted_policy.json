@@ -1,0 +1,252 @@
+{
+  "dev_documents": [
+    "2wiki:115",
+    "2wiki:120",
+    "2wiki:121",
+    "2wiki:151",
+    "2wiki:153",
+    "2wiki:159",
+    "2wiki:175",
+    "2wiki:18",
+    "2wiki:190",
+    "2wiki:192",
+    "2wiki:21",
+    "2wiki:23",
+    "2wiki:27",
+    "2wiki:45",
+    "2wiki:51",
+    "2wiki:56",
+    "2wiki:58",
+    "2wiki:71",
+    "2wiki:8",
+    "2wiki:97"
+  ],
+  "eta": 0.01,
+  "eta_rows": [
+    {
+      "dev_prediction_recall": 0.8233333333333334,
+      "eta": 0.01,
+      "updates": 88
+    },
+    {
+      "dev_prediction_recall": 0.7716666666666666,
+      "eta": 0.05,
+      "updates": 119
+    },
+    {
+      "dev_prediction_recall": 0.7716666666666666,
+      "eta": 0.1,
+      "updates": 119
+    },
+    {
+      "dev_prediction_recall": 0.7783333333333333,
+      "eta": 0.2,
+      "updates": 115
+    },
+    {
+      "dev_prediction_recall": 0.7683333333333333,
+      "eta": 0.5,
+      "updates": 121
+    },
+    {
+      "dev_prediction_recall": 0.7566666666666667,
+      "eta": 1.0,
+      "updates": 122
+    }
+  ],
+  "fit_rows": [
+    {
+      "alpha": 0.0,
+      "beta": 1.0,
+      "train_prediction_recall": 0.91
+    },
+    {
+      "alpha": 0.05,
+      "beta": 0.95,
+      "train_prediction_recall": 0.91
+    },
+    {
+      "alpha": 0.1,
+      "beta": 0.9,
+      "train_prediction_recall": 0.91
+    },
+    {
+      "alpha": 0.15,
+      "beta": 0.85,
+      "train_prediction_recall": 0.91
+    },
+    {
+      "alpha": 0.2,
+      "beta": 0.8,
+      "train_prediction_recall": 0.91
+    },
+    {
+      "alpha": 0.25,
+      "beta": 0.75,
+      "train_prediction_recall": 0.91
+    },
+    {
+      "alpha": 0.3,
+      "beta": 0.7,
+      "train_prediction_recall": 0.9083333333333333
+    },
+    {
+      "alpha": 0.35,
+      "beta": 0.65,
+      "train_prediction_recall": 0.9016666666666666
+    },
+    {
+      "alpha": 0.4,
+      "beta": 0.6,
+      "train_prediction_recall": 0.9016666666666666
+    },
+    {
+      "alpha": 0.45,
+      "beta": 0.55,
+      "train_prediction_recall": 0.8866666666666667
+    },
+    {
+      "alpha": 0.5,
+      "beta": 0.5,
+      "train_prediction_recall": 0.8416666666666667
+    },
+    {
+      "alpha": 0.55,
+      "beta": 0.44999999999999996,
+      "train_prediction_recall": 0.7683333333333333
+    },
+    {
+      "alpha": 0.6,
+      "beta": 0.4,
+      "train_prediction_recall": 0.7333333333333333
+    },
+    {
+      "alpha": 0.65,
+      "beta": 0.35,
+      "train_prediction_recall": 0.7116666666666667
+    },
+    {
+      "alpha": 0.7,
+      "beta": 0.30000000000000004,
+      "train_prediction_recall": 0.6916666666666667
+    },
+    {
+      "alpha": 0.75,
+      "beta": 0.25,
+      "train_prediction_recall": 0.6616666666666666
+    },
+    {
+      "alpha": 0.8,
+      "beta": 0.19999999999999996,
+      "train_prediction_recall": 0.6216666666666667
+    },
+    {
+      "alpha": 0.85,
+      "beta": 0.15000000000000002,
+      "train_prediction_recall": 0.5816666666666667
+    },
+    {
+      "alpha": 0.9,
+      "beta": 0.09999999999999998,
+      "train_prediction_recall": 0.5433333333333333
+    },
+    {
+      "alpha": 0.95,
+      "beta": 0.050000000000000044,
+      "train_prediction_recall": 0.51
+    },
+    {
+      "alpha": 1.0,
+      "beta": 0.0,
+      "train_prediction_recall": 0.4816666666666667
+    }
+  ],
+  "offline_weights": [
+    0.25,
+    0.75
+  ],
+  "test_documents": [
+    "2wiki:107",
+    "2wiki:114",
+    "2wiki:117",
+    "2wiki:118",
+    "2wiki:119",
+    "2wiki:12",
+    "2wiki:132",
+    "2wiki:137",
+    "2wiki:161",
+    "2wiki:162",
+    "2wiki:170",
+    "2wiki:179",
+    "2wiki:181",
+    "2wiki:189",
+    "2wiki:32",
+    "2wiki:38",
+    "2wiki:40",
+    "2wiki:60",
+    "2wiki:77",
+    "2wiki:81"
+  ],
+  "train_documents": [
+    "2wiki:10",
+    "2wiki:100",
+    "2wiki:101",
+    "2wiki:104",
+    "2wiki:105",
+    "2wiki:106",
+    "2wiki:109",
+    "2wiki:116",
+    "2wiki:126",
+    "2wiki:130",
+    "2wiki:135",
+    "2wiki:136",
+    "2wiki:141",
+    "2wiki:143",
+    "2wiki:144",
+    "2wiki:145",
+    "2wiki:148",
+    "2wiki:15",
+    "2wiki:150",
+    "2wiki:154",
+    "2wiki:158",
+    "2wiki:164",
+    "2wiki:165",
+    "2wiki:166",
+    "2wiki:168",
+    "2wiki:173",
+    "2wiki:174",
+    "2wiki:176",
+    "2wiki:178",
+    "2wiki:182",
+    "2wiki:184",
+    "2wiki:187",
+    "2wiki:193",
+    "2wiki:194",
+    "2wiki:22",
+    "2wiki:24",
+    "2wiki:29",
+    "2wiki:47",
+    "2wiki:54",
+    "2wiki:55",
+    "2wiki:57",
+    "2wiki:59",
+    "2wiki:6",
+    "2wiki:62",
+    "2wiki:65",
+    "2wiki:67",
+    "2wiki:70",
+    "2wiki:74",
+    "2wiki:75",
+    "2wiki:78",
+    "2wiki:79",
+    "2wiki:80",
+    "2wiki:82",
+    "2wiki:83",
+    "2wiki:85",
+    "2wiki:86",
+    "2wiki:88",
+    "2wiki:9",
+    "2wiki:91",
+    "2wiki:99"
+  ]
+}

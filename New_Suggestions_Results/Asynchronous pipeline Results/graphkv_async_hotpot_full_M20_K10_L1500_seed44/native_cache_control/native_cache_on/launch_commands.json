@@ -1,0 +1,33 @@
+{
+  "vllm": [
+    "vllm",
+    "serve",
+    "Qwen/Qwen2.5-1.5B-Instruct",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "18000",
+    "--max-model-len",
+    "4096",
+    "--block-size",
+    "16",
+    "--tensor-parallel-size",
+    "1",
+    "--pipeline-parallel-size",
+    "1",
+    "--gpu-memory-utilization",
+    "0.82",
+    "--enable-prefix-caching",
+    "--seed",
+    "44",
+    "--enforce-eager",
+    "--no-enable-chunked-prefill",
+    "--no-async-scheduling",
+    "--disable-hybrid-kv-cache-manager",
+    "--max-num-seqs",
+    "2",
+    "--revision",
+    "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+  ],
+  "lmcache": null
+}

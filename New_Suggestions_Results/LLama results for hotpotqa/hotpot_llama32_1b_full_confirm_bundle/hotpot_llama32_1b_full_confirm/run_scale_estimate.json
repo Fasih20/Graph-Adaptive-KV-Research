@@ -1,0 +1,21 @@
+{
+  "policies": [
+    "no_prefetch",
+    "cosine",
+    "graph_fixed",
+    "adaptive_offline_global",
+    "adaptive_online_warm"
+  ],
+  "k_values": [
+    6,
+    10,
+    16
+  ],
+  "events_per_arm": 600,
+  "repetitions": 2,
+  "main_isolated_process_pairs": 30,
+  "current_plus_target_requests": 36000,
+  "candidate_population_request_upper_bound": 153600,
+  "total_inference_request_upper_bound": 189600,
+  "note": "Upper bound for main arms only. Each candidate is populated by a real one-token vLLM request; graph policies may return fewer than K candidates. The four mandatory sanity process pairs are additional."
+}

@@ -1,0 +1,6 @@
+{
+  "completed_at": 1789926484.1435394,
+  "events": 600,
+  "events_path": "arms/policy=cosine/k=10/rep=1/attempt_001/events.jsonl",
+  "run_id": "cosine-k10-r1-86afc844"
+}

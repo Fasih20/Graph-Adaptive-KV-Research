@@ -1,0 +1,22 @@
+[
+  {
+    "k": 10,
+    "policy": "adaptive_online_warm"
+  },
+  {
+    "k": 10,
+    "policy": "cosine"
+  },
+  {
+    "k": 10,
+    "policy": "graph_fixed"
+  },
+  {
+    "k": 10,
+    "policy": "no_prefetch"
+  },
+  {
+    "k": 10,
+    "policy": "adaptive_offline_global"
+  }
+]

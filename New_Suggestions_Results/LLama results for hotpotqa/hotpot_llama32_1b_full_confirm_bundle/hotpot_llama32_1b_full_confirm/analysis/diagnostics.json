@@ -1,0 +1,5 @@
+{
+  "cold_k_ttft_range_ms": 4.057163474999996,
+  "cold_k_end_to_end_range_ms": 4.056919403333332,
+  "note": "Large no-prefetch variation across K is an order/resource diagnostic because K does not alter its prompt."
+}

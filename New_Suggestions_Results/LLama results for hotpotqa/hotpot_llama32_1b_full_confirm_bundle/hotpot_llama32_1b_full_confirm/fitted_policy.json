@@ -1,0 +1,252 @@
+{
+  "dev_documents": [
+    "hotpot:114",
+    "hotpot:128",
+    "hotpot:13",
+    "hotpot:131",
+    "hotpot:133",
+    "hotpot:149",
+    "hotpot:15",
+    "hotpot:153",
+    "hotpot:154",
+    "hotpot:182",
+    "hotpot:186",
+    "hotpot:196",
+    "hotpot:2",
+    "hotpot:49",
+    "hotpot:51",
+    "hotpot:60",
+    "hotpot:73",
+    "hotpot:77",
+    "hotpot:88",
+    "hotpot:95"
+  ],
+  "eta": 0.01,
+  "eta_rows": [
+    {
+      "dev_prediction_recall": 0.8183333333333334,
+      "eta": 0.01,
+      "updates": 109
+    },
+    {
+      "dev_prediction_recall": 0.81,
+      "eta": 0.05,
+      "updates": 114
+    },
+    {
+      "dev_prediction_recall": 0.8033333333333333,
+      "eta": 0.1,
+      "updates": 118
+    },
+    {
+      "dev_prediction_recall": 0.8033333333333333,
+      "eta": 0.2,
+      "updates": 117
+    },
+    {
+      "dev_prediction_recall": 0.765,
+      "eta": 0.5,
+      "updates": 125
+    },
+    {
+      "dev_prediction_recall": 0.7616666666666667,
+      "eta": 1.0,
+      "updates": 124
+    }
+  ],
+  "fit_rows": [
+    {
+      "alpha": 0.0,
+      "beta": 1.0,
+      "train_prediction_recall": 0.895
+    },
+    {
+      "alpha": 0.05,
+      "beta": 0.95,
+      "train_prediction_recall": 0.8944444444444445
+    },
+    {
+      "alpha": 0.1,
+      "beta": 0.9,
+      "train_prediction_recall": 0.8944444444444445
+    },
+    {
+      "alpha": 0.15,
+      "beta": 0.85,
+      "train_prediction_recall": 0.9011111111111111
+    },
+    {
+      "alpha": 0.2,
+      "beta": 0.8,
+      "train_prediction_recall": 0.9005555555555556
+    },
+    {
+      "alpha": 0.25,
+      "beta": 0.75,
+      "train_prediction_recall": 0.9016666666666666
+    },
+    {
+      "alpha": 0.3,
+      "beta": 0.7,
+      "train_prediction_recall": 0.9033333333333333
+    },
+    {
+      "alpha": 0.35,
+      "beta": 0.65,
+      "train_prediction_recall": 0.91
+    },
+    {
+      "alpha": 0.4,
+      "beta": 0.6,
+      "train_prediction_recall": 0.9111111111111111
+    },
+    {
+      "alpha": 0.45,
+      "beta": 0.55,
+      "train_prediction_recall": 0.9116666666666666
+    },
+    {
+      "alpha": 0.5,
+      "beta": 0.5,
+      "train_prediction_recall": 0.9061111111111111
+    },
+    {
+      "alpha": 0.55,
+      "beta": 0.44999999999999996,
+      "train_prediction_recall": 0.9005555555555556
+    },
+    {
+      "alpha": 0.6,
+      "beta": 0.4,
+      "train_prediction_recall": 0.8955555555555555
+    },
+    {
+      "alpha": 0.65,
+      "beta": 0.35,
+      "train_prediction_recall": 0.8883333333333333
+    },
+    {
+      "alpha": 0.7,
+      "beta": 0.30000000000000004,
+      "train_prediction_recall": 0.8772222222222222
+    },
+    {
+      "alpha": 0.75,
+      "beta": 0.25,
+      "train_prediction_recall": 0.8694444444444445
+    },
+    {
+      "alpha": 0.8,
+      "beta": 0.19999999999999996,
+      "train_prediction_recall": 0.8577777777777778
+    },
+    {
+      "alpha": 0.85,
+      "beta": 0.15000000000000002,
+      "train_prediction_recall": 0.8472222222222222
+    },
+    {
+      "alpha": 0.9,
+      "beta": 0.09999999999999998,
+      "train_prediction_recall": 0.8294444444444444
+    },
+    {
+      "alpha": 0.95,
+      "beta": 0.050000000000000044,
+      "train_prediction_recall": 0.8144444444444444
+    },
+    {
+      "alpha": 1.0,
+      "beta": 0.0,
+      "train_prediction_recall": 0.7944444444444444
+    }
+  ],
+  "offline_weights": [
+    0.45,
+    0.55
+  ],
+  "test_documents": [
+    "hotpot:0",
+    "hotpot:104",
+    "hotpot:116",
+    "hotpot:127",
+    "hotpot:143",
+    "hotpot:157",
+    "hotpot:172",
+    "hotpot:18",
+    "hotpot:180",
+    "hotpot:189",
+    "hotpot:193",
+    "hotpot:20",
+    "hotpot:30",
+    "hotpot:41",
+    "hotpot:43",
+    "hotpot:50",
+    "hotpot:59",
+    "hotpot:62",
+    "hotpot:68",
+    "hotpot:76"
+  ],
+  "train_documents": [
+    "hotpot:1",
+    "hotpot:100",
+    "hotpot:102",
+    "hotpot:107",
+    "hotpot:109",
+    "hotpot:110",
+    "hotpot:112",
+    "hotpot:115",
+    "hotpot:117",
+    "hotpot:118",
+    "hotpot:126",
+    "hotpot:129",
+    "hotpot:135",
+    "hotpot:136",
+    "hotpot:137",
+    "hotpot:138",
+    "hotpot:139",
+    "hotpot:140",
+    "hotpot:159",
+    "hotpot:16",
+    "hotpot:160",
+    "hotpot:163",
+    "hotpot:166",
+    "hotpot:168",
+    "hotpot:17",
+    "hotpot:173",
+    "hotpot:175",
+    "hotpot:176",
+    "hotpot:177",
+    "hotpot:179",
+    "hotpot:181",
+    "hotpot:183",
+    "hotpot:19",
+    "hotpot:194",
+    "hotpot:199",
+    "hotpot:23",
+    "hotpot:25",
+    "hotpot:29",
+    "hotpot:32",
+    "hotpot:35",
+    "hotpot:4",
+    "hotpot:47",
+    "hotpot:48",
+    "hotpot:5",
+    "hotpot:54",
+    "hotpot:55",
+    "hotpot:56",
+    "hotpot:57",
+    "hotpot:64",
+    "hotpot:66",
+    "hotpot:7",
+    "hotpot:74",
+    "hotpot:75",
+    "hotpot:8",
+    "hotpot:85",
+    "hotpot:86",
+    "hotpot:90",
+    "hotpot:94",
+    "hotpot:98",
+    "hotpot:99"
+  ]
+}

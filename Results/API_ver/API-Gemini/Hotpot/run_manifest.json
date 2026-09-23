@@ -1,0 +1,23 @@
+{
+  "scientific_config_hash": "1456d1ff0ab13eafe40c734c041b00831540bb23134ed3d7ef35b3c5556f99bc",
+  "scientific_config": {
+    "version": "1.0.0",
+    "dataset": "hotpotqa/hotpot_qa:distractor",
+    "model": "gemini-3.5-flash-lite",
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "budget_tokenizer": "Qwen/Qwen2.5-1.5B-Instruct",
+    "n_train": 120,
+    "n_dev": 40,
+    "n_test": 60,
+    "k_values": [
+      10
+    ],
+    "top_m": 5,
+    "max_degree": 100,
+    "context_token_budget": 768,
+    "max_output_tokens": 64,
+    "seed": 42
+  },
+  "api_key_saved": false,
+  "note": "RPM/retry/timeouts are operational and may change safely when resuming."
+}

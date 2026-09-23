@@ -1,0 +1,1130 @@
+{
+  "status": "complete_needs_review",
+  "environment": {
+    "runtime": {
+      "model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+      "gpu_id": "0",
+      "vllm_host": "127.0.0.1",
+      "vllm_port": 18000,
+      "lmcache_host": "127.0.0.1",
+      "lmcache_port": 18001,
+      "lmcache_http_port": 18002,
+      "lmcache_prometheus_port": 18003,
+      "max_model_len": 4096,
+      "block_size": 16,
+      "chunk_size": 16,
+      "gpu_memory_utilization": 0.82,
+      "l1_size_gb": 0.5,
+      "startup_timeout_s": 900,
+      "seed": 44,
+      "blend_separator": " # # ",
+      "trust_remote_code": false,
+      "max_num_seqs": 2
+    },
+    "versions": {
+      "vllm": "0.27.0",
+      "lmcache": "0.5.4",
+      "torch": "2.13.0",
+      "transformers": "5.17.0"
+    },
+    "gate_protocol": 2,
+    "code": {
+      "revision_gate.py": "7abab6f710a5beff55132d4cba186411c575688ee02a039d75923f5c278122cf",
+      "real_cache_client.py": "7444cb1b8c3085e946956f821d16d8bb536a1887ebc72c7f20a58dc6a8aedc4a",
+      "isolated_runtime.py": "6b9a2e5a74f7671d6c0d542da012c927c2af490b064b7cbdf18605819c432cab"
+    }
+  },
+  "gate_sha256": "493942f1c3c1b64a21e076d8b8b09e73ecb42cab2d614e20e5fde7fca429d6ba",
+  "scope": "diagnostic only; gate remains unchanged; no performance claims",
+  "note": "Retains original runtime options, including disabled chunked prefill, to isolate caching effects.",
+  "runs": {
+    "native_cache_off": [
+      {
+        "case": 0,
+        "first": {
+          "text": ": **cobalt**. \n\nThis",
+          "tokens": [
+            ":",
+            " **",
+            "cob",
+            "alt",
+            "**",
+            ".",
+            " \n\n",
+            "This"
+          ],
+          "logprobs": [
+            -2.838996410369873,
+            -1.1064611673355103,
+            -0.06382473558187485,
+            -8.77341881277971e-05,
+            -0.05930127948522568,
+            -0.2496994435787201,
+            -2.2933459281921387,
+            -1.916078805923462
+          ],
+          "usage": {
+            "prompt_tokens": 293,
+            "total_tokens": 301,
+            "completion_tokens": 8,
+            "prompt_tokens_details": null
+          },
+          "prompt_hash": "ed07eeb6650837c4599ed8cd31f5cb22f5f9d34c47224d600901d722782abb86",
+          "prompt_tokens": 293
+        },
+        "vs_original_cold": {
+          "same_tokens": true,
+          "same_prompt": true,
+          "max_abs_logprob_difference": 0.0
+        },
+        "repeats": [
+          {
+            "sample": {
+              "text": ": **cobalt**. \n\nThis",
+              "tokens": [
+                ":",
+                " **",
+                "cob",
+                "alt",
+                "**",
+                ".",
+                " \n\n",
+                "This"
+              ],
+              "logprobs": [
+                -2.838996410369873,
+                -1.1064611673355103,
+                -0.06382473558187485,
+                -8.77341881277971e-05,
+                -0.05930127948522568,
+                -0.2496994435787201,
+                -2.2933459281921387,
+                -1.916078805923462
+              ],
+              "usage": {
+                "prompt_tokens": 293,
+                "total_tokens": 301,
+                "completion_tokens": 8,
+                "prompt_tokens_details": null
+              },
+              "prompt_hash": "ed07eeb6650837c4599ed8cd31f5cb22f5f9d34c47224d600901d722782abb86",
+              "prompt_tokens": 293
+            },
+            "vs_first": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.0
+            },
+            "vs_lmcache_warm": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.006839871406555176
+            },
+            "native_prefix_hit_tokens": null,
+            "prefix_metrics_delta": {}
+          },
+          {
+            "sample": {
+              "text": ": **cobalt**. \n\nThis",
+              "tokens": [
+                ":",
+                " **",
+                "cob",
+                "alt",
+                "**",
+                ".",
+                " \n\n",
+                "This"
+              ],
+              "logprobs": [
+                -2.838996410369873,
+                -1.1064611673355103,
+                -0.06382473558187485,
+                -8.77341881277971e-05,
+                -0.05930127948522568,
+                -0.2496994435787201,
+                -2.2933459281921387,
+                -1.916078805923462
+              ],
+              "usage": {
+                "prompt_tokens": 293,
+                "total_tokens": 301,
+                "completion_tokens": 8,
+                "prompt_tokens_details": null
+              },
+              "prompt_hash": "ed07eeb6650837c4599ed8cd31f5cb22f5f9d34c47224d600901d722782abb86",
+              "prompt_tokens": 293
+            },
+            "vs_first": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.0
+            },
+            "vs_lmcache_warm": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.006839871406555176
+            },
+            "native_prefix_hit_tokens": null,
+            "prefix_metrics_delta": {}
+          },
+          {
+            "sample": {
+              "text": ": **cobalt**. \n\nThis",
+              "tokens": [
+                ":",
+                " **",
+                "cob",
+                "alt",
+                "**",
+                ".",
+                " \n\n",
+                "This"
+              ],
+              "logprobs": [
+                -2.838996410369873,
+                -1.1064611673355103,
+                -0.06382473558187485,
+                -8.77341881277971e-05,
+                -0.05930127948522568,
+                -0.2496994435787201,
+                -2.2933459281921387,
+                -1.916078805923462
+              ],
+              "usage": {
+                "prompt_tokens": 293,
+                "total_tokens": 301,
+                "completion_tokens": 8,
+                "prompt_tokens_details": null
+              },
+              "prompt_hash": "ed07eeb6650837c4599ed8cd31f5cb22f5f9d34c47224d600901d722782abb86",
+              "prompt_tokens": 293
+            },
+            "vs_first": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.0
+            },
+            "vs_lmcache_warm": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.006839871406555176
+            },
+            "native_prefix_hit_tokens": null,
+            "prefix_metrics_delta": {}
+          }
+        ]
+      },
+      {
+        "case": 1,
+        "first": {
+          "text": " Mira Chen, who filed a patent",
+          "tokens": [
+            " M",
+            "ira",
+            " Chen",
+            ",",
+            " who",
+            " filed",
+            " a",
+            " patent"
+          ],
+          "logprobs": [
+            -0.7544505596160889,
+            -0.02288106083869934,
+            -0.010665085166692734,
+            -2.027139186859131,
+            -2.3665411472320557,
+            -1.8000457286834717,
+            -0.7491137981414795,
+            -0.2361266314983368
+          ],
+          "usage": {
+            "prompt_tokens": 461,
+            "total_tokens": 469,
+            "completion_tokens": 8,
+            "prompt_tokens_details": null
+          },
+          "prompt_hash": "97d60cf5f7e5b30e0313a1b49f6fbe3673fa3b9c68480e19493d4c8765dbaa95",
+          "prompt_tokens": 461
+        },
+        "vs_original_cold": {
+          "same_tokens": true,
+          "same_prompt": true,
+          "max_abs_logprob_difference": 0.0
+        },
+        "repeats": [
+          {
+            "sample": {
+              "text": " Mira Chen, who filed a patent",
+              "tokens": [
+                " M",
+                "ira",
+                " Chen",
+                ",",
+                " who",
+                " filed",
+                " a",
+                " patent"
+              ],
+              "logprobs": [
+                -0.7544505596160889,
+                -0.02288106083869934,
+                -0.010665085166692734,
+                -2.027139186859131,
+                -2.3665411472320557,
+                -1.8000457286834717,
+                -0.7491137981414795,
+                -0.2361266314983368
+              ],
+              "usage": {
+                "prompt_tokens": 461,
+                "total_tokens": 469,
+                "completion_tokens": 8,
+                "prompt_tokens_details": null
+              },
+              "prompt_hash": "97d60cf5f7e5b30e0313a1b49f6fbe3673fa3b9c68480e19493d4c8765dbaa95",
+              "prompt_tokens": 461
+            },
+            "vs_first": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.0
+            },
+            "vs_lmcache_warm": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.005216360092163086
+            },
+            "native_prefix_hit_tokens": null,
+            "prefix_metrics_delta": {}
+          },
+          {
+            "sample": {
+              "text": " Mira Chen, who filed a patent",
+              "tokens": [
+                " M",
+                "ira",
+                " Chen",
+                ",",
+                " who",
+                " filed",
+                " a",
+                " patent"
+              ],
+              "logprobs": [
+                -0.7544505596160889,
+                -0.02288106083869934,
+                -0.010665085166692734,
+                -2.027139186859131,
+                -2.3665411472320557,
+                -1.8000457286834717,
+                -0.7491137981414795,
+                -0.2361266314983368
+              ],
+              "usage": {
+                "prompt_tokens": 461,
+                "total_tokens": 469,
+                "completion_tokens": 8,
+                "prompt_tokens_details": null
+              },
+              "prompt_hash": "97d60cf5f7e5b30e0313a1b49f6fbe3673fa3b9c68480e19493d4c8765dbaa95",
+              "prompt_tokens": 461
+            },
+            "vs_first": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.0
+            },
+            "vs_lmcache_warm": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.005216360092163086
+            },
+            "native_prefix_hit_tokens": null,
+            "prefix_metrics_delta": {}
+          },
+          {
+            "sample": {
+              "text": " Mira Chen, who filed a patent",
+              "tokens": [
+                " M",
+                "ira",
+                " Chen",
+                ",",
+                " who",
+                " filed",
+                " a",
+                " patent"
+              ],
+              "logprobs": [
+                -0.7544505596160889,
+                -0.02288106083869934,
+                -0.010665085166692734,
+                -2.027139186859131,
+                -2.3665411472320557,
+                -1.8000457286834717,
+                -0.7491137981414795,
+                -0.2361266314983368
+              ],
+              "usage": {
+                "prompt_tokens": 461,
+                "total_tokens": 469,
+                "completion_tokens": 8,
+                "prompt_tokens_details": null
+              },
+              "prompt_hash": "97d60cf5f7e5b30e0313a1b49f6fbe3673fa3b9c68480e19493d4c8765dbaa95",
+              "prompt_tokens": 461
+            },
+            "vs_first": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.0
+            },
+            "vs_lmcache_warm": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.005216360092163086
+            },
+            "native_prefix_hit_tokens": null,
+            "prefix_metrics_delta": {}
+          }
+        ]
+      },
+      {
+        "case": 2,
+        "first": {
+          "text": " meters, and the number of measurements taken",
+          "tokens": [
+            " meters",
+            ",",
+            " and",
+            " the",
+            " number",
+            " of",
+            " measurements",
+            " taken"
+          ],
+          "logprobs": [
+            -0.951699435710907,
+            -1.799490213394165,
+            -1.4072190523147583,
+            -0.435054749250412,
+            -2.6850645542144775,
+            -0.6023578643798828,
+            -0.9335477948188782,
+            -1.9074852466583252
+          ],
+          "usage": {
+            "prompt_tokens": 316,
+            "total_tokens": 324,
+            "completion_tokens": 8,
+            "prompt_tokens_details": null
+          },
+          "prompt_hash": "ec221d8d95209ef933195e388fac68ef3055d63f8a513cc5216dfd733f120928",
+          "prompt_tokens": 316
+        },
+        "vs_original_cold": {
+          "same_tokens": true,
+          "same_prompt": true,
+          "max_abs_logprob_difference": 0.0
+        },
+        "repeats": [
+          {
+            "sample": {
+              "text": " meters, and the number of measurements taken",
+              "tokens": [
+                " meters",
+                ",",
+                " and",
+                " the",
+                " number",
+                " of",
+                " measurements",
+                " taken"
+              ],
+              "logprobs": [
+                -0.951699435710907,
+                -1.799490213394165,
+                -1.4072190523147583,
+                -0.435054749250412,
+                -2.6850645542144775,
+                -0.6023578643798828,
+                -0.9335477948188782,
+                -1.9074852466583252
+              ],
+              "usage": {
+                "prompt_tokens": 316,
+                "total_tokens": 324,
+                "completion_tokens": 8,
+                "prompt_tokens_details": null
+              },
+              "prompt_hash": "ec221d8d95209ef933195e388fac68ef3055d63f8a513cc5216dfd733f120928",
+              "prompt_tokens": 316
+            },
+            "vs_first": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.0
+            },
+            "vs_lmcache_warm": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.009982109069824219
+            },
+            "native_prefix_hit_tokens": null,
+            "prefix_metrics_delta": {}
+          },
+          {
+            "sample": {
+              "text": " meters, and the number of measurements taken",
+              "tokens": [
+                " meters",
+                ",",
+                " and",
+                " the",
+                " number",
+                " of",
+                " measurements",
+                " taken"
+              ],
+              "logprobs": [
+                -0.951699435710907,
+                -1.799490213394165,
+                -1.4072190523147583,
+                -0.435054749250412,
+                -2.6850645542144775,
+                -0.6023578643798828,
+                -0.9335477948188782,
+                -1.9074852466583252
+              ],
+              "usage": {
+                "prompt_tokens": 316,
+                "total_tokens": 324,
+                "completion_tokens": 8,
+                "prompt_tokens_details": null
+              },
+              "prompt_hash": "ec221d8d95209ef933195e388fac68ef3055d63f8a513cc5216dfd733f120928",
+              "prompt_tokens": 316
+            },
+            "vs_first": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.0
+            },
+            "vs_lmcache_warm": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.009982109069824219
+            },
+            "native_prefix_hit_tokens": null,
+            "prefix_metrics_delta": {}
+          },
+          {
+            "sample": {
+              "text": " meters, and the number of measurements taken",
+              "tokens": [
+                " meters",
+                ",",
+                " and",
+                " the",
+                " number",
+                " of",
+                " measurements",
+                " taken"
+              ],
+              "logprobs": [
+                -0.951699435710907,
+                -1.799490213394165,
+                -1.4072190523147583,
+                -0.435054749250412,
+                -2.6850645542144775,
+                -0.6023578643798828,
+                -0.9335477948188782,
+                -1.9074852466583252
+              ],
+              "usage": {
+                "prompt_tokens": 316,
+                "total_tokens": 324,
+                "completion_tokens": 8,
+                "prompt_tokens_details": null
+              },
+              "prompt_hash": "ec221d8d95209ef933195e388fac68ef3055d63f8a513cc5216dfd733f120928",
+              "prompt_tokens": 316
+            },
+            "vs_first": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.0
+            },
+            "vs_lmcache_warm": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.009982109069824219
+            },
+            "native_prefix_hit_tokens": null,
+            "prefix_metrics_delta": {}
+          }
+        ]
+      }
+    ],
+    "native_cache_on": [
+      {
+        "case": 0,
+        "first": {
+          "text": ": **cobalt**. \n\nThis",
+          "tokens": [
+            ":",
+            " **",
+            "cob",
+            "alt",
+            "**",
+            ".",
+            " \n\n",
+            "This"
+          ],
+          "logprobs": [
+            -2.838996410369873,
+            -1.1064611673355103,
+            -0.06382473558187485,
+            -8.77341881277971e-05,
+            -0.05930127948522568,
+            -0.2496994435787201,
+            -2.2933459281921387,
+            -1.916078805923462
+          ],
+          "usage": {
+            "prompt_tokens": 293,
+            "total_tokens": 301,
+            "completion_tokens": 8,
+            "prompt_tokens_details": null
+          },
+          "prompt_hash": "ed07eeb6650837c4599ed8cd31f5cb22f5f9d34c47224d600901d722782abb86",
+          "prompt_tokens": 293
+        },
+        "vs_original_cold": {
+          "same_tokens": true,
+          "same_prompt": true,
+          "max_abs_logprob_difference": 0.0
+        },
+        "repeats": [
+          {
+            "sample": {
+              "text": ": **cobalt**. \n\nThis",
+              "tokens": [
+                ":",
+                " **",
+                "cob",
+                "alt",
+                "**",
+                ".",
+                " \n\n",
+                "This"
+              ],
+              "logprobs": [
+                -2.8375279903411865,
+                -1.099621295928955,
+                -0.06285765022039413,
+                -8.749579137656838e-05,
+                -0.059273529797792435,
+                -0.24774199724197388,
+                -2.2907164096832275,
+                -1.9145703315734863
+              ],
+              "usage": {
+                "prompt_tokens": 293,
+                "total_tokens": 301,
+                "completion_tokens": 8,
+                "prompt_tokens_details": null
+              },
+              "prompt_hash": "ed07eeb6650837c4599ed8cd31f5cb22f5f9d34c47224d600901d722782abb86",
+              "prompt_tokens": 293
+            },
+            "vs_first": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.006839871406555176
+            },
+            "vs_lmcache_warm": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.0
+            },
+            "native_prefix_hit_tokens": 288.0,
+            "prefix_metrics_delta": {
+              "vllm:prefix_cache_queries_total{engine=\"0\",model_name=\"Qwen/Qwen2.5-1.5B-Instruct\"}": 293.0,
+              "vllm:prefix_cache_hits_total{engine=\"0\",model_name=\"Qwen/Qwen2.5-1.5B-Instruct\"}": 288.0
+            }
+          },
+          {
+            "sample": {
+              "text": ": **cobalt**. \n\nThis",
+              "tokens": [
+                ":",
+                " **",
+                "cob",
+                "alt",
+                "**",
+                ".",
+                " \n\n",
+                "This"
+              ],
+              "logprobs": [
+                -2.8375279903411865,
+                -1.099621295928955,
+                -0.06285765022039413,
+                -8.749579137656838e-05,
+                -0.059273529797792435,
+                -0.24774199724197388,
+                -2.2907164096832275,
+                -1.9145703315734863
+              ],
+              "usage": {
+                "prompt_tokens": 293,
+                "total_tokens": 301,
+                "completion_tokens": 8,
+                "prompt_tokens_details": null
+              },
+              "prompt_hash": "ed07eeb6650837c4599ed8cd31f5cb22f5f9d34c47224d600901d722782abb86",
+              "prompt_tokens": 293
+            },
+            "vs_first": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.006839871406555176
+            },
+            "vs_lmcache_warm": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.0
+            },
+            "native_prefix_hit_tokens": 288.0,
+            "prefix_metrics_delta": {
+              "vllm:prefix_cache_queries_total{engine=\"0\",model_name=\"Qwen/Qwen2.5-1.5B-Instruct\"}": 293.0,
+              "vllm:prefix_cache_hits_total{engine=\"0\",model_name=\"Qwen/Qwen2.5-1.5B-Instruct\"}": 288.0
+            }
+          },
+          {
+            "sample": {
+              "text": ": **cobalt**. \n\nThis",
+              "tokens": [
+                ":",
+                " **",
+                "cob",
+                "alt",
+                "**",
+                ".",
+                " \n\n",
+                "This"
+              ],
+              "logprobs": [
+                -2.8375279903411865,
+                -1.099621295928955,
+                -0.06285765022039413,
+                -8.749579137656838e-05,
+                -0.059273529797792435,
+                -0.24774199724197388,
+                -2.2907164096832275,
+                -1.9145703315734863
+              ],
+              "usage": {
+                "prompt_tokens": 293,
+                "total_tokens": 301,
+                "completion_tokens": 8,
+                "prompt_tokens_details": null
+              },
+              "prompt_hash": "ed07eeb6650837c4599ed8cd31f5cb22f5f9d34c47224d600901d722782abb86",
+              "prompt_tokens": 293
+            },
+            "vs_first": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.006839871406555176
+            },
+            "vs_lmcache_warm": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.0
+            },
+            "native_prefix_hit_tokens": 288.0,
+            "prefix_metrics_delta": {
+              "vllm:prefix_cache_queries_total{engine=\"0\",model_name=\"Qwen/Qwen2.5-1.5B-Instruct\"}": 293.0,
+              "vllm:prefix_cache_hits_total{engine=\"0\",model_name=\"Qwen/Qwen2.5-1.5B-Instruct\"}": 288.0
+            }
+          }
+        ]
+      },
+      {
+        "case": 1,
+        "first": {
+          "text": " Mira Chen, who filed a patent",
+          "tokens": [
+            " M",
+            "ira",
+            " Chen",
+            ",",
+            " who",
+            " filed",
+            " a",
+            " patent"
+          ],
+          "logprobs": [
+            -0.7544505596160889,
+            -0.02288106083869934,
+            -0.010665085166692734,
+            -2.027139186859131,
+            -2.3665411472320557,
+            -1.8000457286834717,
+            -0.7491137981414795,
+            -0.2361266314983368
+          ],
+          "usage": {
+            "prompt_tokens": 461,
+            "total_tokens": 469,
+            "completion_tokens": 8,
+            "prompt_tokens_details": null
+          },
+          "prompt_hash": "97d60cf5f7e5b30e0313a1b49f6fbe3673fa3b9c68480e19493d4c8765dbaa95",
+          "prompt_tokens": 461
+        },
+        "vs_original_cold": {
+          "same_tokens": true,
+          "same_prompt": true,
+          "max_abs_logprob_difference": 0.0
+        },
+        "repeats": [
+          {
+            "sample": {
+              "text": " Mira Chen, who filed a patent",
+              "tokens": [
+                " M",
+                "ira",
+                " Chen",
+                ",",
+                " who",
+                " filed",
+                " a",
+                " patent"
+              ],
+              "logprobs": [
+                -0.7555739879608154,
+                -0.022565146908164024,
+                -0.010687730275094509,
+                -2.0271811485290527,
+                -2.366098403930664,
+                -1.8052620887756348,
+                -0.7490337491035461,
+                -0.2335248738527298
+              ],
+              "usage": {
+                "prompt_tokens": 461,
+                "total_tokens": 469,
+                "completion_tokens": 8,
+                "prompt_tokens_details": null
+              },
+              "prompt_hash": "97d60cf5f7e5b30e0313a1b49f6fbe3673fa3b9c68480e19493d4c8765dbaa95",
+              "prompt_tokens": 461
+            },
+            "vs_first": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.005216360092163086
+            },
+            "vs_lmcache_warm": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.0
+            },
+            "native_prefix_hit_tokens": 448.0,
+            "prefix_metrics_delta": {
+              "vllm:prefix_cache_queries_total{engine=\"0\",model_name=\"Qwen/Qwen2.5-1.5B-Instruct\"}": 461.0,
+              "vllm:prefix_cache_hits_total{engine=\"0\",model_name=\"Qwen/Qwen2.5-1.5B-Instruct\"}": 448.0
+            }
+          },
+          {
+            "sample": {
+              "text": " Mira Chen, who filed a patent",
+              "tokens": [
+                " M",
+                "ira",
+                " Chen",
+                ",",
+                " who",
+                " filed",
+                " a",
+                " patent"
+              ],
+              "logprobs": [
+                -0.7555739879608154,
+                -0.022565146908164024,
+                -0.010687730275094509,
+                -2.0271811485290527,
+                -2.366098403930664,
+                -1.8052620887756348,
+                -0.7490337491035461,
+                -0.2335248738527298
+              ],
+              "usage": {
+                "prompt_tokens": 461,
+                "total_tokens": 469,
+                "completion_tokens": 8,
+                "prompt_tokens_details": null
+              },
+              "prompt_hash": "97d60cf5f7e5b30e0313a1b49f6fbe3673fa3b9c68480e19493d4c8765dbaa95",
+              "prompt_tokens": 461
+            },
+            "vs_first": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.005216360092163086
+            },
+            "vs_lmcache_warm": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.0
+            },
+            "native_prefix_hit_tokens": 448.0,
+            "prefix_metrics_delta": {
+              "vllm:prefix_cache_queries_total{engine=\"0\",model_name=\"Qwen/Qwen2.5-1.5B-Instruct\"}": 461.0,
+              "vllm:prefix_cache_hits_total{engine=\"0\",model_name=\"Qwen/Qwen2.5-1.5B-Instruct\"}": 448.0
+            }
+          },
+          {
+            "sample": {
+              "text": " Mira Chen, who filed a patent",
+              "tokens": [
+                " M",
+                "ira",
+                " Chen",
+                ",",
+                " who",
+                " filed",
+                " a",
+                " patent"
+              ],
+              "logprobs": [
+                -0.7555739879608154,
+                -0.022565146908164024,
+                -0.010687730275094509,
+                -2.0271811485290527,
+                -2.366098403930664,
+                -1.8052620887756348,
+                -0.7490337491035461,
+                -0.2335248738527298
+              ],
+              "usage": {
+                "prompt_tokens": 461,
+                "total_tokens": 469,
+                "completion_tokens": 8,
+                "prompt_tokens_details": null
+              },
+              "prompt_hash": "97d60cf5f7e5b30e0313a1b49f6fbe3673fa3b9c68480e19493d4c8765dbaa95",
+              "prompt_tokens": 461
+            },
+            "vs_first": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.005216360092163086
+            },
+            "vs_lmcache_warm": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.0
+            },
+            "native_prefix_hit_tokens": 448.0,
+            "prefix_metrics_delta": {
+              "vllm:prefix_cache_queries_total{engine=\"0\",model_name=\"Qwen/Qwen2.5-1.5B-Instruct\"}": 461.0,
+              "vllm:prefix_cache_hits_total{engine=\"0\",model_name=\"Qwen/Qwen2.5-1.5B-Instruct\"}": 448.0
+            }
+          }
+        ]
+      },
+      {
+        "case": 2,
+        "first": {
+          "text": " meters, and the number of measurements taken",
+          "tokens": [
+            " meters",
+            ",",
+            " and",
+            " the",
+            " number",
+            " of",
+            " measurements",
+            " taken"
+          ],
+          "logprobs": [
+            -0.951699435710907,
+            -1.799490213394165,
+            -1.4072190523147583,
+            -0.435054749250412,
+            -2.6850645542144775,
+            -0.6023578643798828,
+            -0.9335477948188782,
+            -1.9074852466583252
+          ],
+          "usage": {
+            "prompt_tokens": 316,
+            "total_tokens": 324,
+            "completion_tokens": 8,
+            "prompt_tokens_details": null
+          },
+          "prompt_hash": "ec221d8d95209ef933195e388fac68ef3055d63f8a513cc5216dfd733f120928",
+          "prompt_tokens": 316
+        },
+        "vs_original_cold": {
+          "same_tokens": true,
+          "same_prompt": true,
+          "max_abs_logprob_difference": 0.0
+        },
+        "repeats": [
+          {
+            "sample": {
+              "text": " meters, and the number of measurements taken",
+              "tokens": [
+                " meters",
+                ",",
+                " and",
+                " the",
+                " number",
+                " of",
+                " measurements",
+                " taken"
+              ],
+              "logprobs": [
+                -0.9540690183639526,
+                -1.799760103225708,
+                -1.4110409021377563,
+                -0.43397435545921326,
+                -2.694136381149292,
+                -0.6027703285217285,
+                -0.9334105849266052,
+                -1.9174673557281494
+              ],
+              "usage": {
+                "prompt_tokens": 316,
+                "total_tokens": 324,
+                "completion_tokens": 8,
+                "prompt_tokens_details": null
+              },
+              "prompt_hash": "ec221d8d95209ef933195e388fac68ef3055d63f8a513cc5216dfd733f120928",
+              "prompt_tokens": 316
+            },
+            "vs_first": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.009982109069824219
+            },
+            "vs_lmcache_warm": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.0
+            },
+            "native_prefix_hit_tokens": 304.0,
+            "prefix_metrics_delta": {
+              "vllm:prefix_cache_queries_total{engine=\"0\",model_name=\"Qwen/Qwen2.5-1.5B-Instruct\"}": 316.0,
+              "vllm:prefix_cache_hits_total{engine=\"0\",model_name=\"Qwen/Qwen2.5-1.5B-Instruct\"}": 304.0
+            }
+          },
+          {
+            "sample": {
+              "text": " meters, and the number of measurements taken",
+              "tokens": [
+                " meters",
+                ",",
+                " and",
+                " the",
+                " number",
+                " of",
+                " measurements",
+                " taken"
+              ],
+              "logprobs": [
+                -0.9540690183639526,
+                -1.799760103225708,
+                -1.4110409021377563,
+                -0.43397435545921326,
+                -2.694136381149292,
+                -0.6027703285217285,
+                -0.9334105849266052,
+                -1.9174673557281494
+              ],
+              "usage": {
+                "prompt_tokens": 316,
+                "total_tokens": 324,
+                "completion_tokens": 8,
+                "prompt_tokens_details": null
+              },
+              "prompt_hash": "ec221d8d95209ef933195e388fac68ef3055d63f8a513cc5216dfd733f120928",
+              "prompt_tokens": 316
+            },
+            "vs_first": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.009982109069824219
+            },
+            "vs_lmcache_warm": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.0
+            },
+            "native_prefix_hit_tokens": 304.0,
+            "prefix_metrics_delta": {
+              "vllm:prefix_cache_queries_total{engine=\"0\",model_name=\"Qwen/Qwen2.5-1.5B-Instruct\"}": 316.0,
+              "vllm:prefix_cache_hits_total{engine=\"0\",model_name=\"Qwen/Qwen2.5-1.5B-Instruct\"}": 304.0
+            }
+          },
+          {
+            "sample": {
+              "text": " meters, and the number of measurements taken",
+              "tokens": [
+                " meters",
+                ",",
+                " and",
+                " the",
+                " number",
+                " of",
+                " measurements",
+                " taken"
+              ],
+              "logprobs": [
+                -0.9540690183639526,
+                -1.799760103225708,
+                -1.4110409021377563,
+                -0.43397435545921326,
+                -2.694136381149292,
+                -0.6027703285217285,
+                -0.9334105849266052,
+                -1.9174673557281494
+              ],
+              "usage": {
+                "prompt_tokens": 316,
+                "total_tokens": 324,
+                "completion_tokens": 8,
+                "prompt_tokens_details": null
+              },
+              "prompt_hash": "ec221d8d95209ef933195e388fac68ef3055d63f8a513cc5216dfd733f120928",
+              "prompt_tokens": 316
+            },
+            "vs_first": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.009982109069824219
+            },
+            "vs_lmcache_warm": {
+              "same_tokens": true,
+              "same_prompt": true,
+              "max_abs_logprob_difference": 0.0
+            },
+            "native_prefix_hit_tokens": 304.0,
+            "prefix_metrics_delta": {
+              "vllm:prefix_cache_queries_total{engine=\"0\",model_name=\"Qwen/Qwen2.5-1.5B-Instruct\"}": 316.0,
+              "vllm:prefix_cache_hits_total{engine=\"0\",model_name=\"Qwen/Qwen2.5-1.5B-Instruct\"}": 304.0
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

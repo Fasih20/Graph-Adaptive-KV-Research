@@ -1,0 +1,92 @@
+{
+  "fingerprint": "5da929117559853a6db5e1a7c8d97d16b59c13141406b7fa57e3e601f09bcff9",
+  "config": {
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "dataset": "hotpot",
+    "gpu": "0",
+    "seed": 44,
+    "events": 600,
+    "train_events": 600,
+    "dev_events": 600,
+    "max_documents": 100,
+    "top_m": [
+      20
+    ],
+    "k": [
+      10
+    ],
+    "policies": [
+      "no_prefetch",
+      "cosine",
+      "semantic_only",
+      "structure",
+      "two_hop",
+      "offline",
+      "online"
+    ],
+    "modes": [
+      "async"
+    ],
+    "lead_ms": [
+      750.0
+    ],
+    "block_events": 100,
+    "repetitions": 1,
+    "max_arms": 50,
+    "port_base": 18000,
+    "l1_gb": 0.5,
+    "max_model_len": 4096,
+    "source": "bfd39e9779134e7387dec0fa97e71874f5c7d824820ca45146035f0ea5a41bc1",
+    "gate": "889fc627e7277bc3fe6e9d41a97b05eec46d64cab29c20fe15ff104bbe3b9e62",
+    "prepared": {
+      "spec": {
+        "model": "Qwen/Qwen2.5-1.5B-Instruct",
+        "dataset": "hotpot",
+        "seed": 44,
+        "events": 600,
+        "train_events": 600,
+        "dev_events": 600,
+        "max_documents": 100,
+        "source": "97836848ab568d9bcb09bdb6085918568e596b8cd8f132f19b7faed38461c79d"
+      },
+      "resolved_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+      "trace_semantics": "controlled synthetic; not production RAG",
+      "boundary_semantics": "LongBench context record; not constituent article"
+    },
+    "environment": {
+      "runtime": {
+        "model": "Qwen/Qwen2.5-1.5B-Instruct",
+        "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+        "gpu_id": "0",
+        "vllm_host": "127.0.0.1",
+        "vllm_port": 18000,
+        "lmcache_host": "127.0.0.1",
+        "lmcache_port": 18001,
+        "lmcache_http_port": 18002,
+        "lmcache_prometheus_port": 18003,
+        "max_model_len": 4096,
+        "block_size": 16,
+        "chunk_size": 16,
+        "gpu_memory_utilization": 0.82,
+        "l1_size_gb": 0.5,
+        "startup_timeout_s": 900,
+        "seed": 44,
+        "blend_separator": " # # ",
+        "trust_remote_code": false,
+        "max_num_seqs": 2
+      },
+      "versions": {
+        "vllm": "0.27.0",
+        "lmcache": "0.5.4",
+        "torch": "2.13.0",
+        "transformers": "5.17.0"
+      },
+      "gate_protocol": 2,
+      "code": {
+        "revision_gate.py": "7abab6f710a5beff55132d4cba186411c575688ee02a039d75923f5c278122cf",
+        "real_cache_client.py": "7444cb1b8c3085e946956f821d16d8bb536a1887ebc72c7f20a58dc6a8aedc4a",
+        "isolated_runtime.py": "6b9a2e5a74f7671d6c0d542da012c927c2af490b064b7cbdf18605819c432cab"
+      }
+    }
+  }
+}

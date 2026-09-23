@@ -1,0 +1,10 @@
+policy,baseline,k,query_type,metric,pairs,mean_delta,median_delta,cluster_bootstrap_ci_low,cluster_bootstrap_ci_high
+adaptive_offline_global,cosine,6,all,prediction_hit,1200,0.075,0.0,0.0016666666666666,0.155
+adaptive_offline_global,cosine,10,all,prediction_hit,1200,0.135,0.0,0.0883333333333333,0.18
+adaptive_offline_global,cosine,16,all,prediction_hit,1200,0.135,0.0,0.0866666666666666,0.185
+adaptive_online_warm,cosine,6,all,prediction_hit,1200,0.0716666666666666,0.0,0.0033333333333333,0.1466666666666666
+adaptive_online_warm,cosine,10,all,prediction_hit,1200,0.135,0.0,0.0933333333333333,0.1766666666666666
+adaptive_online_warm,cosine,16,all,prediction_hit,1200,0.135,0.0,0.0866666666666666,0.185
+graph_fixed,cosine,6,all,prediction_hit,1200,0.055,0.0,-0.0117083333333333,0.12
+graph_fixed,cosine,10,all,prediction_hit,1200,0.0833333333333333,0.0,0.05,0.1166666666666666
+graph_fixed,cosine,16,all,prediction_hit,1200,0.0833333333333333,0.0,0.0516666666666666,0.1166666666666666
